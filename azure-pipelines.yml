@@ -31,7 +31,7 @@ steps:
 
 - script: |
     echo "Install Firely.Terminal"
-    if ! command -v fhir; then
+    if ! command -v fhir ; then
       dotnet tool install --global Firely.Terminal 
     fi
   displayName: 'Install Firely.Terminal'
