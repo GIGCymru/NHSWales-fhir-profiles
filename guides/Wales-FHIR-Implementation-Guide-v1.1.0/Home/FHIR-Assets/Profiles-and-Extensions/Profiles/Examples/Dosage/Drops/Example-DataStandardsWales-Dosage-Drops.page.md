@@ -1,7 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example AllergyIntolerance - no known allergies
-This shows an example recording a patient that is known to have no allergies.
+## Example Dosage - Drops
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -23,19 +22,19 @@ This shows an example recording a patient that is known to have no allergies.
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{tree:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{table:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{xml:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{json:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy}}
+      {{narrative:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>  
   </div>
 </div>

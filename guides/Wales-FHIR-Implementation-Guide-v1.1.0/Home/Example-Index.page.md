@@ -36,6 +36,10 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
 
+### Dosage Examples
+
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md, text: Example Dosage Drops}}
+
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
 

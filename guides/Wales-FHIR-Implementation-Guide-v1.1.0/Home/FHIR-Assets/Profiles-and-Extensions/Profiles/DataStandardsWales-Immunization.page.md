@@ -1,6 +1,21 @@
 <div class="warning"><span class="ExperiWarn"></span></div>
 
 ## {{page-title}}
+
+### FQL
+
+@```
+    from
+        StructureDefinition
+    where
+        name='DataStandardsWalesImmunization'
+    select 
+        Profile: name,
+        Type: type,
+        Status: status,
+        Canonical: url
+```
+
 The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient.
 
 The {{page-title}} profile is derived from the [UK Core Immunization Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Immunization?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
@@ -40,27 +55,50 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>    
 </div>
 
+---
+
+### Example Usage Scenarios ###
+The following are example usage scenarios for the Immunisation profile:
+
+- <add link to example> Query for a Flu Vaccination using query parameters such as `Immunization.extension:vaccinationProcedure`, `Immunization.vaccineCode` and `Immunization.reasonCode`.
+- <add link to example> Query for a vaccine that wasn't given using query parameters such as `Immunization.status` and `Immunization.statusReason`.
+- <add link to example> Query for a vaccination injection given to a paediatric patient with a parent/carer present using query parameters such as `Immunization.extension:parentPresent`, `Immunization.lotNumber` and `Immunization.expirationDate`.
+
+_*Examples provided have been clinically assured on the 07-Aug-2024_
+
+---
+
+## Profile Specific Implementation Guidance: ##
+
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
 
-Each Immunization must have:
-1. status
-2. vaccineCode
-3. patient
-4. occurance
+Each Immunization **must have**:
 
-Each Immunization must support:
-1. identifier
-2. statusReason
-3. recorded
-4. reportOrigin
-5. location
-6. manufacturer
-7. lotNumber
-8. expirationDate
-9. site
-10. route
-11. doseQuantity
-12. performer
-13. reasonCode
-14. protocolApplied
+|Element|Reason|
+|-|-|
+|`Immunization.status`|Will generally be set to show that the immunisation has been completed or not done.|
+|`Immunization.vaccineCode`|Vaccine product administered.|
+|`Immunization.patient`|The patient who either received or did not receive the immunisation.|
+|`Immunization.occurrence[x]`|Date vaccine administered or was to be administered.|
+
+Each Immunization **must support**:
+
+|Element|Reason|
+|-|-|
+|`Immunization.identifier`|A unique identifier assigned to this immunisation record.|
+|`Immunization.statusReason`|Indicates the reason the immunization event was not performed.|
+|`Immunization.recorded`|When the immunisation was first captured in the subject's record.|
+|`Immunization.reportOrigin`|Indicates the source of a secondarily reported record.|
+|`Immunization.location`|The service delivery location where the immunisation administration occurred.|
+|`Immunization.manufacturer`|Name of vaccine manufacturer.|
+|`Immunization.lotNumber`|Lot number of the vaccine product.|
+|`Immunization.expirationDate`|Date vaccine batch expires.|
+|`Immunization.site`|Body site where vaccine was administered.|
+|`Immunization.route`|The path by which the vaccine product is taken into the body.|
+|`Immunization.doseQuantity`|The quantity of vaccine product that was administered.|
+|`Immunization.performer`|Indicates who performed the immunization event.|
+|`Immunization.reasonCode`|Reasons why the vaccine was administered.|
+|`Immunization.protocolApplied`|The protocol being followed by the provider who administered the dose.|
+
+---
