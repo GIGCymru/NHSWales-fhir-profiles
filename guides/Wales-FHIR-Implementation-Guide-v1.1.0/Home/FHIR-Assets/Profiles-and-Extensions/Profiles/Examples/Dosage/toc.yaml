@@ -1,0 +1,8 @@
+- name: Index
+  filename: Index.page.md
+- name: Example Dosage - Drops
+  filename: Example-DataStandardsWales-Dosage-Drops.page.md
+- name: Example Dosage - Inhaler
+  filename: Example-DataStandardsWales-Dosage-Inhaler.page.md
+- name: Example Dosage - Oral Solution PRN
+  filename: Example-DataStandardsWales-Dosage-OralSolutionPRN.page.md
