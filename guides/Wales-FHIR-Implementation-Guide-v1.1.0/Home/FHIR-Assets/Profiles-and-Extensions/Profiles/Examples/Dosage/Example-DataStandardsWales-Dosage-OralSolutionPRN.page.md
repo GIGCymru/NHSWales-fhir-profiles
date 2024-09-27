@@ -1,6 +1,8 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+---
+topic: DosageOralSolution
+---
 
-## Example Location - Cadog Ward (GGH)
+### Example Dosage - Oral Solution PRN
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +24,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Location-CadogWard}}
+      {{tree:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Location-CadogWard}}
+      {{table:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Location-CadogWard}}
+      {{xml:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Location-CadogWard}}
+      {{json:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Location-CadogWard}}
+      {{narrative:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>  
   </div>
 </div>

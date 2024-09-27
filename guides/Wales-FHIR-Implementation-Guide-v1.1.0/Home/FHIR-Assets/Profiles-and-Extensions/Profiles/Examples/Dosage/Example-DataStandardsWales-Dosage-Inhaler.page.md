@@ -1,6 +1,8 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+---
+topic: DosageInhaler
+---
 
-## Example Location - Cadog Ward (GGH)
+### Example Dosage - Inhaler
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +24,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Location-CadogWard}}
+      {{tree:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Location-CadogWard}}
+      {{table:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Location-CadogWard}}
+      {{xml:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Location-CadogWard}}
+      {{json:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Location-CadogWard}}
+      {{narrative:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>  
   </div>
 </div>

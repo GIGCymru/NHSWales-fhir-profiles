@@ -1,6 +1,9 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
+---
+topic: DosageDrops
+---
 
-## Example Location - Cadog Ward (GGH)
+
+### Example Dosage - Drops
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +25,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Example-DataStandardsWales-Location-CadogWard}}
+      {{tree:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Example-DataStandardsWales-Location-CadogWard}}
+      {{table:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Example-DataStandardsWales-Location-CadogWard}}
+      {{xml:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Example-DataStandardsWales-Location-CadogWard}}
+      {{json:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-Location-CadogWard}}
+      {{narrative:examples-dosage-example-datastandardswales-dosage-drops}}
     </div>  
   </div>
 </div>
