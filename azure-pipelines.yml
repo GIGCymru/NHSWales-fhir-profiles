@@ -19,8 +19,8 @@ parameters:
 variables:
 - group: Simplifier
 - name: SimplifierUrlKey
-  ${{ if eq(parameters.Environment, 'PROD') }}:
-    value: $SIMPLIFIER_PROD_URLKEY
+  ${{ if eq(parameters.Environment, 'DEV') }}:
+    value: $SIMPLIFIER_DEV_URLKEY
   ${{ else }}:
     value: $SIMPLIFIER_TEST_URLKEY
 
