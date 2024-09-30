@@ -20,7 +20,7 @@ name: DataStandardsWalesPatient
         Canonical: url
 ```
 
-The [Dosage](https://www.hl7.org/fhir/r4/dosage.html) resource is a record of a medication that is administered to a patient.
+The [Dosage](https://www.hl7.org/fhir/r4/dosage.html) resource is a record of a medication that is administered to a patient. For information on dosage prescribed or planned for administration, this will be captured in the `DosageInstruction` element of the medication resource. 
 
 The {{page-title}} profile is derived from the [HL7 Dosage Profile](https://www.hl7.org/fhir/r4/dosage.html). It defines additional rules for use within health and care organisations in Wales.
 
@@ -70,7 +70,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 
 ---
 
-### Example Usage Scenarios ###
+## Example Usage Scenarios ##
 The following are example usage scenarios for the Dosage profile:
 
 - <add link to example> Query for the dosage of an Eye Drops medication using the query parameter `Dosage.timing.repeat.when` when the time value is undefined.
@@ -111,7 +111,7 @@ By preference, use [UCUM](http://unitsofmeasure.org) for dose units. Examples of
 Where a UCUM unit of measure is not defined, use a [SNOMED-CT](http://snomed.info/sct).
 Examples of when a SNOMED-CT unit of measure would typically be used are “tablet”, “capsule” or “ampule”.
 
-**Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`,
+**Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`.
 
 ---
 
