@@ -37,7 +37,9 @@ The following examples are published with this guide and all available as a down
 
 ### Dosage Examples
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md, text: Example Dosage Drops}}
+* {{pagelink:DosageDrops, text: Example Dosage - Drops}}
+* {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}}
+* {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} 
 
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
