@@ -1,5 +1,5 @@
 ---
-name: DataStandardsWalesPatient
+name: DataStandardsWalesDosage
 ---
 
 <div class="warning"><span class="ExperiWarn"></span></div>

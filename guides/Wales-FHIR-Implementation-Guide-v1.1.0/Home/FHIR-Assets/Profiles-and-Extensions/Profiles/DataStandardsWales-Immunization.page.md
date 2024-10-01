@@ -1,4 +1,6 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
+---
+name: DataStandardsWalesImmunization
+---
 
 ## {{page-title}}
 
@@ -49,9 +51,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-    <list>
-      <li>Currently under development</li> 
-    </list>
   </div>    
 </div>
 
