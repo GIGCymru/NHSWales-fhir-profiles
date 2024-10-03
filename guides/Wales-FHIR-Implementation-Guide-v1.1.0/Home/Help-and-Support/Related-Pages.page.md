@@ -87,11 +87,11 @@ A list of additional sites to assist with standardising development and implemen
     <div class="row">
         <div class="col-md-7 card">
             <h4><b><a href="https://confluence.hl7.org/display/HL7UK/UK+FHIR+IG+Initiative+Directory" target="_blank">UK FHIR Initiatives</a></b></h4>
-            <p>FHIR initiatives within the UK including links to Implementation Guides and APIs.</p>
+            <p>An HL7 UK Confluence page listing FHIR initiatives within the UK including links to Implementation Guides and APIs.</p>
         </div>
         <div class="col-md-7 card">
             <h4><b><a href="https://confluence.hl7.org/display/IC/Initiative+Directory" target="_blank">International FHIR Initiatives</a></b></h4>
-            <p>A list of global FHIR initiatives including Implementation Guides, Confluence Spaces and other useful content.</p>
+            <p>An HL7 Confluence page listing global FHIR initiatives including Implementation Guides, Confluence Spaces and other useful content.</p>
         </div>
         <div class="col-md-7 card">
             <h4><b><a href="https://chat.fhir.org/" target="_blank">FHIR Chat</a></b></h4>
