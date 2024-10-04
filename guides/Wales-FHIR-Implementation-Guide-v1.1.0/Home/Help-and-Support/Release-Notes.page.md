@@ -2,6 +2,17 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v1.2.0 STU1
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * Changes to Extensions
+        * DataStandardsWales-CDRPatientRecordType
+            * Removed this extension as the data item will be captured in tags
+        * DataStandardsWales-CDRSourceTimestamp
+            * Removed this extension as the data item will be captured in tags
+
+Guide:
+
 ### v1.1.1 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
