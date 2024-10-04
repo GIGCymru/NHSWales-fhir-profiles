@@ -17,6 +17,33 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-List" />
   <derivation value="constraint" />
   <differential>
+    <element id="List.extension:extensionDataStandardsWalesSingleRecordAllergiesListConfirmedBy">
+      <path value="List.extension" />
+      <sliceName value="extensionDataStandardsWalesSingleRecordAllergiesListConfirmedBy" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="List.extension:extensionDataStandardsWalesSingleRecordAllergiesListConfirmedDate">
+      <path value="List.extension" />
+      <sliceName value="extensionDataStandardsWalesSingleRecordAllergiesListConfirmedDate" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="List.extension:extensionDataStandardsWalesSingleRecordAllergiesListUpdated">
+      <path value="List.extension" />
+      <sliceName value="extensionDataStandardsWalesSingleRecordAllergiesListUpdated" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="List.status">
       <path value="List.status" />
       <mustSupport value="true" />
