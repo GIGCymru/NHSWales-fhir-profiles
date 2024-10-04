@@ -2,6 +2,22 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v1.2.0 STU1
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:     
+    * Changes to Profiles    
+        * DataStandardsWales-AllergiesList
+            * Added Extensions for:
+                * DataStandardsWales-SingleRecord-AllergiesListUpdated
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * New Extensions
+        * DataStandardsWales-SingleRecord-AllergiesListUpdated
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
+Guide:
+
 ### v1.1.1 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
