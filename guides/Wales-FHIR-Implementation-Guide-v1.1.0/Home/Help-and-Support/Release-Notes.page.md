@@ -3,10 +3,15 @@
 This page describes the published versions of this implementation guide and differences between versions:
 
 ### v1.2.0 STU1
+Package:
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Identifiers
+        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and        BCUHBWestPASIdentifier to BCUHBPASIdentifier
+        * Added NHSNumberIdentifier
+
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
-
 
 ### v1.1.1 STU1
 Package:
