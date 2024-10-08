@@ -20,6 +20,8 @@
     <element id="List.extension:SingleRecordAllergiesListConfirmedBy">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListConfirmedBy" />
+      <short value="A reference to the practitioner who confirmed the allergy list" />
+      <definition value="A reference to the practitioner who confirmed the allergy list" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -30,6 +32,8 @@
     <element id="List.extension:SingleRecordAllergiesListConfirmedDate">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListConfirmedDate" />
+      <short value="To capture the datetime that the allergy list was confirmed" />
+      <definition value="To capture the datetime that the allergy list was confirmed" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -40,6 +44,8 @@
     <element id="List.extension:SingleRecordAllergiesListUpdated">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListUpdated" />
+      <short value="To capture if the allergy list was updated" />
+      <definition value="To capture if the allergy list was updated" />
       <max value="1" />
       <type>
         <code value="Extension" />

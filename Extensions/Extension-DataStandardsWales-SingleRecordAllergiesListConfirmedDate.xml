@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-SingleRecordAllergiesListConfirmedDate" />
+  <id value="Extension-DSW-SingleRecordAllergiesListConfirmedDate" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate" />
+  <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesSingleRecordAllergiesListConfirmedDate" />
   <title value="Extension Data Standards Wales Sinlge Record Allergies List Confirmed Date" />
   <status value="draft" />
@@ -28,6 +29,12 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="To capture the datetime that the allergy list was confirmed" />
+      <definition value="To capture the datetime that the allergy list was confirmed" />
+      <max value="1" />
+    </element>
     <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="https://example.org/fhir/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate" />
