@@ -12,6 +12,8 @@ Package:
             * Removed this extension as the data item will be captured in tags
 
 Guide:
+* Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
+* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
 
 ### v1.1.1 STU1
 Package:
