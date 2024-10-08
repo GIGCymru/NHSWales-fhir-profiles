@@ -2,6 +2,8 @@
   filename: Naming-Conventions
 - name: Naming Systems
   filename: Naming-Systems.page.md
+- name: Design Patterns
+  filename: Design-Patterns.md
 - name: Supplemental Metadata
   filename: Supplemental-Metadata.page.md
 - name: UK Core Access
