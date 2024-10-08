@@ -1,5 +1,5 @@
 ## {{page-title}}
-The NHS Wales FHIR Standards and Implementation team are responsible for engagement with multiple regular boards and groups. These include:
+The NHS Wales FHIR Standards and Implementation team engage with multiple regular boards and groups. These include:
 
 |Meeting|Team Role|
 |---|---|
