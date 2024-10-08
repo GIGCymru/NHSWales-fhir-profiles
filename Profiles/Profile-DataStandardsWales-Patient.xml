@@ -67,26 +67,6 @@
       <path value="Patient.extension.value[x]" />
       <min value="1" />
     </element>
-    <element id="Patient.extension:cdrPatientRecordType">
-      <path value="Patient.extension" />
-      <sliceName value="cdrPatientRecordType" />
-	  <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-CDR-PatientRecordType" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Patient.extension:cdrSourceTimestamp">
-      <path value="Patient.extension" />
-      <sliceName value="cdrSourceTimestamp" />
-	  <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-CDR-SourceTimestamp" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="Patient.identifier">
       <path value="Patient.identifier" />
       <requirements value="To be compliant, at least one identifier shall be provided to uniquely identify the patient." />
