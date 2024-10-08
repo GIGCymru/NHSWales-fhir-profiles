@@ -76,6 +76,7 @@ carries a timestamp for when a change has been confirmed.
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated.page.md, text:DataStandardsWales-SingleRecord-AllergiesListUpdated}}
   is used to provide a boolean on whether the allergies list has been updated.
 
+_Note: this list does not include extensions provided by UK Core and you should refer to their implementation guide for support_
 
 
 
