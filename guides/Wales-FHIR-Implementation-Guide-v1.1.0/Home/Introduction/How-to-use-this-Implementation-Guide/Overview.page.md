@@ -5,4 +5,4 @@ These standards are derived from the [UK Core](https://digital.nhs.uk/services/f
 
 Readers will require at least a basic level of knowledge about HL7 FHIR. 
 * The formal specification of the standard is available [here](https://hl7.org/fhir/R4/index.html). 
-* [Introduction to FHIR by INTEROP](https://www.youtube.com/watch?v=BT17_5ROp3Q) video which provides a useful presentation to FHIR.
+* Visit our {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page which provides links to documentation, presentations and videos on FHIR.
