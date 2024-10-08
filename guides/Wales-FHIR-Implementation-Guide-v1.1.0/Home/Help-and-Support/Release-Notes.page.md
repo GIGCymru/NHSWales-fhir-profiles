@@ -10,9 +10,14 @@ Package:
             * Removed this extension as the data item will be captured in tags
         * DataStandardsWales-CDRSourceTimestamp
             * Removed this extension as the data item will be captured in tags
-
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Identifiers
+        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
+        
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
+* Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
+* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} Page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
 
 ### v1.1.1 STU1
