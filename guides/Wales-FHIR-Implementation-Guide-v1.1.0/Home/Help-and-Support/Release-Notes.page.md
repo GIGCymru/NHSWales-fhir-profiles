@@ -6,8 +6,7 @@ This page describes the published versions of this implementation guide and diff
 Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Identifiers
-        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and        BCUHBWestPASIdentifier to BCUHBPASIdentifier
-        * Added NHSNumberIdentifier
+        * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
 
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
