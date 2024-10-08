@@ -5,6 +5,7 @@ This page describes the published versions of this implementation guide and diff
 ### v1.2.0 STU1
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
+* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} Page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
 
 
