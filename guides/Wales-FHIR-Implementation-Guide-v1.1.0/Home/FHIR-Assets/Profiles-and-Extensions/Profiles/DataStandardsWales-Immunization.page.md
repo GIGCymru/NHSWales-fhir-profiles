@@ -1,4 +1,6 @@
-<div class="warning"><span class="ExperiWarn"></span></div>
+---
+name: DataStandardsWalesImmunization
+---
 
 ## {{page-title}}
 
@@ -16,7 +18,7 @@
         Canonical: url
 ```
 
-The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient.
+The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient, often in the form of a vaccine.
 
 The {{page-title}} profile is derived from the [UK Core Immunization Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Immunization?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
 
@@ -49,20 +51,17 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-    <list>
-      <li>Currently under development</li> 
-    </list>
   </div>    
 </div>
 
 ---
 
 ### Example Usage Scenarios ###
-The following are example usage scenarios for the Immunisation profile:
+The following are example usage scenarios for the Immunization profile:
 
-- <add link to example> Query for a Flu Vaccination using query parameters such as `Immunization.extension:vaccinationProcedure`, `Immunization.vaccineCode` and `Immunization.reasonCode`.
-- <add link to example> Query for a vaccine that wasn't given using query parameters such as `Immunization.status` and `Immunization.statusReason`.
-- <add link to example> Query for a vaccination injection given to a paediatric patient with a parent/carer present using query parameters such as `Immunization.extension:parentPresent`, `Immunization.lotNumber` and `Immunization.expirationDate`.
+- {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}} Query for a Flu Vaccination using query parameters such as `Immunization.extension:vaccinationProcedure`, `Immunization.vaccineCode` and `Immunization.reasonCode`.
+- {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}} Query for a vaccine that was not given using query parameters such as `Immunization.status` and `Immunization.statusReason`.
+- {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}} Query for a vaccination injection given to a paediatric patient with a parent/carer present using query parameters such as `Immunization.extension:parentPresent`, `Immunization.lotNumber` and `Immunization.expirationDate`.
 
 _*Examples provided have been clinically assured on the 07-Aug-2024_
 
@@ -81,6 +80,7 @@ Each Immunization **must have**:
 |`Immunization.vaccineCode`|Vaccine product administered.|
 |`Immunization.patient`|The patient who either received or did not receive the immunisation.|
 |`Immunization.occurrence[x]`|Date vaccine administered or was to be administered.|
+
 
 Each Immunization **must support**:
 

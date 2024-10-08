@@ -25,9 +25,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
 
 
-
-
 ### DiagnosticReport Examples
+
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - CT Abdomen}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Stress Test}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
@@ -38,7 +37,9 @@ The following examples are published with this guide and all available as a down
 
 ### Dosage Examples
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md, text: Example Dosage Drops}}
+* {{pagelink:DosageDrops, text: Example Dosage - Drops}}
+* {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}}
+* {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} 
 
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
@@ -48,6 +49,11 @@ The following examples are published with this guide and all available as a down
 
 ### Imaging Study Examples
 * {{pagelink:Example-DataStandardsWales-ImagingStudy-CTAbdomen, text: Example Imaging Study - CT Abdomen}}
+
+### Immunization Examples
+* {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}}
+* {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}}
+* {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}}
 
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
