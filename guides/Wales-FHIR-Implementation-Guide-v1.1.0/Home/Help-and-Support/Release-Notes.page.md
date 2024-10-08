@@ -5,17 +5,8 @@ This page describes the published versions of this implementation guide and diff
 ### v1.2.0 STU1
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
-* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
-
-
-### v1.1.1 STU1
-Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * Changes to Profiles 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
-    * Changes to Extensions
-Guide:
 * Created {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
+* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
 
 ### v1.1.1 STU1
 Package:
