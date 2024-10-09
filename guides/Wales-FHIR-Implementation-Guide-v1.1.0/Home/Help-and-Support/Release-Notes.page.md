@@ -5,6 +5,16 @@ This page describes the published versions of this implementation guide and diff
 ### v1.2.0 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * Changes to Profiles    
+        * DataStandardsWales-AllergiesList
+            * Added Extensions for:
+                * DataStandardsWales-SingleRecord-AllergiesListUpdated
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
+                * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
+    * New Extensions
+        * DataStandardsWales-SingleRecord-AllergiesListUpdated
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedDateurceTimestamp
+        * DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
     * Changes to Extensions
         * DataStandardsWales-CDRPatientRecordType
             * Removed this extension as the data item will be captured in tags
