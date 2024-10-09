@@ -26,9 +26,10 @@ Package:
         
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
+* Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.md,text:Help and Support}}.
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
-* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} Page.
-* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} Page.
+* Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
+* Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
 
 ### v1.1.1 STU1
 Package:
