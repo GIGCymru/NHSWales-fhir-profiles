@@ -73,10 +73,6 @@ When populating these fields implementers are required to use the codes defined 
 
 The extensions listed below are those created to support Data Standards Wales: 
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-CDR-PatientRecordType.page.md, text:DataStandardsWales-CDR-PatientRecordType}}
-is used to provide an indicator for the type of patient record e.g. gold or silver.
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-CDR-SourceTimeStamp.page.md,text:DataStandardsWales-CDRSourceTimestamp}}
-carries a timestamp for when a record has been updated in the underlying source system.
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Religion.page.md,text:DataStandardsWales-Religion}}
   defined in the [NHS Wales Data Dictionary](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm).
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Occupation.page.md,text:DataStandardsWales-Occupation}} indicates the patient occupation and uses a SNOMED  CT reference set.

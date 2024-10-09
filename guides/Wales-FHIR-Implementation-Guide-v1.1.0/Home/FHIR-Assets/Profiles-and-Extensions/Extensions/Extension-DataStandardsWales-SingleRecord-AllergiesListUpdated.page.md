@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry a timestamp for when a record has been updated.
+An extension to carry a boolean value for when a record has been updated.
 
 ### Purpose
-This extension is intended for use within the Care Data Repository, and extends the Patient resource to record a timestamp that shows when the demographic record was last updated at source. This timestamp is used in the management of patient demographics and identity within the Care Data Repository.
+This extension is intended for use within the Single Record, and extends the AllergiesList resource to record a boolean that shows if the record have been updated.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Patient
+* AllergiesList
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesCDRSourceTimestamp, snapshot}}
+      {{tree:extensiondatastandardswalesSingleRecordAllergiesListUpdated, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

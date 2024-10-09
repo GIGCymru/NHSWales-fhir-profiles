@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture an indicator for the type of patient record.
+An extension to carry the timestampe at which the changes occurred.
 
 ### Purpose
-This extension is intended for use within the Care Data Repository, and extends the Patient resource to capture an indicator for the type of patient record. This indicator is used in the management of patient demographics and identity within the Care Data Repository.
+This extension is intended for use within the Single Record, and extends the AllergiesList resource to carry the timestampe at which the changes occurred
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Patient
+* AllergiesList
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:ExtensionDataStandardsWalesCdrPatientRecordType, snapshot}}
+      {{tree:extensiondatastandardswalesSingleRecordAllergiesListConfirmedDate, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
