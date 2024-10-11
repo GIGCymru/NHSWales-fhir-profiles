@@ -22,7 +22,7 @@ parameters:
 variables:
 - group: Simplifier
 - name: SimplifierUrlKey
-  ${{ if ne(parameters.Environment, 'PROD') }}:
+  ${{ if ne(parameters.Environment, 'Prod') }}:
     value: $SIMPLIFIER_DEV_URLKEY
   ${{ else }}:
     value: $SIMPLIFIER_PROD_URLKEY
