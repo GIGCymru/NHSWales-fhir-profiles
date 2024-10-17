@@ -51,7 +51,7 @@ Each Location must have:
 
 Each Location must support:
 1. An identifier *
-2. A status of the location (i.e., whether it is active, suspended or inactive)
+2. A status of the location (i.e. whether it is active, suspended or inactive)
 3. An address for the location
 4. A managing organization for the location
 5. A part of reference to signify if a location is physically part of another location
