@@ -32,16 +32,8 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
       </type>
     </element>
-    <element id="DiagnosticReport.status">
-      <path value="DiagnosticReport.status" />
-      <mustSupport value="true" />
-    </element>
     <element id="DiagnosticReport.category">
       <path value="DiagnosticReport.category" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.code">
-      <path value="DiagnosticReport.code" />
       <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.subject">
@@ -54,7 +46,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.encounter">
       <path value="DiagnosticReport.encounter" />
@@ -62,7 +53,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.effective[x]">
       <path value="DiagnosticReport.effective[x]" />
@@ -70,7 +60,6 @@
     </element>
     <element id="DiagnosticReport.issued">
       <path value="DiagnosticReport.issued" />
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.performer">
       <path value="DiagnosticReport.performer" />
