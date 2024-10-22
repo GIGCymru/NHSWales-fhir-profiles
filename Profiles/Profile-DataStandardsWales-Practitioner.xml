@@ -26,7 +26,6 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <mustSupport value="true" />
     </element>
     <element id="Practitioner.identifier:gdcNumber">
       <path value="Practitioner.identifier" />
@@ -108,7 +107,6 @@
     <element id="Practitioner.name">
       <path value="Practitioner.name" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Practitioner.address.postalCode">
       <path value="Practitioner.address.postalCode" />
