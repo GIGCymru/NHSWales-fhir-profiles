@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DiagnosticReport-Lab"/>
+  <id value="DataStandardsWales-DiagnosticReport-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport-Lab" />
   <version value="0.0.5" />
   <name value="DataStandardsWalesDiagnosticReportLab" />
@@ -21,17 +21,16 @@
       <path value="DiagnosticReport.identifier" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.status">
-      <path value="DiagnosticReport.status" />
-      <mustSupport value="true" />
-    </element>
     <element id="DiagnosticReport.category">
       <path value="DiagnosticReport.category" />
       <min value="1" />
     </element>
     <element id="DiagnosticReport.category.coding">
       <path value="DiagnosticReport.category.coding" />
-      <min value="1" />
+      <slicing>
+        <description value="Coding of Laboratory" />
+        <rules value="open" />
+      </slicing>
     </element>
     <element id="DiagnosticReport.category.coding:laboratory">
       <path value="DiagnosticReport.category.coding" />
@@ -45,10 +44,6 @@
       </fixedCoding>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code">
-      <path value="DiagnosticReport.code" />
-      <mustSupport value="true" />
-    </element>
     <element id="DiagnosticReport.subject">
       <path value="DiagnosticReport.subject" />
       <short value="The subject of the report - which is always a patient for Laboratory Reports" />
@@ -58,7 +53,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.encounter">
       <path value="DiagnosticReport.encounter" />
@@ -66,14 +60,9 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.effective[x]">
       <path value="DiagnosticReport.effective[x]" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.issued">
-      <path value="DiagnosticReport.issued" />
       <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.performer">
@@ -94,7 +83,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-Lab" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
