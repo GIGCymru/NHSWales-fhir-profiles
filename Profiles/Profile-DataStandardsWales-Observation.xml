@@ -37,12 +37,12 @@
       <path value="Observation.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationDispense" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Immunization" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationAdministration" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationDispense" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
       </type>
     </element>
     <element id="Observation.subject">
