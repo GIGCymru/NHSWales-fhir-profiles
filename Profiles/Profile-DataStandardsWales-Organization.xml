@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Organization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesOrganization" />
   <title value="Data Standards Wales Organization" />
   <status value="active" />
