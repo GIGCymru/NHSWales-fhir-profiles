@@ -16,4 +16,24 @@
   <type value="Medication" />
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Medication" />
   <derivation value="constraint" />
+  <differential>
+    <element id="Medication.manufacturer">
+      <path value="Medication.manufacturer" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Medication.ingredient.item[x]">
+      <path value="Medication.ingredient.item[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Medication" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>
