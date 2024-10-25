@@ -81,6 +81,14 @@
       <path value="MedicationAdministration.subject.identifier.value" />
       <min value="1" />
     </element>
+    <element id="MedicationAdministration.context">
+      <path value="MedicationAdministration.context" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
+    </element>
     <element id="MedicationAdministration.performer">
       <path value="MedicationAdministration.performer" />
       <min value="1" />
@@ -114,9 +122,9 @@
       <path value="MedicationAdministration.reasonReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-DiagnosticReport" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
     </element>
     <element id="MedicationAdministration.request">
@@ -126,6 +134,13 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
       </type>
       <mustSupport value="true" />
+    </element>
+    <element id="MedicationAdministration.device">
+      <path value="MedicationAdministration.device" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+      </type>
     </element>
     <element id="MedicationAdministration.note.author[x]">
       <path value="MedicationAdministration.note.author[x]" />
@@ -138,6 +153,13 @@
       </type>
       <type>
         <code value="string" />
+      </type>
+    </element>
+    <element id="MedicationAdministration.eventHistory">
+      <path value="MedicationAdministration.eventHistory" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
       </type>
     </element>
   </differential>
