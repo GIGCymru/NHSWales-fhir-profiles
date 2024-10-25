@@ -8,7 +8,10 @@ Package:
     * Changes to Profiles
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
-
+        * DataStandardsWales-Medication
+            * Aligned with UKCore STU2
+            * Updated references
+            
 ### v1.2.0 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
