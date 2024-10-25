@@ -2,6 +2,19 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.0.0 STU2
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
+    * Changes to Profiles    
+        * DataStandardsWales-Patient
+            * Updated version from 1.1.0 to 1.2.0
+            * Slice renamed to bcuhbPasIdentifier
+            * Fixed value in System updated to https://fhir.bcuhb.nhs.wales/Id/pas-identifier
+            * Removed Slices: 
+                * Patient.identifier:bcuhbEastPasIdentifier
+                * Patient.identifier:bcuhbWestPasIdentifier
+
+
 ### v1.2.0 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
