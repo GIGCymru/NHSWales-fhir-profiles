@@ -8,6 +8,9 @@ Package:
     * Changes to Profiles
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
+        * DataStandardsWales-MedicationAdministration
+            * Aligned with UKCore STU2
+            * Updated References
 
 ### v1.2.0 STU1
 Package:
