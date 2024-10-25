@@ -8,7 +8,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
     * Changes to Profiles    
         * DataStandardsWales-Practitioner
-            * Updated version from 1.0.1 to 1.1.
+            * Updated version from 1.0.1 to 1.1.1
 
 
 ### v1.2.0 STU1
