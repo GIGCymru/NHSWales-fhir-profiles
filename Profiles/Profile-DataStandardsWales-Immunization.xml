@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="0.1.0" />
+  <version value="0.0.5" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
   <status value="draft" />
-  <experimental value="false" />
+  <experimental value="true" />
   <date value="2023-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2023 NHS Wales." />
@@ -143,10 +143,6 @@
     <element id="Immunization.site">
       <path value="Immunization.site" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite" />
-      </binding>
     </element>
     <element id="Immunization.site.coding">
       <path value="Immunization.site.coding" />
