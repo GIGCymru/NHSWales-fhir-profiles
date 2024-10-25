@@ -18,10 +18,6 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationAdministration" />
   <derivation value="constraint" />
   <differential>
-    <element id="MedicationAdministration.identifier">
-      <path value="MedicationAdministration.identifier" />
-      <mustSupport value="true" />
-    </element>
     <element id="MedicationAdministration.identifier.system">
       <path value="MedicationAdministration.identifier.system" />
       <min value="1" />
@@ -38,10 +34,6 @@
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
       </type>
     </element>
-    <element id="MedicationAdministration.status">
-      <path value="MedicationAdministration.status" />
-      <mustSupport value="true" />
-    </element>
     <element id="MedicationAdministration.statusReason">
       <path value="MedicationAdministration.statusReason" />
       <mustSupport value="true" />
@@ -53,13 +45,6 @@
     <element id="MedicationAdministration.statusReason.coding.code">
       <path value="MedicationAdministration.statusReason.coding.code" />
       <min value="1" />
-    </element>
-    <element id="MedicationAdministration.category">
-      <path value="MedicationAdministration.category" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationAdministrationCategory" />
-      </binding>
     </element>
     <element id="MedicationAdministration.category.coding.system">
       <path value="MedicationAdministration.category.coding.system" />
@@ -78,7 +63,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Medication" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationAdministration.subject">
       <path value="MedicationAdministration.subject" />
@@ -87,7 +71,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationAdministration.subject.identifier.system">
       <path value="MedicationAdministration.subject.identifier.system" />
@@ -97,10 +80,6 @@
     <element id="MedicationAdministration.subject.identifier.value">
       <path value="MedicationAdministration.subject.identifier.value" />
       <min value="1" />
-    </element>
-    <element id="MedicationAdministration.effective[x]">
-      <path value="MedicationAdministration.effective[x]" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationAdministration.performer">
       <path value="MedicationAdministration.performer" />
@@ -160,10 +139,6 @@
       <type>
         <code value="string" />
       </type>
-    </element>
-    <element id="MedicationAdministration.dosage">
-      <path value="MedicationAdministration.dosage" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
