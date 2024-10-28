@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-AllergyList" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyList" />
-  <version value="1.1.0" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesAllergyList" />
   <title value="Data Standards Wales Allergy List" />
   <status value="active" />
