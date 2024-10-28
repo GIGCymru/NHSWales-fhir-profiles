@@ -2,6 +2,14 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.0.0 STU2
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
+    * Changes to Profiles    
+        * DataStandardsWales-Organization
+            * Updated version from 1.0.0 to 1.1.0
+
+
 ### v1.2.0 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
