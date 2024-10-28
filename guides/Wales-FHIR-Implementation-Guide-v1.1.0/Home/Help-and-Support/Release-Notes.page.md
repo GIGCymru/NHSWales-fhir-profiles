@@ -7,7 +7,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
     * Changes to Profiles    
         * DataStandardsWales-Observation-Lab
-            * Updated version from 0.0.5 to 0.0.6
+            * Updated version from 0.0.5 to 0.1.0
             * ValueSet updated for Observation.code from observation-codes to UKCore-PathologyAndLaboratoryMedicineObservables
             * Removed Slices
                 * Observation.code.coding
