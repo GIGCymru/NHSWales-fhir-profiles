@@ -7,7 +7,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
     * Changes to Profiles    
        * DataStandardsWales-Encounter
-            * Updated version from 0.0.5 to 0.0.6
+            * Updated version from 0.0.5 to 0.1.0
             * Extension removed:
                 * Encounter.hospitalization.extension:admissionMethod
             * Added Extension:
