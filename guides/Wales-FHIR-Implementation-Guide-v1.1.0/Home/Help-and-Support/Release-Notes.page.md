@@ -8,6 +8,8 @@ Package:
     * Changes to Profiles
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Aligned with UKCore STU2
 
 ### v1.2.0 STU1
 Package:
