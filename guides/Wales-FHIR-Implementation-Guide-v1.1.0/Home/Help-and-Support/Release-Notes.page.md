@@ -10,6 +10,8 @@ Package:
             * Aligned with UKCore STU2
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Aligned with UKCore STU2
          * DataStandardsWales-Observation
             * Aligned with UKCore STU2
             * References to UKCore and DataStandardsWales profiles updated
