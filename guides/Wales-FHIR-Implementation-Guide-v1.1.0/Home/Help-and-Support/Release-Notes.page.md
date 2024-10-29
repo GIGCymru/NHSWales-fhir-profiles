@@ -2,13 +2,19 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.0.0 STU1
+### v2.0.0 STU2
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * Changes to Profiles
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
-        * DataStandardsWales-Location
+         * DataStandardsWales-Observation
+            * Aligned with UKCore STU2
+            * References to UKCore and DataStandardsWales profiles updated
+        * DataStandardsWales-MedicationAdministration
+            * Aligned with UKCore STU2
+            * Updated References
+         * DataStandardsWales-Location
             * Aligned with UKCore STU2
 
 ### v1.2.0 STU1
