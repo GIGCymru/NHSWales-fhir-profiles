@@ -36,6 +36,20 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
+    <element id="MedicationDispense.partOf">
+      <path value="MedicationDispense.partOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
+    </element>
+    <element id="MedicationDispense.partOf.identifier.assigner">
+      <path value="MedicationDispense.partOf.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
     <element id="MedicationDispense.statusReason[x]">
       <path value="MedicationDispense.statusReason[x]" />
       <type>
@@ -97,8 +111,8 @@
       <path value="MedicationDispense.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Encounter" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-EpisodeOfCare" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -302,6 +316,13 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="MedicationDispense.eventHistory">
+      <path value="MedicationDispense.eventHistory" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
       </type>
     </element>
     <element id="MedicationDispense.eventHistory.identifier.assigner">
