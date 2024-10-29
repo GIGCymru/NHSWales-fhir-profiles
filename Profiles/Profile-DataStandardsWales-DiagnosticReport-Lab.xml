@@ -26,11 +26,8 @@
       <min value="1" />
     </element>
     <element id="DiagnosticReport.category.coding">
-      <path value="DiagnosticReport.category.coding" />
-      <slicing>
-        <description value="Coding of Laboratory" />
-        <rules value="open" />
-      </slicing>
+       <path value="DiagnosticReport.category.coding" />
+       <min value="1" />
     </element>
     <element id="DiagnosticReport.category.coding:laboratory">
       <path value="DiagnosticReport.category.coding" />
