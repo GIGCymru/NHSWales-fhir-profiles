@@ -6,6 +6,8 @@ This page describes the published versions of this implementation guide and diff
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * Changes to Profiles
+        * DataStandardsWales-AllergyList
+            * Aligned with UKCore STU2
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
          * DataStandardsWales-Observation
