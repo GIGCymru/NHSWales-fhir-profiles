@@ -21,6 +21,15 @@ Package:
         * DataStandardsWales-Observation
             * Aligned with UKCore STU2
             * References to UKCore and DataStandardsWales profiles updated
+        * DataStandardsWales-Immunization
+            * Updated version from 0.0.5 to 0.1.0
+            * Profile changed from experimental to draft
+            * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
+            * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
+            * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+
+
+
 
 ### v1.2.0 STU1
 Package:
@@ -50,6 +59,8 @@ Guide:
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
+
+
 
 ### v1.1.1 STU1
 Package:
