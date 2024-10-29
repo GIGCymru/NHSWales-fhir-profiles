@@ -10,14 +10,17 @@ Package:
             * Aligned with UKCore STU2
         * DataStandardsWales-DiagnosticReport
             * Aligned with UKCore STU2
-         * DataStandardsWales-Observation
+        * DataStandardsWales-Location
             * Aligned with UKCore STU2
-            * References to UKCore and DataStandardsWales profiles updated
+        * DataStandardsWales-Medication
+            * Aligned with UKCore STU2
+            * Updated references
         * DataStandardsWales-MedicationAdministration
             * Aligned with UKCore STU2
             * Updated References
-         * DataStandardsWales-Location
+        * DataStandardsWales-Observation
             * Aligned with UKCore STU2
+            * References to UKCore and DataStandardsWales profiles updated
 
 ### v1.2.0 STU1
 Package:
