@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="0.0.5" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
   <status value="draft" />
@@ -17,27 +17,14 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Immunization" />
   <derivation value="constraint" />
   <differential>
-    <element id="Immunization.extension">
-      <path value="Immunization.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
     <element id="Immunization.extension:parentPresent">
       <path value="Immunization.extension" />
       <sliceName value="parentPresent" />
-      <min value="0" />
       <mustSupport value="false" />
     </element>
     <element id="Immunization.extension:vaccinationProcedure">
       <path value="Immunization.extension" />
       <sliceName value="vaccinationProcedure" />
-      <min value="0" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
@@ -55,10 +42,6 @@
     <element id="Immunization.identifier.value">
       <path value="Immunization.identifier.value" />
       <min value="1" />
-    </element>
-    <element id="Immunization.status">
-      <path value="Immunization.status" />
-      <mustSupport value="true" />
     </element>
     <element id="Immunization.statusReason">
       <path value="Immunization.statusReason" />
@@ -103,7 +86,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Immunization.patient.identifier.system">
       <path value="Immunization.patient.identifier.system" />
@@ -126,7 +108,6 @@
       <type>
         <code value="dateTime" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Immunization.recorded">
       <path value="Immunization.recorded" />
@@ -150,15 +131,10 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Immunization.manufacturer.display">
       <path value="Immunization.manufacturer.display" />
       <min value="1" />
-    </element>
-    <element id="Immunization.lotNumber">
-      <path value="Immunization.lotNumber" />
-      <mustSupport value="true" />
     </element>
     <element id="Immunization.expirationDate">
       <path value="Immunization.expirationDate" />
@@ -167,10 +143,6 @@
     <element id="Immunization.site">
       <path value="Immunization.site" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="extensible" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite" />
-      </binding>
     </element>
     <element id="Immunization.site.coding">
       <path value="Immunization.site.coding" />
@@ -187,10 +159,6 @@
     </element>
     <element id="Immunization.route">
       <path value="Immunization.route" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Immunization.doseQuantity">
-      <path value="Immunization.doseQuantity" />
       <mustSupport value="true" />
     </element>
     <element id="Immunization.performer">

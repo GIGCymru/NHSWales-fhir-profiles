@@ -5,7 +5,7 @@
 ### Overview
 The [Location](https://www.hl7.org/fhir/r4/location.html) resource contains information about a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated. Typical examples include buildings, wards, corridors, rooms or beds, but may also include mobile clinics, a vehicle or lift, or a patient's home. 
 
-The {{page-title}} profile is derived from the [UK Core Location Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Location?version=1.0.0). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Location resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
+The {{page-title}} profile is derived from the [UK Core Location Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Location?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Location resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location}}
 
@@ -51,7 +51,10 @@ Each Location must have:
 
 Each Location must support:
 1. An identifier *
-2. A status of the location (i.e., whether it is active, suspended or inactive)
+2. A status of the location (i.e. whether it is active, suspended or inactive)
+3. An address for the location
+4. A managing organization for the location
+5. A part of reference to signify if a location is physically part of another location
 
 *see Implementation Guidance for the identifier element below
 
