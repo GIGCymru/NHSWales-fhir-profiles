@@ -14,6 +14,8 @@ Package:
         * DataStandardsWales-MedicationAdministration
             * Aligned with UKCore STU2
             * Updated References
+         * DataStandardsWales-Location
+            * Aligned with UKCore STU2
 
 ### v1.2.0 STU1
 Package:
