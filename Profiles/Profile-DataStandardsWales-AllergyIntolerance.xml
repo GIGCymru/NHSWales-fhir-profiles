@@ -17,29 +17,9 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance" />
   <derivation value="constraint" />
   <differential>
-    <element id="AllergyIntolerance.extension">
-      <path value="AllergyIntolerance.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
     <element id="AllergyIntolerance.extension:evidence">
       <path value="AllergyIntolerance.extension" />
       <sliceName value="evidence" />
-      <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="AllergyIntolerance.clinicalStatus">
-      <path value="AllergyIntolerance.clinicalStatus" />
-      <mustSupport value="true" />
-    </element>
-    <element id="AllergyIntolerance.code">
-      <path value="AllergyIntolerance.code" />
       <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.patient">
@@ -48,7 +28,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.encounter">
       <path value="AllergyIntolerance.encounter" />
@@ -92,10 +71,6 @@
       <type>
         <code value="string" />
       </type>
-    </element>
-    <element id="AllergyIntolerance.reaction">
-      <path value="AllergyIntolerance.reaction" />
-      <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.reaction.note.author[x]">
       <path value="AllergyIntolerance.reaction.note.author[x]" />
