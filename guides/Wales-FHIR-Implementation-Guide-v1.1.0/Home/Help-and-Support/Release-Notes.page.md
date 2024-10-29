@@ -4,14 +4,31 @@ This page describes the published versions of this implementation guide and diff
 
 ### v2.0.0 STU2
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * Changes to Profiles    
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * Changes to Profiles
+        * DataStandardsWales-AllergyList
+            * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Location
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Medication
+            * Aligned with UKCore STU2
+            * Updated references
+        * DataStandardsWales-MedicationAdministration
+            * Aligned with UKCore STU2
+            * Updated References
+        * DataStandardsWales-Observation
+            * Aligned with UKCore STU2
+            * References to UKCore and DataStandardsWales profiles updated
         * DataStandardsWales-Immunization
             * Updated version from 0.0.5 to 0.1.0
             * Profile changed from experimental to draft
             * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
             * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
             * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+
+
 
 
 ### v1.2.0 STU1

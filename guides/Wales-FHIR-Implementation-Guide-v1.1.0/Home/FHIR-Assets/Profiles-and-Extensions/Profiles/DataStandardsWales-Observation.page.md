@@ -59,7 +59,11 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 1. An identifier
 1. A category code
 1. A effective datetime for the observation
+1. A performer of the observation
+1. A value that was observed
 1. An interpretation, e.g. high, low, normal
+1. A link to subsidiary "group member" observations made as part of this observation
+1. One or more subsidiary components, e.g. systolic and diastolic blood pressure measurements.
 
 ### Example Observations
 The following example resources are provided within this guide:
