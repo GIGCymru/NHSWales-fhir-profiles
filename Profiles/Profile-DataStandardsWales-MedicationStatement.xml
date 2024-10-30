@@ -30,13 +30,20 @@
       <mustSupport value="true" />
       <isModifier value="false" />
     </element>
+    <element id="MedicationStatement.identifier.assigner">
+      <path value="MedicationStatement.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+      </type>
+    </element>
     <element id="MedicationStatement.basedOn">
       <path value="MedicationStatement.basedOn" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
       </type>
     </element>
     <element id="MedicationStatement.partOf">
@@ -70,6 +77,11 @@
     </element>
     <element id="MedicationStatement.context">
       <path value="MedicationStatement.context" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="MedicationStatement.informationSource">
@@ -81,6 +93,15 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+      </type>
+    </element>
+    <element id="MedicationStatement.reasonReference">
+      <path value="MedicationStatement.reasonReference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
       </type>
     </element>
     <element id="MedicationStatement.dosage">
