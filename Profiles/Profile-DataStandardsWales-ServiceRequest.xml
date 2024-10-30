@@ -21,13 +21,6 @@
       <path value="ServiceRequest.identifier" />
       <mustSupport value="true" />
     </element>
-    <element id="ServiceRequest.identifier.assigner">
-      <path value="ServiceRequest.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
     <element id="ServiceRequest.basedOn">
       <path value="ServiceRequest.basedOn" />
       <type>
@@ -37,32 +30,11 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
       </type>
     </element>
-    <element id="ServiceRequest.basedOn.identifier.assigner">
-      <path value="ServiceRequest.basedOn.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
     <element id="ServiceRequest.replaces">
       <path value="ServiceRequest.replaces" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
-      </type>
-    </element>
-    <element id="ServiceRequest.replaces.identifier.assigner">
-      <path value="ServiceRequest.replaces.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
-    <element id="ServiceRequest.requisition.assigner">
-      <path value="ServiceRequest.requisition.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="ServiceRequest.code">
@@ -79,25 +51,11 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
       </type>
     </element>
-    <element id="ServiceRequest.subject.identifier.assigner">
-      <path value="ServiceRequest.subject.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
     <element id="ServiceRequest.encounter">
       <path value="ServiceRequest.encounter" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
-      </type>
-    </element>
-    <element id="ServiceRequest.encounter.identifier.assigner">
-      <path value="ServiceRequest.encounter.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="ServiceRequest.requester">
@@ -110,13 +68,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
-      </type>
-    </element>
-    <element id="ServiceRequest.requester.identifier.assigner">
-      <path value="ServiceRequest.requester.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="ServiceRequest.performer">
@@ -133,25 +84,11 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
       </type>
     </element>
-    <element id="ServiceRequest.performer.identifier.assigner">
-      <path value="ServiceRequest.performer.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
     <element id="ServiceRequest.locationReference">
       <path value="ServiceRequest.locationReference" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
-      </type>
-    </element>
-    <element id="ServiceRequest.locationReference.identifier.assigner">
-      <path value="ServiceRequest.locationReference.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="ServiceRequest.reasonReference">
@@ -164,13 +101,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
       </type>
     </element>
-    <element id="ServiceRequest.reasonReference.identifier.assigner">
-      <path value="ServiceRequest.reasonReference.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
-    </element>
     <element id="ServiceRequest.specimen">
       <path value="ServiceRequest.specimen" />
       <type>
@@ -178,13 +108,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen" />
       </type>
       <mustSupport value="true" />
-    </element>
-    <element id="ServiceRequest.specimen.identifier.assigner">
-      <path value="ServiceRequest.specimen.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-      </type>
     </element>
     <element id="ServiceRequest.note.author[x]">
       <path value="ServiceRequest.note.author[x]" />
@@ -204,13 +127,6 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
-      </type>
-    </element>
-    <element id="ServiceRequest.relevantHistory.identifier.assigner">
-      <path value="ServiceRequest.relevantHistory.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
   </differential>
