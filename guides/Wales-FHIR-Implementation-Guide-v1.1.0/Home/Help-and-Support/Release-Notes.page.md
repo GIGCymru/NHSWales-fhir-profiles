@@ -27,6 +27,8 @@ Package:
             * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
             * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
             * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+        * DataStandardsWales-MedicationList
+            * Updated version from 1.0.0 to 1.1.0
 
 
 
