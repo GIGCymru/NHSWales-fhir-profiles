@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-MedicationRequest" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesMedicationRequest" />
   <title value="Data Standards Wales Medication Request" />
   <status value="active" />
@@ -17,31 +17,14 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationRequest" />
   <derivation value="constraint" />
   <differential>
-	<element id="MedicationRequest.extension">
-	  <path value="MedicationRequest.extension" />
-	  <slicing>
-		<discriminator>
-			<type value="value" />
-			<path value="url" />
-		</discriminator>
-		<rules value="open" />
-	  </slicing>
-	  <min value="0" />
-	</element>
     <element id="MedicationRequest.extension:medicationRepeatInformation">
       <path value="MedicationRequest.extension" />
       <sliceName value="medicationRepeatInformation" />
-	  <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="MedicationRequest.identifier">
-      <path value="MedicationRequest.identifier" />
       <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.status">
       <path value="MedicationRequest.status" />
       <short value="active | cancelled | stopped" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.statusReason">
       <path value="MedicationRequest.statusReason" />
@@ -67,15 +50,10 @@
       <path value="MedicationRequest.statusReason.coding.display" />
       <min value="1" />
     </element>
-    <element id="MedicationRequest.intent">
-      <path value="MedicationRequest.intent" />
-      <mustSupport value="true" />
-    </element>
     <element id="MedicationRequest.category">
       <path value="MedicationRequest.category" />
       <min value="1" />
       <max value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.reported[x]">
       <path value="MedicationRequest.reported[x]" />
@@ -101,7 +79,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Medication" />
         <aggregation value="bundled" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.subject">
       <path value="MedicationRequest.subject" />
@@ -110,7 +87,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.subject.reference">
       <path value="MedicationRequest.subject.reference" />
@@ -128,7 +104,6 @@
     <element id="MedicationRequest.authoredOn">
       <path value="MedicationRequest.authoredOn" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.requester">
       <path value="MedicationRequest.requester" />
@@ -140,9 +115,8 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.requester.reference">
       <path value="MedicationRequest.requester.reference" />
@@ -178,8 +152,8 @@
       <path value="MedicationRequest.reasonReference" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
     </element>
     <element id="MedicationRequest.basedOn">
@@ -237,8 +211,6 @@
     </element>
     <element id="MedicationRequest.dosageInstruction">
       <path value="MedicationRequest.dosageInstruction" />
-      <short value="How the medication is/was taken or should be taken" />
-      <definition value="Indicates how the medication is/was taken or should be taken by the patient." />
       <type>
         <code value="Dosage" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
@@ -247,7 +219,6 @@
     <element id="MedicationRequest.dispenseRequest">
       <path value="MedicationRequest.dispenseRequest" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.dispenseRequest.performer">
       <path value="MedicationRequest.dispenseRequest.performer" />
@@ -255,10 +226,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
-    </element>
-    <element id="MedicationRequest.substitution">
-      <path value="MedicationRequest.substitution" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationRequest.priorPrescription">
       <path value="MedicationRequest.priorPrescription" />
