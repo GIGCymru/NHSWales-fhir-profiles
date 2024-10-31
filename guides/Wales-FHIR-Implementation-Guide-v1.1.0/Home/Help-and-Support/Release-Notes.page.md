@@ -55,7 +55,13 @@ Package:
                 * Encounter.hospitalization.extension:admissionMethod
             * Added Extension:
                 * Encounter.hospitalization.extension:admissionMethod
-            
+        * DataStandardsWales-AllergyIntolerance
+            * Updated version from 1.0.0 to 1.1.0
+            * AllergyIntolerance.encounter updated with DataStandardsWales-Encounter resource
+            * ValueSet Binding changed to Preferred:
+                * UKCore-AllergySubstance in AllergyIntolerance.reaction.substance
+                * UKCore-AllergyManifestation in AllergyIntolerance.reaction.manifestation
+                * UKCore-SubstanceOrProductAdministrationRoute in AllergyIntolerance.reaction.exposureRoute          
 
 ### v1.2.0 STU1
 Package:
