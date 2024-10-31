@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-MedicationList" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationList" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesMedicationList" />
   <title value="Data Standards Wales Medication List" />
   <status value="active" />
@@ -17,14 +17,6 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-List" />
   <derivation value="constraint" />
   <differential>
-    <element id="List.status">
-      <path value="List.status" />
-      <mustSupport value="true" />
-    </element>
-    <element id="List.mode">
-      <path value="List.mode" />
-      <mustSupport value="true" />
-    </element>
     <element id="List.code">
       <path value="List.code" />
       <min value="1" />
@@ -35,7 +27,6 @@
           <display value="Medications and medical devices" />
         </coding>
       </fixedCodeableConcept>
-      <mustSupport value="true" />
     </element>
     <element id="List.subject">
       <path value="List.subject" />
@@ -44,7 +35,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="List.encounter">
       <path value="List.encounter" />
