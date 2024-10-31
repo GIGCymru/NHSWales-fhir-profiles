@@ -34,6 +34,7 @@ Package:
                 * Slice removed
                 * New ValueSet UKCore-SpecimenType added and binding is Preferred
             * Replaced HL7 Device with DataStandardsWales-Device in Specimen.subject
+            * New extension added http://hl7.org/fhir/StructureDefinition/specimen-specialHandling in Specimen.collection.extension:specialHandling
             * New extension-Specimen.collection.collector added in Specimen.collection.collector.extension:collectionCollectorR5
             * For Specimen.collection.bodySite.extension:bodySiteReference:
                 * Slice removed
