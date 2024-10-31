@@ -77,6 +77,19 @@ Package:
             * MedicationRequest.reasonReference updated with DataStandardsWales-Observation resource replacing UK Core Observation 
         * DataStandardsWales-PractitionerRole
             * Updated version from 1.0.0 to 1.1.0
+        * DataStandardsWales-Specimen
+            * Updated version from 0.0.5 to 0.1.0
+            * New Extension-UKCore-SampleCategory added in Specimen.extension:sampleCategory
+            * For Specimen.type:
+                * Slice removed
+                * New ValueSet UKCore-SpecimenType added and binding is Preferred
+            * Replaced HL7 Device with DataStandardsWales-Device in Specimen.subject
+            * New extension added http://hl7.org/fhir/StructureDefinition/specimen-specialHandling in Specimen.collection.extension:specialHandling
+            * New extension-Specimen.collection.collector added in Specimen.collection.collector.extension:collectionCollectorR5
+            * For Specimen.collection.bodySite.extension:bodySiteReference:
+                * Slice removed
+                * New Extension-UKCore-BodySiteReference added
+            * ValueSet v2.0493 replaced with ValueSet UKCore-BiopsyState in Specimen.condition
                 
 ### v1.2.0 STU1
 Package:
