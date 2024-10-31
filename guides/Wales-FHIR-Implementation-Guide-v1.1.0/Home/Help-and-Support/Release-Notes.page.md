@@ -49,6 +49,12 @@ Package:
             * Updated version from 1.0.0 to 1.1.0
         * DataStandardsWales-Dosage
             * Updated version from 0.0.5 to 0.1.0 
+        * DataStandardsWales-Encounter
+            * Updated version from 0.0.5 to 0.1.0
+            * Extension removed:
+                * Encounter.hospitalization.extension:admissionMethod
+            * Added Extension:
+                * Encounter.hospitalization.extension:admissionMethod
             
 
 ### v1.2.0 STU1
