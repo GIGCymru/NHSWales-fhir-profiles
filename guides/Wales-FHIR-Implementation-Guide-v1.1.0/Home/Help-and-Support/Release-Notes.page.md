@@ -69,7 +69,9 @@ Package:
             * Removed Slices: 
                 * Patient.identifier:bcuhbEastPasIdentifier
                 * Patient.identifier:bcuhbWestPasIdentifier          
-
+         * DataStandardsWales-MedicationList
+            * Updated version from 1.0.0 to 1.1.0   
+            
 ### v1.2.0 STU1
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
