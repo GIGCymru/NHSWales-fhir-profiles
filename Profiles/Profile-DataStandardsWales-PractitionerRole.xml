@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-PractitionerRole" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesPractitionerRole" />
   <title value="Data Standards Wales Practitioner Role" />
   <status value="active" />
@@ -17,21 +17,12 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole" />
   <derivation value="constraint" />
   <differential>
-    <element id="PractitionerRole.active">
-      <path value="PractitionerRole.active" />
-      <mustSupport value="true" />
-    </element>
-    <element id="PractitionerRole.period">
-      <path value="PractitionerRole.period" />
-      <mustSupport value="true" />
-    </element>
     <element id="PractitionerRole.practitioner">
       <path value="PractitionerRole.practitioner" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="PractitionerRole.organization">
       <path value="PractitionerRole.organization" />
@@ -39,13 +30,11 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="PractitionerRole.specialty">
       <path value="PractitionerRole.specialty" />
       <short value="A unique code identifying each Main Specialty designated by Royal Colleges" />
       <definition value="A unique code identifying each Main Specialty designated by Royal Colleges" />
-      <mustSupport value="true" />
       <binding>
         <strength value="required" />
       </binding>
@@ -56,10 +45,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
       </type>
-    </element>
-    <element id="PractitionerRole.telecom">
-      <path value="PractitionerRole.telecom" />
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
