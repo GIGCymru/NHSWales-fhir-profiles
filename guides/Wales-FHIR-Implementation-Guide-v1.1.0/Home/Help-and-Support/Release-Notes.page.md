@@ -45,6 +45,8 @@ Package:
             * Removed HL7 Group, HL7 Device & DataStandardsWales-Location from Observation.subject
             * Replace HL7 Device with DataStandardsWales-Device in Observation.specimen
             * Added HL7 QuestionnaireResponse & HL7 MolecularSequence to Observation.hasMember
+        * DataStandardsWales-Organization
+            * Updated version from 1.0.0 to 1.1.0
             
 
 ### v1.2.0 STU1
