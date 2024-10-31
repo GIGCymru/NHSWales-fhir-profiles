@@ -61,7 +61,14 @@ Package:
             * ValueSet Binding changed to Preferred:
                 * UKCore-AllergySubstance in AllergyIntolerance.reaction.substance
                 * UKCore-AllergyManifestation in AllergyIntolerance.reaction.manifestation
-                * UKCore-SubstanceOrProductAdministrationRoute in AllergyIntolerance.reaction.exposureRoute          
+                * UKCore-SubstanceOrProductAdministrationRoute in AllergyIntolerance.reaction.exposureRoute
+        * DataStandardsWales-Patient
+            * Updated version from 1.1.0 to 1.2.0
+            * Slice renamed to bcuhbPasIdentifier
+            * Fixed value in System updated to https://fhir.bcuhb.nhs.wales/Id/pas-identifier
+            * Removed Slices: 
+                * Patient.identifier:bcuhbEastPasIdentifier
+                * Patient.identifier:bcuhbWestPasIdentifier          
 
 ### v1.2.0 STU1
 Package:
