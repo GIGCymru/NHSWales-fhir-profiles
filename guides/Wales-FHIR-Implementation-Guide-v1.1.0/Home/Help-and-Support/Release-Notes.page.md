@@ -31,9 +31,21 @@ Package:
             * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
         * DataStandardsWales-Practitioner
             * Updated version from 1.0.1 to 1.1.1
-
-
-
+        * DataStandardsWales-Observation-Lab
+            * Updated version from 0.0.5 to 0.1.0
+            * ValueSet updated for Observation.code from observation-codes to UKCore-PathologyAndLaboratoryMedicineObservables
+            * Removed Slices
+                * Observation.code.coding
+                * Observation.code.coding:snomedCT
+                * Observation.code.coding:loinc
+                * Observation.bodySite.coding
+                * Observation.bodySite.coding:snomedCT
+                * Observation.component.code.coding
+                * Observation.component.code.coding:snomedCT
+            * Removed HL7 Group, HL7 Device & DataStandardsWales-Location from Observation.subject
+            * Replace HL7 Device with DataStandardsWales-Device in Observation.specimen
+            * Added HL7 QuestionnaireResponse & HL7 MolecularSequence to Observation.hasMember
+            
 
 ### v1.2.0 STU1
 Package:
