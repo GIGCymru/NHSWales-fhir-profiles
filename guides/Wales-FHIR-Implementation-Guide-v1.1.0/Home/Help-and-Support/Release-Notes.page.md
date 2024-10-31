@@ -27,9 +27,20 @@ Package:
             * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
             * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
             * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+        * DataStandardsWales-Specimen
+            * Updated version from 0.0.5 to 0.1.0
+            * New Extension-UKCore-SampleCategory added in Specimen.extension:sampleCategory
+            * For Specimen.type:
+                * Slice removed
+                * New ValueSet UKCore-SpecimenType added and binding is Preferred
+            * Replaced HL7 Device with DataStandardsWales-Device in Specimen.subject
+            * New extension-Specimen.collection.collector added in Specimen.collection.collector.extension:collectionCollectorR5
+            * For Specimen.collection.bodySite.extension:bodySiteReference:
+                * Slice removed
+                * New Extension-UKCore-BodySiteReference added
+            * ValueSet v2.0493 replaced with ValueSet UKCore-BiopsyState in Specimen.condition
 
-
-
+        
 
 ### v1.2.0 STU1
 Package:
