@@ -4,8 +4,33 @@ This page describes the published versions of this implementation guide and diff
 
 ### v2.0.0 STU2
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * Changes to Profiles    
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * Changes to Profiles
+        * DataStandardsWales-AllergyList
+            * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport
+            * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Location
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Medication
+            * Aligned with UKCore STU2
+            * Updated references
+        * DataStandardsWales-MedicationAdministration
+            * Aligned with UKCore STU2
+            * Updated References
+        * DataStandardsWales-Observation
+            * Aligned with UKCore STU2
+            * References to UKCore and DataStandardsWales profiles updated
+        * DataStandardsWales-Immunization
+            * Updated version from 0.0.5 to 0.1.0
+            * Profile changed from experimental to draft
+            * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
+            * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
+            * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.0.1 to 1.1.1
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.0.5 to 0.1.0
             * ValueSet updated for Observation.code from observation-codes to UKCore-PathologyAndLaboratoryMedicineObservables
@@ -50,6 +75,7 @@ Guide:
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
+
 
 
 ### v1.1.1 STU1
