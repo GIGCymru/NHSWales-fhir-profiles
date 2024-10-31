@@ -47,6 +47,8 @@ Package:
             * Added HL7 QuestionnaireResponse & HL7 MolecularSequence to Observation.hasMember
         * DataStandardsWales-Organization
             * Updated version from 1.0.0 to 1.1.0
+        * DataStandardsWales-Dosage
+            * Updated version from 0.0.5 to 0.1.0 
             
 
 ### v1.2.0 STU1
