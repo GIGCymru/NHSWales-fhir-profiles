@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-AllergyList" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyList" />
-  <version value="1.1.0" />
+  <version value="1.2.0" />
   <name value="DataStandardsWalesAllergyList" />
   <title value="Data Standards Wales Allergy List" />
   <status value="active" />
@@ -20,9 +20,6 @@
     <element id="List.extension:SingleRecordAllergiesListConfirmedBy">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListConfirmedBy" />
-      <short value="A reference to the practitioner who confirmed the allergy list" />
-      <definition value="A reference to the practitioner who confirmed the allergy list" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy" />
@@ -32,9 +29,6 @@
     <element id="List.extension:SingleRecordAllergiesListConfirmedDate">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListConfirmedDate" />
-      <short value="To capture the datetime that the allergy list was confirmed" />
-      <definition value="To capture the datetime that the allergy list was confirmed" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate" />
@@ -44,22 +38,11 @@
     <element id="List.extension:SingleRecordAllergiesListUpdated">
       <path value="List.extension" />
       <sliceName value="SingleRecordAllergiesListUpdated" />
-      <short value="To capture if the allergy list was updated" />
-      <definition value="To capture if the allergy list was updated" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated" />
       </type>
       <isModifier value="false" />
-    </element>
-    <element id="List.status">
-      <path value="List.status" />
-      <mustSupport value="true" />
-    </element>
-    <element id="List.mode">
-      <path value="List.mode" />
-      <mustSupport value="true" />
     </element>
     <element id="List.code">
       <path value="List.code" />
@@ -70,7 +53,6 @@
           <display value="Allergies and adverse reactions" />
         </coding>
       </fixedCodeableConcept>
-      <mustSupport value="true" />
     </element>
     <element id="List.subject">
       <path value="List.subject" />
@@ -79,10 +61,13 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="List.encounter">
       <path value="List.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="List.source">
@@ -92,7 +77,7 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
       <mustSupport value="true" />
     </element>
