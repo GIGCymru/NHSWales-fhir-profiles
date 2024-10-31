@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-Lab" />
-  <version value="0.0.5" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesObservationLab" />
   <title value="Data Standards Wales Observation - Lab" />
   <status value="draft" />
@@ -34,13 +34,44 @@
       <min value="1" />
       <max value="1" />
       <fixedCodeableConcept>
-        <coding> <!--fix required here, valueset is invalid in this context and would need to be codesystem-->
+        <coding>
           <system value="http://hl7.org/fhir/ValueSet/observation-category" />
           <version value="4.3.0" />
           <code value="laboratory" />
           <display value="Laboratory" />
         </coding>
       </fixedCodeableConcept>
+    </element>
+    <element id="Observation.code">
+      <path value="Observation.code" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-PathologyAndLaboratoryMedicineObservables" />
+      </binding>
+    </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+      </type>
+    </element>
+    <element id="Observation.device">
+      <path value="Observation.device" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceMetric" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+      </type>
+    </element>
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
