@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Encounter" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
-  <version value="0.0.5" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesEncounter" />
   <title value="Data Standards Wales Encounter" />
   <status value="draft" />
@@ -32,11 +32,6 @@
       <sliceName value="OutcomeOfAttendance" />
       <mustSupport value="true" />
     </element>
-    <element id="Encounter.extension:admissionMethod">
-      <path value="Encounter.extension" />
-      <sliceName value="admissionMethod" />
-      <mustSupport value="true" />
-    </element>
     <element id="Encounter.subject">
       <path value="Encounter.subject" />
       <type>
@@ -56,6 +51,11 @@
     </element>
     <element id="Encounter.hospitalization">
       <path value="Encounter.hospitalization" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Encounter.hospitalization.extension:admissionMethod">
+      <path value="Encounter.hospitalization.extension" />
+      <sliceName value="admissionMethod" />
       <mustSupport value="true" />
     </element>
     <element id="Encounter.hospitalization.origin">

@@ -4,16 +4,71 @@ This page describes the published versions of this implementation guide and diff
 
 ### v2.0.0 STU2
 Package:
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles}}:
-    * Changes to Profiles    
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * Changes to Profiles
+        * DataStandardsWales-AllergyList
+            * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport
+            * Aligned with UKCore STU2
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Location
+            * Aligned with UKCore STU2
+        * DataStandardsWales-Medication
+            * Aligned with UKCore STU2
+            * Updated references
+        * DataStandardsWales-MedicationAdministration
+            * Aligned with UKCore STU2
+            * Updated References
+        * DataStandardsWales-Observation
+            * Aligned with UKCore STU2
+            * References to UKCore and DataStandardsWales profiles updated
+        * DataStandardsWales-Immunization
+            * Updated version from 0.0.5 to 0.1.0
+            * Profile changed from experimental to draft
+            * ValueSet UKCore-ReasonImmunizationNotAdministered binding changed to Preferred in Immunization.statusReason
+            * ValueSet updated for Immunization.site from UKCore-BodySite to UKCore-ImmunizationAdministrationBodySite and binding is Preferred
+            * ValueSet for Immunization.protocolApplied.targetDisease remained as ValueSet covid-19-diseases
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.0.1 to 1.1.1
+        * DataStandardsWales-Observation-Lab
+            * Updated version from 0.0.5 to 0.1.0
+            * ValueSet updated for Observation.code from observation-codes to UKCore-PathologyAndLaboratoryMedicineObservables
+            * Removed Slices
+                * Observation.code.coding
+                * Observation.code.coding:snomedCT
+                * Observation.code.coding:loinc
+                * Observation.bodySite.coding
+                * Observation.bodySite.coding:snomedCT
+                * Observation.component.code.coding
+                * Observation.component.code.coding:snomedCT
+            * Removed HL7 Group, HL7 Device & DataStandardsWales-Location from Observation.subject
+            * Replace HL7 Device with DataStandardsWales-Device in Observation.specimen
+            * Added HL7 QuestionnaireResponse & HL7 MolecularSequence to Observation.hasMember
+        * DataStandardsWales-Organization
+            * Updated version from 1.0.0 to 1.1.0
+        * DataStandardsWales-Dosage
+            * Updated version from 0.0.5 to 0.1.0 
+        * DataStandardsWales-Encounter
+            * Updated version from 0.0.5 to 0.1.0
+            * Extension removed:
+                * Encounter.hospitalization.extension:admissionMethod
+            * Added Extension:
+                * Encounter.hospitalization.extension:admissionMethod
+        * DataStandardsWales-AllergyIntolerance
+            * Updated version from 1.0.0 to 1.1.0
+            * AllergyIntolerance.encounter updated with DataStandardsWales-Encounter resource
+            * ValueSet Binding changed to Preferred:
+                * UKCore-AllergySubstance in AllergyIntolerance.reaction.substance
+                * UKCore-AllergyManifestation in AllergyIntolerance.reaction.manifestation
+                * UKCore-SubstanceOrProductAdministrationRoute in AllergyIntolerance.reaction.exposureRoute
         * DataStandardsWales-Patient
             * Updated version from 1.1.0 to 1.2.0
             * Slice renamed to bcuhbPasIdentifier
             * Fixed value in System updated to https://fhir.bcuhb.nhs.wales/Id/pas-identifier
             * Removed Slices: 
                 * Patient.identifier:bcuhbEastPasIdentifier
-                * Patient.identifier:bcuhbWestPasIdentifier
-
+                * Patient.identifier:bcuhbWestPasIdentifier          
 
 ### v1.2.0 STU1
 Package:
@@ -43,6 +98,8 @@ Guide:
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
+
+
 
 ### v1.1.1 STU1
 Package:
