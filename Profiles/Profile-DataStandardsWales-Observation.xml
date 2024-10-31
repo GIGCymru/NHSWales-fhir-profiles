@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
-  <version value="0.0.6" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesObservation" />
   <title value="Data Standards Wales Observation" />
   <status value="draft" />
@@ -28,34 +28,22 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationRequest" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
       </type>
     </element>
     <element id="Observation.partOf">
       <path value="Observation.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationDispense" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Immunization" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationAdministration" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationDispense" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
       </type>
-    </element>
-    <element id="Observation.status">
-      <path value="Observation.status" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.category">
-      <path value="Observation.category" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Observation.code">
-      <path value="Observation.code" />
-      <mustSupport value="true" />
     </element>
     <element id="Observation.subject">
       <path value="Observation.subject" />
@@ -63,11 +51,10 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="Observation.encounter">
       <path value="Observation.encounter" />
@@ -75,10 +62,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
-    </element>
-    <element id="Observation.effective[x]">
-      <path value="Observation.effective[x]" />
-      <mustSupport value="true" />
     </element>
     <element id="Observation.performer">
       <path value="Observation.performer" />
@@ -96,6 +79,19 @@
       <path value="Observation.interpretation" />
       <mustSupport value="true" />
     </element>
+    <element id="Observation.note.author[x]">
+      <path value="Observation.note.author[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
+    </element>
     <element id="Observation.specimen">
       <path value="Observation.specimen" />
       <type>
@@ -104,11 +100,21 @@
       </type>
       <mustSupport value="false" />
     </element>
+    <element id="Observation.device">
+      <path value="Observation.device" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceMetric" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+      </type>
+    </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
       </type>
       <mustSupport value="true" />
     </element>
