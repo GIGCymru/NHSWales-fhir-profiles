@@ -6,5 +6,7 @@
   filename: Diagnostic-Reports
 - name: Medications
   filename: Medications
+- name: Provenance
+  filename: Provenance
 - name: Sensitive Data
   filename: Sensitive-Data
