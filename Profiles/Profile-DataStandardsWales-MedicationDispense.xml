@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-MedicationDispense" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationDispense" />
-  <version value="1.0.1" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesMedicationDispense" />
   <title value="Data Standards Wales Medication Dispense" />
   <status value="active" />
@@ -20,7 +20,6 @@
     <element id="MedicationDispense.identifier">
       <path value="MedicationDispense.identifier" />
       <max value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.identifier.system">
       <path value="MedicationDispense.identifier.system" />
@@ -37,9 +36,19 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
-    <element id="MedicationDispense.status">
-      <path value="MedicationDispense.status" />
-      <mustSupport value="true" />
+    <element id="MedicationDispense.partOf">
+      <path value="MedicationDispense.partOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
+    </element>
+    <element id="MedicationDispense.partOf.identifier.assigner">
+      <path value="MedicationDispense.partOf.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
     </element>
     <element id="MedicationDispense.statusReason[x]">
       <path value="MedicationDispense.statusReason[x]" />
@@ -73,7 +82,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Medication" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.subject">
       <path value="MedicationDispense.subject" />
@@ -83,7 +91,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.subject.identifier.system">
       <path value="MedicationDispense.subject.identifier.system" />
@@ -104,8 +111,8 @@
       <path value="MedicationDispense.context" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Encounter" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-EpisodeOfCare" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -134,7 +141,6 @@
     <element id="MedicationDispense.performer">
       <path value="MedicationDispense.performer" />
       <max value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.performer.actor">
       <path value="MedicationDispense.performer.actor" />
@@ -230,14 +236,9 @@
     <element id="MedicationDispense.quantity">
       <path value="MedicationDispense.quantity" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.daysSupply">
       <path value="MedicationDispense.daysSupply" />
-      <mustSupport value="true" />
-    </element>
-    <element id="MedicationDispense.whenPrepared">
-      <path value="MedicationDispense.whenPrepared" />
       <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.whenHandedOver">
@@ -294,7 +295,6 @@
         <code value="Dosage" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationDispense.substitution.responsibleParty">
       <path value="MedicationDispense.substitution.responsibleParty" />
@@ -316,6 +316,13 @@
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="MedicationDispense.eventHistory">
+      <path value="MedicationDispense.eventHistory" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
       </type>
     </element>
     <element id="MedicationDispense.eventHistory.identifier.assigner">
