@@ -57,9 +57,13 @@ stages:
                 - script: |
                     echo "Simplifier login and sync"
                     fhir login email=$SIMPLIFIER_USERNAME password=$SIMPLIFIER_PASSWORD
+                    ls
                     fhir project unlink 
+                    ls
                     fhir project link ${{variables.SimplifierUrlKey}} --strategy TakeLocal
+                    ls
                     fhir project sync
+                    ls
                   displayName: 'Simplifier login and sync'
                   env:
                     SIMPLIFIER_USERNAME: $(SIMPLIFIER_USERNAME)
