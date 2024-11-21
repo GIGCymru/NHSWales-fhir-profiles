@@ -1,4 +1,8 @@
-<dosage> 
+<Dosage xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Dosage-Inhaler" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
+    </meta> 
 	<text value="Use two puffs twice a day"/> 
 	<additionalInstruction> 
 		<text value="Shake well"/> 
