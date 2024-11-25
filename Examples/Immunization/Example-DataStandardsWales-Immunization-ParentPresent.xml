@@ -1,14 +1,18 @@
-<Immunization>
+<Immunization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Immunization-ParentPresent" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+    </meta>
 	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-ParentPresent"> 
 		<valueBoolean value="true" />
 	</extension>
 	<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
 		<valueCodeableConcept>
-			<Coding>
+			<coding>
 				<system value="http://snomed.info/sct" />
 				<code value="720540002" />
 				<display value= "Administration of second dose of meningitis B vaccine" />
-			</Coding>
+			</coding>
 		</valueCodeableConcept>
 	</extension>
 	<status value="completed" />

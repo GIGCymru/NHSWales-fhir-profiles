@@ -25,19 +25,19 @@ topic: DosageDrops
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{tree:example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{table:example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{xml:example-datastandardswales-dosage-drops}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{json:example-datastandardswales-dosage-drops}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{narrative:example-datastandardswales-dosage-drops}}
     </div>  
   </div>
 </div>

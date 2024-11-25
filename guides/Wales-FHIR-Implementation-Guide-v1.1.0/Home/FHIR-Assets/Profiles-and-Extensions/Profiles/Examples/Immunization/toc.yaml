@@ -2,3 +2,7 @@
   filename: Index.page.md
 - name: Example-DataStandardsWales-Immunization-FluVaccine
   filename: Example-DataStandardsWales-Immunization-FluVaccine.page.md
+- name: Example-DataStandardsWales-Immunization-NotGiven
+  filename: Example-DataStandardsWales-Immunization-NotGiven.page.md
+- name: Example-DataStandardsWales-Immunization-ParentPresent
+  filename: Example-DataStandardsWales-Immunization-ParentPresent.page.md
