@@ -52,6 +52,14 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Specimen.collection.collector">
+      <path value="Specimen.collection.collector" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+      </type>
+    </element>
     <element id="Specimen.collection.collected[x]">
       <path value="Specimen.collection.collected[x]" />
       <min value="1" />
