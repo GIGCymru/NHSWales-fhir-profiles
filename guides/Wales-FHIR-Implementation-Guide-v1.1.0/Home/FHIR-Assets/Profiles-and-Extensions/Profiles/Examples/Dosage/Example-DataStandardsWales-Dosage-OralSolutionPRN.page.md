@@ -24,19 +24,19 @@ topic: DosageOralSolution
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
+      {{tree:Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
+      {{table:Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
+      {{xml:Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
+      {{json:Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Examples-Dosage-Example-DataStandardsWales-Dosage-OralSolutionPRN}}
+      {{narrative:Example-DataStandardsWales-Dosage-OralSolutionPRN}}
     </div>  
   </div>
 </div>
