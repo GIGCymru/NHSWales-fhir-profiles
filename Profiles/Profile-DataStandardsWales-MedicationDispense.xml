@@ -52,18 +52,7 @@
     </element>
     <element id="MedicationDispense.statusReason[x]">
       <path value="MedicationDispense.statusReason[x]" />
-      <type>
-        <code value="CodeableConcept" />
-      </type>
       <mustSupport value="true" />
-    </element>
-    <element id="MedicationDispense.statusReason[x].coding.system">
-      <path value="MedicationDispense.statusReason[x].coding.system" />
-      <min value="1" />
-    </element>
-    <element id="MedicationDispense.statusReason[x].coding.code">
-      <path value="MedicationDispense.statusReason[x].coding.code" />
-      <min value="1" />
     </element>
     <element id="MedicationDispense.category.coding.system">
       <path value="MedicationDispense.category.coding.system" />
@@ -221,9 +210,6 @@
     <element id="MedicationDispense.type">
       <path value="MedicationDispense.type" />
       <mustSupport value="true" />
-      <binding>
-        <strength value="required" />
-      </binding>
     </element>
     <element id="MedicationDispense.type.coding.system">
       <path value="MedicationDispense.type.coding.system" />
