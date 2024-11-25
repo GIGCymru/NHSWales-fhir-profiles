@@ -24,19 +24,19 @@ topic: DosageInhaler
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
+      {{tree:Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
+      {{table:Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
+      {{xml:Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
+      {{json:Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Dosage-Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
+      {{narrative:Example-DataStandardsWales-Dosage-InhalerWithAdditionalInstructions}}
     </div>  
   </div>
 </div>
