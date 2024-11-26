@@ -21,29 +21,29 @@
       <path value="Dosage.sequence" />
       <short value="Multi-sequence dosage instructions." />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.text">
       <path value="Dosage.text" />
       <short value="The complete dosage instruction as a human readable string." />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.additionalInstruction">
       <path value="Dosage.additionalInstruction" />
       <short value="Additional dosage instructions that can be either SNOMED-CT coded terms or free-text instructions." />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.patientInstruction">
       <path value="Dosage.patientInstruction" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.timing">
       <path value="Dosage.timing" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.timing.repeat.bounds[x]">
       <path value="Dosage.timing.repeat.bounds[x]" />
@@ -61,22 +61,37 @@
     <element id="Dosage.asNeeded[x]">
       <path value="Dosage.asNeeded[x]" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
+      <binding>
+        <strength value="preferred" />
+      </binding>
     </element>
     <element id="Dosage.site">
       <path value="Dosage.site" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite" />
+      </binding>
     </element>
     <element id="Dosage.route">
       <path value="Dosage.route" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SubstanceOrProductAdministrationRoute" />
+      </binding>
     </element>
     <element id="Dosage.method">
       <path value="Dosage.method" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationDosageMethod" />
+      </binding>
     </element>
     <element id="Dosage.doseAndRate">
       <path value="Dosage.doseAndRate" />
@@ -95,7 +110,7 @@
     <element id="Dosage.maxDosePerPeriod">
       <path value="Dosage.maxDosePerPeriod" />
       <definition value="TBD" />
-      <mustSupport value="true" />
+      <mustSupport value="false" />
     </element>
     <element id="Dosage.maxDosePerAdministration">
       <path value="Dosage.maxDosePerAdministration" />
