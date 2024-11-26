@@ -282,6 +282,33 @@
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
     </element>
+    <element id="MedicationDispense.dosageInstruction.asNeeded[x]">
+      <path value="MedicationDispense.dosageInstruction.asNeeded[x]" />
+      <binding>
+        <strength value="preferred" />
+      </binding>
+    </element>
+    <element id="MedicationDispense.dosageInstruction.site">
+      <path value="MedicationDispense.dosageInstruction.site" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite" />
+      </binding>
+    </element>
+    <element id="MedicationDispense.dosageInstruction.route">
+      <path value="MedicationDispense.dosageInstruction.route" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SubstanceOrProductAdministrationRoute" />
+      </binding>
+    </element>
+    <element id="MedicationDispense.dosageInstruction.method">
+      <path value="MedicationDispense.dosageInstruction.method" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationDosageMethod" />
+      </binding>
+    </element>
     <element id="MedicationDispense.substitution.responsibleParty">
       <path value="MedicationDispense.substitution.responsibleParty" />
       <type>
