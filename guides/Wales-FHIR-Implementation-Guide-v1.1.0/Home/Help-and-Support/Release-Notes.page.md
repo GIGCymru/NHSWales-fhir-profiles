@@ -200,10 +200,14 @@ Package:
                 * .collection.collector. Added extension for collectionCollectorR5
                 * .collection.bodySite. Added extension for bodySiteReference
 
-<!-- Add section for amending rendering of Immunization examples -->               
+Examples:
+* Fixed render issues in Immunizations:
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
+    * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
         
 Guide:
-* Created a new section for {{pagelink:Home/Guidance/provenance}}
+* Created a new section for {{pagelink:Home/Guidance/provenance}} guidance
 
                 
 ### v1.2.1 STU1

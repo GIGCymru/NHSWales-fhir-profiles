@@ -25,19 +25,19 @@ Where Device resources are not available in within the data store, logical refer
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-Amend}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-Amend}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-Amend}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-Amend}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Amend}}
     </div>  
   </div>
 </div>

@@ -21,19 +21,19 @@ This Provenance example demonstrates how logical references can be used where De
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend-Alt}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend-Alt}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend-Alt}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend-Alt}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Examples-Provenence-Example-DataStandardsWales-Provenance-Amend-Alt}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Amend-Alt}}
     </div>  
   </div>
 </div>
