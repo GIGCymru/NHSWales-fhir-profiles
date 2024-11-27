@@ -6,7 +6,6 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
 * {{pagelink:DataStandardsWales-DiagnosticReport-Lab}}
-* {{pagelink:DataStandardsWales-Dosage}}
 * {{pagelink:DataStandardsWales-Encounter}}
 * {{pagelink:DataStandardsWales-Endpoint}}
 * {{pagelink:DataStandardsWales-ImagingStudy}}

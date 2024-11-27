@@ -1,5 +1,3 @@
-- name: Dosage
-  filename: Dosage
 - name: Example-DataStandardsWales-Encounter-EmergencyAdmission
   filename: Example-DataStandardsWales-Encounter-EmergencyAdmission.page.md
 - name: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio

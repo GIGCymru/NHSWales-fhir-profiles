@@ -10,8 +10,6 @@
   filename: DataStandardsWales-DiagnosticReport.page.md
 - name: DataStandardsWales-DiagnosticReport-Lab
   filename: DataStandardsWales-DiagnosticReport-Lab.page.md
-- name: DataStandardsWales-Dosage
-  filename: DataStandardsWales-Dosage.page.md
 - name: DataStandardsWales-Encounter
   filename: DataStandardsWales-Encounter.page.md
 - name: DataStandardsWales-Endpoint
