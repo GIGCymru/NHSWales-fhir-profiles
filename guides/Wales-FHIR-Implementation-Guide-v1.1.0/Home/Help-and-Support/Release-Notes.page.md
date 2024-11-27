@@ -201,6 +201,7 @@ Package:
                 * .collection.bodySite. Added extension for bodySiteReference
 
 Examples:
+* Removed Dosage Examples
 * Fixed render issues in Immunizations:
     * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
     * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
