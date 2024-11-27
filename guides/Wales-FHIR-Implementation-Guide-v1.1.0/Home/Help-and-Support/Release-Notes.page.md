@@ -200,6 +200,10 @@ Package:
                 * .collection.collector. Added extension for collectionCollectorR5
                 * .collection.bodySite. Added extension for bodySiteReference
 
+<!-- Add section for amending rendering of Immunization examples -->               
+        
+Guide:
+* Created a new section for {{pagelink:Home/Guidance/provenance}}
 
                 
 ### v1.2.1 STU1
@@ -223,20 +227,20 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Identifiers
         * Consolidated BCUHBCentralPASIdentifier, BCUHBEastPASIdentifier and BCUHBWestPASIdentifier to BCUHBPASIdentifier
-* {{pagelink:Home/Examples-Index,text:Examples}}:
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New examples
         * Immunization
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-FluVaccine.page.md,text:Flu Vaccine}}  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
         * Dosage
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md,text:Drops}}   
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Inhaler.page.md,text:Inhaler}}  
-            * {{pagelink:/Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-OralSolutionPRN.page.md,text:Oral Solution PRN}}                  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md,text:Drops}}   
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Inhaler.page.md,text:Inhaler}}  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-OralSolutionPRN.page.md,text:Oral Solution PRN}}                  
         
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
-* Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.md,text:Help and Support}}.
+* Added a section for Change Requests to {{pagelink:Home/Help-and-Support/Help-and-Support.page.md,text:Help and Support}}.
 * Created a new {{pagelink:Home/Design/Design-Patterns.page.md,text:Design Patterns}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Regular-Meetings.page.md,text:Regular Meetings}} page.
 * Created a new {{pagelink:Home/Help-and-Support/Training.page.md,text:Training}} page.
