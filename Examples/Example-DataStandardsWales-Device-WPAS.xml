@@ -1,0 +1,22 @@
+<Device xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Device-WPAS" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
+        <value value="139" />
+    </identifier>
+    <manufacturer value="DHCW" />
+    <deviceName>
+        <name value="Welsh PAS (ABUHB Instance)" />
+        <type value="user-friendly-name" />
+    </deviceName>
+    <owner>
+        <reference value="Organization/a67892db-6a69-424a-8f31-fb6ec417b6f5" />
+        <display value="Aneurin Bevan University Health Board" />
+    </owner>
+    <note>
+        <text value="ABUHB WPAS" />
+    </note>
+</Device>

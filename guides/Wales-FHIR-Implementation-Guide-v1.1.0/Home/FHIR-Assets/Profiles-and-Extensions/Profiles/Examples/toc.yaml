@@ -1,5 +1,9 @@
-- name: Dosage
-  filename: Dosage
+- name: Example-DataStandardsWales-Device-CDRcomponent
+  filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
+- name: Example-DataStandardsWales-Device-WPAS
+  filename: Example-DataStandardsWales-Device-WPAS.page.md
+- name: Example-DataStandardsWales-DocumentReference-Provenance
+  filename: Example-DataStandardsWales-DocumentReference-Provenance.page.md
 - name: Example-DataStandardsWales-Encounter-EmergencyAdmission
   filename: Example-DataStandardsWales-Encounter-EmergencyAdmission.page.md
 - name: Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio
@@ -52,6 +56,10 @@
   filename: Example-DataStandardsWales-PractitionerRole-Physiotherapist.page.md
 - name: Example-DataStandardsWales-PractitionerRole-PrescribingNurse
   filename: Example-DataStandardsWales-PractitionerRole-PrescribingNurse.page.md
+- name: Example-DataStandardsWales-Provenance-Amend
+  filename: Example-DataStandardsWales-Provenance-Amend.page.md
+- name: Example-DataStandardsWales-Provenance-Amend-Alt
+  filename: Example-DataStandardsWales-Provenance-Amend-Alt.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -60,3 +68,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
+- name: Dosage
+  filename: Dosage
