@@ -1,0 +1,10 @@
+<DocumentReference xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-DocumentReference-Provenance" />
+    <date value="2024-08-08T08:06:07.046012Z" />
+    <description value="Link to HL7v2 message for data provenance" />
+    <content>
+        <attachment>
+            <url value="https://[base]/[link id to HL7v2 message]" />
+        </attachment>
+    </content>
+</DocumentReference>

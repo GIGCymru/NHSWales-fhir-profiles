@@ -1,0 +1,22 @@
+<Device xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Device-CDRcomponent" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
+        <value value="370.2" />
+    </identifier>
+    <manufacturer value="DHCW" />
+    <deviceName>
+        <name value="HL7 to FHIR conversion engine (CDR)" />
+        <type value="user-friendly-name" />
+    </deviceName>
+    <owner>
+        <reference value="Organization/a67892db-6a69-424a-8f31-fb6ec417b6f5" />
+        <display value="Digital Health and Care Wales" />
+    </owner>
+    <note>
+        <text value="HL7 to FHIR conversion engine (CDR)" />
+    </note>
+</Device>
