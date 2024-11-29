@@ -130,9 +130,9 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CareTeam" />
+        <targetProfile value="https://hl7.org/fhir/StructureDefinition/CareCareTeam" />
       </type>
     </element>
     <element id="MedicationRequest.recorder">
@@ -162,7 +162,7 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest" />
       </type>
       <mustSupport value="true" />
@@ -215,33 +215,6 @@
         <code value="Dosage" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
-    </element>
-    <element id="MedicationRequest.dosageInstruction.asNeeded[x]">
-      <path value="MedicationRequest.dosageInstruction.asNeeded[x]" />
-      <binding>
-        <strength value="preferred" />
-      </binding>
-    </element>
-    <element id="MedicationRequest.dosageInstruction.site">
-      <path value="MedicationRequest.dosageInstruction.site" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-BodySite" />
-      </binding>
-    </element>
-    <element id="MedicationRequest.dosageInstruction.route">
-      <path value="MedicationRequest.dosageInstruction.route" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-SubstanceOrProductAdministrationRoute" />
-      </binding>
-    </element>
-    <element id="MedicationRequest.dosageInstruction.method">
-      <path value="MedicationRequest.dosageInstruction.method" />
-      <binding>
-        <strength value="preferred" />
-        <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationDosageMethod" />
-      </binding>
     </element>
     <element id="MedicationRequest.dispenseRequest">
       <path value="MedicationRequest.dispenseRequest" />
