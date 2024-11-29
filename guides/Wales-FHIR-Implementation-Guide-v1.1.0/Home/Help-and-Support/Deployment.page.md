@@ -4,7 +4,7 @@
 
 The NHS Wales FHIR Implementation guide currently has the following package dependencies:
 
-* [UK Core STU1 v1.0.0](https://simplifier.net/packages/fhir.r4.ukcore.stu1/1.0.0)
+* [UK Core STU2 v2.0.1](https://simplifier.net/packages/fhir.r4.ukcore.stu2/2.0.1)
 * [HL7 FHIR R4 v4.0.1](https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1)
 
 Please ensure that you have downloaded these dependencies when implementing the NHS Wales FHIR profiles into your system.
