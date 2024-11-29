@@ -258,9 +258,9 @@ Package:
             * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-NotGiven.page.md,text:Not Given}}    
             * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Immunization/Example-DataStandardsWales-Immunization-ParentPresent.page.md,text:Parent Present}}  
         * Dosage
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Drops.page.md,text:Drops}}   
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-Inhaler.page.md,text:Inhaler}}  
-            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage/Example-DataStandardsWales-Dosage-OralSolutionPRN.page.md,text:Oral Solution PRN}}                  
+            * Drops
+            * Inhaler
+            * Oral Solution PRN                 
         
 Guide:
 * Added sections for FHIR Development Initiatives and Communities and FHIR Chat to {{pagelink:Home/Help-and-Support/Related-Pages.page.md,text:Related Pages}}
