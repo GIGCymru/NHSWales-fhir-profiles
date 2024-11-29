@@ -6,7 +6,7 @@
 
 The [Medication](https://www.hl7.org/fhir/r4/medication.html) resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering a medication as well as for making statements about medication use.
 
-The {{page-title}} profile is derived from the [UK Core Medication Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Medication?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Medication Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-Medication?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 For additional guidance on implementation of UK Core, [see here](https://simplifier.net/guide/UK-Core-Implementation-Guide/Home?version=1.0.0).
 

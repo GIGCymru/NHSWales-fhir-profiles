@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [MedicationRequest](https://www.hl7.org/fhir/r4/medicationrequest.html) resource is a record of a medication that is being order for a patient.
 
-The {{page-title}} profile is derived from the [UK Core MedicationRequest Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-MedicationRequest?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core MedicationRequest Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-MedicationRequest?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 For additional guidance on implementation of UK Core, [see here](https://simplifier.net/guide/UK-Core-Implementation-Guide/Home?version=1.0.0).
 
