@@ -15,9 +15,6 @@ This DocumentReference example is used in conjuction with the {{pagelink:Home/FH
     <li class="tablink" onclick="openCity(this,'tabjson')" data-target="tabjson">
       JSON
     </li>    
-    <li class="tablink" onclick="openCity(this,'tabnarrative')" data-target="tabnarrative">
-      Narrative
-    </li>
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
@@ -31,12 +28,6 @@ This DocumentReference example is used in conjuction with the {{pagelink:Home/FH
     </div>
     <div id="tabjson" class="tabcontent">
       {{json:Example-DataStandardsWales-DocumentReference-Provenance}}
-    </div>       
-    <div id="tabnarrative" class="tabcontent">
-      {{narrative:Example-DataStandardsWales-DoumentReference-Provenance}}
-    </div>  
+    </div>        
   </div>
 </div>
-
-
-
