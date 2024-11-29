@@ -13,6 +13,7 @@ Package:
             * Updated version number from 1.0.0 to 1.1.0
             * Reference changes:
                 * .encounter. Removed reference to UKCore-Encounter. Added reference to DataStandardsWales-Encounter
+                * extension:evidence. Removed reference to UKCore-DiagnosticReport. Added reference to DataStandardsWales-DiagnosticReport
             * Binding strength changes:
                 * .reaction.substance. From extensible to preferred
 	            * .reaction.manifestation. From extensible to preferred
@@ -26,8 +27,12 @@ Package:
             * Updated version number from 0.0.5 to 0.1.0
             * Reference changes:
                 * .performer. Added reference to CareTeam
+            * Removed Slices:
+                * .code
+                * .conclusionCode
         * DataStandardsWales-DiagnosticReport-Lab
             * Updated version number from 0.0.5 to 0.1.0
+            * .conclusionCode.Removed Slice 
         * DataStandardsWales-Dosage   
             * Updated version number from 0.0.5 to 0.1.0
             * All Must Support flags removed 
@@ -44,6 +49,8 @@ Package:
 	            * .reasonReference. Added must support
 	        * Extension changes:
 	            * .hospitalization. Added .extension:admissionMethod 
+            * Reference changes:
+                * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation
         * DataStandardsWales-Immunization
             * Updated version number from 0.0.5 to 0.1.0
             * Binding strength changes:
@@ -52,6 +59,8 @@ Package:
 	            * .vaccineCode. Added binding to value set UKCore-VaccineCode. Binding strength set as preferred
 	            * .site. Removed binding to value set UKCore-BodySite. Added binding to value set UKCore-ImmunizationAdministrationBodySite. Binding strength set as preferred
 	            * .route. Added binding to value set UKCore-SubstanceOrProductAdministrationRoute. Binding strength set as preferred
+            * Reference changes:
+                * .protocolApplied.authority . Removed reference to UKCore-Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Location
             * Updated version number from 1.0.1 to 1.1.0
         * DataStandardsWales-Medication
@@ -62,10 +71,7 @@ Package:
         * DataStandardsWales-MedicationAdministration
             * Updated version number from 1.0.1 to 1.1.0
             * Reference changes:
-                * .context. Added references to EpisodeOfCare and DataStandardsWales-Encounter
                 * .reasonReference. Removed references to UKCore-Observation and UKCore-DiagnosticReport. Added references to DataStandardsWales-Observation and DataStandardsWales-DiagnosticReport
-                * .device. Added reference to DataStandardsWales-Device
-                * .eventHistory. Added reference to DataStandardsWales-Provenance
             * Binding strength changes:
                 * .dosage.site. From extensible to preferred
                 * .dosage.route. From extensible to preferred
@@ -85,9 +91,9 @@ Package:
             * Binding terminology changes:
                 * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred     
             * Reference changes:
-                * .partOf. Added references to UKCore-Procedure and DataStandardsWales-Organization
                 * .context. Removed reference to UKCore-Encounter. Added reference for DataStandardsWales-Encounter
-                * .eventHistory. Added reference to DataStandardsWales-Provenance
+            * Cardinality change:
+                * .receiver. Cardinality changed by UK Core STU2
         * DataStandardsWales-MedicationList
             * Updated version number from 1.0.0 to 1.1.0
         * DataStandardsWales-MedicationRequest 
@@ -119,9 +125,7 @@ Package:
             * Binding terminology changes:
                 * .dosage.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodesSet. Binding strength set as preferred
             * Reference changes:
-                * .identifier. Removed reference to Organization. Added reference to DataStandardsWales-Organization
                 * .basedOn. Removed reference to UKCore-ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
-                * .reasonReference. Added references to Condition, DataStandardsWales-Observation, and DataStandardsWales-DiagnosticReport
         * DataStandardsWales-Observation
             * Updated version number from 0.0.6 to 0.1.0
             * Reference changes:
@@ -131,6 +135,12 @@ Package:
                 * .note.author[]. Added references to UKCore-RelatedPerson, DataStandardsWales-Organization, DataStandardsWales-Patient, and DataStandardsWales-Practitioner
                 * .device. Removed reference to Device. Added reference to DataStandardsWales-Device
                 * .hasMember. Added references to QuestionnaireResponse and MolecularSequence
+            * Slices removed:
+                * .code.coding
+                * .coding:snomedCT
+                * .coding:loinc
+                * .bodySite.coding
+                * .bodySite.coding:snomedCT
         * DataStandardsWales-Observation-Lab
             * Updated version from 0.0.5 to 0.1.0
             * Reference changes:
@@ -139,16 +149,21 @@ Package:
                 * .hasMember. Added references to QuestionnaireResponse and MolecularSequence
             * Binding terminology changes:
                 * .code. Removed binding to value set LOINCCodes. Added binding to value set UKCore-PathologyAndLaboratoryMedicineObservables. Binding strength set as preferred
-            * Slicing changes:
-                * .code. Removed slices for SNOMED CT and LOINC
-                * .bodySite. Removed slice for SNOMED CT
-                * .component. Removed slice for SNOMED CT
+            * Slices removed:
+                * .code.coding
+                * .code.coding:snomedCT
+                * .code.coding:loinc
+                * .bodySite.coding
+                * .bodySite.coding:snomedCT
+                * .component.code.coding 
+                * .component.code.coding:snomedCT
         * DataStandardsWales-Organization
             * Updated version from 1.0.0 to 1.1.0
         * DataStandardsWales-Patient
             * Updated version from 1.1.0 to 1.2.0
             * Slicing changes:
                 * .identifier:bcuhbCentralPasIdentifier renamed to  .identifier:bcuhbPasIdentifier. Fixed Value, Short Description and Definition updated to correspond.
+            * Slices removed:
                 * .identifier. Removed slices for bcuhbEastPasIdentifier and bcuhbWestPasIdentifier
         * DataStandardsWales-Practitioner
             * Updated version number from 1.0.1 to 1.1.1 
@@ -184,14 +199,18 @@ Package:
             * Reference changes:
                 * .note.author[]. Removed references to Organization, Patient, Practitioner, and RelatedPerson. Added references to DataStandardsWales-Organization, DataStandardsWales-Patient, DataStandardsWales-Practitioner, and UKCore-RelatedPerson
                 * .relevantHistory. Removed reference to Provenance. Added reference to DataStandardsWales-Provenance
+            * Binding terminology changes:
+                * .orderDetail. Removed ValueSet ServiceRequestOrderDetailsCodes. Replaced with ValueSet UKCoreProcedureCode. Binding changed to preferred
         * DataStandardsWales-Specimen
             * Updated version from 0.0.5 to 0.1.0
             * Binding terminology changes:
                 * .type. Removed binding to value set v2.0487. Added binding to value set https://fhir.hl7.org.uk/ValueSet/UKCore-SpecimenType
                 * .condition. Removed binding to value set v2.0493. Added binding to value set UKCore-BiopsyState
-            * Slicing changes:
-                * .type. Removed slice for SNOMED CT
-                * .collection.bodySite. Removed slice for SNOMED CT
+            * Slices removed:
+                * .type.coding
+                * .type.coding:snomedCT
+                * .collection.bodySite.coding 
+                * .collection.bodySite.coding:snomedCT
             * Reference changes:
                 * .subject. Removed reference to Device. Added reference to DataStandardsWales-Device
             * Extension changes:
