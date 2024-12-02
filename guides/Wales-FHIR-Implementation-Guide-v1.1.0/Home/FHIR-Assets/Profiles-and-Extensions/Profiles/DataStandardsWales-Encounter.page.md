@@ -11,7 +11,7 @@ The [Encounter](https://www.hl7.org/fhir/r4/encounter.html) resource is used to 
 * Attendance at a mass vaccination centre to receive a vaccination
 * A visit from a health care professional to the patient’s home
 
-The {{page-title}} profile is derived from the [UK Core STU2 Encounter Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Encounter?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Encounter Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Encounter?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter}}
 
