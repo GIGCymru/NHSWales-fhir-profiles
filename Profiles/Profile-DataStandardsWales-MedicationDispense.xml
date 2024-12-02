@@ -282,12 +282,6 @@
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
     </element>
-    <element id="MedicationDispense.dosageInstruction.site">
-      <path value="MedicationDispense.dosageInstruction.site" />
-      <binding>
-        <strength value="extensible" />
-      </binding>
-    </element>
     <element id="MedicationDispense.substitution.responsibleParty">
       <path value="MedicationDispense.substitution.responsibleParty" />
       <type>
