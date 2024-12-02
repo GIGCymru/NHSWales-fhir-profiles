@@ -24,7 +24,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
 
-
 ### DiagnosticReport Examples
 
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - CT Abdomen}}
@@ -34,12 +33,6 @@ The following examples are published with this guide and all available as a down
 ### Laboratory Examples
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
-
-### Dosage Examples
-
-* {{pagelink:DosageDrops, text: Example Dosage - Drops}}
-* {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}}
-* {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} 
 
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
