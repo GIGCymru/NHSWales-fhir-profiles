@@ -13,7 +13,7 @@
   <kind value="resource" />
   <abstract value="false" />
   <type value="Device" />
-  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device" />
   <derivation value="constraint" />
   <differential>
     <element id="Device.identifier">

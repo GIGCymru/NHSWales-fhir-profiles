@@ -4,7 +4,7 @@
 
 ### Overview
 
-The [Organization](https://www.hl7.org/fhir/r4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Organization?version=1.0.0). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
+The [Organization](https://www.hl7.org/fhir/r4/organization.html) resource contains information about health and care organisations. Examples include Health Boards and NHS Trusts, Hospitals, Dental practices GP practices and GP clusters.  The {{page-title}} profile is derived from the [UK Core Organization Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. Further guidance on the use of the Organization resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization}}
 
@@ -67,7 +67,7 @@ _*see Implementation Guidance for the identifier element below_
 ### Extensions
 
 * The following extensions are defined for use within this profile: 
-  * The UK Core extension [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ExtensionLibrary?version=1.0.0#ExtensionUKCore-MainLocation) extends the Organisation resource to support the exchange of information on the Organisation's main location, as a reference to a Location resource, which is currently not supported by the FHIR standard.
+  * The UK Core extension [Extension-UKCore-MainLocation](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-MainLocation?version=2.0.1) extends the Organisation resource to support the exchange of information on the Organisation's main location, as a reference to a Location resource, which is currently not supported by the FHIR standard.
   * The HL7 common extension [organization-period](http://hl7.org/fhir/R4/extension-organization-period.html) describes the date range that the organisation should be considered available.
   
 
