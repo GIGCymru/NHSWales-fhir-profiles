@@ -50,7 +50,9 @@ Package:
 	        * Extension changes:
 	            * .hospitalization. Added .extension:admissionMethod 
             * Reference changes:
-                * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation
+                * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation.
+                * .reasonReference. Removed reference to HL7 Condition. Added reference to UKCore-Condition.
+                *.reasonReference. Removed reference to HL7 Procedure. Added reference to UKCore-Procedure.
         * DataStandardsWales-ImagingStudy
             * Reference changes:
                 * .reasonReference. Removed HL7 Condition. Added reference to UKCore-Condition
