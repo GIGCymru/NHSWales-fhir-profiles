@@ -96,6 +96,7 @@ Package:
                 * .receiver. Cardinality changed by UK Core STU2
         * DataStandardsWales-MedicationList
             * Updated version number from 1.0.0 to 1.1.0
+            * .source. Removed reference to UKCore-Device.Added reference for DataStandardsWales-Device
         * DataStandardsWales-MedicationRequest 
             * Updated version number from 1.0.0 to 1.1.0  
             * Must Support changes:
