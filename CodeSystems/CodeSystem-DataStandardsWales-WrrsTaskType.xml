@@ -18,7 +18,7 @@
 		</telecom>
 	</contact>	
 	<description value="A set of task type codes for the Welsh Result Reporting Service (WRRS)"/>
-    <copyright value="2023 NHS Wales." />
+    <copyright value="2024 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

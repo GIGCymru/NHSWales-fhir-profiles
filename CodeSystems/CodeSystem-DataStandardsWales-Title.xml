@@ -26,7 +26,7 @@
 			<value value="data.standards@wales.nhs.uk"/>
 		</telecom>
 	</contact>
-    <copyright value="2023 NHS Wales." />
+    <copyright value="2024 NHS Wales." />
 	<caseSensitive value="true"/>
 	<hierarchyMeaning value="is-a"/>
 	<compositional value="false"/>
