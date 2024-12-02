@@ -32,7 +32,9 @@ Package:
                 * .conclusionCode
         * DataStandardsWales-DiagnosticReport-Lab
             * Updated version number from 0.0.5 to 0.1.0
-            * .conclusionCode.Removed Slice 
+            * .conclusionCode.Removed Slice
+            * Reference changes:
+                *  .basedOn. Removed reference to HL7 ServiceRequest. Added reference to UKCore-ServiceRequest
         * DataStandardsWales-Dosage   
             * Updated version number from 0.0.5 to 0.1.0
             * All Must Support flags removed 
@@ -50,7 +52,12 @@ Package:
 	        * Extension changes:
 	            * .hospitalization. Added .extension:admissionMethod 
             * Reference changes:
-                * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation
+                * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation.
+                * .reasonReference. Removed reference to HL7 Condition. Added reference to UKCore-Condition.
+                *.reasonReference. Removed reference to HL7 Procedure. Added reference to UKCore-Procedure.
+        * DataStandardsWales-ImagingStudy
+            * Reference changes:
+                * .reasonReference. Removed HL7 Condition. Added reference to UKCore-Condition
         * DataStandardsWales-Immunization
             * Updated version number from 0.0.5 to 0.1.0
             * Binding strength changes:
@@ -72,6 +79,7 @@ Package:
             * Updated version number from 1.0.1 to 1.1.0
             * Reference changes:
                 * .reasonReference. Removed references to UKCore-Observation and UKCore-DiagnosticReport. Added references to DataStandardsWales-Observation and DataStandardsWales-DiagnosticReport
+                * .performer.actor. Removed reference to UKCore-Device. Added reference to DataStandardsWales-Device
             * Binding strength changes:
                 * .dosage.site. From extensible to preferred
                 * .dosage.route. From extensible to preferred
@@ -92,10 +100,12 @@ Package:
                 * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred     
             * Reference changes:
                 * .context. Removed reference to UKCore-Encounter. Added reference for DataStandardsWales-Encounter
+                * .performer.actor. Removed reference to UKCore-Device. Added reference for DataStandardsWales-Device
             * Cardinality change:
                 * .receiver. Cardinality changed by UK Core STU2
         * DataStandardsWales-MedicationList
             * Updated version number from 1.0.0 to 1.1.0
+            * .source. Removed reference to UKCore-Device.Added reference for DataStandardsWales-Device
         * DataStandardsWales-MedicationRequest 
             * Updated version number from 1.0.0 to 1.1.0  
             * Must Support changes:
@@ -126,6 +136,7 @@ Package:
                 * .dosage.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodesSet. Binding strength set as preferred
             * Reference changes:
                 * .basedOn. Removed reference to UKCore-ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
+                * .reasonReference. Removed reference to HL7 Condition. Added reference to UKCore-Condition
         * DataStandardsWales-Observation
             * Updated version number from 0.0.6 to 0.1.0
             * Reference changes:

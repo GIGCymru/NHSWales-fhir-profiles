@@ -132,7 +132,7 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
-        <targetProfile value="https://hl7.org/fhir/StructureDefinition/CareCareTeam" />
+        <targetProfile value="https://hl7.org/fhir/StructureDefinition/CareTeam" />
       </type>
     </element>
     <element id="MedicationRequest.recorder">

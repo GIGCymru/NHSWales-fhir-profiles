@@ -140,7 +140,7 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
     </element>
     <element id="MedicationDispense.performer.actor.identifier.system">
@@ -281,12 +281,6 @@
         <code value="Dosage" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
-    </element>
-    <element id="MedicationDispense.dosageInstruction.site">
-      <path value="MedicationDispense.dosageInstruction.site" />
-      <binding>
-        <strength value="extensible" />
-      </binding>
     </element>
     <element id="MedicationDispense.substitution.responsibleParty">
       <path value="MedicationDispense.substitution.responsibleParty" />
