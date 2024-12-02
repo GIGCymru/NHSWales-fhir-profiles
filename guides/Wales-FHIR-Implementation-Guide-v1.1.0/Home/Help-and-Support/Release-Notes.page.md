@@ -127,6 +127,7 @@ Package:
                 * .dosage.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodesSet. Binding strength set as preferred
             * Reference changes:
                 * .basedOn. Removed reference to UKCore-ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
+                * .reasonReference. Removed reference to HL7 Condition. Added reference to UKCore-Condition
         * DataStandardsWales-Observation
             * Updated version number from 0.0.6 to 0.1.0
             * Reference changes:
