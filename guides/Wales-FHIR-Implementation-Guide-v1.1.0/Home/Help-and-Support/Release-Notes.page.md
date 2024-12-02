@@ -102,7 +102,7 @@ Package:
                 * .context. Removed reference to UKCore-Encounter. Added reference for DataStandardsWales-Encounter
                 * .performer.actor. Removed reference to UKCore-Device. Added reference for DataStandardsWales-Device
             * Cardinality change:
-                * .receiver. Cardinality changed by UK Core STU2
+                * .receiver. Cardinality changed from 0:1 to 0:* by UK Core STU2
         * DataStandardsWales-MedicationList
             * Updated version number from 1.0.0 to 1.1.0
             * .source. Removed reference to UKCore-Device.Added reference for DataStandardsWales-Device
