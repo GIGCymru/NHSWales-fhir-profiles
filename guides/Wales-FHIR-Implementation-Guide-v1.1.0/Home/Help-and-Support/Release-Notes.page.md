@@ -32,7 +32,9 @@ Package:
                 * .conclusionCode
         * DataStandardsWales-DiagnosticReport-Lab
             * Updated version number from 0.0.5 to 0.1.0
-            * .conclusionCode.Removed Slice 
+            * .conclusionCode.Removed Slice
+            * Reference changes:
+                *  .basedOn. Removed reference to HL7 ServiceRequest. Added reference to UKCore-ServiceRequest
         * DataStandardsWales-Dosage   
             * Updated version number from 0.0.5 to 0.1.0
             * All Must Support flags removed 
