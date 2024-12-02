@@ -1,0 +1,52 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-RespirationRate" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-RespirationRate" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesRespirationRate" />
+    <title value="Data Standards Wales ValueSet Respiration Rate" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-RespirationRate v1.1.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients level of consciousness. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 86290005 | Respiratory rate \n - MINUS  &amp;nbsp;\n - DescendantOrSelfOf 927961000000102 | Baseline respiratory rate" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="DescendantOrSelfOf 86290005 MINUS DescendantOrSelfOf 927961000000102" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="18feb664-d046-40a7-bc95-7949893fade9" />
+        <timestamp value="2023-10-31T15:26:00+00:00" />
+        <total value="3" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="271625008" />
+            <display value="Rate of spontaneous respiration" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="86290005" />
+            <display value="Respiratory rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="250810003" />
+            <display value="Total breath rate" />
+        </contains>
+    </expansion>
+</ValueSet>

@@ -1,0 +1,1262 @@
+<!--
+This FHIR bundle represents a Growth chart
+  
+You can validate this FHIR bundle here:  
+
+https://simplifier.net/validate 
+
+Validated against: fhir.r4.wales.stu1 1.2.1
+
+Terminology server for clinical terms:
+
+https://ontoserver.csiro.au/shrimp/
+
+LOINC
+
+https://loinc.org/search/
+
+Wales FHIR guide:
+
+https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.2.1
+
+-->
+
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="GROWTCH-CHART-BUNDLE-GUID"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Bundle" />
+    <source value="https://wcp.nhs.wales" />
+  </meta>
+  <type value="collection"/>
+
+  <!-- Patient -->
+  <!-- No need to create this resource as there will be a Patient available.  Use the existing patient.id in any resources that need to reference the patient -->
+
+  <!-- This is here so that the bundle can be validated -->
+  <entry>
+    <fullUrl value="PATIENT-GUID"/>
+    <resource>
+      <Patient>
+        <!-- patient GUID -->
+        <id value="PATIENT-GUID" />
+        <identifier>
+          <system value="https://fhir.nhs.uk/Id/nhs-number" />
+          <!-- NHS number -->
+          <value value="1835442528" />
+        </identifier>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/ValueSet/v2-0203" />
+              <code value="PI" />
+              <display value="Patient internal identifier" />
+            </coding>
+          </type>
+          <!-- Issuing authority -->
+          <system value="108" />
+          <!-- hospital number -->
+          <value value="N5021870" />
+        </identifier>
+        <name>
+          <!-- surname -->
+          <family value="BUNTER" />
+          <!-- firstname -->
+          <given value="Billy" />
+          <!-- title -->
+          <prefix value="Mr."/>
+        </name>
+        <!-- Sex -->
+        <gender value="male" />
+        <!-- DOB -->
+        <birthDate value="1974-09-04" />
+        <!-- address -->
+        <address>
+          <line value="8 Penywern Road" />
+          <line value="Ystalyfera" />
+          <line value="Swansea" />
+          <line value="Neath port talbot" />
+          <!-- post code -->
+          <postalCode value="SA9 2NH" />
+        </address>
+      </Patient>
+    </resource>
+  </entry>
+
+
+
+  <!-- Practioner (enterer of the data/current user) -->
+  <!-- No need to create this resource as there will be a Practitioner available.  Use the existing practitioner.id in any resources that need to reference the practitioner -->
+  
+  <!-- This is here so that the bundle can be validated -->
+  <entry>
+    <fullUrl value="PRACTITIONER-GUID"/>
+    <resource>
+      <Practitioner>
+        <!-- requesting practioner guid -->
+        <id value="PRACTITIONER-GUID" />
+        <meta>
+          <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <identifier>
+          <system value="https://fhir.hl7.org.uk/Id/gmc-number" />
+          <!-- Practioner GMC -->
+          <value value="4233420" />
+          <use value="official" />
+        </identifier>
+        <identifier>
+          <system value="https://fhir.nhs.wales/Id/nadex-identifier" />
+          <!-- Practioner nadex -->
+          <value value="lo004826" />
+          <use value="official" />
+        </identifier>
+        <active value="true" />
+        <name>
+          <!-- Text name -->
+          <text value="SMITH, John, DR (GMC:12345), Senior Software Developer" />
+          <!-- Practioner surname -->
+          <family value="Smith" />
+          <!-- Practioner firstname -->
+          <given value="John" />
+          <!-- practitioner title -->
+          <prefix value="Mr" />
+          <use value="official" />
+        </name>
+      </Practitioner>
+    </resource>
+  </entry>
+
+
+
+  <!-- Paternal height observation -->
+  <entry>
+    <fullUrl value="PATERNAL-HEIGHT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="PATERNAL-HEIGHT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="83845-8"/>
+            <display value="Body height Father"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <effectiveDateTime value="2024-08-07T12:00:00Z"/>
+        <valueQuantity>
+          <!-- Paternal height TEXTBOX -->
+          <value value="180"/>
+          <unit value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Maternal height observation -->
+  <entry>
+    <fullUrl value="MATERNAL-HEIGHT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="MATERNAL-HEIGHT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="83846-6"/>
+            <display value="Body height Mother"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <effectiveDateTime value="2024-08-07T12:00:00Z"/>
+        <valueQuantity>
+          <!-- Maternal height TEXTBOX -->
+          <value value="165"/>
+          <unit value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Parent Observation resource to link observation sets together  -->
+  <entry>
+    <fullUrl value="OBSERVATION-GROUP-GUID"/>
+    <resource>
+      <Observation>
+        <id value="OBSERVATION-GROUP-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final" />
+        <effectiveDateTime value="2024-07-25"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>       
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="46680005" />
+            <display value="Vital signs" />
+          </coding>
+        </code>
+
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+
+        <!-- links to comments -->
+        <hasMember>
+          <reference value="PATIENT-CARER-MEASUREMENT-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="LOCATION-COMMENTS-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="BONE-AGE-ASSESSMENT-COMMENTS-OBSERVATION-GUID"/>
+        </hasMember>
+
+        <!-- links to actual measurements -->
+        <hasMember>
+          <reference value="HEIGHT-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="WEIGHT-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="HEAD-CIRCUMFERENCE-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="BMI-OBSERVATION-GUID"/>
+        </hasMember>
+
+        <!-- links to RCPCH observations -->
+        <hasMember>
+          <reference value="HEIGHT-OBSERVATION-RCPCH-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="WEIGHT-OBSERVATION-RCPCH-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="HEAD-CIRCUMFERENCE-OBSERVATION-RCPCH-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="BMI-OBSERVATION-RCPCH-GUID"/>
+        </hasMember>
+
+        <hasMember>
+          <reference value="BONE-AGE-YEARS-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="BONE-AGE-SDS-OBSERVATION-GUID"/>
+        </hasMember>
+        <hasMember>
+          <reference value="BONE-AGE-CENTILE-OBSERVATION-GUID"/>
+        </hasMember>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Parent/carer measurement observation -->
+  <entry>
+    <fullUrl value="PATIENT-CARER-MEASUREMENT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="PATIENT-CARER-MEASUREMENT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-coding" />
+            <code value="patient-carer-measurment" />
+            <display value="Patient/carer measurment" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Parent / Carer measurement CHECKBOX -->
+        <valueBoolean value="false" />
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Location / Comments observation -->
+  <entry>
+    <fullUrl value="LOCATION-COMMENTS-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="LOCATION-COMMENTS-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-coding" />
+            <code value="location-comments" />
+            <display value="Location/comments" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Location / Comments TEXTBOX -->
+        <valueString value="Growth chart comment goes in here"/>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Bone age assessment comment -->
+  <entry>
+    <fullUrl value="BONE-AGE-ASSESSMENT-COMMENTS-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="BONE-AGE-ASSESSMENT-COMMENTS-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-coding" />
+            <code value="bone-age-assessment-comments" />
+            <display value="Bone age assessment comments" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Bone age assessment comment TEXTBOX -->
+        <valueString value="Bone age comment goes in here"/>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Height observation -->
+  <entry>
+    <fullUrl value="HEIGHT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="HEIGHT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="50373000" />
+            <display value="Body height measure" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <valueQuantity>
+          <!-- Height TEXTBOX -->
+          <value value="110.12"/>
+          <unit value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  
+
+  
+  <!-- Height calculation RCPCH JSON -->
+  <entry>
+    <fullUrl value="HEIGHT-OBSERVATION-RCPCH-GUID"/>
+    <resource>
+      <Observation>
+        <id value="HEIGHT-OBSERVATION-RCPCH-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation" />
+            <code value="height-rcpch-calculation" />
+            <display value="Body height RCPCH calculation" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Height calculation RCPCH JSON (base64 encoded JSON) -->
+        <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-method"/>
+            <!-- RCPCH height calculation reference CODE -->
+            <code value="uk-who"/>
+            <!-- RCPCH height calculation reference DESCRIPTION -->
+            <display value="UK WHO"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+
+
+  <!-- Weight observation -->
+  <entry>
+    <fullUrl value="WEIGHT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="WEIGHT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="27113001" />
+            <display value="Body weight measure" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <valueQuantity>
+          <!-- Weight TEXTBOX -->
+          <value value="18.23"/>
+          <unit value="kg"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Weight calculation RCPCH JSON -->
+  <entry>
+    <fullUrl value="WEIGHT-OBSERVATION-RCPCH-GUID"/>
+    <resource>
+      <Observation>
+        <id value="WEIGHT-OBSERVATION-RCPCH-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation"/>
+            <code value="weight-rcpch-calculation" />
+            <display value="Body weight RCPCH calculation" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Weight calculation RCPCH JSON (base64 encoded JSON) -->
+        <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ==" />
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-method"/>
+            <!-- RCPCH weight calculation reference CODE -->
+            <code value="uk-who"/>
+            <!-- RCPCH weight calculation reference DESCRIPTION -->
+            <display value="UK WHO"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  
+
+  
+  <!-- Head circumference -->
+  <entry>
+    <fullUrl value="HEAD-CIRCUMFERENCE-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="HEAD-CIRCUMFERENCE-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>        
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="363811000" />
+            <display value="Head circumference measure" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
+        <valueQuantity>
+          <!-- Head circumference TEXTBOX -->
+          <value value="35.4"/>
+          <unit value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Head circumference calculation RCPCH JSON -->
+  <entry>
+    <fullUrl value="HEAD-CIRCUMFERENCE-OBSERVATION-RCPCH-GUID"/>
+    <resource>
+      <Observation>
+        <id value="HEAD-CIRCUMFERENCE-OBSERVATION-RCPCH-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation" />
+            <code value="head-circumference-rcpch-calculation" />
+            <display value="Head circumference RCPCH calculation" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2015-03-20T12:00:00Z"/>
+        <!-- Head circumference RCPCH JSON (base64 encoded JSON) -->
+        <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-method"/>
+            <!-- RCPCH head circumference calculation reference CODE -->
+            <code value="uk-who"/>
+            <!-- RCPCH head circumference calculation reference DESCRIPTION -->
+            <display value="UK WHO"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+  
+
+
+  <!-- BMI oberservation derived calculation -->
+  <entry>
+    <fullUrl value="BMI-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="BMI-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="60621009" />
+            <display value="Body Mass Index" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <valueQuantity>
+          <!-- BMI TEXTBOX -->
+          <value value="14.88"/>
+          <unit value="kg/m2"/>
+        </valueQuantity>
+        <derivedFrom>
+          <reference value="HEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+        <derivedFrom>
+          <reference value="WEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- BMI oberservation derived calculation RCPCH JSON -->
+  <entry>
+    <fullUrl value="BMI-OBSERVATION-RCPCH-GUID"/>
+    <resource>
+      <Observation>
+        <id value="BMI-OBSERVATION-RCPCH-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation" />
+            <code value="bmi-rcpch-calculation" />
+            <display value="BMI RCPCH calculation" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- BMI calculation RCPCH JSON (base64 encoded JSON) -->
+        <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
+        <derivedFrom>
+          <reference value="HEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+        <derivedFrom>
+          <reference value="WEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/observation-method"/>
+            <!-- RCPCH BMI calculation reference CODE -->
+            <code value="uk-who"/>
+            <!-- RCPCH BMI calculation reference DESCRIPTION -->
+            <display value="UK WHO"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Mid paternal height derived calculation -->
+  <entry>
+    <fullUrl value="MID-PATERNAL-HEIGHT-OBSERVATION-GUID"/>
+    <resource>
+      <Observation>
+        <id value="MID-PATERNAL-HEIGHT-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="20141001"/>
+            <display value="Mid-parental height"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-07-25T10:30:00Z"/>
+        <!-- Mid parental height RCPH (base64 encoded JSON) -->
+        <valueString value="eyJleGFtcGxlIjogImpzb24gZGF0YSBnb2VzIGhlcmUifQ=="/>
+        <derivedFrom>
+          <reference value="PATERNAL-HEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+        <derivedFrom>
+          <reference value="MATERNAL-HEIGHT-OBSERVATION-GUID"/>
+        </derivedFrom>
+      </Observation>
+    </resource>
+  </entry>
+  
+
+
+  <!-- Bone age years observation -->
+  <entry>
+    <fullUrl value="BONE-AGE-YEARS-OBSERVATION-GUID"/>
+    <resource>
+      <Observation xmlns="http://hl7.org/fhir">
+        <id value="BONE-AGE-YEARS-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="397651006"/>
+            <display value="Bone age finding"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
+        <valueQuantity>
+          <!-- Bone age years TEXTBOX -->
+          <value value="8"/>
+          <unit value="years"/>
+        </valueQuantity>
+
+        <!-- Bone age assement procedure RADIO -->
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/bone-age-reference"/>
+            <code value="tanner-whitehouse-ii"/>
+            <display value="Tanner Whitehouse II"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+ <!-- Bone age standard deviation score observation -->
+  <entry>
+    <fullUrl value="BONE-AGE-SDS-OBSERVATION-GUID"/>
+    <resource>
+      <Observation xmlns="http://hl7.org/fhir">
+        <id value="BONE-AGE-SDS-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="386136009"/>
+            <display value="Standard deviation"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
+        <valueQuantity>
+          <!-- Bone age assement standard deviation TEXTBOX -->
+          <value value="1.5"/>
+          <unit value="SD"/>
+        </valueQuantity>
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/bone-age-reference"/>
+            <!-- Bone age assement procedure RADIO, code -->
+            <code value="tanner-whitehouse-ii"/>
+            <!-- Bone age assement procedure RADIO, display -->
+            <display value="Tanner Whitehouse II"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Bone age centile observation -->
+  <entry>
+    <fullUrl value="BONE-AGE-CENTILE-OBSERVATION-GUID"/>
+    <resource>
+      <Observation xmlns="http://hl7.org/fhir">
+        <id value="BONE-AGE-CENTILE-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="302033003"/>
+            <display value="Bone age centile"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
+        <valueQuantity>
+
+          <!-- Bone age centile % TEXTBOX -->
+          <value value="50"/>
+          <unit value="percentile"/>
+        </valueQuantity>
+        <method>
+          <coding>
+            <system value="https://wcp.nhs.wales/fhir/growth-chart/bone-age-reference"/>
+            <!-- Bone age assement procedure RADIO, code -->
+            <code value="tanner-whitehouse-ii"/>
+            <!-- Bone age assement procedure RADIO, display -->
+            <display value="Tanner Whitehouse II"/>
+          </coding>
+        </method>
+      </Observation>
+    </resource>
+  </entry>
+
+
+
+  <!-- Gestation age days observation -->
+  <entry>
+    <fullUrl value="GESTATIONAL-AGE-DAYS-OBSERVATION-GUID"/>
+    <resource>
+      <Observation xmlns="http://hl7.org/fhir">
+        <id value="GESTATIONAL-AGE-DAYS-OBSERVATION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="226081000000107" />
+            <display value="Gestational age" />
+          </coding>
+        </code>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+        <performer>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </performer>
+        <effectiveDateTime value="2024-08-07T00:00:00Z"/>
+        <valueQuantity>
+          <!-- Gestation age days -->
+          <value value="120"/>
+          <unit value="days"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  
+
+
+  <!-- Encounter Resource -->
+  <entry>
+    <fullUrl value="ENCOUNTER-GUID"/>
+    <resource>
+      <Encounter>
+        <id value="ENCOUNTER-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <status value="finished"/>
+        <class>
+          <system value="http://snomed.info/sct" />
+          <code value="373864002" />
+          <display value="Outpatient" />
+        </class>
+        <type>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="185349003"/>
+            <display value="Encounter for growth chart"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <participant>
+          <individual>
+            <reference value="PRACTITIONER-GUID"/>
+            <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+          </individual>
+        </participant>
+      </Encounter>
+    </resource>
+  </entry>
+
+
+
+  <!-- Turner's syndrome GUID -->
+  <!-- This resource is used to store whether the patient has turners -->
+  <!-- If patient does not have down's then this resource can be omited -->
+  <entry>
+    <fullUrl value="TURNERS-CONDITION-GUID"/>
+    <resource>
+      <Condition xmlns="http://hl7.org/fhir">
+        <id value="TURNERS-CONDITION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <!-- Patient has turner's syndrome -->
+            <!-- Should be set to: entered-in-error when deleted-->
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <verificationStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+            <!-- Should be set to: entered-in-error when deleted-->
+            <code value="provisional"/>
+          </coding>
+        </verificationStatus>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="diagnosis"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="38804009"/>
+            <display value="Turner syndrome"/>
+          </coding>
+        </code>
+        <subject>
+          <!-- Link to patient -->
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <recorder>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </recorder>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+      </Condition>
+    </resource>
+  </entry>
+
+
+  <!-- Down's syndrome GUID -->
+  <!-- This is used to store whether the patient has Down's syndrome -->
+  <!-- If patient does not have down's then this resource can be omited -->
+  <entry>
+    <fullUrl value="DOWNS-CONDITION-GUID"/>
+    <resource>
+      <Condition xmlns="http://hl7.org/fhir">
+        <id value="DOWNS-CONDITION-GUID"/>
+        <meta>
+          <source value="https://wcp.nhs.wales" />
+        </meta>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <!-- Patient has Down syndrome -->
+
+            <!-- Should be set to: entered-in-error when deleted-->
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <verificationStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+            <!-- Should be set to: entered-in-error when deleted-->
+            <code value="provisional"/>
+          </coding>
+        </verificationStatus>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="diagnosis"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="41040004"/>
+            <display value="Complete trisomy 21 syndrome"/>
+          </coding>
+        </code>
+        <subject>
+          <!-- Link to patient -->
+          <reference value="PATIENT-GUID"/>
+        </subject>
+        <recorder>
+          <reference value="PRACTITIONER-GUID"/>
+          <display value="SMITH, John, DR (GMC:12345), Senior Software Developer"/>
+        </recorder>
+        <encounter>
+          <reference value="ENCOUNTER-GUID"/>
+        </encounter>
+      </Condition>
+    </resource>
+  </entry>
+ 
+
+</Bundle>
