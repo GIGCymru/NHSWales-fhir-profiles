@@ -92,6 +92,7 @@ Package:
                 * .dosageInstruction.asNeeded[]. Removed binding to value set UKCoreMedicationPrecondition. Added binding to value set SNOMEDCTMedicationAsNeededReasonCodes. Binding strength set as preferred     
             * Reference changes:
                 * .context. Removed reference to UKCore-Encounter. Added reference for DataStandardsWales-Encounter
+                * .performer.actor. Removed reference to UKCore-Device. Added reference for DataStandardsWales-Device
             * Cardinality change:
                 * .receiver. Cardinality changed by UK Core STU2
         * DataStandardsWales-MedicationList
