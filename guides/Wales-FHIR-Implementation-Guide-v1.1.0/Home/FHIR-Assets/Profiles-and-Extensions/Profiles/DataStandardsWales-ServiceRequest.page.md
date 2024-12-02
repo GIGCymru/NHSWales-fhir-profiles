@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [ServiceRequest](https://www.hl7.org/fhir/r4/ServiceRequest.html) resource contains information of a request for a procedure or diagnostic or other service to be planned, proposed, or performed, as distinguished by the ServiceRequest.intent field value, with or on a patient.
 
-The {{page-title}} profile is derived from the [UK Core ServiceRequest Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-ServiceRequest?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Service Request Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-ServiceRequest?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest}}
 
@@ -41,7 +41,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 </div>
 
 ## Implementation Guidance
-This profile aligns with the [UK Core STU2 Service Request Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-ServiceRequest?version=2.0.1).
+This profile aligns with the [UK Core Service Request Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-ServiceRequest?version=2.0.1).
 
 
 ### Mandatory and Must Support Data Elements

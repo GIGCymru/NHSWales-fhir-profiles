@@ -5,7 +5,7 @@ The [Observation](https://www.hl7.org/fhir/r4/Observation.html) resource is used
 
 Note that the Observations included within an laboratory result report should implement the {{pagelink:DataStandardsWales-Observation-Lab}} profile.
 
-The {{page-title}} profile is derived from the [UK Core STU2 Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation}}
 

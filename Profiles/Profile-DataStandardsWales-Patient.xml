@@ -92,36 +92,6 @@
       <path value="Patient.identifier.value" />
       <min value="1" />
     </element>
-    <element id="Patient.identifier:bcuhbEastPasIdentifier">
-      <path value="Patient.identifier" />
-      <sliceName value="bcuhbEastPasIdentifier" />
-      <short value="Betsi Cadwaladr University Health Board East PAS patient identifier" />
-      <definition value="Betsi Cadwaladr University Health Board East PAS patient identifier" />
-    </element>
-    <element id="Patient.identifier:bcuhbEastPasIdentifier.system">
-      <path value="Patient.identifier.system" />
-      <min value="1" />
-      <fixedUri value="https://fhir.bcuhb.nhs.wales/Id/east-pas-identifier" />
-    </element>
-    <element id="Patient.identifier:bcuhbEastPasIdentifier.value">
-      <path value="Patient.identifier.value" />
-      <min value="1" />
-    </element>
-    <element id="Patient.identifier:bcuhbWestPasIdentifier">
-      <path value="Patient.identifier" />
-      <sliceName value="bcuhbWestPasIdentifier" />
-      <short value="Betsi Cadwaladr University Health Board West PAS patient identifier" />
-      <definition value="Betsi Cadwaladr University Health Board West PAS patient identifier" />
-    </element>
-    <element id="Patient.identifier:bcuhbWestPasIdentifier.system">
-      <path value="Patient.identifier.system" />
-      <min value="1" />
-      <fixedUri value="https://fhir.bcuhb.nhs.wales/Id/west-pas-identifier" />
-    </element>
-    <element id="Patient.identifier:bcuhbWestPasIdentifier.value">
-      <path value="Patient.identifier.value" />
-      <min value="1" />
-    </element>
     <element id="Patient.identifier:cavuhbPasIdentifier">
       <path value="Patient.identifier" />
       <sliceName value="cavuhbPasIdentifier" />
