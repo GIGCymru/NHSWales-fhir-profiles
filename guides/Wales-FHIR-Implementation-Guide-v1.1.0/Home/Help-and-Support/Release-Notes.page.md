@@ -51,6 +51,9 @@ Package:
 	            * .hospitalization. Added .extension:admissionMethod 
             * Reference changes:
                 * .reasonReference. Removed reference to UKCore-Observation. Added reference to DataStandardsWales-Observation
+        * DataStandardsWales-ImagingStudy
+            * Reference changes:
+                * .reasonReference. Removed HL7 Condition. Added reference to UKCore-Condition
         * DataStandardsWales-Immunization
             * Updated version number from 0.0.5 to 0.1.0
             * Binding strength changes:
