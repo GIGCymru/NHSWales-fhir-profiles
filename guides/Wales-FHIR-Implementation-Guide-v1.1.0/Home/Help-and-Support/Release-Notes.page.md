@@ -79,6 +79,7 @@ Package:
             * Updated version number from 1.0.1 to 1.1.0
             * Reference changes:
                 * .reasonReference. Removed references to UKCore-Observation and UKCore-DiagnosticReport. Added references to DataStandardsWales-Observation and DataStandardsWales-DiagnosticReport
+                * .performer.actor. Removed reference to UKCore-Device. Added reference to DataStandardsWales-Device
             * Binding strength changes:
                 * .dosage.site. From extensible to preferred
                 * .dosage.route. From extensible to preferred
