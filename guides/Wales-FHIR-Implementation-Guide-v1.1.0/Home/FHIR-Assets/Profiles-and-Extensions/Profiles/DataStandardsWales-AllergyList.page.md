@@ -5,7 +5,7 @@
 ### Overview
 The [List](https://www.hl7.org/fhir/r4/list.html) resource is a curated collection of resources. The Allergy List profile is intended to provide a snapshot view of a patient's allergies.
 
-The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/packages/fhir.r4.ukcore.stu1/1.0.0/files/806176). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-List?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyList}}
 

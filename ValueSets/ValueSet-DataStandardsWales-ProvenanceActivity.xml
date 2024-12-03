@@ -17,7 +17,7 @@
     </telecom>
   </contact>
   <description value="A set of activity codes for NHS Wales Provenance profile which have been copied from the FHIR R5 release" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <compose>
     <include> 
 		<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"/>

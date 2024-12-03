@@ -1,23 +1,4 @@
----
-name: DataStandardsWalesDosage
----
-
-
 ## {{page-title}}
-
-### FQL
-
-@```
-    from
-        StructureDefinition
-    where
-        name='DataStandardsWalesDosage'
-    select 
-        Profile: name,
-        Type: type,
-        Status: status,
-        Canonical: url
-```
 
 The [Dosage](https://www.hl7.org/fhir/r4/dosage.html) resource is a record of a medication that is administered to a patient. For information on dosage prescribed or planned for administration, this will be captured in the `DosageInstruction` element of the medication resource. 
 
@@ -37,10 +18,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
     </li>
     <li class="tablink" onclick="openCity(this,'tabhybrid')" data-target="tabhybrid">
       Hybrid View
-    </li>
-    <li class="tablink" onclick="openCity(this,'tabeg')" data-target="tabeg">
-      Examples
-    </li>    
+    </li>   
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
@@ -51,12 +29,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
     <div id="tabhybrid" class="tabcontent">
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage, hybrid}}
-  </div>
-  <div id="tabeg" class="tabcontent">
-    <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage, text: Dosage Examples}}</li> 
-    </list>
-  </div>    
+  </div>  
 </div>
 
 
@@ -66,17 +39,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 
 * [UK Core Dose Syntax IG (NHS Digital)](https://simplifier.net/guide/ukcoreimplementationguideformedicines?version=current)
 * [UK Core Dose Syntax Simplifier Project (NHS Digital)](https://simplifier.net/EPMAImplementationGuidanceforR4)
-
----
-
-## Example Usage Scenarios ##
-The following are example usage scenarios for the Dosage profile:
-
-- {{pagelink:DosageDrops, text: Example Dosage - Drops}} Query for the dosage of an Eye Drops medication using the query parameter `Dosage.timing.repeat.when` when the time value is undefined.
-- {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}} Query for the dosage of an Inhaler medication using query parameters such as `Dosage.additionalInstruction`.
-- {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} Query for the dosage of an Oral Solution PRN medication using query parameters such as `Dosage.asNeededCodeableConcept` and `Dosage.doseAndRate.doseRange`.
-
-_*Examples provided have been clinically assured on the 07-Aug-2024_
 
 ---
 
@@ -113,5 +75,3 @@ Examples of when a SNOMED-CT unit of measure would typically be used are “tabl
 **Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`.
 
 ---
-
-

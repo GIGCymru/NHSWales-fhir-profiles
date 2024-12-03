@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [MedicationDispense](https://www.hl7.org/fhir/r4/medicationdispense.html) resource is a record of a medication that is dispensed to a patient.
 
-The {{page-title}} profile is derived from the [UK Core MedicationDispense Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-MedicationDispense?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core MedicationDispense Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-MedicationDispense?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 For additional guidance on implementation of UK Core, [see here](https://simplifier.net/guide/UK-Core-Implementation-Guide/Home?version=1.0.0).
 

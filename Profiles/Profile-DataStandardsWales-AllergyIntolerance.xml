@@ -1,4 +1,3 @@
-<!-- this is a comment-->
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-AllergyIntolerance" />
@@ -10,7 +9,7 @@
   <experimental value="false" />
   <date value="2023-08-02" />
   <publisher value="NHS Wales" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

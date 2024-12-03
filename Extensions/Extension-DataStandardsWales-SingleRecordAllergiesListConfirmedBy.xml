@@ -3,7 +3,7 @@
   <id value="Extension-DSW-SingleRecordAllergiesListConfirmedBy" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy" />
   <name value="ExtensionDataStandardsWalesSingleRecordAllergiesListConfirmedBy" />
-  <title value="Extension Data Standards Wales Sinlge Record Allergies List Confirmed By" />
+  <title value="Extension Data Standards Wales Single Record Allergies List Confirmed By" />
   <status value="draft" />
   <date value="2024-10-01" />
   <publisher value="NHS Wales" />
@@ -16,7 +16,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

@@ -6,10 +6,14 @@
   filename: DataStandardsWales-AllergyIntolerance.page.md
 - name: DataStandardsWales-AllergyList
   filename: DataStandardsWales-AllergyList.page.md
+- name: DataStandardsWales-Device
+  filename: DataStandardsWales-Device.page.md
 - name: DataStandardsWales-DiagnosticReport
   filename: DataStandardsWales-DiagnosticReport.page.md
 - name: DataStandardsWales-DiagnosticReport-Lab
   filename: DataStandardsWales-DiagnosticReport-Lab.page.md
+- name: DateStandardsWales-Dosage
+  filename: DataStandardsWales-Dosage.page.md
 - name: DataStandardsWales-Encounter
   filename: DataStandardsWales-Encounter.page.md
 - name: DataStandardsWales-Endpoint
@@ -50,7 +54,5 @@
   filename: DataStandardsWales-Specimen.page.md
 - name: DataStandardsWales-Provenance
   filename: DataStandardsWales-Provenance.page.md
-- name: DataStandardsWales-Device
-  filename: DataStandardsWales-Device.page.md
 - name: Examples
   filename: Examples

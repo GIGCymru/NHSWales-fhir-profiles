@@ -68,5 +68,3 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
-- name: Dosage
-  filename: Dosage

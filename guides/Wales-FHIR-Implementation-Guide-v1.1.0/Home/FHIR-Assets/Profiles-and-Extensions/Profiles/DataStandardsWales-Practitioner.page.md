@@ -6,7 +6,7 @@
 The [Practitioner](https://www.hl7.org/fhir/r4/practitioner.html) resource defines an individual member of a clinical profession with responsibility for delivering care within the health system. 
 
 The {{page-title}} 
-profile is derived from the [UK Core Practitioner Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/Profile-UKCore-Practitioner?version=1.0.0). It defines additional rules for use within health and care organisations in Wales. 
+profile is derived from the [UK Core Practitioner Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Practitioner?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. 
 
 Further guidance on the use of the Practitioner resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide.
 
