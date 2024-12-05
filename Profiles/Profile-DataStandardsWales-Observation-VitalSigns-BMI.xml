@@ -1,77 +1,89 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-Observation-VitalSigns-BMI" />
-    <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI" />
-    <version value="1.0.0" />
-    <name value="DataStandardsWalesObservationVitalSignsBMI" />
-    <title value="Data Standards Wales Observation Vital Signs BMI" />
-    <status value="draft" />
-    <date value="2025-01-01" />
-    <publisher value="NHS Wales" />
-    <contact>
-        <name value="NHS Wales" />
-        <telecom>
-            <system value="email" />
-            <value value="fhir.standards@wales.nhs.uk" />
-            <use value="work" />
-            <rank value="1" />
-        </telecom>
-    </contact>
-    <description value="Resource structure is based on UKCore-Observation-BMI v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. Defines the additional constraints and extensions on the Data Standards Wales Observation Vital Signs profile" />
-    <purpose value="To provide implementers with additional support when implementing measuring and recording body mass index and to provide a consistent structure to how the data is presented." />
-    <copyright value="2025 NHS Wales" />
-    <fhirVersion value="4.0.1" />
-    <kind value="resource" />
-    <abstract value="false" />
-    <type value="Observation" />
-    <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns" />
-    <derivation value="constraint" />
-    <differential>
-        <element id="Observation.code.coding:loinc">
-            <path value="Observation.code.coding" />
-            <sliceName value="loinc" />
-        </element>
-        <element id="Observation.code.coding:loinc.code">
-            <path value="Observation.code.coding.code" />
-            <fixedCode value="39156-5" />
-        </element>
-        <element id="Observation.code.coding:snomedCT">
-            <path value="Observation.code.coding" />
-            <sliceName value="snomedCT" />
-            <min value="1" />
-            <max value="1" />
-            <binding>
-                <strength value="preferred" />
-                <valueSet value="https://fhir.nhs.wales/ValueSet/DSW-BMI" />
-            </binding>
-        </element>
-        <element id="Observation.code.coding:snomedCT.system">
-            <path value="Observation.code.coding.system" />
-            <min value="1" />
-        </element>
-        <element id="Observation.code.coding:snomedCT.code">
-            <path value="Observation.code.coding.code" />
-            <min value="1" />
-        </element>
-        <element id="Observation.value[x]">
-            <path value="Observation.value[x]" />
-            <min value="1" />
-            <type>
-                <code value="Quantity" />
-            </type>
-        </element>
-        <element id="Observation.value[x].value">
-            <path value="Observation.value[x].value" />
-            <min value="1" />
-        </element>
-        <element id="Observation.value[x].system">
-            <path value="Observation.value[x].system" />
-            <min value="1" />
-            <fixedUri value="http://unitsofmeasure.org" />
-        </element>
-        <element id="Observation.value[x].code">
-            <path value="Observation.value[x].code" />
-            <min value="1" />
-            <fixedCode value="kg/m2" />
-        </element>
-    </differential>
+  <id value="DataStandardsWales-Observation-VitalSigns-BMI" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI" />
+  <version value="1.0.0" />
+  <name value="DataStandardsWalesObservationVitalSignsBMI" />
+  <title value="Data Standards Wales Observation Vital Signs BMI" />
+  <status value="draft" />
+  <date value="2025-01-01" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="NHS Wales" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="Resource structure is based on UKCore-Observation-BMI v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. Defines the additional constraints and extensions on the Data Standards Wales Observation Vital Signs profile" />
+  <purpose value="To provide implementers with additional support when implementing measuring and recording body mass index and to provide a consistent structure to how the data is presented." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code.coding:loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="loinc" />
+    </element>
+    <element id="Observation.code.coding:loinc.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="39156-5" />
+    </element>
+    <element id="Observation.code.coding:snomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="snomedCT" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DSW-BMI" />
+      </binding>
+    </element>
+    <element id="Observation.code.coding:snomedCT.system">
+      <path value="Observation.code.coding.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.code.coding:snomedCT.code">
+      <path value="Observation.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
+    <element id="Observation.value[x].value">
+      <path value="Observation.value[x].value" />
+      <min value="1" />
+    </element>
+    <element id="Observation.value[x].system">
+      <path value="Observation.value[x].system" />
+      <min value="1" />
+      <fixedUri value="http://unitsofmeasure.org" />
+    </element>
+    <element id="Observation.value[x].code">
+      <path value="Observation.value[x].code" />
+      <min value="1" />
+      <fixedCode value="kg/m2" />
+    </element>
+    <element id="Observation.derivedFrom">
+      <path value="Observation.derivedFrom" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Media" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>
