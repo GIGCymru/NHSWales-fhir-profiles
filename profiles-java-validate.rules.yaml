@@ -1,0 +1,3 @@
+- action: java-validate
+  files: 
+    - /Profiles/*.xml

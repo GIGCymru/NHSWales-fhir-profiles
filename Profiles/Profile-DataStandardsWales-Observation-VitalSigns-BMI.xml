@@ -52,6 +52,28 @@
       <path value="Observation.code.coding.code" />
       <min value="1" />
     </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+      </type>
+    </element>
+    <element id="Observation.performer">
+      <path value="Observation.performer" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson" />
+      </type>
+    </element>
     <element id="Observation.value[x]">
       <path value="Observation.value[x]" />
       <min value="1" />
@@ -72,6 +94,19 @@
       <path value="Observation.value[x].code" />
       <min value="1" />
       <fixedCode value="kg/m2" />
+    </element>
+    <element id="Observation.note.author[x]">
+      <path value="Observation.note.author[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="Observation.derivedFrom">
       <path value="Observation.derivedFrom" />
