@@ -56,21 +56,13 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
     </element>
-    <element id="Observation.device">
-      <path value="Observation.device" />
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceMetric" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
-      </type>
-    </element>
     <element id="Observation.hasMember">
       <path value="Observation.hasMember" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
       </type>
     </element>
   </differential>

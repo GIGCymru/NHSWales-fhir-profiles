@@ -72,5 +72,26 @@
       <path value="Observation.value[x].code" />
       <fixedCode value="m" />
     </element>
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+      </type>
+    </element>
+    <element id="Observation.derivedFrom">
+      <path value="Observation.derivedFrom" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Media" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
