@@ -30,6 +30,22 @@
       <path value="QuestionnaireResponse.identifier" />
       <mustSupport value="true" />
     </element>
+    <element id="QuestionnaireResponse.basedOn">
+      <path value="QuestionnaireResponse.basedOn" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
+      </type>
+    </element>
+    <element id="QuestionnaireResponse.partOf">
+      <path value="QuestionnaireResponse.partOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
+    </element>
     <element id="QuestionnaireResponse.questionnaire">
       <path value="QuestionnaireResponse.questionnaire" />
       <mustSupport value="true" />
@@ -42,6 +58,13 @@
       <path value="QuestionnaireResponse.subject" />
       <mustSupport value="true" />
     </element>
+    <element id="QuestionnaireResponse.encounter">
+      <path value="QuestionnaireResponse.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
+    </element>
     <element id="QuestionnaireResponse.authored">
       <path value="QuestionnaireResponse.authored" />
       <mustSupport value="true" />
@@ -50,14 +73,24 @@
       <path value="QuestionnaireResponse.author" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
       <mustSupport value="true" />
+    </element>
+    <element id="QuestionnaireResponse.source">
+      <path value="QuestionnaireResponse.source" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+      </type>
     </element>
     <element id="QuestionnaireResponse.item">
       <path value="QuestionnaireResponse.item" />
