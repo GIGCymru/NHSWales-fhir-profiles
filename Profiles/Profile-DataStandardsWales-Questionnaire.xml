@@ -1,70 +1,27 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-Questionnaire" />
-    <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
-    <version value="0.1.0" />
-    <name value="DataStandardsWalesQuestionnaire" />
-    <title value="Data Standards Wales Questionnaire" />
-    <status value="draft" />
-    <date value="2025-01-01" />
-    <publisher value="Data Standards Wales" />
-    <contact>
-        <name value="Data Standards Wales" />
-        <telecom>
-            <system value="email" />
-            <value value="fhir.standards@wales.nhs.uk" />
-            <use value="work" />
-            <rank value="1" />
-        </telecom>
-    </contact>
-    <description value="Resource structure is based on UKCore-Questionnaire v1.3.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. This profile defines the UK constraints and extensions on the International FHIR resource [Questionnaire](https://hl7.org/fhir/R4/Questionnaire.html)." />
-    <purpose value="This profile is used to organise a collection of questions intended to solicit information from patients, providers or other individuals involved in the healthcare domain." />
-    <copyright value="2025 NHS Wales" />
-    <fhirVersion value="4.0.1" />
-    <kind value="resource" />
-    <abstract value="false" />
-    <type value="Questionnaire" />
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
-    <derivation value="constraint" />
-    <differential>
-        <element id="Questionnaire.url">
-            <path value="Questionnaire.url" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.title">
-            <path value="Questionnaire.title" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.status">
-            <path value="Questionnaire.status" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.subjectType">
-            <path value="Questionnaire.subjectType" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.code">
-            <path value="Questionnaire.code" />
-            <binding>
-                <strength value="preferred" />
-                <description value="A set of codes that define questions or groups of questions, consisting of the entirety of the SNOMED CT UK Coding System. This set of codes may not necessarily be complete or appropriate and may require further discussion in the future." />
-                <valueSet value="https://fhir.hl7.org.uk/ValueSet/UKCore-QuestionnaireQuestionCodes" />
-            </binding>
-        </element>
-        <element id="Questionnaire.item">
-            <path value="Questionnaire.item" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.item.linkId">
-            <path value="Questionnaire.item.linkId" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.item.text">
-            <path value="Questionnaire.item.text" />
-            <mustSupport value="true" />
-        </element>
-        <element id="Questionnaire.item.type">
-            <path value="Questionnaire.item.type" />
-            <mustSupport value="true" />
-        </element>
-    </differential>
+  <id value="DataStandardsWales-Questionnaire" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
+  <version value="0.1.0" />
+  <name value="DataStandardsWalesQuestionnaire" />
+  <title value="Data Standards Wales Questionnaire" />
+  <status value="draft" />
+  <date value="2025-01-01" />
+  <publisher value="Data Standards Wales" />
+  <contact>
+    <name value="Data Standards Wales" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <purpose value="This profile is used to organise a collection of questions intended to solicit information from patients, providers or other individuals involved in the healthcare domain." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Questionnaire" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
+  <derivation value="constraint" />
 </StructureDefinition>
