@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-RelatedPerson" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson" />
-  <version value="0.0.1" />
+  <version value="1.0.0" />
   <name value="DataStandardsWalesRelatedPerson" />
   <title value="Data Standards Wales Related Person" />
   <status value="active" />
