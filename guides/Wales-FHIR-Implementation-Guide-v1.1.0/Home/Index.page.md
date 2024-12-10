@@ -71,6 +71,7 @@ These pages contain guidance on the following areas:
     </tr>
     <tr>
 	  <td scope="row">{{pagelink:DataStandardsWales-PractitionerRole}} <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+		 <td>{{pagelink:DataStandardsWales-RelatedPerson}} <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
     </tr>
 		<tr>
 	  <td scope="row">{{pagelink:DataStandardsWales-RelatedPerson}} <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
