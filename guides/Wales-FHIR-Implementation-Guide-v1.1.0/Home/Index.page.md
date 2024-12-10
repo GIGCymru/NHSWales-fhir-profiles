@@ -124,7 +124,6 @@ These pages contain guidance on the following areas:
 	</tr>
 	<tr>
 	  <td scope="row">{{pagelink:DataStandardsWales-Observation-Lab}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
-	  <td>{{pagelink:DataStandardsWales-MedicationRequest}} <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td scope="row">{{pagelink:DataStandardsWales-Specimen}}  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
