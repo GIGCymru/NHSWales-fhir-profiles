@@ -62,5 +62,8 @@
   filename: DataStandardsWales-Observation-VitalSigns-BodyWeight.page.md
 - name: DataStandardsWales-Observation-VitalSigns
   filename: DataStandardsWales-Observation-VitalSigns.page.md
+- name: DataStandardsWales-AuditEvent
+  filename: DataStandardsWales-AuditEvent.page.md
 - name: Examples
   filename: Examples
+
