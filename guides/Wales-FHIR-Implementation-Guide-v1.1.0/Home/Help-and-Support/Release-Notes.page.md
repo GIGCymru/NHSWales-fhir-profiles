@@ -21,6 +21,7 @@ Package:
         * DataStandardsWales-BloodPressure-AverageSystolic
         * DataStandardsWales-BloodPressure-Diastolic
         * DataStandardsWales-BloodPressure-Systolic
+        * DataStandardsWales-BMI
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

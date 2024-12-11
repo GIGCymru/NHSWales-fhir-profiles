@@ -24,3 +24,5 @@
   filename: ValueSet-DataStandardsWales-BloodPressure-Diastolic.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-Systolic
   filename: ValueSet-DataStandardsWales-BloodPressure-Systolic.page.md
+- name: ValueSet-DataStandardsWales-BMI
+  filename: ValueSet-DataStandardsWales-BMI.page.md
