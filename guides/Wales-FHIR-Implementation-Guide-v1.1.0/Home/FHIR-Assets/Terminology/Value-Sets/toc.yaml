@@ -32,3 +32,5 @@
   filename: ValueSet-DataStandardsWales-BodyPosition.page.md
 - name: ValueSet-DataStandardsWales-BodyTemperature
   filename: ValueSet-DataStandardsWales-BodyTemperature.page.md
+- name: ValueSet-DataStandardsWales-BodyWeightMeasurements
+  filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md

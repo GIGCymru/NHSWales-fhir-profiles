@@ -25,6 +25,7 @@ Package:
         * DataStandardsWales-BodyHeightMeasurements
         * DataStandardsWales-BodyPosition
         * DataStandardsWales-BodyTemperature
+        * DataStandardsWales-BodyWeightMeasurements
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
