@@ -28,3 +28,5 @@
   filename: ValueSet-DataStandardsWales-BMI.page.md
 - name: ValueSet-DataStandardsWales-BodyHeightMeasurements
   filename: ValueSet-DataStandardsWales-BodyHeightMeasurements.page.md
+- name: ValueSet-DataStandardsWales-BodyPosition
+  filename: ValueSet-DataStandardsWales-BodyPosition.page.md

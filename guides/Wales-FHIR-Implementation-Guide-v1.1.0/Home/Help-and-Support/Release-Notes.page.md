@@ -23,6 +23,7 @@ Package:
         * DataStandardsWales-BloodPressure-Systolic
         * DataStandardsWales-BMI
         * DataStandardsWales-BodyHeightMeasurements
+        * DataStandardsWales-BodyPosition
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
