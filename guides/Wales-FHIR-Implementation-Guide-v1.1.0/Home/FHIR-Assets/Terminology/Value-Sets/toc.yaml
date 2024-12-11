@@ -20,3 +20,5 @@
   filename: ValueSet-DataStandardsWales-WrrsTaskType.page.md
 - name: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
   filename: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic.page.md
+- name: ValueSet-DataStandardsWales-BloodPressure-Diastolic
+  filename: ValueSet-DataStandardsWales-BloodPressure-Diastolic.page.md
