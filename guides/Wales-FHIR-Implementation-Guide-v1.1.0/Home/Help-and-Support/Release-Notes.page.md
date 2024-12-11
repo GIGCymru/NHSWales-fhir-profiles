@@ -2,6 +2,33 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.1.0 STU2
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+        * DataStandardsWales-AuditEvent
+        * DataStandardsWales-Observation-VitalSigns
+        * DataStandardsWales-Observation-VitalSigns-BMI
+        * DataStandardsWales-Observation-VitalSigns-BodyHeight
+        * DataStandardsWales-Observation-VitalSigns-BodyWeight
+        * DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Questionnaire
+        * DataStandardsWales-QuestionnaireResponse
+    * Changes to Profiles
+        * 
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
+    * New Value Sets
+        * DataStandardsWales-BloodPressure-AverageSystolic
+        * 
+    
+Guide:
+* Updated relevant pages within the Guide to reflect changes outlined in Package.
+
+
+        
+
+
+
 ### v2.0.0 STU2
 As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
 In addition to the removal of replicate content, the following changes were made: 
