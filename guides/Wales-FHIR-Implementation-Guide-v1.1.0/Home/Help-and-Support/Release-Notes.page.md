@@ -19,7 +19,8 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
     * New Value Sets
         * DataStandardsWales-BloodPressure-AverageSystolic
-        * 
+        * DataStandardsWales-BloodPressure-Diastolic
+        * DataStandardsWales-BloodPressure-Systolic
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
