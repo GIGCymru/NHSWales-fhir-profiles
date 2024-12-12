@@ -42,3 +42,5 @@
   filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
 - name: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes
   filename: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes.page.md
+- name: ValueSet-DataStandardsWales-RecordingSetting
+  filename: ValueSet-DataStandardsWales-RecordingSetting.page.md

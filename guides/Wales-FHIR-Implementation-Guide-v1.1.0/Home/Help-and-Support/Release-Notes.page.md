@@ -30,6 +30,7 @@ Package:
         * DataStandardsWales-ObservationVitalSignsType
         * DataStandardsWales-OxygenSaturation
         * DataStandardsWales-QuestionnaireQuestionCodes
+        * DataStandardsWales-RecordingSetting
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

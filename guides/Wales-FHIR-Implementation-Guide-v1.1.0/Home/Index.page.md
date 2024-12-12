@@ -173,7 +173,7 @@ These pages contain guidance on the following areas:
   </tbody>
 </table>
 
-<table id="resourceIndex" class="table table-striped" style="width:33%">
+<table id="resourceIndex" class="table table-striped">
   <thead>
     <tr>
       <th scope="col" colspan="2">Security and Privacy</th>
