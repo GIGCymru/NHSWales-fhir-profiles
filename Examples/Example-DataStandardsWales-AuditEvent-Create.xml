@@ -1,0 +1,41 @@
+<AuditEvent xmlns="http://hl7.org/fhir">
+    <id value="Example-AuditEvent-CreateObservations" />
+    <type>
+        <system value="http://terminology.hl7.org/CodeSystem/audit-event-type" />
+        <code value="rest" />
+        <display value="Restful Operation" />
+    </type>
+    <subtype>
+        <system value="http://hl7.org/fhir/restful-interaction" />
+        <code value="create" />
+        <display value="create" />
+    </subtype>
+    <action value="C" />
+    <recorded value="2024-07-21T14:03:59.001250+00:00" />
+    <agent>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/extra-security-role-type" />
+                <code value="humanuser" />
+                <display value="human user" />
+            </coding>
+        </type>
+        <who>
+            <reference value="Practitioner/Example-Practitioner-NadexIdentifier" />
+            <display value="Mark Smith (Healthcare Assistant)" />
+        </who>
+        <altId value="ma001999" />
+        <name value="Mark Smith" />
+        <requestor value="true" />
+    </agent>
+    <entity>
+        <what>
+            <reference value="Observation/example1/_history/1" />
+        </what>
+    </entity>
+    <entity>
+        <what>
+            <reference value="Observation/example2/_history/1" />
+        </what>
+    </entity>
+</AuditEvent>
