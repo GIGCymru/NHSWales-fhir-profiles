@@ -16,6 +16,9 @@ Package:
         * DataStandardsWales-QuestionnaireResponse
     * Changes to Profiles
         * 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
+    * New Extension:
+        * DataStandardsWales-RecordingSetting
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Code Systems}}:
     * New Code System
         * DataStandardsWales-RecordingSetting
@@ -36,6 +39,7 @@ Package:
         * DataStandardsWales-RecordingSetting
         * DataStandardsWales-RespirationRate
         * DataStandardsWales-HeadCircumferenceMeasurements
+
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
