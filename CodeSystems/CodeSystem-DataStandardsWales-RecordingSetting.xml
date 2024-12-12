@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="DataStandardsWales-RecordingSetting" />
-    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWalesRecordingSetting" />
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-RecordingSetting" />
     <version value="1.0.0" />
     <name value="DataStandardsWalesRecordingSetting" />
     <title value="Data Standards Wales CodeSystem Recording Setting" />
