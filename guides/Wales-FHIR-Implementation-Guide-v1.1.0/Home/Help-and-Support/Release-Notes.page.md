@@ -32,6 +32,7 @@ Package:
         * DataStandardsWales-QuestionnaireQuestionCodes
         * DataStandardsWales-RecordingSetting
         * DataStandardsWales-RespirationRate
+        * DataStandardsWales-HeadCircumferenceMeasurements
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

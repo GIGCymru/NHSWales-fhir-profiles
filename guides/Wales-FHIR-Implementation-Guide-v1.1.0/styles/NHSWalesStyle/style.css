@@ -457,9 +457,9 @@ span.url {
 table#resourceIndex {
   width: 100%;
     td.resource {
-        width: 27%
+        width: 27%;
     }  
     td.status{
-        width: 6%
+        width: 6%;
     }
 }

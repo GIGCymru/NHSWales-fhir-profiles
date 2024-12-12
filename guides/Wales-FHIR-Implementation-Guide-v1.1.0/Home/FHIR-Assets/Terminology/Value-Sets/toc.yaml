@@ -46,3 +46,5 @@
   filename: ValueSet-DataStandardsWales-RecordingSetting.page.md
 - name: ValueSet-DataStandardsWales-RespirationRate
   filename: ValueSet-DataStandardsWales-RespirationRate.page.md
+- name: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements
+  filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
