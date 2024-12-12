@@ -38,3 +38,5 @@
   filename: ValueSet-DataStandardsWales-HeartRate.page.md
 - name: ValueSet-DataStandardsWales-ObservationVitalSignsType
   filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
+- name: ValueSet-DataStandardsWales-OxygenSaturation
+  filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
