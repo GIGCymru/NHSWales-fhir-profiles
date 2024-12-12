@@ -452,3 +452,14 @@ span.url {
   content: "Some of the links provided on this page are resources external to NHS Wales. While every effort has been made to ensure the information provided is appropriate at the time of publication we cannot guarantee the veracity of the content. The content contained on these sites are the responsibility of the owner and may change without warning. Links may also cease to work if the creator has decided to withdraw the page and we would ask you to inform the data standards team via the help and support page if you come across this.";
   color: black
 }
+
+ /* Equal width table cell */
+table#resourceIndex {
+  width: 100%;
+    td.resource {
+        width: 27%
+    }  
+    td.status{
+        width: 6%
+    }
+}
