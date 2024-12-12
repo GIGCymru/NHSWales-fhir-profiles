@@ -26,6 +26,7 @@ Package:
         * DataStandardsWales-BodyPosition
         * DataStandardsWales-BodyTemperature
         * DataStandardsWales-BodyWeightMeasurements
+        * DataStandardsWales-HeartRate
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

@@ -34,3 +34,5 @@
   filename: ValueSet-DataStandardsWales-BodyTemperature.page.md
 - name: ValueSet-DataStandardsWales-BodyWeightMeasurements
   filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md
+- name: ValueSet-DataStandardsWales-HeartRate
+  filename: ValueSet-DataStandardsWales-HeartRate.page.md
