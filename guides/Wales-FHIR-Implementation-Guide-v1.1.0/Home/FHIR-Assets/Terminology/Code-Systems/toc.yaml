@@ -6,6 +6,8 @@
   filename: CodeSystem-DataStandardsWales-MaritalStatus.page.md
 - name: CodeSystem-DataStandardsWales-PatientRecordType
   filename: CodeSystem-DataStandardsWales-PatientRecordType.page.md
+- name: CodeSystem-DataStandardsWales-RecordingSetting
+  filename: CodeSystem-DataStandardsWales-RecordingSetting.page.md
 - name: CodeSystem-DataStandardsWales-Sex
   filename: CodeSystem-DataStandardsWales-Sex.page.md
 - name: CodeSystem-DataStandardsWales-Title

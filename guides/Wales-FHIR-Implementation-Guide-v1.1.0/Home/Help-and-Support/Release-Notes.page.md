@@ -16,6 +16,9 @@ Package:
         * DataStandardsWales-QuestionnaireResponse
     * Changes to Profiles
         * 
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Code Systems}}:
+    * New Code System
+        * DataStandardsWales-RecordingSetting
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
     * New Value Sets
         * DataStandardsWales-BloodPressure-AverageSystolic
