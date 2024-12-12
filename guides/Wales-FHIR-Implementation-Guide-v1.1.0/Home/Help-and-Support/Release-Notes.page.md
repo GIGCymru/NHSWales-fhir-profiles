@@ -31,6 +31,7 @@ Package:
         * DataStandardsWales-OxygenSaturation
         * DataStandardsWales-QuestionnaireQuestionCodes
         * DataStandardsWales-RecordingSetting
+        * DataStandardsWales-RespirationRate
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

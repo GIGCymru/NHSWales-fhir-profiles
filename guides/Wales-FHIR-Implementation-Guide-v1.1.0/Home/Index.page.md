@@ -173,7 +173,7 @@ These pages contain guidance on the following areas:
   </tbody>
 </table>
 
-<table id="resourceIndex" class="table table-striped">
+<table id="resourceIndex" class="table table-striped" style="width:34%">
   <thead>
     <tr>
       <th scope="col" colspan="2">Security and Privacy</th>
@@ -182,7 +182,7 @@ These pages contain guidance on the following areas:
   <tbody>
 	</tr>
 	<tr>
-	  <td class="resource">{{pagelink:DataStandardsWales-AuditEvent}} </td>
+	  <td class="resource" style="width:74%">{{pagelink:DataStandardsWales-AuditEvent}} </td>
 	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	</tr>
 	<tr>
