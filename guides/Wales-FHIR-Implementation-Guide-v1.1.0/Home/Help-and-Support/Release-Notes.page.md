@@ -15,7 +15,17 @@ Package:
         * DataStandardsWales-Questionnaire
         * DataStandardsWales-QuestionnaireResponse
     * Changes to Profiles
-        * 
+        * DataStandardsWales-Observation
+            * Updated version from 0.1.0 to 0.1.1
+            * .performer. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .hasMember. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
+            * .derrivedFrom. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
+        * DataStandardsWales-Observation-Lab
+            * Updated version from 0.1.0 to 0.1.1
+            * .hasMember. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.1.1 to 1.1.2
+            * Added additional slice to the identifier for the NadexIdentifier
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
     * New Extension:
         * DataStandardsWales-RecordingSetting
@@ -40,13 +50,8 @@ Package:
         * DataStandardsWales-RespirationRate
         * DataStandardsWales-HeadCircumferenceMeasurements
 
-    
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
-
-
-        
-
 
 
 ### v2.0.0 STU2
