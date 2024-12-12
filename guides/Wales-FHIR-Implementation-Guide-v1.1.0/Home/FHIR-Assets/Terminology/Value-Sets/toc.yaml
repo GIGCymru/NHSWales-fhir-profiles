@@ -36,3 +36,5 @@
   filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md
 - name: ValueSet-DataStandardsWales-HeartRate
   filename: ValueSet-DataStandardsWales-HeartRate.page.md
+- name: ValueSet-DataStandardsWales-ObservationVitalSignsType
+  filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
