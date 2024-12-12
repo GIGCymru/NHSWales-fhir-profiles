@@ -40,3 +40,5 @@
   filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
 - name: ValueSet-DataStandardsWales-OxygenSaturation
   filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
+- name: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes
+  filename: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes.page.md

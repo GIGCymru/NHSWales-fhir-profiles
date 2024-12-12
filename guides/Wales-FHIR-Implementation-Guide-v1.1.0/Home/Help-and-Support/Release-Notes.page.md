@@ -29,6 +29,7 @@ Package:
         * DataStandardsWales-HeartRate
         * DataStandardsWales-ObservationVitalSignsType
         * DataStandardsWales-OxygenSaturation
+        * DataStandardsWales-QuestionnaireQuestionCodes
     
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
