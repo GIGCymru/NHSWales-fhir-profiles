@@ -1,0 +1,33 @@
+<Provenance xmlns="http://hl7.org/fhir">
+    <id value="Example-Provenance-PractitionerAndRole-HCA" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
+    </meta>
+    <target>
+        <reference value="Practitioner/Example-PractitionerRole-HealthCareAssistant/_history/1" />
+    </target>
+    <target>
+        <reference value="PractitionerRole/Example-PractitionerRole-HealthCareAssistant/_history/1" />
+    </target>
+    <recorded value="2024-08-08T08:06:07.046012Z" />
+    <activity>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+            <code value="receive" />
+            <display value="Receive/Retain Record Lifecycle Event" />
+        </coding>
+    </activity>
+    <agent>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type" />
+                <code value="composer" />
+                <display value="Composer" />
+            </coding>
+        </type>
+        <who>
+            <reference value="Device/6655b28d-dc8b-419c-acde-9b901448b261" />
+            <display value="Welsh Clinical Portal (ABUHB)" />
+        </who>
+    </agent>
+</Provenance>
