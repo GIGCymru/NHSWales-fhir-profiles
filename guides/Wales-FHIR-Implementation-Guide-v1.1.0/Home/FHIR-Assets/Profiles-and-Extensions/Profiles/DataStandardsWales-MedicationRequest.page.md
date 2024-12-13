@@ -62,7 +62,7 @@ Each MedicationRequest must support:
 7. reasonCode
 8. basedOn
 9. groupIdentifier
-10. courseOfTherayType
+10. courseOfTherapyType
 11. note
 12. dosageInstruction
 13. dispenseRequest
