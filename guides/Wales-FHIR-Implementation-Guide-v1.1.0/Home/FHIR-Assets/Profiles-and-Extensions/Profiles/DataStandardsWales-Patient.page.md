@@ -54,7 +54,7 @@ Each Patient record must support:
    * Other patient identifiers can also be included where known e.g., Welsh Demographic Service or Health Board PAS identifiers.
    * Identifier systems should use the NamingSystem URIs which are defined in the guide rather than OIDS.
 * Address and contact information
-* The status of the patient record (i.e., whether is still active )
+* The status of the patient record (i.e. whether is still active )
 * A deceased indicator
 
 The following elements are defined by [Core Reference Data Standards](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm), which are also marked as must be supported:
