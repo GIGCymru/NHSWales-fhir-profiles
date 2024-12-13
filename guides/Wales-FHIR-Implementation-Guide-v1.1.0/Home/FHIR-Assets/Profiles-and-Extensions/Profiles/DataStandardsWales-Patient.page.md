@@ -85,9 +85,7 @@ The following identifier slices for use with the patient profile are listed belo
  
 * `Patient.identifier:nhsNumber` 
 * `Patient.identifier:abuhbPasIdentifier` 
-* `Patient.identifier:bcuhbCentralPasIdentifier`  
-* `Patient.identifier:bcuhbEastPasIdentifier` 
-* `Patient.identifier:bcuhbWestPasIdentifier` 
+* `Patient.identifier:bcuhbPasIdentifier`  
 * `Patient.identifier:cavuhbPasIdentifier` 
 * `Patient.identifier:ctmuhbPasIdentifier` 
 * `Patient.identifier:hduhbPasIdentifier` 
