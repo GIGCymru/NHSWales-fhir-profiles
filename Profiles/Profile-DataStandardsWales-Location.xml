@@ -86,5 +86,12 @@
       <path value="Location.partOf.identifier.value" />
       <min value="1" />
     </element>
+    <element id="Location.endpoint">
+      <path value="Location.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
