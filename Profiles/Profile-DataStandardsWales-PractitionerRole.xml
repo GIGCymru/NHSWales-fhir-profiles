@@ -46,5 +46,12 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
       </type>
     </element>
+    <element id="PractitionerRole.endpoint">
+      <path value="PractitionerRole.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
