@@ -27,9 +27,9 @@
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/DataStandardsWales-MedicationRequest" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
       </type>
     </element>
     <element id="DiagnosticReport.subject">
