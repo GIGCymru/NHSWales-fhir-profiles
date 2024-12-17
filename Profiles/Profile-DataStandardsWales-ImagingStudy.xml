@@ -70,6 +70,13 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="ImagingStudy.procedureReference">
+      <path value="ImagingStudy.procedureReference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
+    </element>
     <element id="ImagingStudy.location">
       <path value="ImagingStudy.location" />
       <type>
