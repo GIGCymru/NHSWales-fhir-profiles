@@ -40,6 +40,13 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
     </element>
+    <element id="Encounter.basedOn">
+      <path value="Encounter.basedOn" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
+      </type>
+    </element>
     <element id="Encounter.participant.individual">
       <path value="Encounter.participant.individual" />
       <type>
