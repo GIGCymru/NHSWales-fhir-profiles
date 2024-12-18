@@ -2,6 +2,55 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.1.0 STU2
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * Changes to Profiles
+        * DataStandardsWales-AllergyIntolerance
+            * Updated version from 0.1.0 to 0.1.1
+            * .recorder. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .asserter. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .reaction.note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-AllergyList
+            * Updated version from 1.2.0 to 1.2.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Encounter
+            * Updated version from 0.1.0 to 0.1.1
+            * .basedOn. Removed reference to HL7 ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
+            * .participant.individual. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Immunization
+            * Updated version from 0.1.0 to 0.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationAdministration
+            * Updated version from 1.1.0 to 1.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationDispense
+            * Updated version from 1.1.0 to 1.1.1
+            * .performer.actor. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+        * DataStandardsWales-MedicationList
+            * Updated version from 1.1.0 to 1.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.1.0 to 1.1.1
+            * .reported[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .encounter. Removed reference to HL7 Encounter. Added reference to DataStandardsWales-Encounter
+            * .requester. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationStatement
+            * Updated version from 1.1.0 to 1.1.1
+            * note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Observation
+            * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-ServiceRequest
+            * Updated version from 0.1.0 to 0.1.1
+            * .requester. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+
+
+
 ### v2.0.0 STU2
 As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
 In addition to the removal of replicate content, the following changes were made: 
