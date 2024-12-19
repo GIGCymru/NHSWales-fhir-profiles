@@ -25,6 +25,7 @@ Package:
         * DataStandardsWales-MedicationAdministration
             * Updated version from 1.1.0 to 1.1.1
             * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer.actor. Removed reference to UKCore-RelatedPersonDevice. Added reference to DataStandardsWales-Device
         * DataStandardsWales-MedicationDispense
             * Updated version from 1.1.0 to 1.1.1
             * .performer.actor. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
