@@ -47,6 +47,36 @@ Package:
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Observation
             * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Provenance
+            * Updated version from 0.0.1 to 0.0.2
+            * .agent.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * agent.onBehalfOf
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * .signature.who.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * .signature.onBehalfOf.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.0 to 0.1.1
             * .requester. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
