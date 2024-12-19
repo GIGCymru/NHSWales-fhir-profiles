@@ -5,6 +5,15 @@ This page describes the published versions of this implementation guide and diff
 ### v2.1.0 STU2
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+        * DataStandardsWales-AuditEvent
+        * DataStandardsWales-Observation-VitalSigns-BMI
+        * DataStandardsWales-Observation-VitalSigns-BodyHeight
+        * DataStandardsWales-Observation-VitalSigns-BodyWeight
+        * DataStandardsWales-Observation-VitalSigns
+        * DataStandardsWales-Questionnaire
+        * DataStandardsWales-QuestionnaireResponse
+        * DataStandardsWales-RelatedPerson
     * Changes to Profiles
         * DataStandardsWales-AllergyIntolerance
             * Updated version from 0.1.0 to 0.1.1
@@ -82,7 +91,30 @@ Package:
             * .requester. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .performer. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-
+    * New Extensions
+        * DataStandardsWales-RecordingSetting
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Value Sets
+        * DataStandardsWales-BloodPressure
+        * DataStandardsWales-BloodPressureDiastolic
+        * DataStandardsWales-BloodPressureSystolic
+        * DataStandardsWales-BMI
+        * DataStandardsWales-BodyHeightMeasurement
+        * DataStandardsWales-BodyPosition
+        * DataStandardsWales-BodyTemperature
+        * DataStandardsWales-BodyWeightMeasurement
+        * DataStandardsWales-HeadCircumferenceMeasurement
+        * DataStandardsWales-HeartRate
+        * DataStandardsWales-ObservationVitalSignsType
+        * DataStandardsWales-OxygenSaturation
+        * DataStandardsWales-QuestionnaireQuestionCodes
+        * DataStandardsWales-RecordingSetting
+        * DataStandardsWales-RespirationRate
+    * New Code Systems
+        * DataStandardsWales-RecordingSetting
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * NADEX-Identifier
 
 
 ### v2.0.0 STU2
