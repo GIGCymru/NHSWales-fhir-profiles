@@ -43,6 +43,13 @@ Package:
             * .encounter. Removed reference to HL7 Encounter. Added reference to DataStandardsWales-Encounter
             * .requester. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationStatement
+            * .informationSource. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Patient
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
