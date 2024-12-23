@@ -66,6 +66,9 @@ Package:
         * DataStandardsWales-Observation
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Organization
+            * Updated version from 1.1.0 to 1.1.1
+            * .endpoint. Removed reference to HL7 Endpoint. Added reference to DataStandardsWales-Endpoint
         * DataStandardsWales-Provenance
             * Updated version from 0.0.1 to 0.0.2
             * .agent.who. Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
