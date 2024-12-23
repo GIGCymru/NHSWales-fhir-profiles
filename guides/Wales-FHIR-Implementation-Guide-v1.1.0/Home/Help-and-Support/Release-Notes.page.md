@@ -38,6 +38,11 @@ Package:
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationList
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationRequest
+            * .reported[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .encounter. Removed reference to HL7 Encounter. Added reference to DataStandardsWales-Encounter
+            * .requester. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Patient
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
