@@ -6,6 +6,10 @@ This page describes the published versions of this implementation guide and diff
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * Changes to Profiles
+        * DataStandardsWales-Patient
+            * .link.other
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Provenance
             * Updated version from 0.0.1 to 0.0.2
             * .agent.who. Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
