@@ -92,6 +92,13 @@ Package:
             * .requester. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Specimen
+            * Updated version from 0.1.0 to 0.1.1
+            * .note.author[x]
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
 
 ### v2.0.0 STU2
 As part of our commitment to quality assurance and interoperability, we undertook an exercise to review and align the existing FHIR Standards Wales Package with UK Core STU2 (fhir.r4.ukcore.stu2 2.0.1). This resulted in us rationalising the FHIR Standards Wales Package where possible, removing detail that can already be derived from UK Core STU2, whilst still adhering to the principles of FHIR and supporting Wales specific content where required. 
