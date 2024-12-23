@@ -6,6 +6,11 @@ This page describes the published versions of this implementation guide and diff
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * Changes to Profiles
+        * DataStandardsWales-AllergyIntolerance
+            * .recorder. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .asserter. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .reaction.note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Patient
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
