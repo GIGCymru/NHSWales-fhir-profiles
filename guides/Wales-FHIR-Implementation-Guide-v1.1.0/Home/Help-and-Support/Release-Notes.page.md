@@ -30,6 +30,9 @@ Package:
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+        * DataStandardsWales-MedicationAdministration
+            * .performer.actor. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Patient
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
