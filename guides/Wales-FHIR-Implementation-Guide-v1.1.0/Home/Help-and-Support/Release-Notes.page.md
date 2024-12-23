@@ -21,6 +21,8 @@ Package:
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-DiagnosticReport
             * .basedOn. Removed reference to UK Core ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
+        * DataStandardsWales-Encounter
+            * .participant.individual. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Patient
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
