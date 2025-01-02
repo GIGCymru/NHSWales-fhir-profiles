@@ -7,7 +7,6 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-AuditEvent
-												   
         * DataStandardsWales-Observation-VitalSigns-BMI
         * DataStandardsWales-Observation-VitalSigns-BodyHeight
         * DataStandardsWales-Observation-VitalSigns-BodyWeight
@@ -43,7 +42,6 @@ Package:
                 * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-												 
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Immunization
             * Updated version from 0.1.0 to 0.1.1
@@ -80,14 +78,8 @@ Package:
             * Updated version from 0.1.0 to 0.1.1
             * .performer
                 * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
-																												   
-																											 
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
-																							   
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
-							  
-																										   
-																												   
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
                 * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
@@ -125,14 +117,8 @@ Package:
             * Updated version from 0.1.0 to 0.1.1
             * .note.author[x]
                 * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
-																												   
-																											 
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
-																							   
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
-									
-																										   
-																												   
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
     * New Extensions
         * DataStandardsWales-RecordingSetting
