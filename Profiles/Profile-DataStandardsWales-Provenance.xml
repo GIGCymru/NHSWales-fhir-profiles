@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Provenance" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
-  <version value="0.0.1" />
+  <version value="0.0.2" />
   <name value="DataStandardsWalesProvenance" />
   <title value="Data Standards Wales Provenance" />
   <status value="draft" />
@@ -51,9 +51,57 @@
       <path value="Provenance.agent" />
       <mustSupport value="true" />
     </element>
+    <element id="Provenance.agent.who">
+      <path value="Provenance.agent.who" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Provenance.agent.onBehalfOf">
+      <path value="Provenance.agent.onBehalfOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
     <element id="Provenance.signature">
       <path value="Provenance.signature" />
       <mustSupport value="true" />
+    </element>
+    <element id="Provenance.signature.who">
+      <path value="Provenance.signature.who" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Provenance.signature.onBehalfOf">
+      <path value="Provenance.signature.onBehalfOf" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>

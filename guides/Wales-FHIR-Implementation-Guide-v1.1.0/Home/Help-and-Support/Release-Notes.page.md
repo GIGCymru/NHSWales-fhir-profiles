@@ -15,41 +15,108 @@ Package:
         * DataStandardsWales-Questionnaire
         * DataStandardsWales-QuestionnaireResponse
     * Changes to Profiles
+        * DataStandardsWales-AllergyIntolerance
+            * Updated version from 0.1.0 to 0.1.1
+            * .recorder. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .asserter. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .reaction.note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-AllergyList
+            * Updated version from 1.2.0 to 1.2.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Encounter
+            * Updated version from 0.1.0 to 0.1.1
+            * .basedOn. Removed reference to HL7 ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
+            * .participant.individual. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Immunization
+            * Updated version from 0.1.0 to 0.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationAdministration
+            * Updated version from 1.1.0 to 1.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer.actor. Removed reference to UKCore-RelatedPersonDevice. Added reference to DataStandardsWales-Device
+        * DataStandardsWales-MedicationDispense
+            * Updated version from 1.1.0 to 1.1.1
+            * .performer.actor. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+        * DataStandardsWales-MedicationList
+            * Updated version from 1.1.0 to 1.1.1
+            * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson 
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.1.0 to 1.1.1
+            * .reported[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .encounter. Removed reference to HL7 Encounter. Added reference to DataStandardsWales-Encounter
+            * .requester. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+            * .performer. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-MedicationStatement
+            * Updated version from 1.1.0 to 1.1.1
+            * note.author[x]. 
+                * Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Observation
+            * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Provenance
+            * Updated version from 0.0.1 to 0.0.2
+            * .agent.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * agent.onBehalfOf
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * .signature.who.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+            * .signature.onBehalfOf.
+                * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
+                * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 Device. Added reference to DataStandardsWales-Device
+                * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
+        * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.0 to 0.1.1
+            * .requester. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .performer. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
-            * .hasMember. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
-            * .derrivedFrom. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
-        * DataStandardsWales-Observation-Lab
-            * Updated version from 0.1.0 to 0.1.1
-            * .hasMember. Removed reference to HL7 QuestionnaireResponse. Added reference to DataStandardsWales-QuestionnaireResponse
-        * DataStandardsWales-Practitioner
-            * Updated version from 1.1.1 to 1.1.2
-            * Added additional slice to the identifier for the NadexIdentifier
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Extensions}}:
-    * New Extension:
+            * .note.author[x]. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+    * New Extensions
         * DataStandardsWales-RecordingSetting
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Code Systems}}:
-    * New Code System
-        * DataStandardsWales-RecordingSetting
-* {{pagelink:Home/FHIR-Assets/Terminology,text:Value Sets}}:
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Value Sets
-        * DataStandardsWales-BloodPressure-AverageSystolic
-        * DataStandardsWales-BloodPressure-Diastolic
-        * DataStandardsWales-BloodPressure-Systolic
+        * DataStandardsWales-BloodPressure
+        * DataStandardsWales-BloodPressureDiastolic
+        * DataStandardsWales-BloodPressureSystolic
         * DataStandardsWales-BMI
-        * DataStandardsWales-BodyHeightMeasurements
+        * DataStandardsWales-BodyHeightMeasurement
         * DataStandardsWales-BodyPosition
         * DataStandardsWales-BodyTemperature
-        * DataStandardsWales-BodyWeightMeasurements
+        * DataStandardsWales-BodyWeightMeasurement
+        * DataStandardsWales-HeadCircumferenceMeasurement
         * DataStandardsWales-HeartRate
         * DataStandardsWales-ObservationVitalSignsType
         * DataStandardsWales-OxygenSaturation
         * DataStandardsWales-QuestionnaireQuestionCodes
         * DataStandardsWales-RecordingSetting
         * DataStandardsWales-RespirationRate
-        * DataStandardsWales-HeadCircumferenceMeasurements
-
+    * New Code Systems
+        * DataStandardsWales-RecordingSetting
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * NADEX-Identifier
+        
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
 

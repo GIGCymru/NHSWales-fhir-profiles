@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-MedicationList" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationList" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesMedicationList" />
   <title value="Data Standards Wales Medication List" />
   <status value="active" />
@@ -59,10 +59,10 @@
       <path value="List.note.author[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <type>
         <code value="string" />
