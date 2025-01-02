@@ -1,0 +1,23 @@
+{
+    "resourceType": "Practitioner",
+    "id": "2afa6a02-26f1-468a-a55e-a40bcf339a57",
+    "meta": {
+        "profile":  [
+            "https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner"
+        ]
+    },
+    "identifier":  [
+        {
+            "system": "https://fhir.nhs.wales/Id/nadex-identifier",
+            "value": "ma000199"
+        }
+    ],
+    "name":  [
+        {
+            "family": "Smith",
+            "given":  [
+                "Mark"
+            ]
+        }
+    ]
+}

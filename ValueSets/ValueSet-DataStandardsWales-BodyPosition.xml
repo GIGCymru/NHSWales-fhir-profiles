@@ -1,0 +1,102 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BodyPosition" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyPosition" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBodyPosition" />
+    <title value="Data Standards Wales ValueSet Body Position" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BodyPosition v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients body position when a clinical observation was taken. Selected from the SNOMED CT UK coding system: \n - 30212006 | Fowler's position (finding) \n - 26527006 | Inverse Trendelenburg position (finding) \n - 102536004 | Left lateral decubitus position (finding) \n - 414585002 | Left lateral tilt (finding) \n - 10904000 | Orthostatic body position (finding) \n - 1240000 | Prone body position (finding) \n - 102538003 | Recumbent body position (finding) \n - 423413008 | Reverse trendelenburg positioning (finding) \n - 102535000 | Right lateral decubitus position (finding) \n - 415346000 | Right lateral tilt (finding) \n - 33586001 | Sitting position (finding) \n - 40199007 | Supine body position (finding) \n - 34106002 | Trendelenburg position (finding)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="30212006 OR 26527006 OR 102536004 OR 414585002 OR 10904000 OR 1240000 OR 102538003 OR 423413008 OR 102535000 OR 415346000 OR 33586001 OR 40199007 OR 34106002" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="6f0541ae-6911-4576-8006-87ea5e2674c3" />
+        <timestamp value="2023-11-06T11:19:00+00:00" />
+        <total value="13" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="30212006" />
+            <display value="Fowler's position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="26527006" />
+            <display value="Inverse Trendelenburg position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="102536004" />
+            <display value="Left lateral decubitus position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="414585002" />
+            <display value="Left lateral tilt" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="10904000" />
+            <display value="Orthostatic body position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1240000" />
+            <display value="Prone body position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="102538003" />
+            <display value="Recumbent body position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="423413008" />
+            <display value="Reverse trendelenburg positioning" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="102535000" />
+            <display value="Right lateral decubitus position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="415346000" />
+            <display value="Right lateral tilt" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="33586001" />
+            <display value="Sitting position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="40199007" />
+            <display value="Supine body position" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="34106002" />
+            <display value="Trendelenburg position" />
+        </contains>
+    </expansion>
+</ValueSet>

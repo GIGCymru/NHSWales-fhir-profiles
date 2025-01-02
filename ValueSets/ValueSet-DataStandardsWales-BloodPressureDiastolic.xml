@@ -1,0 +1,72 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BloodPressure-Diastolic" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure-Diastolic" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBloodPressureDiastolic" />
+    <title value="Data Standards Wales ValueSet Blood Pressure Diastolic" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BloodPressure-Diastolic v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for the recording of a single diastolic blood pressure reading. Selected from the SNOMED CT UK coding system: \n - 163031004 | On examination - Diastolic blood pressure reading (finding) \n - 271650006 | Diastolic blood pressure (observable entity) \n - 1091811000000102  | Diastolic arterial pressure (observable entity) \n - 407557002 | Lying diastolic blood pressure (observable entity) \n - 1162735000 | Self reported diastolic blood pressure (observable entity) \n - 407555005 | Sitting diastolic blood pressure (observable entity) \n - 400975005 | Standing diastolic blood pressure (observable entity)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="163031004 OR 271650006 OR 1091811000000102 OR 407557002 OR 1162735000 OR 407555005 OR 400975005" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="8e223e38-e1dd-4f5c-a89f-d05786c01f31" />
+        <timestamp value="2023-11-01T08:31:00+00:00" />
+        <total value="7" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1091811000000102" />
+            <display value="Diastolic arterial pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="271650006" />
+            <display value="Diastolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="407557002" />
+            <display value="Lying diastolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="163031004" />
+            <display value="O/E - Diastolic BP reading" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162735000" />
+            <display value="Self reported diastolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="407555005" />
+            <display value="Sitting diastolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="400975005" />
+            <display value="Standing diastolic blood pressure" />
+        </contains>
+    </expansion>
+</ValueSet>

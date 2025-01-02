@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BMI" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BMI" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBMI" />
+    <title value="Data Standards Wales ValueSet BMI" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BMI v1.0.1 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients level of consciousness. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 60621009 | Body mass index (observable entity) \n - DescendantOrSelfOf 446974000 |Body mass index centile (observable entity \n - MINUS  &amp;nbsp;\n - 846931000000101 | Baseline body mass index (observable entity) &amp;nbsp;\n - 852451000000103 | Maximum body mass index (observable entity) &amp;nbsp;\n - 852461000000100 | Minimum body mass index (observable entity) &amp;nbsp;\n - 715456008 | Percentage median body mass index for age and sex (observable entity) &amp;nbsp;\n - 846911000000109 | Baseline body mass index centile (observable entity) &amp;nbsp;\n - 1153596006 | Body mass index for age z-score (observable entity) &amp;nbsp;\n - 248358009 | Weight for height (observable entity)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="(DescendantOrSelfOf 60621009 OR DescendantOrSelfOf 446974000) MINUS (846931000000101 OR 852451000000103 OR 852461000000100 OR 715456008 OR 846911000000109 OR 1153596006 OR 248358009)" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="19fb99b5-b096-4514-8e0a-1548fcbe7d87" />
+        <timestamp value="2023-10-31T21:11:00+00:00" />
+        <total value="5" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="60621009" />
+            <display value="Body mass index" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="446974000" />
+            <display value="BMI (body mass index) centile" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1153602009" />
+            <display value="Body mass index for age percentile" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="896691000000102" />
+            <display value="Child body mass index centile" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="926011000000101" />
+            <display value="Down syndrome body mass index centile" />
+        </contains>
+    </expansion>
+</ValueSet>
