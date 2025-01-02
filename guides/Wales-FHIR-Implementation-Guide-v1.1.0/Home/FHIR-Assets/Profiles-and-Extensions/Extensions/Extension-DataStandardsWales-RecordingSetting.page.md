@@ -1,7 +1,7 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture the patients religion.
+An extension to record the care setting.
 
 ### Purpose
 This extension is a clinical observation use case to record the care setting in which an observation was recorded in.
