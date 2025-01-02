@@ -1,0 +1,97 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Observation-VitalSigns-BodyHeight" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyHeight" />
+  <version value="1.0.0" />
+  <name value="DataStandardsWalesObservationVitalSignsBodyHeight" />
+  <title value="Data Standards Wales Observation Vital Signs Body Height" />
+  <status value="draft" />
+  <date value="2025-01-01" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="NHS Wales" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="Resource structure is based on UKCore-Observation-VitalSigns v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. Defines the additional constraints and extensions on the Data Standards Wales Observation Vital Signs profile" />
+  <purpose value="To provide implementers with additional support when implementing length / height measuring and to provide a consistent structure to how the data is presented." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.code.coding:loinc">
+      <path value="Observation.code.coding" />
+      <sliceName value="loinc" />
+    </element>
+    <element id="Observation.code.coding:loinc.code">
+      <path value="Observation.code.coding.code" />
+      <fixedCode value="8302-2" />
+    </element>
+    <element id="Observation.code.coding:snomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="snomedCT" />
+      <binding>
+        <strength value="preferred" />
+        <description value="Resource structure is based on UKCore-X vX.X.X which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for length measurements." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyHeightMeasurements" />
+      </binding>
+    </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+      </type>
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="Quantity" />
+      </type>
+    </element>
+    <element id="Observation.value[x].unit">
+      <path value="Observation.value[x].unit" />
+      <fixedString value="meter" />
+    </element>
+    <element id="Observation.value[x].system">
+      <path value="Observation.value[x].system" />
+      <fixedUri value="http://unitsofmeasure.org" />
+    </element>
+    <element id="Observation.value[x].code">
+      <path value="Observation.value[x].code" />
+      <fixedCode value="m" />
+    </element>
+    <element id="Observation.hasMember">
+      <path value="Observation.hasMember" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+      </type>
+    </element>
+    <element id="Observation.derivedFrom">
+      <path value="Observation.derivedFrom" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Media" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MolecularSequence" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-QuestionnaireResponse" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

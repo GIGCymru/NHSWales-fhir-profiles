@@ -1,0 +1,112 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-OxygenSaturation" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-OxygenSaturation" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesOxygenSaturation" />
+    <title value="Data Standards Wales ValueSet Oxygen Saturation" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-OxygenSaturation v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients level of consciousness. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 103228002 | Hemoglobin saturation with oxygen (observable entity) \n - MINUS  &amp;nbsp;\n - DescendantOrSelfOf 927981000000106 | Baseline oxygen saturation at periphery &amp;nbsp;\n - DescendantOrSelfOf 852651000000100 | Maximum peripheral oxygen saturation &amp;nbsp;\n - DescendantOrSelfOf 852661000000102 | Minimum peripheral oxygen saturation &amp;nbsp;\n - DescendantOrSelfOf 852641000000103 | Target peripheral oxygen saturation &amp;nbsp;\n - DescendantOrSelfOf 442349007 | Venous oxygen saturation" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="DescendantOrSelfOf 103228002 MINUS (DescendantOrSelfOf 927981000000106 OR DescendantOrSelfOf 852651000000100 OR DescendantOrSelfOf 852661000000102 OR DescendantOrSelfOf 852641000000103 OR DescendantOrSelfOf 442349007)" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="b6e8fe07-0f7e-4f44-b956-0f63b2286c2c" />
+        <timestamp value="2023-10-31T15:59:00+00:00" />
+        <total value="15" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="442476006" />
+            <display value="Arterial oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1097811000000106" />
+            <display value="Arterial oxygen saturation on room air at rest" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1097821000000100" />
+            <display value="Arterial oxygen saturation on supplemental oxygen at rest" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="103228002" />
+            <display value="Blood oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1017311000000104" />
+            <display value="Blood oxygen saturation (calculated)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="442440005" />
+            <display value="Capillary oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="718059008" />
+            <display value="Cerebral oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="373638005" />
+            <display value="Conjunctival oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="442381003" />
+            <display value="Intracardiac oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="442386008" />
+            <display value="Jugular bulb oxygen saturation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="866661000000106" />
+            <display value="Peripheral blood oxygen saturation on room air at rest" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="866681000000102" />
+            <display value="Peripheral blood oxygen saturation on room air on exertion" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="866701000000100" />
+            <display value="Peripheral blood oxygen saturation on supplemental oxygen at rest" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="866721000000109" />
+            <display value="Peripheral blood oxygen saturation on supplemental oxygen on exertion" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="431314004" />
+            <display value="Peripheral oxygen saturation" />
+        </contains>
+    </expansion>
+</ValueSet>

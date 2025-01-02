@@ -1,0 +1,97 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BodyHeightMeasurements" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyHeightMeasurements" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBodyHeightMeasurements" />
+    <title value="Data Standards Wales ValueSet Body Height Measurements" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BodyHeightMeasurements v1.0.1 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for the measurement of body lengths or heights. Selected from the SNOMED CT UK coding system: \n - 248337003 | Height from demispan (observable entity) \n - 1003998008 | Arm demispan (observable entity) \n - DescendantOrSelfOf 50373000 | Body height measure (observable entity) \n - MINUS  &amp;nbsp;\n - 925931000000103 | Mid-parental height (observable entity)) &amp;nbsp;\n - 925951000000105 | Predicted adult height (observable entity) &amp;nbsp;\n - 248336007 | Pubis to ground height (observable entity) &amp;nbsp;\n - 276350001 | Subischial leg length (observable entity) &amp;nbsp;\n - 1153591001 | Length for age percentile (observable entity) &amp;nbsp;\n - 1153604005 | Body height for age z-score (observable entity) &amp;nbsp;\n - 1153590000 | Length for age z score (observable entity)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="(248337003 OR 1003998008 or descendantOrSelfOf 50373000) MINUS (925931000000103 OR 925951000000105 OR 248336007 OR 276350001 OR 1153591001 OR 1153604005 OR 1153590000)" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="bf1f8055-a123-421d-9c88-981892e6c285" />
+        <timestamp value="2023-10-31T21:13:00+00:00" />
+        <total value="12" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1003998008" />
+            <display value="Arm demispan" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1153637007" />
+            <display value="Body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="50373000" />
+            <display value="Body height measure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162418000" />
+            <display value="Estimated body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="248337003" />
+            <display value="Height from demispan" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162417005" />
+            <display value="Pre-amputation estimated body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162392001" />
+            <display value="Pre-amputation measured body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1149101003" />
+            <display value="Recumbent body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162419008" />
+            <display value="Self reported body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1230278008" />
+            <display value="Self reported peak adult body height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="248335006" />
+            <display value="Sitting height" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="248333004" />
+            <display value="Standing height" />
+        </contains>
+    </expansion>
+</ValueSet>

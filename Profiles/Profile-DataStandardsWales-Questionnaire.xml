@@ -1,0 +1,27 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Questionnaire" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
+  <version value="0.1.0" />
+  <name value="DataStandardsWalesQuestionnaire" />
+  <title value="Data Standards Wales Questionnaire" />
+  <status value="draft" />
+  <date value="2025-01-01" />
+  <publisher value="Data Standards Wales" />
+  <contact>
+    <name value="Data Standards Wales" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <purpose value="This profile is used to organise a collection of questions intended to solicit information from patients, providers or other individuals involved in the healthcare domain." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Questionnaire" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Questionnaire" />
+  <derivation value="constraint" />
+</StructureDefinition>
