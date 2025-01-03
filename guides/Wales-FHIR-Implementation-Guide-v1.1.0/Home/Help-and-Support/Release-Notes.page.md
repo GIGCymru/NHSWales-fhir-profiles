@@ -65,6 +65,7 @@ Package:
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationStatement
             * Updated version from 1.1.0 to 1.1.1
+            * .partOf. Removed reference to UK Core Observation. Added reference to DataStandardsWales-Observation
 			* .informationSource. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * note.author[x]. 
                 * Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
