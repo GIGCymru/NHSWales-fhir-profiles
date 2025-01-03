@@ -7,7 +7,7 @@ The [RelatedPerson](https://www.hl7.org/fhir/r4/relatedperson.html) resource is 
 
 The {{page-title}} profile is derived from the [UK Core RelatedPerson Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-RelatedPerson?version=current). It defines additional rules for use within health and care organisations in Wales.
 
-A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson}}
+A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson}}
 
 
 ### Formal Views of Profile Content
