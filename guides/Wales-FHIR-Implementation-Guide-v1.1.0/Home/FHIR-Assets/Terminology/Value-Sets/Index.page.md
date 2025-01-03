@@ -23,6 +23,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-RecordingSetting, text:ValueSet-DataStandardsWales-RecordingSetting}}
 * {{pagelink:ValueSet-DataStandardsWales-Religion, text:ValueSet-DataStandardsWales-Religion}}
 * {{pagelink:ValueSet-DataStandardsWales-RespirationRate, text:ValueSet-DataStandardsWales-RespirationRate}}
-* {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}
+* {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}}
 * {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
 * {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}
