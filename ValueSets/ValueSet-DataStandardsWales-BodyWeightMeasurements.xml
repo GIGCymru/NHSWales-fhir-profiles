@@ -1,0 +1,117 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BodyWeightMeasurements" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BodyWeightMeasurements" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBodyWeightMeasurements" />
+    <title value="Data Standards Wales ValueSet Body Weight Measurements" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BodyWeightMeasurements v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for the measurement of body weight. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 27113001 | Body weight (observable entity) \n - MINUS  &amp;nbsp;\n - DescendantOrSelfOf 301334000 | Birth weight centile (observable entity) &amp;nbsp;\n - DescendantOrSelfOf 400967004 | Baseline weight (observable entity) &amp;nbsp;\n - DescendantOrSelfOf 248351003 | Previous well-weight (observable entity)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="descendantOrSelfOf 27113001 MINUS (descendantOrSelfOf 301334000 OR descendantOrSelfOf 400967004 OR descendantOrSelfOf 170804003 OR descendantOrSelfOf 852321000000100 OR descendantOrSelfOf 852311000000106 OR descendantOrSelfOf 248351003 OR descendantOrSelfOf 390734006 OR descendantOrSelfOf 363809009)" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="d75409bd-f6ae-4634-8521-4f9bd9b43a29" />
+        <timestamp value="2023-10-31T15:26:00+00:00" />
+        <total value="16" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="364589006" />
+            <display value="Birth weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="27113001" />
+            <display value="Body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="363808001" />
+            <display value="Body weight measure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="424927000" />
+            <display value="Body weight with shoes" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="425024002" />
+            <display value="Body weight without shoes" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="735395000" />
+            <display value="Current body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162388008" />
+            <display value="Dosing body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="445541000" />
+            <display value="Dry body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="443245006" />
+            <display value="Estimated weight using Broselow Luten paediatric weight estimation" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162420002" />
+            <display value="Post-dialysis body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162414003" />
+            <display value="Pre-amputation estimated body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162416001" />
+            <display value="Pre-amputation measured body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162421003" />
+            <display value="Pre-dialysis body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="784399000" />
+            <display value="Self reported body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1230277003" />
+            <display value="Self reported peak body weight" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1162389000" />
+            <display value="Self reported pre-pregnancy body weight" />
+        </contains>
+    </expansion>
+</ValueSet>

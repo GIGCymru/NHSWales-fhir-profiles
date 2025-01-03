@@ -1,0 +1,82 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-BloodPressure-AverageSystolic" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-BloodPressure-AverageSystolic" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesBloodPressureAverageSystolic" />
+    <title value="Data Standards Wales ValueSet Blood Pressure Average Systolic" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-BloodPressure-AverageSystolic v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A code from the SNOMED CT UK coding system for the systolic blood pressure. Selected from the SNOMED CT UK coding system: \n - 198081000000101  | Ambulatory systolic blood pressure (observable entity) \n - 314464000 | 24 hour systolic blood pressure (observable entity) \n - 314449000 | Average 24 hour systolic blood pressure (observable entity) \n - 314448008 | Maximum 24 hour systolic blood pressure (observable entity)  \n - 314447003 | Minimum 24 hour systolic blood pressure (observable entity) \n - DescendantOrSelfOf 314440001 | Average systolic blood pressure (observable entity)" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="198081000000101 OR 314464000 OR 314449000 OR 314448008 OR 314447003 OR descendantOrSelfOf 314440001" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="17af4348-525a-486d-bc23-baa24ea7ab1a" />
+        <timestamp value="2023-10-31T22:11:00+00:00" />
+        <total value="9" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314464000" />
+            <display value="24 hour systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="198081000000101" />
+            <display value="Ambulatory systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314449000" />
+            <display value="Average 24 hour systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314446007" />
+            <display value="Average day interval systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="413606001" />
+            <display value="Average home systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314445006" />
+            <display value="Average night interval systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314440001" />
+            <display value="Average systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314448008" />
+            <display value="Maximum 24 hour systolic blood pressure" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="314447003" />
+            <display value="Minimum 24 hour systolic blood pressure" />
+        </contains>
+    </expansion>
+</ValueSet>

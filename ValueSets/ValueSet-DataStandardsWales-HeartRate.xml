@@ -1,0 +1,87 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-HeartRate" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-HeartRate" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesHeartRate" />
+    <title value="Data Standards Wales ValueSet Heart Rate" />
+    <status value="active" />
+    <date value="2025-01-01" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="Resource structure is based on UKCore-HeartRate v1.0.0 which is not yet included in a balloted release. Added manually to prevent structure deviation and to support NHS Wales projects. Once available, the resource will be updated and derived from UK Core. A set of codes that define a patients level of consciousness. Selected from the SNOMED CT UK coding system: \n - DescendantOrSelfOf 364075005 | Heart rate (observable entity) \n - MINUS  &amp;nbsp;\n - DescendantOrSelfOf 251670001 | Baseline fetal heart rate &amp;nbsp;\n - DescendantOrSelfOf 928001000000104 | Baseline heart rate &amp;nbsp;\n - DescendantOrSelfOf 852341000000107 | Maximum pulse rate &amp;nbsp;\n - DescendantOrSelfOf 852351000000105 | Minimum pulse rate &amp;nbsp;\n - DescendantOrSelfOf 428420003 | Target heart rate &amp;nbsp;\n - DescendantOrSelfOf 852331000000103 | Target pulse rate" />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="DescendantOrSelfOf 364075005 MINUS (DescendantOrSelfOf 251670001 OR DescendantOrSelfOf 928001000000104 OR DescendantOrSelfOf 852341000000107 OR DescendantOrSelfOf 852351000000105 OR DescendantOrSelfOf 428420003 OR DescendantOrSelfOf 852331000000103)" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="e9f05b8a-dc8b-484a-801b-f3b779ffc771" />
+        <timestamp value="2023-10-31T13:26:00+00:00" />
+        <total value="10" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="422119006" />
+            <display value="Brachial pulse rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="429525003" />
+            <display value="Dorsalis pedis pulse rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="249043002" />
+            <display value="Fetal heart rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="364075005" />
+            <display value="Heart rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1089491000000108" />
+            <display value="Heart rate at cardiac apex" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="399017001" />
+            <display value="Heart rate on admission" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="429614003" />
+            <display value="Posterior tibial pulse rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="78564009" />
+            <display value="Pulse rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="843941000000100" />
+            <display value="Radial pulse rate" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="444981005" />
+            <display value="Resting heart rate" />
+        </contains>
+    </expansion>
+</ValueSet>

@@ -1,0 +1,28 @@
+{
+    "resourceType": "PractitionerRole",
+    "id": "a94d02f6-36ac-4d40-8594-b5f3d86ce82c",
+    "meta": {
+        "profile":  [
+            "https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole"
+        ]
+    },
+    "practitioner": {
+        "reference": "Practitioner/2afa6a02-26f1-468a-a55e-a40bcf339a57",
+		"display": "Mark Smith (Healthcare Assistant)"
+    },
+    "organization": {
+        "reference": "Organization/31064ea2-a0bc-4735-abd4-38de625143cb",
+		"display": "Aneurin Bevan University Health Board"
+    },
+    "code":  [
+        {
+            "coding":  [
+                {
+                    "system": "http://snomed.info/sct",
+                    "code": "224577009",
+                    "display": "Healthcare assistant"
+                }
+            ]
+        }
+    ]
+}
