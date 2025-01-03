@@ -86,6 +86,11 @@ Package:
 		* DataStandardsWales-Organization
             * Updated version from 1.1.0 to 1.1.1
             * .endpoint. Removed reference to HL7 Endpoint. Added reference to DataStandardsWales-Endpoint
+        * DataStandardsWales-Patient
+            * Updated version from 1.2.0 to 1.2.1
+            * .link.other
+                * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
+                * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
 		* DataStandardsWales-Provenance
             * Updated version from 0.0.1 to 0.0.2
             * .agent.who. Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
