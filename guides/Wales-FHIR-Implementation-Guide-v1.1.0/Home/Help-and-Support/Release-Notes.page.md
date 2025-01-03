@@ -46,6 +46,9 @@ Package:
         * DataStandardsWales-Immunization
             * Updated version from 0.1.0 to 0.1.1
             * .note.author[x]. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
+        * DataStandardsWales-Location
+            * Updated version from 1.1.0 to 1.1.1
+            * .endpoint. Removed reference to HL7 Endpoint. Added reference to DataStandardsWales-Endpoint
         * DataStandardsWales-MedicationAdministration
             * Updated version from 1.1.0 to 1.1.1
             * .note.author[x]. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
