@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ImagingStudy" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
-  <version value="0.0.5" />
+  <version value="0.0.6" />
   <name value="DataStandardsWalesImagingStudy" />
   <title value="Data Standards Wales Imaging Study" />
   <status value="draft" />
@@ -70,6 +70,13 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="ImagingStudy.procedureReference">
+      <path value="ImagingStudy.procedureReference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
+      </type>
+    </element>
     <element id="ImagingStudy.location">
       <path value="ImagingStudy.location" />
       <type>
@@ -86,6 +93,33 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+      </type>
+    </element>
+    <element id="ImagingStudy.series.endpoint">
+      <path value="ImagingStudy.series.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
+    </element>
+    <element id="ImagingStudy.series.specimen">
+      <path value="ImagingStudy.series.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Specimen" />
+      </type>
+    </element>
+    <element id="ImagingStudy.series.performer.actor">
+      <path value="ImagingStudy.series.performer.actor" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
     </element>
   </differential>
