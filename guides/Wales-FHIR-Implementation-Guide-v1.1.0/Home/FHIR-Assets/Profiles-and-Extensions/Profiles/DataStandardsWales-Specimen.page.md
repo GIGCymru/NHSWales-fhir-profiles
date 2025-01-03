@@ -66,8 +66,9 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 
 ### Example Specimens
 The following example resources are provided within this guide:
-{{pagelink:Example-DataStandardsWales-Specimen-Blood, text:Example Specimen - Blood}}, 
-{{pagelink:Example-DataStandardsWales-Specimen-Urine, text:Example Specimen - Urine}}
+
+* {{pagelink:Example-DataStandardsWales-Specimen-Blood, text:Example Specimen - Blood}}
+* {{pagelink:Example-DataStandardsWales-Specimen-Urine, text:Example Specimen - Urine}}
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:

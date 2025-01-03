@@ -147,6 +147,7 @@ Package:
         
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
+* General improvements including removing of duplicate sections, spelling mistakes and capitalisation of abbreviations (i.e. DM+D)
 
 
 ### v2.0.0 STU2

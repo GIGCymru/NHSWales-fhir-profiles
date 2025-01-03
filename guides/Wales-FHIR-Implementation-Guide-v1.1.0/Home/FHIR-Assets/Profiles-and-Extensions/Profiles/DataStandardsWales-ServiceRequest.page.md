@@ -49,7 +49,7 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
  
 **Each Service Request must have:**
 1. A status
-1. An intent code indicating whether the request is a proposal, plan, or order.
+1. An intent code indicating whether the request is a proposal, plan, or order
 1. A code defining what is being requested
 1. A patient
 
