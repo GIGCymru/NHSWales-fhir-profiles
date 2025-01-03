@@ -44,27 +44,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 
 ## Profile Specific Implementation Guidance: ##
 
-
-### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
-
-Each Dosage must support:
-
-|Element|Reason|
-|-|-|
-|`Dosage.sequence`|Indicates the order in which the dosage instructions should be applied or interpreted.|
-|`Dosage.text`|Free text that can be used for cases where the instructions are too complex to code.|
-|`Dosage.additionalInstruction`|Supplemental instructions or warnings.|
-|`Dosage.patientInstruction`|Supplemental instructions to the patient on how to take the medication.|
-|`Dosage.timing`|The timing schedule for taking or administering the medication.|
-|`Dosage.asNeeded`|It indicates if there is a precondition for taking the medication.|
-|`Dosage.site`|Body site to administer to.|
-|`Dosage.route`|Indication on how the drug should enter the body.|
-|`Dosage.method`|Technique for administering the medication.|
-|`Dosage.maxDosePerPeriod`|Upper limit on medication per unit of time.|
-
----
-
 ### `doseAndRate`
 
 By preference, use [UCUM](http://unitsofmeasure.org) for dose units. Examples of these units of measure are “gram” or “milliliter” or “percent”.

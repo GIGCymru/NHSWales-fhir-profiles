@@ -54,5 +54,5 @@ Each Medication record must support:
 ### Terminology Bindings
 The following bindings are used in the Medication Profile:
 
-* DM+D codes for medications
+* dm+d codes for medications
 * SNOMED CT codes for medications
