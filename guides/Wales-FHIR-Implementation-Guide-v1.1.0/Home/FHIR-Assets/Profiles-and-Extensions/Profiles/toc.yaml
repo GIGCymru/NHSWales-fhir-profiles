@@ -68,5 +68,8 @@
   filename: DataStandardsWales-Questionnaire.page.md
 - name: DataStandardsWales-QuestionnaireResponse
   filename: DataStandardsWales-QuestionnaireResponse.page.md
+- name: DataStandardsWales-RelatedPerson
+  filename: DataStandardsWales-RelatedPerson.page.md
 - name: Examples
   filename: Examples
+
