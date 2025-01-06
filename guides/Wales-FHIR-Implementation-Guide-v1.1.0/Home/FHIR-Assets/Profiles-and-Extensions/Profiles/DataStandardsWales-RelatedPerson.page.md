@@ -28,19 +28,15 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient, snapshot}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson, snapshot}}
     </div>
     <div id="tabdiff" class="tabcontent">
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson, diff}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson, diff}}
   </div>
     <div id="tabhybrid" class="tabcontent">
-      {{tree:https://fhir.nhs.wales/StructureDefinition/Profile-DataStandardsWales-RelatedPerson, hybrid}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-    <list>
-      <li>{{pagelink:Example-DataStandardsWales-Patient-AliceJones, text:Example Patient - Alice Jones}}</li>
-      <li>{{pagelink:Example-DataStandardsWales-Patient-HaroldJames, text:Example Patient - Harold James}}</li>
-    </list>
   </div>   
 </div>
 

@@ -37,6 +37,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AuditEvent, hybrid}}
 	</div>
   <div id="tabeg" class="tabcontent">
+      <list>
+      <li>{{pagelink:Example-AuditEvent-CreateObservations, text: Audit Event - Create Observation}}</li>
+    </list>
   </div>
 </div>
 
