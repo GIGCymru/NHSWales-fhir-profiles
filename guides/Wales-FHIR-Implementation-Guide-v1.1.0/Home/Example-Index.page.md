@@ -24,6 +24,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedibuprofen.page.md, text:Example List - Degraded Ibuprofen Allergy}}
 
+### Audit Event Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
+
 ### DiagnosticReport Examples
 
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - CT Abdomen}}
