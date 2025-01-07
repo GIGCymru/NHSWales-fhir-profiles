@@ -1,5 +1,5 @@
-- name: Example-DataStandardsWales-AuditEvent-Create
-  filename: Example-DataStandardsWales-AuditEvent-Create.page.md
+- name: Example-DataStandardsWales-AuditEvent-CreateObservation
+  filename: Example-DataStandardsWales-AuditEvent-CreateObservation.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
