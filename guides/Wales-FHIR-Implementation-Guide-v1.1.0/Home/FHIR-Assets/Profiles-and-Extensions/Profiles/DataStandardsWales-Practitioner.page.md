@@ -44,6 +44,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (Health Care Assistant) }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Example Practitioner - Sally Foster (Doctor) }}</li>
     </list>
   </div>
 </div>
