@@ -31,7 +31,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Stress Test}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
 
-&nbsp;&nbsp;<i>Laboratory Examples</i>
+### Laboratory Examples
+
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
 
@@ -81,12 +82,18 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text: Example Observation - Body temperature}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text: Example Observation - Body weight}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
+* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+* {{pagelink:ObservationBMI, text: Example Observation - BMI}}
+* {{pagelink:ObservationMaternalHeight, text: Example Observation - Maternal Height}}
 
-&nbsp;&nbsp;<i>Laboratory Group Examples</i> 
+
+### Laboratory Group Examples
+
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
 
-&nbsp;&nbsp;<i>Laboratory Result Examples</i>
+### Laboratory Result Examples 
+
 * {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
 
 ### Organization Examples
