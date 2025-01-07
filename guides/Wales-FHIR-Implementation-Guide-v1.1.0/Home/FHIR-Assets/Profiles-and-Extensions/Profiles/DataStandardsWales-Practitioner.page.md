@@ -43,7 +43,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}</li>
-      <li>{{pagelink:Practitioner/Example-Practitioner-NadexIdentifier, text:Example Practitioner - Mark Smith (Health Care Assistant) }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (Health Care Assistant) }}</li>
     </list>
   </div>
 </div>

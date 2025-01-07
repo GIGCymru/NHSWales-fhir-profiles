@@ -102,11 +102,18 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Example Practitioner - Dr Sally Foster }}
 * {{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}
 * {{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (PrescribingNurse) }}
+* {{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (HCA)}}
 
 ### PractitionerRole Examples
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}
+* {{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
+
+### Provenance Examples
+* {{pagelink:Example-DataStandardsWales-Provenance-Amend, text: Example Provenance - Amend Device and Document Reference}}
+* {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
+* {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}

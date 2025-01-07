@@ -20,6 +20,10 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-MedicationStatement}}
 * {{pagelink:DataStandardsWales-Observation}}
 * {{pagelink:DataStandardsWales-Observation-Lab}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}
 * {{pagelink:DataStandardsWales-Organization}}
 * {{pagelink:DataStandardsWales-Patient}}
 * {{pagelink:DataStandardsWales-Practitioner}}
@@ -28,9 +32,5 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-RelatedPerson}}
 * {{pagelink:DataStandardsWales-ServiceRequest}}
 * {{pagelink:DataStandardsWales-Specimen}}
-* {{pagelink:DataStandardsWales-Observation-VitalSigns}}
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}
 * {{pagelink:DataStandardsWales-Questionnaire}}
 * {{pagelink:DataStandardsWales-QuestionnaireResponse}}
