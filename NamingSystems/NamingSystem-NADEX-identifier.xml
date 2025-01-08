@@ -10,11 +10,7 @@
   <usage value="Organization identity"/> 
   <uniqueId> 
     <type value="uri"/> 
-    <value value="https://fhir.abuhb.nhs.wales/Id/pas-identifier"/> 
+    <value value="https://fhir.nhs.wales/Id/nadex-identifier"/> 
     <preferred value="true"/> 
   </uniqueId>
-  <uniqueId> 
-    <type value="oid"/> 
-    <value value="2.16.840.1.113883.2.1.8.1.5.139"/>     
-  </uniqueId> 
 </NamingSystem> 

@@ -43,6 +43,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}</li>
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant }}</li>
     </list>
   </div>   
 </div>

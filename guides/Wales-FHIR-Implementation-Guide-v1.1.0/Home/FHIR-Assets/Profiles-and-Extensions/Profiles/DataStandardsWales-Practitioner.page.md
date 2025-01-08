@@ -43,6 +43,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-Consultant, text:Example Practitioner - Dhiren Patel (Consultant) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-Physiotherapist, text:Example Practitioner - Philip Wickins (Physiotherapist) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-Practitioner-PrescribingNurse, text:Example Practitioner - Sandra Huggins (Prescribing Nurse) }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Practitioner-NonClinical, text:Example Practitioner - Mark Smith (Health Care Assistant) }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-Practitioner-Doctor, text:Example Practitioner - Sally Foster (Doctor) }}</li>
     </list>
   </div>
 </div>
@@ -59,6 +61,7 @@ Each Practitioner record must support:
 ### Slices
 The following slices are defined for use within this profile. The namespaces denoting issuing authority for each identifier are defined by HL7 UK with the exception of `Practitioner.identifier:nadexIdentifier` which is defined on the {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md, text:NHS Wales Naming Systems}} page.
 * `Practitioner.identifier`
+* `Practitioner.identifier:nadexIdentifier`
 * `Practitioner.identifier:gdcNumber`
 * `Practitioner.identifier:gmcNumber`
 * `Practitioner.identifier:gmpNumber`
@@ -66,8 +69,3 @@ The following slices are defined for use within this profile. The namespaces den
 * `Practitioner.identifier:nmcNumber`
 * `Practitioner.identifier:gphcCode`
 * `Practitioner.identifier:sdsUserId`
-* `Practitioner.identifier:nadexIdentifier`
-
-
-
-
