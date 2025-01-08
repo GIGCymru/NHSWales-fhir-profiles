@@ -16,6 +16,7 @@ Package:
             * Updated version from 1.2.0 to 1.2.1
             * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Device
+            * Updated version from 0.0.1 to 0.0.2
             * note.author
                 * Removed reference to HL7 Practitioner. Added reference to DataStandardsWales-Practitioner
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
@@ -84,6 +85,9 @@ Package:
         * DataStandardsWales-Organization
             * Updated version from 1.1.0 to 1.1.1
             * .endpoint. Removed reference to HL7 Endpoint. Added reference to DataStandardsWales-Endpoint
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.1.1 to 1.1.2
+            * Added slice named NADEX-Identifier
         * DataStandardsWales-Provenance
             * Updated version from 0.0.1 to 0.0.2
             * .agent.who. Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
