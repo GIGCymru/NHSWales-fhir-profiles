@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Organization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
-  <version value="1.1.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesOrganization" />
   <title value="Data Standards Wales Organization" />
   <status value="active" />
@@ -91,6 +91,13 @@
     <element id="Organization.partOf.identifier.value">
       <path value="Organization.partOf.identifier.value" />
       <min value="1" />
+    </element>
+    <element id="Organization.endpoint">
+      <path value="Organization.endpoint" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Endpoint" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
