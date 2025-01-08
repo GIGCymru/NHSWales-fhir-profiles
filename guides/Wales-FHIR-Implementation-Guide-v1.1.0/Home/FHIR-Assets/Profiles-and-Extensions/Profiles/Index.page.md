@@ -3,6 +3,7 @@
 The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-AllergyIntolerance}}
 * {{pagelink:DataStandardsWales-AllergyList}}
+* {{pagelink:DataStandardsWales-AuditEvent}}
 * {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
 * {{pagelink:DataStandardsWales-DiagnosticReport-Lab}}
@@ -19,10 +20,17 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-MedicationStatement}}
 * {{pagelink:DataStandardsWales-Observation}}
 * {{pagelink:DataStandardsWales-Observation-Lab}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}
 * {{pagelink:DataStandardsWales-Organization}}
 * {{pagelink:DataStandardsWales-Patient}}
 * {{pagelink:DataStandardsWales-Practitioner}}
 * {{pagelink:DataStandardsWales-PractitionerRole}}
 * {{pagelink:DataStandardsWales-Provenance}}
+* {{pagelink:DataStandardsWales-RelatedPerson}}
 * {{pagelink:DataStandardsWales-ServiceRequest}}
 * {{pagelink:DataStandardsWales-Specimen}}
+* {{pagelink:DataStandardsWales-Questionnaire}}
+* {{pagelink:DataStandardsWales-QuestionnaireResponse}}

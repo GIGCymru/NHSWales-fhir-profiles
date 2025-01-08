@@ -20,4 +20,4 @@ The above identifier has not been included in this guide as its use for identify
 
 ## List of Available Naming Systems
 
-{{namingsystems:}} 
+{{namingsystems}} 

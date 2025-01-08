@@ -37,6 +37,11 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance, hybrid}}
 	</div>
   <div id="tabeg" class="tabcontent">
+    <list>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Amend Device and Document Reference }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text:Example Provenance - Amend where Device is unavailable }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistante Practitioner and PractitionerRole }}</li>
+      </list>
   </div>
 </div>
 

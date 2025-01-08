@@ -6,6 +6,8 @@
   filename: DataStandardsWales-AllergyIntolerance.page.md
 - name: DataStandardsWales-AllergyList
   filename: DataStandardsWales-AllergyList.page.md
+- name: DataStandardsWales-AuditEvent
+  filename: DataStandardsWales-AuditEvent.page.md
 - name: DataStandardsWales-Device
   filename: DataStandardsWales-Device.page.md
 - name: DataStandardsWales-DiagnosticReport
@@ -40,6 +42,14 @@
   filename: DataStandardsWales-Observation.page.md
 - name: DataStandardsWales-Observation-Lab
   filename: DataStandardsWales-Observation-Lab.page.md
+- name: DataStandardsWales-Observation-VitalSigns-BMI
+  filename: DataStandardsWales-Observation-VitalSigns-BMI.page.md
+- name: DataStandardsWales-Observation-VitalSigns-BodyHeight
+  filename: DataStandardsWales-Observation-VitalSigns-BodyHeight.page.md
+- name: DataStandardsWales-Observation-VitalSigns-BodyWeight
+  filename: DataStandardsWales-Observation-VitalSigns-BodyWeight.page.md
+- name: DataStandardsWales-Observation-VitalSigns
+  filename: DataStandardsWales-Observation-VitalSigns.page.md
 - name: DataStandardsWales-Organization
   filename: DataStandardsWales-Organization.page.md
 - name: DataStandardsWales-Patient
@@ -48,11 +58,18 @@
   filename: DataStandardsWales-Practitioner.page.md
 - name: DataStandardsWales-PractitionerRole
   filename: DataStandardsWales-PractitionerRole.page.md
+- name: DataStandardsWales-Provenance
+  filename: DataStandardsWales-Provenance.page.md
+- name: DataStandardsWales-Questionnaire
+  filename: DataStandardsWales-Questionnaire.page.md
+- name: DataStandardsWales-QuestionnaireResponse
+  filename: DataStandardsWales-QuestionnaireResponse.page.md
+- name: DataStandardsWales-RelatedPerson
+  filename: DataStandardsWales-RelatedPerson.page.md
 - name: DataStandardsWales-ServiceRequest
   filename: DataStandardsWales-ServiceRequest.page.md
 - name: DataStandardsWales-Specimen
   filename: DataStandardsWales-Specimen.page.md
-- name: DataStandardsWales-Provenance
-  filename: DataStandardsWales-Provenance.page.md
 - name: Examples
   filename: Examples
+

@@ -1,0 +1,21 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+    <id value="Example-PractitionerRole-HealthCareAssistant" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+    </meta>
+    <practitioner>
+        <reference value="Practitioner/Example-Practitioner-NadexIdentifier" />
+        <display value="Mark Smith (Healthcare Assistant)" />
+    </practitioner>
+    <organization>
+        <reference value="Organization/31064ea2-a0bc-4735-abd4-38de625143cb" />
+        <display value="Aneurin Bevan University Health Board" />
+    </organization>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct" />
+            <code value="224577009" />
+            <display value="Healthcare assistant" />
+        </coding>
+    </code>
+</PractitionerRole>

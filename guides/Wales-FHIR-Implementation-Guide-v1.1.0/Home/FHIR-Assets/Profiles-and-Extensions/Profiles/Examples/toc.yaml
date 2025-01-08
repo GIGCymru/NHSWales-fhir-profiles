@@ -1,3 +1,5 @@
+- name: Example-DataStandardsWales-AuditEvent-CreateObservations
+  filename: Example-DataStandardsWales-AuditEvent-CreateObservations.page.md
 - name: Example-DataStandardsWales-Device-CDRcomponent
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
@@ -46,8 +48,12 @@
   filename: Example-DataStandardsWales-Practitioner-Consultant.page.md
 - name: Example-DataStandardsWales-Practitioner-Doctor
   filename: Example-DataStandardsWales-Practitioner-Doctor.page.md
+- name: Example-DataStandardsWales-Practitioner-NonClinical
+  filename: Example-DataStandardsWales-Practitioner-NonClinical.page.md
 - name: Example-DataStandardsWales-Practitioner-Physiotherapist
   filename: Example-DataStandardsWales-Practitioner-Physiotherapist.page.md
+- name: Example-DataStandardsWales-PractitionerRole-HCA
+  filename: Example-DataStandardsWales-PractitionerRole-HCA.page.md
 - name: Example-DataStandardsWales-Practitioner-PrescribingNurse
   filename: Example-DataStandardsWales-Practitioner-PrescribingNurse.page.md
 - name: Example-DataStandardsWales-PractitionerRole-Consultant
@@ -60,6 +66,8 @@
   filename: Example-DataStandardsWales-Provenance-Amend.page.md
 - name: Example-DataStandardsWales-Provenance-Amend-Alt
   filename: Example-DataStandardsWales-Provenance-Amend-Alt.page.md
+- name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
+  filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
