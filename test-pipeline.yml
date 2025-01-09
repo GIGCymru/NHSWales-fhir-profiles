@@ -5,31 +5,42 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-steps:
-  - task: UseDotNet@2
-    inputs:
-      version: '8.x'
+variables:
+- group: Simplifier
 
-  - script: |
-      echo "Install Firely.Terminal"
-      if ! command -v fhir ; then
-        dotnet tool install --global Firely.Terminal 
-      fi
-    displayName: 'Install Firely.Terminal'
+stages:
+  - stage: Deploy
+    jobs:
+      - deployment: DeployJob
+        environment: Test
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: UseDotNet@2
+                  inputs:
+                    version: '8.x'
 
-  - script: |
-      echo "Check Firely Terminal Version"
-      CHECK_FIRELY_TERMINAL_VERSION=$(fhir -v | tr '\n' ' ')
-      echo "FIRELY_TERMINAL_VERSION: $CHECK_FIRELY_TERMINAL_VERSION"
-    displayName: 'Check Firely Terminal Version'
+                - script: |
+                    echo "Install Firely.Terminal"
+                    if ! command -v fhir ; then
+                      dotnet tool install --global Firely.Terminal 
+                    fi
+                  displayName: 'Install Firely.Terminal'
 
-  - script: |
-      echo "Simplifier login and sync"
-      fhir login email=$SIMPLIFIER_USERNAME password=$SIMPLIFIER_PASSWORD
-      echo pwd
-      fhir project link $SIMPLIFIER_TEST_URLKEY --strategy TakeLocal
-      fhir project sync
-    displayName: 'Simplifier login and sync'
-    env:
-      SIMPLIFIER_USERNAME: $(SIMPLIFIER_USERNAME)
-      SIMPLIFIER_PASSWORD: $(SIMPLIFIER_PASSWORD)
+                - script: |
+                    echo "Check Firely Terminal Version"
+                    CHECK_FIRELY_TERMINAL_VERSION=$(fhir -v | tr '\n' ' ')
+                    echo "FIRELY_TERMINAL_VERSION: $CHECK_FIRELY_TERMINAL_VERSION"
+                  displayName: 'Check Firely Terminal Version'
+
+                - script: |
+                    echo "Simplifier login and sync"
+                    fhir login email=$SIMPLIFIER_USERNAME password=$SIMPLIFIER_PASSWORD
+                    echo pwd
+                    fhir project link $SIMPLIFIER_TEST_URLKEY --strategy TakeLocal
+                    fhir project sync
+                  displayName: 'Simplifier login and sync'
+                  env:
+                    SIMPLIFIER_USERNAME: $(SIMPLIFIER_USERNAME)
+                    SIMPLIFIER_PASSWORD: $(SIMPLIFIER_PASSWORD)
