@@ -78,9 +78,17 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text: Example Observation - Body temperature}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyWeight.page.md, text: Example Observation - Body weight}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
-* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+
+### Observation Vital Signs BMI Examples
 * {{pagelink:ObservationBMI, text: Example Observation - BMI}}
+
+### Observation Vital Signs Body Height Examples
 * {{pagelink:ObservationMaternalHeight, text: Example Observation - Maternal Height}}
+
+### Observation Vital Signs Body Weight Examples
+* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+
+### Observation Vital Signs Examples
 
 
 ### Laboratory Group Examples

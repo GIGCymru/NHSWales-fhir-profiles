@@ -37,7 +37,11 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-  </div>   
+  </div> 
+    <list>
+      <li> {
+        {pagelink:ObservationBMI, text: BMI}}</li>
+    </list>  
 </div>
 
 ### Mandatory and Must Support Data Elements

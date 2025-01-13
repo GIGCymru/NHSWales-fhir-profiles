@@ -33,7 +33,7 @@
 		<effectiveDateTime value="2024-08-07T12:10:11Z"/>
 		<valueQuantity>
 		  <value value="14.88"/>
-		  <unit value="kg/m2"/>
+		  <unit value="kilogram / (meter ^ 2)"/>
 		  <system value="http://unitsofmeasure.org/" />
       	  <code value="kg/m2" />
 		</valueQuantity>

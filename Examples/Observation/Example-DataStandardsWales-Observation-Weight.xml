@@ -33,6 +33,8 @@
 		<effectiveDateTime value="2024-08-07T12:10:11Z"/>
 		<valueQuantity>
 		  <value value="18.23"/>
-		  <unit value="kg"/>
+		  <unit value="kilogram"/>
+		  <system value="http://unitsofmeasure.org/"/>
+		  <code value="kg" />
 		</valueQuantity>
 	  </Observation>

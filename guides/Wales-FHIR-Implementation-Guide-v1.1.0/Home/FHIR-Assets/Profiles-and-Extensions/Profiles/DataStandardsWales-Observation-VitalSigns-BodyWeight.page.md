@@ -37,8 +37,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyWeight, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
+    <list>
+      <li> {
+        {pagelink:ObservationWeight, text: Weight}}</li>
+    </list>
   </div>   
 </div>
 
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
+
