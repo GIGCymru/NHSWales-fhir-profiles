@@ -1,0 +1,49 @@
+<Provenance xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Provenance-Amend-alt" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
+    </meta>
+    <target>
+        <reference value="Patient/4580d59e/_history/2" />
+    </target>
+    <recorded value="2024-08-08T08:06:07.046012Z" />
+    <activity>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle" />
+            <code value="amend" />
+            <display value="Amend (Update) Record Lifecycle Event" />
+        </coding>
+    </activity>
+    <agent>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type" />
+                <code value="composer" />
+                <display value="Composer" />
+            </coding>
+        </type>
+        <who>
+            <identifier>
+                <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
+                <value value="139" />
+            </identifier>
+            <display value="ABUHB WPAS" />
+        </who>
+    </agent>
+    <agent>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type" />
+                <code value="assembler" />
+                <display value="Assembler" />
+            </coding>
+        </type>
+        <who>
+            <identifier>
+                <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
+                <value value="370.2" />
+            </identifier>
+            <display value="HL7 to FHIR conversion engine (CDR)" />
+        </who>
+    </agent>
+</Provenance>

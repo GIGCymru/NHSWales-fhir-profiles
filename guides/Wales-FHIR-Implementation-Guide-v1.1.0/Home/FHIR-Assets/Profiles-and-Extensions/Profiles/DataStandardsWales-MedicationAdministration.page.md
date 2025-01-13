@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [MedicationAdministration](https://www.hl7.org/fhir/r4/medicationadministration.html) resource is a record of a medication that is administered to a patient.
 
-The {{page-title}} profile is derived from the [UK Core MedicationAdministration Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-MedicationAdministration?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core MedicationAdministration Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-MedicationAdministration?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationAdministration}}
 

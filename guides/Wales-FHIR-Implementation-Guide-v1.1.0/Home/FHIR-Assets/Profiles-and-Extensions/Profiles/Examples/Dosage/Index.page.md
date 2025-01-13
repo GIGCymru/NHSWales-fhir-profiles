@@ -1,5 +1,0 @@
----
-topic: DosageExampleIndex
----
-
-## {{page-title}}

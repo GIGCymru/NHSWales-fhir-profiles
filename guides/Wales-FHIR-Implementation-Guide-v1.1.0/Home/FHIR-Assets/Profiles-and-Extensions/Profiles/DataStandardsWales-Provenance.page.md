@@ -5,7 +5,7 @@
 ### Overview
 The [Provenance](https://www.hl7.org/fhir/r4/provenance.html) resource tracks information about the activity that created, revised, deleted, or signed a version of a resource, describing the entities and agents involved.
 
-The {{page-title}} profile is derived from the draft  [HL7 FHIR UK Core R4](https://simplifier.net/hl7fhirukcorer4/ukcore-provenance) and is listed as experimental. It defines additional rules for use within health and care organisations in Wales. (add note that UK Core profile is a draft and under development)
+The {{page-title}} profile is derived from the [HL7 R4 Provenance](http://hl7.org/fhir/Provenance.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance}}
 
@@ -37,6 +37,11 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance, hybrid}}
 	</div>
   <div id="tabeg" class="tabcontent">
+    <list>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Amend Device and Document Reference }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text:Example Provenance - Amend where Device is unavailable }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistante Practitioner and PractitionerRole }}</li>
+      </list>
   </div>
 </div>
 
@@ -66,4 +71,3 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 The extension listed below has been created to support PAS entries: 
 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extends the Provenance resource to capture demographics details recorded as at the time of the care record change.
-         

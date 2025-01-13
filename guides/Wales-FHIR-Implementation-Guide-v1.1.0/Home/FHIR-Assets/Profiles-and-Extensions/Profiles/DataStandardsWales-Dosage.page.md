@@ -1,23 +1,4 @@
----
-name: DataStandardsWalesDosage
----
-
-
 ## {{page-title}}
-
-### FQL
-
-@```
-    from
-        StructureDefinition
-    where
-        name='DataStandardsWalesDosage'
-    select 
-        Profile: name,
-        Type: type,
-        Status: status,
-        Canonical: url
-```
 
 The [Dosage](https://www.hl7.org/fhir/r4/dosage.html) resource is a record of a medication that is administered to a patient. For information on dosage prescribed or planned for administration, this will be captured in the `DosageInstruction` element of the medication resource. 
 
@@ -37,10 +18,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
     </li>
     <li class="tablink" onclick="openCity(this,'tabhybrid')" data-target="tabhybrid">
       Hybrid View
-    </li>
-    <li class="tablink" onclick="openCity(this,'tabeg')" data-target="tabeg">
-      Examples
-    </li>    
+    </li>   
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
@@ -51,12 +29,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
     <div id="tabhybrid" class="tabcontent">
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage, hybrid}}
-  </div>
-  <div id="tabeg" class="tabcontent">
-    <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Dosage, text: Dosage Examples}}</li> 
-    </list>
-  </div>    
+  </div>  
 </div>
 
 
@@ -69,39 +42,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 
 ---
 
-## Example Usage Scenarios ##
-The following are example usage scenarios for the Dosage profile:
-
-- {{pagelink:DosageDrops, text: Example Dosage - Drops}} Query for the dosage of an Eye Drops medication using the query parameter `Dosage.timing.repeat.when` when the time value is undefined.
-- {{pagelink:DosageInhaler, text: Example Dosage - Inhaler}} Query for the dosage of an Inhaler medication using query parameters such as `Dosage.additionalInstruction`.
-- {{pagelink:DosageOralSolution, text: Example Dosage - Oral Solution PRN}} Query for the dosage of an Oral Solution PRN medication using query parameters such as `Dosage.asNeededCodeableConcept` and `Dosage.doseAndRate.doseRange`.
-
-_*Examples provided have been clinically assured on the 07-Aug-2024_
-
----
-
 ## Profile Specific Implementation Guidance: ##
-
-
-### Mandatory and Must Support Data Elements
-Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
-
-Each Dosage must support:
-
-|Element|Reason|
-|-|-|
-|`Dosage.sequence`|Indicates the order in which the dosage instructions should be applied or interpreted.|
-|`Dosage.text`|Free text that can be used for cases where the instructions are too complex to code.|
-|`Dosage.additionalInstruction`|Supplemental instructions or warnings.|
-|`Dosage.patientInstruction`|Supplemental instructions to the patient on how to take the medication.|
-|`Dosage.timing`|The timing schedule for taking or administering the medication.|
-|`Dosage.asNeeded`|It indicates if there is a precondition for taking the medication.|
-|`Dosage.site`|Body site to administer to.|
-|`Dosage.route`|Indication on how the drug should enter the body.|
-|`Dosage.method`|Technique for administering the medication.|
-|`Dosage.maxDosePerPeriod`|Upper limit on medication per unit of time.|
-
----
 
 ### `doseAndRate`
 
@@ -113,5 +54,3 @@ Examples of when a SNOMED-CT unit of measure would typically be used are “tabl
 **Recommendation**: Dose is used to specify the quantity of the medication administered and not the strength of the active ingredient. This information will be specified on `Medication.ingredient.strength`.
 
 ---
-
-

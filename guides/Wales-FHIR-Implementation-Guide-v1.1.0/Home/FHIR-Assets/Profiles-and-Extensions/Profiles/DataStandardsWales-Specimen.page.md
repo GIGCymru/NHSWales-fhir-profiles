@@ -3,7 +3,7 @@
 ## {{page-title}}
 The [Specimen](https://www.hl7.org/fhir/r4/Specimen.html) resource contains information about a sample to be used for analysis.
 
-The {{page-title}} profile is derived from the [UK Core STU2 Specimen Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Specimen?version=current) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Specimen Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Specimen?version=2.0.1) and is therefore listed as experimental. It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen}}
 
@@ -66,8 +66,9 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 
 ### Example Specimens
 The following example resources are provided within this guide:
-{{pagelink:Example-DataStandardsWales-Specimen-Blood, text:Example Specimen - Blood}}, 
-{{pagelink:Example-DataStandardsWales-Specimen-Urine, text:Example Specimen - Urine}}
+
+* {{pagelink:Example-DataStandardsWales-Specimen-Blood, text:Example Specimen - Blood}}
+* {{pagelink:Example-DataStandardsWales-Specimen-Urine, text:Example Specimen - Urine}}
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:

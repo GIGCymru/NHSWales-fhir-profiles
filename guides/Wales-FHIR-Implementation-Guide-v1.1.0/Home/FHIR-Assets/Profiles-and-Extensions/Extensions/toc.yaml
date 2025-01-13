@@ -4,6 +4,8 @@
   filename: Extension-DataStandardsWales-MedicationCourseOfTherapyType.page.md
 - name: Extension-DataStandardsWales-Occupation
   filename: Extension-DataStandardsWales-Occupation.page.md
+- name: Extension-DataStandardsWales-RecordingSetting
+  filename: Extension-DataStandardsWales-RecordingSetting.page.md
 - name: Extension-DataStandardsWales-Religion
   filename: Extension-DataStandardsWales-Religion.page.md
 - name: Extension-DataStandardsWales-DemographicsAsRecorded

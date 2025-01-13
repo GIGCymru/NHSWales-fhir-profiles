@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Specimen" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen" />
-  <version value="0.0.5" />
+  <version value="0.1.1" />
   <name value="DataStandardsWalesSpecimen" />
   <title value="Data Standards Wales Specimen" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2023-05-24" />
   <publisher value="NHS Wales" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -24,7 +24,6 @@
     <element id="Specimen.type">
       <path value="Specimen.type" />
       <min value="1" />
-      <mustSupport value="true" />
     </element>
     <element id="Specimen.subject">
       <path value="Specimen.subject" />
@@ -32,16 +31,11 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
-      <mustSupport value="true" />
-    </element>
-    <element id="Specimen.receivedTime">
-      <path value="Specimen.receivedTime" />
-      <mustSupport value="true" />
     </element>
     <element id="Specimen.parent">
       <path value="Specimen.parent" />
@@ -58,6 +52,14 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Specimen.collection.collector">
+      <path value="Specimen.collection.collector" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+      </type>
+    </element>
     <element id="Specimen.collection.collected[x]">
       <path value="Specimen.collection.collected[x]" />
       <min value="1" />
@@ -69,6 +71,19 @@
     <element id="Specimen.container">
       <path value="Specimen.container" />
       <mustSupport value="true" />
+    </element>
+    <element id="Specimen.note.author[x]">
+      <path value="Specimen.note.author[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>

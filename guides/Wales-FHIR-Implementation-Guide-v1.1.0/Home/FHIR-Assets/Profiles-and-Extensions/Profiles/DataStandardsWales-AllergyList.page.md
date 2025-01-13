@@ -5,7 +5,7 @@
 ### Overview
 The [List](https://www.hl7.org/fhir/r4/list.html) resource is a curated collection of resources. The Allergy List profile is intended to provide a snapshot view of a patient's allergies.
 
-The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/packages/fhir.r4.ukcore.stu1/1.0.0/files/806176). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core List Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-List?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyList}}
 
@@ -64,6 +64,20 @@ The mode is always expected to indicate the list represents a snapshot of an all
 The `List.code` field **SHALL** be SNOMED CT coded to 'allergies and adverse reactions'.
 <br><br>
 The resource **SHALL** include a reference to the subject (patient).
+
+### Extensions
+
+The extensions listed below are those created to support Data Standards Wales: 
+
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy.page.md, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedBy}}
+is used to provide a reference to the practitioner who confirmed the changes.
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate.page.md, text:DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}
+carries a timestamp for when a change has been confirmed.
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated.page.md, text:DataStandardsWales-SingleRecord-AllergiesListUpdated}}
+  is used to provide a boolean on whether the allergies list has been updated.
+
+_Note: this list does not include extensions provided by UK Core and you should refer to their implementation guide for support_
+
 
 
 

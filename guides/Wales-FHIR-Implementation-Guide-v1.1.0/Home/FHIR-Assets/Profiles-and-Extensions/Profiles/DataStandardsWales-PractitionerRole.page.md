@@ -6,7 +6,7 @@
 
 The [PractitionerRole](https://www.hl7.org/fhir/r4/practitionerrole.html) resource defines the role of a clinical profession with responsibility for delivering care within the health system. 
 
-The {{page-title}} profile is derived from the [UK Core PractitionerRole Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-PractitionerRole?version=1.0.0). It defines additional rules for use within health and care organisations in Wales. 
+The {{page-title}} profile is derived from the [UK Core PractitionerRole Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-PractitionerRole?version=2.0.1). It defines additional rules for use within health and care organisations in Wales. 
 
 Further guidance on the use of the PractitionerRole resource along with other administrative FHIR resources is provided within the {{pagelink:Home/Guidance/Administrative-Data, text: guidance}} section of this guide. 
 
@@ -43,6 +43,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Consultant, text:Example PractitionerRole - Consultant (Geriatric Medicine) }}</li>
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-Physiotherapist, text:Example PractitionerRole - Physiotherapist }}</li>
       <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-PrescribingNurse, text:Example PractitionerRole - Prescribing Nurse }}</li>
+      <li>{{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant }}</li>
     </list>
   </div>   
 </div>

@@ -18,3 +18,33 @@
   filename: ValueSet-DataStandardsWales-Title.page.md
 - name: ValueSet-DataStandardsWales-WrrsTaskType
   filename: ValueSet-DataStandardsWales-WrrsTaskType.page.md
+- name: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic
+  filename: ValueSet-DataStandardsWales-BloodPressure-AverageSystolic.page.md
+- name: ValueSet-DataStandardsWales-BloodPressure-Diastolic
+  filename: ValueSet-DataStandardsWales-BloodPressure-Diastolic.page.md
+- name: ValueSet-DataStandardsWales-BloodPressure-Systolic
+  filename: ValueSet-DataStandardsWales-BloodPressure-Systolic.page.md
+- name: ValueSet-DataStandardsWales-BMI
+  filename: ValueSet-DataStandardsWales-BMI.page.md
+- name: ValueSet-DataStandardsWales-BodyHeightMeasurements
+  filename: ValueSet-DataStandardsWales-BodyHeightMeasurements.page.md
+- name: ValueSet-DataStandardsWales-BodyPosition
+  filename: ValueSet-DataStandardsWales-BodyPosition.page.md
+- name: ValueSet-DataStandardsWales-BodyTemperature
+  filename: ValueSet-DataStandardsWales-BodyTemperature.page.md
+- name: ValueSet-DataStandardsWales-BodyWeightMeasurements
+  filename: ValueSet-DataStandardsWales-BodyWeightMeasurements.page.md
+- name: ValueSet-DataStandardsWales-HeartRate
+  filename: ValueSet-DataStandardsWales-HeartRate.page.md
+- name: ValueSet-DataStandardsWales-ObservationVitalSignsType
+  filename: ValueSet-DataStandardsWales-ObservationVitalSignsType.page.md
+- name: ValueSet-DataStandardsWales-OxygenSaturation
+  filename: ValueSet-DataStandardsWales-OxygenSaturation.page.md
+- name: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes
+  filename: ValueSet-DataStandardsWales-QuestionnaireQuestionCodes.page.md
+- name: ValueSet-DataStandardsWales-RecordingSetting
+  filename: ValueSet-DataStandardsWales-RecordingSetting.page.md
+- name: ValueSet-DataStandardsWales-RespirationRate
+  filename: ValueSet-DataStandardsWales-RespirationRate.page.md
+- name: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements
+  filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md

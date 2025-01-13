@@ -5,7 +5,7 @@
 ### Overview
 The [Patient](https://www.hl7.org/fhir/r4/patient.html) resource contains demographics and other administrative information about an individual receiving health or care-related services.
 
-The {{page-title}} profile is derived from the [UK Core Patient Profile](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ProfileUKCore-Patient?version=1.0.0). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [UK Core Patient Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Patient?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient}}
 
@@ -50,11 +50,11 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 Each Patient record must support:
 * A patient identifier
    * This field **SHOULD** include at least one patient identifier:
-   * NHS Numbers are to be be provided if available. Use the [UKCore-NHSNumberVerificationStatus](https://simplifier.net/guide/uk-core-implementation-guide/Home/ProfilesandExtensions/ExtensionLibrary?version=1.0.0#ExtensionUKCore-NHSNumberVerificationStatus) to indicate the trace status.contain all available identifiers. 
+   * NHS Numbers are to be be provided if available. Use the [UKCore-NHSNumberVerificationStatus](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-NHSNumberVerificationStatus?version=2.0.1) to indicate the trace status.contain all available identifiers. 
    * Other patient identifiers can also be included where known e.g., Welsh Demographic Service or Health Board PAS identifiers.
    * Identifier systems should use the NamingSystem URIs which are defined in the guide rather than OIDS.
 * Address and contact information
-* The status of the patient record (i.e., whether is still active )
+* The status of the patient record (i.e. whether is still active )
 * A deceased indicator
 
 The following elements are defined by [Core Reference Data Standards](https://www.datadictionary.wales.nhs.uk/#!WordDocuments/corereferencedatastandards1.htm), which are also marked as must be supported:
@@ -85,9 +85,7 @@ The following identifier slices for use with the patient profile are listed belo
  
 * `Patient.identifier:nhsNumber` 
 * `Patient.identifier:abuhbPasIdentifier` 
-* `Patient.identifier:bcuhbCentralPasIdentifier`  
-* `Patient.identifier:bcuhbEastPasIdentifier` 
-* `Patient.identifier:bcuhbWestPasIdentifier` 
+* `Patient.identifier:bcuhbPasIdentifier`  
 * `Patient.identifier:cavuhbPasIdentifier` 
 * `Patient.identifier:ctmuhbPasIdentifier` 
 * `Patient.identifier:hduhbPasIdentifier` 

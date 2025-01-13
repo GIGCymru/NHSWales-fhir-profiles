@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-MedicationStatement" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
-  <version value="1.0.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesMedicationStatement" />
   <title value="Data Standards Wales Medication Statement" />
   <status value="active" />
   <experimental value="false" />
   <date value="2023-08-02" />
   <publisher value="NHS Wales" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -17,58 +17,45 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-MedicationStatement" />
   <derivation value="constraint" />
   <differential>
-	<element id="MedicationStatement.extension">
-	  <path value="MedicationStatement.extension" />
-	  <slicing>
-		<discriminator>
-			<type value="value" />
-			<path value="url" />
-		</discriminator>
-		<rules value="open" />
-	  </slicing>
-	  <min value="0" />
-	</element>
     <element id="MedicationStatement.extension:medicationCourseOfTherapyType">
       <path value="MedicationStatement.extension" />
       <sliceName value="medicationCourseOfTherapyType" />
       <short value="An indicator of the overall pattern of medication administration" />
       <definition value="An extension to carry an indicator of the overall pattern of medication administration at the MedicationStatement level." />
       <comment value="An extension to carry an indicator of the overall pattern of medication administration at the MedicationStatement level." />
-      <min value="0" />
-	  <type>
+      <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-MedicationCourseOfTherapyType" />
       </type>
       <mustSupport value="true" />
       <isModifier value="false" />
     </element>
+    <element id="MedicationStatement.identifier.assigner">
+      <path value="MedicationStatement.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
     <element id="MedicationStatement.basedOn">
       <path value="MedicationStatement.basedOn" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CarePlan" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
       </type>
     </element>
     <element id="MedicationStatement.partOf">
       <path value="MedicationStatement.partOf" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationDispense" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationStatement" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationAdministration" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
-    </element>
-    <element id="MedicationStatement.status">
-      <path value="MedicationStatement.status" />
-      <mustSupport value="true" />
-    </element>
-    <element id="MedicationStatement.category">
-      <path value="MedicationStatement.category" />
-      <mustSupport value="true" />
     </element>
     <element id="MedicationStatement.medication[x]">
       <path value="MedicationStatement.medication[x]" />
@@ -79,7 +66,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Medication" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationStatement.subject">
       <path value="MedicationStatement.subject" />
@@ -88,37 +74,55 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="MedicationStatement.context">
       <path value="MedicationStatement.context" />
-      <mustSupport value="true" />
-    </element>
-    <element id="MedicationStatement.dateAsserted">
-      <path value="MedicationStatement.dateAsserted" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="MedicationStatement.informationSource">
       <path value="MedicationStatement.informationSource" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
-      <mustSupport value="true" />
+    </element>
+    <element id="MedicationStatement.reasonReference">
+      <path value="MedicationStatement.reasonReference" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
+        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
+      </type>
+    </element>
+    <element id="MedicationStatement.note.author[x]">
+      <path value="MedicationStatement.note.author[x]" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
     </element>
     <element id="MedicationStatement.dosage">
       <path value="MedicationStatement.dosage" />
-      <short value="How the medication is/was taken or should be taken" />
-      <definition value="Indicates how the medication is/was taken or should be taken by the patient." />
       <type>
         <code value="Dosage" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Dosage" />
       </type>
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>

@@ -2,14 +2,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-AllergyIntolerance" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-AllergyIntolerance" />
-  <version value="1.0.0" />
+  <version value="1.1.1" />
   <name value="DataStandardsWalesAllergyIntolerance" />
   <title value="Data Standards Wales Allergy Intolerance" />
   <status value="active" />
   <experimental value="false" />
   <date value="2023-08-02" />
   <publisher value="NHS Wales" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -17,29 +17,9 @@
   <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-AllergyIntolerance" />
   <derivation value="constraint" />
   <differential>
-    <element id="AllergyIntolerance.extension">
-      <path value="AllergyIntolerance.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
     <element id="AllergyIntolerance.extension:evidence">
       <path value="AllergyIntolerance.extension" />
       <sliceName value="evidence" />
-      <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="AllergyIntolerance.clinicalStatus">
-      <path value="AllergyIntolerance.clinicalStatus" />
-      <mustSupport value="true" />
-    </element>
-    <element id="AllergyIntolerance.code">
-      <path value="AllergyIntolerance.code" />
       <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.patient">
@@ -48,10 +28,13 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.encounter">
       <path value="AllergyIntolerance.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+      </type>
       <mustSupport value="true" />
     </element>
     <element id="AllergyIntolerance.recordedDate">
@@ -62,10 +45,10 @@
       <path value="AllergyIntolerance.recorder" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -73,10 +56,10 @@
       <path value="AllergyIntolerance.asserter" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -84,27 +67,23 @@
       <path value="AllergyIntolerance.note.author[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <type>
         <code value="string" />
       </type>
     </element>
-    <element id="AllergyIntolerance.reaction">
-      <path value="AllergyIntolerance.reaction" />
-      <mustSupport value="true" />
-    </element>
     <element id="AllergyIntolerance.reaction.note.author[x]">
       <path value="AllergyIntolerance.reaction.note.author[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
       <type>
         <code value="string" />

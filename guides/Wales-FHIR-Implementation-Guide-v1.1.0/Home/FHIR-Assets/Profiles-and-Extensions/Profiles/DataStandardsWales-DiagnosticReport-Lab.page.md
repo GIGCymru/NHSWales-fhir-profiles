@@ -6,6 +6,8 @@ The **Data Standards Wales DiagnosticReport-Lab** profile (based on [DiagonsticR
 
 The purpose of this profile is to provide a set of guidelines and minimum standards to allow DiagnosticReport resources to be used to record, search, and fetch laboratory results associated with a patient in a consistent and interoperable manner.
 
+The {{page-title}} profile is derived from the [UK Core Diagnostic Report-Lab](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-DiagnosticReport-Lab?version=2.0.1).
+
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport-Lab}}
 
 The diagram below shows the typical structure of a Laboratory Result Report.
@@ -80,7 +82,7 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 * For laboratory reports, the `DiagnosticReport.subject` field **SHALL** contain reference to a patient resource. References to other resource types are not permissible.
 * The `DiagnosticReport.encounter` field **SHOULD** contain a reference to the encounter associated with the test report if this data is available.
 * The `DiagnosticReport.effective` field **SHOULD** be populated. The diagnostically relevant time (known as the “effective time” and typically the time of the procedure)*
-* When results become available, the `DiagnosticReport.result` field will include panels of results (such as a Full Blood Count or Liver Function Test panel) which are represented by observation resources that contain references to other nested Observations. Such observations and contained nested observations will implement the [Data Standards Wales Observation Lab]({{pagelink:DataStandardsWales-Observation-Lab}}) profile.
+* When results become available, the `DiagnosticReport.result` field will include panels of results (such as a Full Blood Count or Liver Function Test panel) which are represented by observation resources that contain references to other nested Observations. Such observations and contained nested observations will implement the {{pagelink:DataStandardsWales-Observation-Lab, text: Data Standards Wales Observation Lab}} profile.
 * The `DiagnosticReport.issued` field **SHOULD** be populated. The time this version of the report was made available*
 <br><br>
 

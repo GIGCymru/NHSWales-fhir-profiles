@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DiagnosticReport-Lab"/>
+  <id value="DataStandardsWales-DiagnosticReport-Lab" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport-Lab" />
-  <version value="0.0.5" />
+  <version value="0.1.0" />
   <name value="DataStandardsWalesDiagnosticReportLab" />
   <title value="Data Standards Wales Diagnostic Report - Lab" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2023-05-24" />
   <publisher value="NHS Wales" />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
@@ -21,16 +21,19 @@
       <path value="DiagnosticReport.identifier" />
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.status">
-      <path value="DiagnosticReport.status" />
-      <mustSupport value="true" />
+    <element id="DiagnosticReport.basedOn">
+      <path value="DiagnosticReport.basedOn" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
+      </type>
     </element>
     <element id="DiagnosticReport.category">
       <path value="DiagnosticReport.category" />
-      <min value="1" />
-    </element>
-    <element id="DiagnosticReport.category.coding">
-      <path value="DiagnosticReport.category.coding" />
       <min value="1" />
     </element>
     <element id="DiagnosticReport.category.coding:laboratory">
@@ -45,10 +48,6 @@
       </fixedCoding>
       <mustSupport value="true" />
     </element>
-    <element id="DiagnosticReport.code">
-      <path value="DiagnosticReport.code" />
-      <mustSupport value="true" />
-    </element>
     <element id="DiagnosticReport.subject">
       <path value="DiagnosticReport.subject" />
       <short value="The subject of the report - which is always a patient for Laboratory Reports" />
@@ -58,7 +57,6 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.encounter">
       <path value="DiagnosticReport.encounter" />
@@ -66,26 +64,38 @@
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
-      <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.effective[x]">
       <path value="DiagnosticReport.effective[x]" />
-      <mustSupport value="true" />
-    </element>
-    <element id="DiagnosticReport.issued">
-      <path value="DiagnosticReport.issued" />
       <mustSupport value="true" />
     </element>
     <element id="DiagnosticReport.performer">
       <path value="DiagnosticReport.performer" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-CareTeam" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
       <mustSupport value="true" />
+    </element>
+    <element id="DiagnosticReport.resultsInterpreter">
+      <path value="DiagnosticReport.resultsInterpreter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="DiagnosticReport.specimen">
+      <path value="DiagnosticReport.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Specimen" />
+      </type>
     </element>
     <element id="DiagnosticReport.result">
       <path value="DiagnosticReport.result" />
@@ -94,7 +104,13 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-Lab" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
-      <mustSupport value="true" />
+    </element>
+    <element id="DiagnosticReport.imagingStudy">
+      <path value="DiagnosticReport.imagingStudy" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImagingStudy" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>

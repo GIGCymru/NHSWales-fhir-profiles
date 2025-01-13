@@ -20,7 +20,7 @@
   </contact>
   <description value="An extension to carry a code to indicate the patient's occupation." />
   <purpose value="An extension to carry a SNOMED code used indicate the patient's occupation." />
-  <copyright value="2023 NHS Wales." />
+  <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
   <abstract value="false" />

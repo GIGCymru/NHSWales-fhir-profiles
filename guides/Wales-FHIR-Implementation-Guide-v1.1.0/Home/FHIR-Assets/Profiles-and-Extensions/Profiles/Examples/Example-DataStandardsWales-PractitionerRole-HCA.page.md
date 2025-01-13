@@ -1,9 +1,4 @@
----
-topic: DosageDrops
----
-
-
-### Example Dosage - Drops
+## Example PractitionerRole - Health Care Assistant
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -25,19 +20,19 @@ topic: DosageDrops
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{tree:PractitionerRole/Example-PractitionerRole-HealthCareAssistant}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{table:PractitionerRole/Example-PractitionerRole-HealthCareAssistant}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{xml:PractitionerRole/Example-PractitionerRole-HealthCareAssistant}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{json:PractitionerRole/Example-PractitionerRole-HealthCareAssistant}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-dosage-example-datastandardswales-dosage-drops}}
+      {{narrative:PractitionerRole/Example-PractitionerRole-HealthCareAssistant}}
     </div>  
   </div>
 </div>

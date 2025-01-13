@@ -1,11 +1,15 @@
-<Immunization>
+<Immunization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Immunization-FluVaccine" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+    </meta>
     <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-VaccinationProcedure">
 		<valueCodeableConcept>
-			<Coding>
+			<coding>
 				<system value="http://snomed.info/sct" />
 				<code value="86198006" />
 				<display value= "Administration of influenza vaccine" />
-			</Coding>
+			</coding>
 		</valueCodeableConcept>
 	</extension>
 	<status value="completed" />
