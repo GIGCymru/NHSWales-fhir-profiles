@@ -1,3 +1,7 @@
+---
+topic: ObservationVitalSigns
+---
+
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
@@ -37,6 +41,10 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
+    <list>
+      <li>{
+        {pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Head Circumference}}</li>
+    </list>
   </div>   
 </div>
 
