@@ -80,6 +80,7 @@ Package:
                 * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
             * .note.author. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Observation
+            * Updated version from 0.1.0 to 0.1.1
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .note.author. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Organization
