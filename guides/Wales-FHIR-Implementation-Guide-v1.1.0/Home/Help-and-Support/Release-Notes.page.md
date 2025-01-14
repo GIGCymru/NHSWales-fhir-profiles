@@ -23,6 +23,7 @@ Package:
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-DiagnosticReport
+            * Updated version from 0.1.0 to 0.1.1
             * .basedOn. Removed reference to UK Core ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
         * DataStandardsWales-Encounter
             * Updated version from 0.1.0 to 0.1.1
