@@ -1,9 +1,9 @@
 ---
-topic: ObservationBMI
+topic: ObservationMaternalHeight
 ---
 
 
-### Example Observation - BMI
+### Example Observation - Maternal Height
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -25,19 +25,19 @@ topic: ObservationBMI
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-observation-example-datastandardswales-observation-BMI}}
+      {{tree:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-observation-example-datastandardswales-observation-BMI}}
+      {{table:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-observation-example-datastandardswales-observation-BMI}}
+      {{xml:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-observation-example-datastandardswales-observation-BMI}}
+      {{json:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-observation-example-datastandardswales-observation-BMI}}
+      {{narrative:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
     </div>  
   </div>
 </div>
