@@ -40,7 +40,8 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
     <list>
         <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Amend Device and Document Reference }}</li>
         <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text:Example Provenance - Amend where Device is unavailable }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistante Practitioner and PractitionerRole }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text:Example Provenance - Growth Charts }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistant Practitioner and PractitionerRole }}</li>
       </list>
   </div>
 </div>
