@@ -15,7 +15,7 @@
 		  <coding>
 			<system value="http://snomed.info/sct" />
 			<code value="70941000052108" />
-			<display value="Body height Mother" />
+			<display value="Body height of biological mother" />
 		  </coding>
 		</code>
 		<subject>

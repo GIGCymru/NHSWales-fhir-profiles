@@ -15,7 +15,7 @@
 		  <coding>
 			<system value="http://snomed.info/sct" />
 			<code value="27113001" />
-			<display value="Body weight measure" />
+			<display value="Body weight" />
 		  </coding>
 		</code>
 		<subject>
