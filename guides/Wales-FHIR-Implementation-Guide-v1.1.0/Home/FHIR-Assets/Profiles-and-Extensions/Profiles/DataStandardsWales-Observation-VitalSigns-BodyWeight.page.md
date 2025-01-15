@@ -38,8 +38,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li> {
-        {pagelink:ObservationWeight, text: Weight}}</li>
+      <li> {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md, text: Example Observation Vital Signs - Weight}}</li>
     </list>
   </div>   
 </div>
