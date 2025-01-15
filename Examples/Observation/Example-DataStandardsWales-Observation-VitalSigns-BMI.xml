@@ -1,7 +1,7 @@
 <Observation>
 		<id value="Example-DataStandardsWales-Observation-BMI"/>
 			<meta>
-        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BMI" />
     		</meta>
 		<status value="final"/>
 		<category>
@@ -34,7 +34,7 @@
 		<valueQuantity>
 		  <value value="14.88"/>
 		  <unit value="kilogram / (meter ^ 2)"/>
-		  <system value="http://unitsofmeasure.org/" />
+		  <system value="http://unitsofmeasure.org" />
       	  <code value="kg/m2" />
 		</valueQuantity>
 		<derivedFrom>
