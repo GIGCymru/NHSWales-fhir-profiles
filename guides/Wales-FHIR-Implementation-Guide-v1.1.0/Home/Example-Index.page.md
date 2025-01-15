@@ -88,9 +88,6 @@ The following examples are published with this guide and all available as a down
 ### Observation Vital Signs Body Weight Examples
 * {{pagelink:ObservationWeight, text: Example Observation - Weight}}
 
-### Observation Vital Signs Examples
-
-
 ### Laboratory Group Examples
 
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
