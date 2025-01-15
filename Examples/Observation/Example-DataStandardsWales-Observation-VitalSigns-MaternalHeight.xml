@@ -1,7 +1,7 @@
 <Observation>
 		<id value="Example-DataStandardsWales-Observation-MaternalHeight"/>
 			<meta>
-        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyHeight" />
     		</meta>
 		<status value="final"/>
 		<category>
@@ -37,7 +37,7 @@
 		<valueQuantity>
 		  <value value="1.65"/>
 		  <unit value="meter"/>
-		  <system value="http://unitsofmeasure.org/" />
+		  <system value="http://unitsofmeasure.org" />
       	  <code value="m" />
 		</valueQuantity>
 	  </Observation>
