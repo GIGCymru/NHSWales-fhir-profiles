@@ -67,7 +67,7 @@ Package:
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Patient
-        * Updated version from 1.2.0 to 1.2.1
+            * Updated version from 1.2.0 to 1.2.1
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
