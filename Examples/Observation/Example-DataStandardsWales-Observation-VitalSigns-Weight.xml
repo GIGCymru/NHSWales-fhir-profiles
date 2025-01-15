@@ -1,5 +1,5 @@
 <Observation>
-		<id value="Example-DataStandardsWales-Observation-Weight"/>
+		<id value="Example-DataStandardsWales-Observation-VitalSigns-Weight"/>
 			<meta>
         		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyWeight" />
     		</meta>
