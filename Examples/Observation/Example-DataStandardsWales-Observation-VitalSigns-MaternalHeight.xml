@@ -1,0 +1,43 @@
+<Observation>
+		<id value="Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight"/>
+			<meta>
+        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyHeight" />
+    		</meta>
+		<status value="final"/>
+		<category>
+		  <coding>
+			<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+			<code value="vital-signs"/>
+			<display value="Vital Signs"/>
+		  </coding>
+		</category>
+		<code>
+		  <coding>
+			<system value="http://snomed.info/sct" />
+			<code value="70941000052108" />
+			<display value="Body height of biological mother" />
+		  </coding>
+		</code>
+		<subject>
+		  <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
+		  <display value="JONES, Alice (NHS:9912003444)" />
+		</subject>
+		<focus>
+		  <reference value="RelatedPerson/Example-DataStandardsWales-RelatedPerson-Mother" />
+		</focus>
+		<encounter>
+		  <reference value="Encounter/Example-DataStandardsWales-Encounter-OutpatientClinic"/>
+		</encounter>
+		<performer>
+		  <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PaediatricNurse" />
+		  <display value="SMITH, John (NMC:14H8558P), Registered Nurse"/>
+		</performer>
+		<!-- Observation effective date -->
+		<effectiveDateTime value="2024-08-07T12:10:11Z"/>
+		<valueQuantity>
+		  <value value="1.65"/>
+		  <unit value="meter"/>
+		  <system value="http://unitsofmeasure.org" />
+      	  <code value="m" />
+		</valueQuantity>
+	  </Observation>
