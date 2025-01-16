@@ -80,13 +80,16 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
 ### Observation Vital Signs BMI Examples
-* {{pagelink:ObservationBMI, text: Example Observation - BMI}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text:Example Observation Vital Signs - BMI}}
 
 ### Observation Vital Signs Body Height Examples
-* {{pagelink:ObservationMaternalHeight, text: Example Observation - Maternal Height}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md, text:Example Observation Vital Signs - Maternal Height}}
 
 ### Observation Vital Signs Body Weight Examples
-* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md, text:Example Observation Vital Signs - Weight}}
+
+### Observation Vital Signs Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}
 
 ### Laboratory Group Examples
 
