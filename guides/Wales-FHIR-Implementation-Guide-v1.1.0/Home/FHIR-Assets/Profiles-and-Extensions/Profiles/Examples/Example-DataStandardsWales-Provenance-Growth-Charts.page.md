@@ -1,6 +1,4 @@
-<div class="warning"><span class="ClinicalWarn"></span></div>
-
-### Example Observation - BMI
+### Example Provenance - Growth Charts
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-BMI}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
     </div>  
   </div>
 </div>

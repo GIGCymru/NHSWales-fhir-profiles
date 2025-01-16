@@ -67,7 +67,7 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
 
 ### Example Observations
 The following example resources are provided within this guide:
-- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}, 
+- {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-ACVPU.page.md, text:ACVPU (Alert Confusion Voice Pain Unresponsive) scale score}}
 - {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BloodPressure.page.md, text:Blood pressure}}
 - {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyHeight.page.md, text:Body height}}
 - {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-BodyTemperature.page.md, text:Body temperature}}

@@ -1,7 +1,4 @@
----
-topic: ObservationMaternalHeight
----
-
+<div class="warning"><span class="ClinicalWarn"></span></div>
 
 ### Example Observation - Maternal Height
 
@@ -25,19 +22,19 @@ topic: ObservationMaternalHeight
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
+      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
+      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
+      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
+      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:examples-observation-example-datastandardswales-observation-vitalsigns-MaternalHeight}}
+      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight}}
     </div>  
   </div>
 </div>

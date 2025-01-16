@@ -23,6 +23,7 @@ Package:
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-DiagnosticReport
+            * Updated version from 0.1.0 to 0.1.1
             * .basedOn. Removed reference to UK Core ServiceRequest. Added reference to DataStandardsWales-ServiceRequest
         * DataStandardsWales-Encounter
             * Updated version from 0.1.0 to 0.1.1
@@ -42,7 +43,7 @@ Package:
             * Updated version from 1.1.0 to 1.1.1
             * .note.author. Removed reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .performer.actor. 
-                * Removed reference to UKCore-RelatedPersonDevice. Added reference to DataStandardsWales-Device
+                * Removed reference to UKCore-Device. Added reference to DataStandardsWales-Device
                 * Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-MedicationDispense
             * Updated version from 1.1.0 to 1.1.1
@@ -66,7 +67,7 @@ Package:
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 Organization. Added reference to DataStandardsWales-Organization
         * DataStandardsWales-Patient
-        * Updated version from 1.2.0 to 1.2.1
+            * Updated version from 1.2.0 to 1.2.1
             * .link.other
                 * Removed reference to HL7 Patient. Added reference to DataStandardsWales-Patient
                 * Removed reference to HL7 RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
@@ -80,6 +81,7 @@ Package:
                 * Removed reference to HL7 PractitionerRole. Added reference to DataStandardsWales-PractitionerRole
             * .note.author. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Observation
+            * Updated version from 0.1.0 to 0.1.1
             * .performer. Removed reference to UK Core RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
             * .note.author. Removed  reference to UKCore-RelatedPerson. Added reference to DataStandardsWales-RelatedPerson
         * DataStandardsWales-Organization
@@ -155,6 +157,10 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * NADEX-Identifier
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Provenance
+            * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Growth Chart}} 
 
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.

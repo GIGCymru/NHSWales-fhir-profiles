@@ -88,9 +88,6 @@ The following examples are published with this guide and all available as a down
 ### Observation Vital Signs Body Weight Examples
 * {{pagelink:ObservationWeight, text: Example Observation - Weight}}
 
-### Observation Vital Signs Examples
-
-
 ### Laboratory Group Examples
 
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
@@ -128,6 +125,7 @@ The following examples are published with this guide and all available as a down
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend, text: Example Provenance - Amend Device and Document Reference}}
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
+* {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
 
 ### ServiceRequest Examples

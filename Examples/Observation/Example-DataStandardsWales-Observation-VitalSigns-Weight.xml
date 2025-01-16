@@ -1,7 +1,7 @@
 <Observation>
-		<id value="Example-DataStandardsWales-Observation-Weight"/>
+		<id value="Example-DataStandardsWales-Observation-VitalSigns-Weight"/>
 			<meta>
-        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
+        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyWeight" />
     		</meta>
 		<status value="final"/>
 		<category>
@@ -15,12 +15,11 @@
 		  <coding>
 			<system value="http://snomed.info/sct" />
 			<code value="27113001" />
-			<display value="Body weight measure" />
+			<display value="Body weight" />
 		  </coding>
 		</code>
 		<subject>
-		  <reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		  <display value="JONES, Alice (NHS:9912003444)" />
+		  <reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient" />
 		</subject>
 		<encounter>
 		  <reference value="Encounter/Example-DataStandardsWales-Encounter-OutpatientClinic"/>
@@ -34,7 +33,7 @@
 		<valueQuantity>
 		  <value value="18.23"/>
 		  <unit value="kilogram"/>
-		  <system value="http://unitsofmeasure.org/"/>
+		  <system value="http://unitsofmeasure.org"/>
 		  <code value="kg" />
 		</valueQuantity>
 	  </Observation>
