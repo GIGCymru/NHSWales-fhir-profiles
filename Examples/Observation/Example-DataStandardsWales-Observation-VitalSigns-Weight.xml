@@ -1,0 +1,39 @@
+<Observation>
+		<id value="Example-DataStandardsWales-Observation-VitalSigns-Weight"/>
+			<meta>
+        		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns-BodyWeight" />
+    		</meta>
+		<status value="final"/>
+		<category>
+		  <coding>
+			<system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+			<code value="vital-signs"/>
+			<display value="Vital Signs"/>
+		  </coding>
+		</category>
+		<code>
+		  <coding>
+			<system value="http://snomed.info/sct" />
+			<code value="27113001" />
+			<display value="Body weight" />
+		  </coding>
+		</code>
+		<subject>
+		  <reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient" />
+		</subject>
+		<encounter>
+		  <reference value="Encounter/Example-DataStandardsWales-Encounter-OutpatientClinic"/>
+		</encounter>
+		<performer>
+		  <reference value="Practitioner/Example-DataStandardsWales-Practitioner-PaediatricNurse" />
+		  <display value="SMITH, John (NMC:14H8558P), Registered Nurse"/>
+		</performer>
+		<!-- Observation effective date -->
+		<effectiveDateTime value="2024-08-07T12:10:11Z"/>
+		<valueQuantity>
+		  <value value="18.23"/>
+		  <unit value="kilogram"/>
+		  <system value="http://unitsofmeasure.org"/>
+		  <code value="kg" />
+		</valueQuantity>
+	  </Observation>
