@@ -113,6 +113,7 @@ The following examples are published with this guide and all available as a down
 ### Provenance Examples
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend, text: Example Provenance - Amend Device and Document Reference}}
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
+* {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
 
 ### ServiceRequest Examples
