@@ -78,5 +78,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
-- name: ObservationVitalSigns
-  filename: ObservationVitalSigns
+- name: Observation-VitalSigns
+  filename: Observation-VitalSigns

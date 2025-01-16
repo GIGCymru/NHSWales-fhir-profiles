@@ -39,7 +39,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   <div id="tabeg" class="tabcontent">
   </div> 
     <list>
-      <li> {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation Vital Signs - BMI}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation Vital Signs - BMI}}</li>
     </list>  
 </div>
 
