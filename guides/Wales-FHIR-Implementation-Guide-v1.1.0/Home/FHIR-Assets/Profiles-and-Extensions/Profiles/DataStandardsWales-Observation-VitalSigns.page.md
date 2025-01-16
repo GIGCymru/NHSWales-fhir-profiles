@@ -38,7 +38,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </div>
   <div id="tabeg" class="tabcontent">
     <list>
-      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}</li>
     </list>
   </div>   
 </div>
