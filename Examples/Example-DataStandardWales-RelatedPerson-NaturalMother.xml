@@ -5,8 +5,7 @@
 		</meta>
 	<active value="true"/> 
 	<patient>
-		<reference value="Patient/Example-DataStandardsWales-Patient-AliceJones" />
-		<display value="JONES, Alice (NHS:9912003444)" />
+		<reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient" />
 	</patient>
 	<relationship> 
 		<coding> 
