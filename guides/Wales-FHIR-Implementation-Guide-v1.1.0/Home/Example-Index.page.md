@@ -131,6 +131,9 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
 
+### Related Person Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md, text:Example Related Person - Natural Mother}}
+
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
 

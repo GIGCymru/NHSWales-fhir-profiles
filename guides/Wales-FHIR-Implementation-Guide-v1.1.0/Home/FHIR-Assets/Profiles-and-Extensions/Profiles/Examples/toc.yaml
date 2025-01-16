@@ -70,6 +70,8 @@
   filename: Example-DataStandardsWales-Provenance-Growth-Charts.page.md
 - name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
   filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
+- name: Example-DataStandardsWales-RelatedPerson-NaturalMother
+  filename: Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
