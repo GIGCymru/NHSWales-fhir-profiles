@@ -157,6 +157,10 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * NADEX-Identifier
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Provenance
+            * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Growth Chart}} 
 
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
