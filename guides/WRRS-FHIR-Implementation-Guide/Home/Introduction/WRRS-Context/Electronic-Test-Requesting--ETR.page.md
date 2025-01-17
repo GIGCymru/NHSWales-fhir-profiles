@@ -1,0 +1,3 @@
+## {{page-title}}
+ETR was first implemented into WRRS for Radiology in 2019. A user, logged in to the Welsh Clinical Portal (WCP) can create a radiology request that will be persisted in the WRRS database. Histopathology (Cellular pathology) is currently in the pipeline to be the next electronic test requesting specialty with pathology being implemented soon after.
+On completion of pathology the TRRR systems will be decommissioned.
