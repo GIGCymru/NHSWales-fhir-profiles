@@ -1,0 +1,23 @@
+<Questionnaire>
+	<id value="Example-DataStandardsWales-Questionnaire-GrowthChartCondition"/>
+		<meta>
+			<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
+		</meta>
+	<title value="Growth Chart Condition" />
+	<status value="active"/>
+	<description value="This questionnaire is to document if the patient has Turner's, Down's syndrome or neither. This information will determine the graph shown on the patient's growth chart." />
+	<item>
+		<linkId value="GC001" />
+		<type value="choice" />
+		<required value="true" />
+		<answerOption>
+			<valueString value="Turner syndrome present" />
+		</answerOption>
+		<answerOption>
+			<valueString value="Down syndrome present" />
+		</answerOption>
+		<answerOption>
+			<valueString value="UK WHO" />
+		</answerOption>
+	</item>
+</Questionnaire>
