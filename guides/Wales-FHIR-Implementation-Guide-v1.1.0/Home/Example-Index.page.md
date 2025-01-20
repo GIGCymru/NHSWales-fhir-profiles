@@ -131,6 +131,9 @@ The following examples are published with this guide and all available as a down
 ### Questionnaire Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}
 
+### Questionnaire Response Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md, text: Example Questionnaire Response - Growth Chart Condition}}
+
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
 
