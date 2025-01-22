@@ -84,3 +84,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
+- name: Observation
+  filename: Observation
