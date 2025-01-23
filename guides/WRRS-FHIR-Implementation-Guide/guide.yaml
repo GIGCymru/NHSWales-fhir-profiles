@@ -1,0 +1,5 @@
+title: WRRS FHIR Implementation Guide
+description: FHIR profiles and guidance for implementers of the WRRS FHIR API in Wales
+version: 0.0.1
+style-root: project
+style-name: NHSWalesIGStyle

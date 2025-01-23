@@ -26,6 +26,12 @@
   filename: Example-DataStandardsWales-Observation-BodyWeight.page.md
 - name: Example-DataStandardsWales-Observation-RespiratoryRate
   filename: Example-DataStandardsWales-Observation-RespiratoryRate.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-BMI
+  filename: Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight
+  filename: Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-Weight
+  filename: Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md
 - name: Example-DataStandardsWales-Organization-GGH
   filename: Example-DataStandardsWales-Organization-GGH.page.md
 - name: Example-DataStandardsWales-Organization-NPT
@@ -70,8 +76,6 @@
   filename: Example-DataStandardsWales-Provenance-Growth-Charts.page.md
 - name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
   filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
-- name: Example-DataStandardsWales-RelatedPerson-NaturalMother
-  filename: Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -80,5 +84,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
-- name: Observation-VitalSigns
-  filename: Observation-VitalSigns
+- name: Observation
+  filename: Observation
