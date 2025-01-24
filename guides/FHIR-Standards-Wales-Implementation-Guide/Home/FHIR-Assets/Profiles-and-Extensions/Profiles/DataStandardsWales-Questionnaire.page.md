@@ -38,6 +38,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire, hybrid}}
 	</div>
   <div id="tabeg" class="tabcontent">
+    <list>
+      <li> {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}</li>
+    </list>
   </div>
 </div>
 

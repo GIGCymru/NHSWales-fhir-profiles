@@ -1,6 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-### Example Observation - Head Circumference
+### Example Questionnaire - Growth Chart Condition
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{tree:Questionnaire/Example-DataStandardsWales-Questionnaire-GrowthChartCondition}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{table:Questionnaire/Example-DataStandardsWales-Questionnaire-GrowthChartCondition}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{xml:Questionnaire/Example-DataStandardsWales-Questionnaire-GrowthChartCondition}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{json:Questionnaire/Example-DataStandardsWales-Questionnaire-GrowthChartCondition}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Observation/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference}}
+      {{narrative:Questionnaire/Example-DataStandardsWales-Questionnaire-GrowthChartCondition}}
     </div>  
   </div>
 </div>

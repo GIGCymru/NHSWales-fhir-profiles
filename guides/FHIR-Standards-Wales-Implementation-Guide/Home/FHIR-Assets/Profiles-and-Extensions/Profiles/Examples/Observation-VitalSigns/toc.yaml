@@ -1,0 +1,6 @@
+- name: Example-DataStandardsWales-Observation-VitalSigns-BMI
+  filename: Example-DataStandardWales-Observation-VitalSigns-BMI.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight
+  filename: Example-DataStandardWales-Observation-VitalSigns-MaternalHeight.page.md
+- name: Example-DataStandardsWales-Observation-VitalSigns-Weight
+  filename: Example-DataStandardWales-Observation-VitalSigns-Weight.page.md

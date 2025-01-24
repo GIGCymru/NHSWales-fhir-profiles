@@ -80,16 +80,13 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
 ### Observation Vital Signs BMI Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation Vital Signs - BMI}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-BMI.page.md, text: Example Observation - BMI}}
 
 ### Observation Vital Signs Body Height Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation Vital Signs - Maternal Height}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation - Maternal Height}}
 
 ### Observation Vital Signs Body Weight Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md, text: Example Observation Vital Signs - Weight}}
-
-### Observation Vital Signs Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-Weight.page.md, text: Example Observation - Weight}}
 
 ### Laboratory Group Examples
 
@@ -130,6 +127,12 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
 * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
+
+### Questionnaire Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}
+
+### Questionnaire Response Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md, text: Example Questionnaire Response - Growth Chart Condition}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
