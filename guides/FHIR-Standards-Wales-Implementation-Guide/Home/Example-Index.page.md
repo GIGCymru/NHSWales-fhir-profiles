@@ -80,13 +80,13 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
 ### Observation Vital Signs BMI Examples
-* {{pagelink:ObservationBMI, text: Example Observation - BMI}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-BMI.page.md, text: Example Observation - BMI}}
 
 ### Observation Vital Signs Body Height Examples
-* {{pagelink:ObservationMaternalHeight, text: Example Observation - Maternal Height}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation - Maternal Height}}
 
 ### Observation Vital Signs Body Weight Examples
-* {{pagelink:ObservationWeight, text: Example Observation - Weight}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-Weight.page.md, text: Example Observation - Weight}}
 
 ### Laboratory Group Examples
 
@@ -130,6 +130,9 @@ The following examples are published with this guide and all available as a down
 
 ### Questionnaire Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}
+
+### Questionnaire Response Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md, text: Example Questionnaire Response - Growth Chart Condition}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}

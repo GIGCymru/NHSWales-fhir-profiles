@@ -78,6 +78,8 @@
   filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md
 - name: Example-DataStandardsWales-Questionnaire-GrowthChartCondition
   filename: Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md
+- name: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition
+  filename: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
@@ -86,3 +88,5 @@
   filename: Diagnostics
 - name: Immunization
   filename: Immunization
+- name: Observation
+  filename: Observation
