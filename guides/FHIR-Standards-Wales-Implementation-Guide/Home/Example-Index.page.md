@@ -28,8 +28,8 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
 
 ### Device Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:CDR Component}}
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Device - WPAS}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:Example Device - CDR Component}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Example Device - WPAS}}
 
 ### DiagnosticReport Examples
 
