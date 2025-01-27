@@ -159,6 +159,9 @@ Package:
         * NADEX-Identifier
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Device
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:CDR Component}}  
+            * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Device - WPAS}}
         * Provenance
             * {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Growth Chart}} 
 
