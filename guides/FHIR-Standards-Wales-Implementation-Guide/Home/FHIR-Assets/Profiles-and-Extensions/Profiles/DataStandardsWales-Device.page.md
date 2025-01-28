@@ -34,6 +34,10 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
+      <list>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:CDR Component}}</li>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Device - WPAS}}</li>
+    </list>
   </div>
 </div>
 
