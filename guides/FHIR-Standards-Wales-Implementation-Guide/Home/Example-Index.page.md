@@ -5,20 +5,17 @@
 The following examples are published with this guide and all available as a downloadable as zip file [here](https://api.simplifier.net/FHIR-Standards-Wales/zip).
 
 ### Allergy Examples
-
 *  {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Potato.page.md, text:Example food allergy - Potato}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-deleted.page.md, text:Example deleted allergy - Potato}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-NoKnownAllergy.page.md, text:Example exclusion - no known allergy}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-AllergyIntolerance-Aspirin.page.md, text:Example medication allergy -Aspirin}}
 
 ### Allergy List Examples
-
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies.page.md, text:Example List - with Allergies}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-Empty.page.md, text:Example List - empty list}}
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Allergies/Example-DataStandardsWales-List-Allergies-NoKnownAllergy.page.md, text:Example List - with no known Allergies}}
 
 ### Allergy Degraded
-
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-bundle-allergies-degraded.page.md, text:Example Bundle - Degraded Allergy}}
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedwasps.page.md, text:Example List - Degraded Wasp Allergy}}
 * {{pagelink:home/fhir-assets/profiles-and-extensions/profiles/examples/allergies/example-datastandardswales-allergyintolerance-degradedmorphine.page.md, text:Example List - Degraded Morphine Allergy}}
@@ -27,14 +24,16 @@ The following examples are published with this guide and all available as a down
 ### Audit Event Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-AuditEvent-CreateObservations.page.md, text: Audit Event - Create Observation}}
 
-### DiagnosticReport Examples
+### Device Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-CDRcomponent.page.md, text:Example Device - CDR Component}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Device-WPAS.page.md, text:Example Device - WPAS}}
 
+### DiagnosticReport Examples
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-CTAbdomen, text: Example Diagnostic Report - CT Abdomen}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Stress Test}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
 
 ### Laboratory Examples
-
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
 
@@ -89,12 +88,10 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-Weight.page.md, text: Example Observation - Weight}}
 
 ### Laboratory Group Examples
-
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
 
-### Laboratory Result Examples 
-
+### Laboratory Result Examples
 * {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
 
 ### Organization Examples
