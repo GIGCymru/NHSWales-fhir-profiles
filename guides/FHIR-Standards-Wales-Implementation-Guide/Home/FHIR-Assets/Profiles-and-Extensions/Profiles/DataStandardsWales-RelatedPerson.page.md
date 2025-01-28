@@ -37,6 +37,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
+    <list>
+      <li>{{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md, text:Example Related Person - Natural Mother}}</li>
+    </list>
   </div>   
 </div>
 

@@ -1,0 +1,17 @@
+<RelatedPerson>
+	<id value="Example-DataStandardsWales-RelatedPerson-NaturalMother"/>
+		<meta>
+			<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+		</meta>
+	<active value="true"/> 
+	<patient>
+		<reference value="Patient/Example-DataStandardsWales-Patient-PaediatricPatient" />
+	</patient>
+	<relationship> 
+		<coding> 
+			<system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode" />
+			<code value="NMTH" />
+			<display value="natural mother"/> 
+		</coding> 
+	</relationship> 
+</RelatedPerson>
