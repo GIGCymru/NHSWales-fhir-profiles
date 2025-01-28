@@ -4,6 +4,8 @@
   filename: Allergy
 - name: Diagnostic Reports
   filename: Diagnostic-Reports
+- name: Growth Charts
+  filename: Growth-Charts
 - name: Medications
   filename: Medications
 - name: Provenance
