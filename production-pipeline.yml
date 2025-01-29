@@ -38,7 +38,7 @@ stages:
                     echo "Simplifier login and sync"
                     fhir login email=$SIMPLIFIER_USERNAME password=$SIMPLIFIER_PASSWORD
                     echo pwd
-                    fhir project link $SIMPLIFIER_DEV_URLKEY --strategy TakeLocal
+                    fhir project link $SIMPLIFIER_DEVOPS_URLKEY --strategy TakeLocal
                     fhir project sync
                   displayName: 'Simplifier login and sync'
                   env:
