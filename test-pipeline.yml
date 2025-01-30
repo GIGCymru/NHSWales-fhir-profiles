@@ -35,6 +35,7 @@ stages:
                   displayName: 'Check Firely Terminal Version'
 
                 - script: |
+                    set -x
                     echo "Simplifier login and sync"
                     fhir login email=$SIMPLIFIER_USERNAME password=$SIMPLIFIER_PASSWORD
                     echo pwd
