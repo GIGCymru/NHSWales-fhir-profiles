@@ -1,7 +1,3 @@
----
-topic: GrowthChart-FHIR-Data-Model
----
-
 # {{page-title}}
 
 <div style="float:right;border:1px;border-style:solid;padding:10px;margin:10px;width:300px;">
@@ -26,15 +22,18 @@ Specific profiles have been developed to represent growth-related observations a
 The diagram below provides an overview of the required FHIR resources and how they are interconnected.
 
 The FHIR data model consists of the following resources: 
-* Encounter
-* Observation 
-* Observation - Vital Signs
-* Patient
-* Practitioner
-* PractitionerRole
-* Questionnaire
-* QuestionnaireResponse
-* RelatedPerson
+* {{pagelink:DataStandardsWales-Encounter,text:Encounter}} 
+* {{pagelink:DataStandardsWales-Observation,text:Observation}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns,text:Observation-Vital Signs}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI,text:Observation-Vital Signs-BMI}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Observation-Vital Signs-Body Height}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight,text:Observation-Vital Signs-Body Weight}}
+* {{pagelink:DataStandardsWales-Patient,text:Observation}}
+* {{pagelink:DataStandardsWales-Practitioner,text:Practitioner}}
+* {{pagelink:DataStandardsWales-PractitionerRole,text:Practitioner Role}}
+* {{pagelink:DataStandardsWales-Questionnaire,text:Questionnaire}}
+* {{pagelink:DataStandardsWales-QuestionnaireResponse,text:Questionnaire Response}}
+* {{pagelink:DataStandardsWales-RelatedPerson,text:Related Person}}
 
 
 <br>
@@ -51,22 +50,20 @@ The {{pagelink:DataStandardsWales-Encounter,text:Data Standards Wales Encounter 
 
 To link a growth chart measurement event to a specific encounter, the `Encounter.class` has been linked to a SNOMED code for Growth Chart (record artifact).
 
-The Encounter profile is derived from the [UK Core Encounter Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Encounter?version=2.0.1).
-
 ### Observation - Vital Signs
 
-The Observation - Vital Signs resource is used for specific observations linked to measurements taken from the patient or someone related to the patient. In the context of growth charts, it includes the following:
+The Observation - Vital Signs profile and its children, are used for specific observations linked to measurements taken from the patient or someone related to the patient. In the context of growth charts, it includes the following:
 
-* {{pagelink:DataStandardsWales-Observation-VitalSigns,text:Data Standards Wales Observation-Vital Signs Profile}} - included here is Head Circumference
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI,text:Data Standards Wales Observation-Vital Signs-BMI Profile}}
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Data Standards Wales Observation-Vital Signs-Body Height Profile}}  - including that of the parents of the child
-* {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight,text:Data Standards Wales Observation-Vital Signs-Body Weight Profile}}
+* {{pagelink:DataStandardsWales-Observation-VitalSigns,text:Data Standards Wales Observation-Vital Signs Profile}} - included here is Head Circumference.
+  * {{pagelink:DataStandardsWales-Observation-VitalSigns-BMI,text:Data Standards Wales Observation-Vital Signs-BMI Profile}}
+  * {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Data Standards Wales Observation-Vital Signs-Body Height Profile}}  - including that of the parents of the child
+  * {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight,text:Data Standards Wales Observation-Vital Signs-Body Weight Profile}}
 
 
 ### Observation 
 {{pagelink:DataStandardsWales-Observation,text:Data Standards Wales Observation Profile}} is for any other observation that is not considered a vital sign. We have, in this context, Bone Age, which is a parameter or measure taken from an X-Ray and not from the patient themselves. 
 
-Bone age is been then classified as an `Observation` resource with `Observation.category` of "Imaging".
+Bone age has then been classified as an `Observation` resource with `Observation.category` of "Imaging".
 
 <br>
 
@@ -75,35 +72,26 @@ Bone age is been then classified as an `Observation` resource with `Observation.
 <br />
 
 
-The {{pagelink:DataStandardsWales-Observation,text:Data Standards Wales Observation Profile}} is derived from the [UK Core Observation Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Observation?version=2.0.1)
-
-
 ### Practitioner
 A {{pagelink:DataStandardsWales-Practitioner,text:Practitioner}} in FHIR is any health and care professional that is involved in the care of a patient or citizen. 
 
 In many cases, healthcare professionals without a professional registration (e.g., Healthcare Support Workers) may take measurements, make observations, and author documentation. For these users, there is an option to capture their Nadex as part of `Practitioner.identifier`.
 {{pagelink:DataStandardsWales-PractitionerRole,text:Data Standards Wales Practitioner Role}}
 
-The {{pagelink:DataStandardsWales-Practitioner,text:Data Standards Wales Practitioner Profile}} is derived from the [UK Core Practitioner Profile](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/Profile-UKCore-Practitioner?version=2.0.1).
-
 ### Questionnaire
 {{pagelink:DataStandardsWales-Questionnaire,text:Data Standards Wales Questionnaire Profile}} is used here to capture information about the patient's condition (currently either Turner's or Down syndrome). 
 
-This profile is derived from the [HL7 R4 Questionnaire](https://hl7.org/fhir/R4/questionnaire.html).
 
 ### QuestionnaireResponse
 Each time a user selects a type of patient condition, an instance conforming to the {{pagelink:DataStandardsWales-QuestionnaireResponse,text:Data Standards Wales Questionnaire Response Profile}} is created, which is linked to the corresponding {{pagelink:DataStandardsWales-Questionnaire,text:Questionnaire}}. 
 
 The QuestionnaireResponse contains information about notable patient conditions, such as Down syndrome or Turner syndrome. If neither condition is selected, the default response is UK WHO. This selection determines which graph is presented to the user for plotting measurements.
 
-This profile is derived from the [HL7 R4 Questionnaire](https://hl7.org/fhir/R4/questionnaireresponse.html).
 
 ### Related Person
 A {{pagelink:DataStandardsWales-RelatedPerson,text:Related Person}} could be anyone connected to the patient. In this case, it is particularly relevant for parents or carers of the child, as they may occasionally provide data for the growth chart.
 
-The role of {{pagelink:DataStandardsWales-RelatedPerson,text: Data Standards Wales Related Person Profile}} is also significant when referencing Mid-Parental Height. This measure, derived from the mother’s and father’s heights, uses the {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Data Standards Wales Observation-Vital Signs-Body Height Profile}} as the base. Here, the `subject` is the patient (i.e., the child), and the `focus` is set to the 'natural mother' or 'natural father'.
-
-This profile is derived from the [UK Core RelatedPerson Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-RelatedPerson?version=current).
+The role of {{pagelink:DataStandardsWales-RelatedPerson,text: Data Standards Wales Related Person Profile}} is also significant when referencing Mid-Parental Height. This measure, derived from the natural mother’s and natural father’s heights, uses the {{pagelink:DataStandardsWales-Observation-VitalSigns-BodyHeight,text:Data Standards Wales Observation-Vital Signs-Body Height Profile}} as the base. Here, the `subject` is the patient (i.e., the child), and the `focus` is set to the 'natural mother' or 'natural father'.
 
 <br>
 
