@@ -17,6 +17,7 @@ stages:
           runOnce:
             deploy:
               steps:
+                - checkout: self
                 - task: UseDotNet@2
                   inputs:
                     version: '8.x'

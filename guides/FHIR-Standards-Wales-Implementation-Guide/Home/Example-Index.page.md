@@ -79,13 +79,16 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Observation-RespiratoryRate.page.md, text: Example Observation - Respiratory rate}}
 
 ### Observation Vital Signs BMI Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-BMI.page.md, text: Example Observation - BMI}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-BMI.page.md, text: Example Observation Vital Signs - BMI}}
 
 ### Observation Vital Signs Body Height Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation - Maternal Height}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight.page.md, text: Example Observation Vital Signs - Maternal Height}}
 
 ### Observation Vital Signs Body Weight Examples
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation/Example-DataStandardWales-Observation-VitalSigns-Weight.page.md, text: Example Observation - Weight}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-Weight.page.md, text: Example Observation Vital Signs - Weight}}
+
+### Observation Vital Signs Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}
 
 ### Laboratory Group Examples
 * {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
@@ -130,6 +133,9 @@ The following examples are published with this guide and all available as a down
 
 ### Questionnaire Response Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md, text: Example Questionnaire Response - Growth Chart Condition}}
+
+### Related Person Examples
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md, text:Example Related Person - Natural Mother}}
 
 ### ServiceRequest Examples
 * {{pagelink:Example-DataStandardsWales-ServiceRequest-RadiologyOrder, text: Example Service Request - Radiology Order}}
