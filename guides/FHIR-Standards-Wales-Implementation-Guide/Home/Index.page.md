@@ -1,5 +1,5 @@
 ---
-igversion: 2.1.0
+igversion: 2.2.0
 ---
 
 # Wales FHIR Implementation Guide v{{variable: igversion}} STU2 <a class="btn btn-primary justify-content-md-center" href="#resourceindex" role="button" background-color="21305f">Scroll to resource index</a>
@@ -63,14 +63,16 @@ These pages contain guidance on the following areas:
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Location}} </td> 
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	 
-      <td class="resource">{{pagelink:DataStandardsWales-Encounter}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>	  
+      <td class="resource">{{pagelink:DataStandardsWales-Appointment}}  </td> 
+	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>	  
     </tr>
     <tr>
       <td class="resource">{{pagelink:DataStandardsWales-Practitioner}} </td>
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
       <td class="resource">{{pagelink:DataStandardsWales-Organization}}  </td> 
 	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
+			<td class="resource">{{pagelink:DataStandardsWales-Encounter}}  </td> 
+	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>	
     </tr>
     <tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-PractitionerRole}} </td> 
