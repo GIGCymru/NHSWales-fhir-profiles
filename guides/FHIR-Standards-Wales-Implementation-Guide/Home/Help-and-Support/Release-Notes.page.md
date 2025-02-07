@@ -3,9 +3,13 @@
 This page describes the published versions of this implementation guide and differences between versions:
 
 ### v2.2.0 STU2
+Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-Appointment
+
+Guide: 
+* Added a new page to outline the DataStandardsWales-Appointment profile
 
 ### v2.1.0 STU2
 Package:
