@@ -7,7 +7,7 @@
   <publisher value="NHS Wales" />
   <responsible value="NHS Wales"/>
   <description value="This namespace indicates an Aneurin Bevan University Health Board PAS sub-specialty identifier."/> 
-  <usage value="Sub-speciality identity"/> 
+  <usage value="Appointment identity"/> 
   <uniqueId> 
     <type value="uri"/> 
     <value value="https://fhir.abuhb.nhs.wales/Id/pas-sub-specialty-code"/> 
