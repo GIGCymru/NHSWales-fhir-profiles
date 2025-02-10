@@ -3,7 +3,7 @@
 ## {{page-title}}
 
 ### Overview
-The [Appointment](https://www.hl7.org/fhir/r4/Appointment.html) resource is primarily allows the recording of detailed information about a planned meeting that may be in the future or past. The resource only describes a single meeting, a series of repeating visits would require multiple appointment resources to be created for each instance.
+The [Appointment](https://www.hl7.org/fhir/r4/Appointment.html) resource primarily allows the recording of detailed information about a planned meeting that may be in the future or past. The resource only describes a single meeting, a series of repeating visits would require multiple appointment resources to be created for each instance.
 
 The {{page-title}} profile is derived from the [UK Core Appointment Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-Appointment?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
 
