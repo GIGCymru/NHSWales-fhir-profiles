@@ -1,5 +1,5 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-BCHB-PAS-Sub-Speciality-Identifier"/> 
+  <id value="DataStandardsWales-BCUHB-PAS-Sub-Speciality-Identifier"/> 
   <name value="SubSpecialityIdentifier"/> 
   <status value="active" />
   <kind value="identifier"/>   
