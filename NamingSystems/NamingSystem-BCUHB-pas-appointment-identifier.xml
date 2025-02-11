@@ -1,5 +1,5 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-BCHB-PAS-AppointmentIdentifier"/> 
+  <id value="DataStandardsWales-BCUHB-PAS-AppointmentIdentifier"/> 
   <name value="AppointmentIdentifier"/> 
   <status value="active" />
   <kind value="identifier"/>   
