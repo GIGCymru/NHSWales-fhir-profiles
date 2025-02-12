@@ -24,7 +24,7 @@ Package:
         * Questionnaire Response
             * {{pagelink:Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition,text: Growth Chart Condition Response}}
 Guide:
-* Created a new section for {{pagelink:Home\Guidance\Growth-Charts,text: Growth Charts}} guidance
+* Created a new section for {{pagelink:Home/Guidance/Growth-Charts,text: Growth Charts}} guidance
 
 ### v2.1.0 STU2
 Package:
