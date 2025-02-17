@@ -9,6 +9,18 @@ Package:
 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
+        * Namespaces for PAS Appointment ids
+        * Namespaces for PAS Sub-speciality codes
+
+
+
+### v2.2.0 STU2
+Package:
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
         * Namespaces for PAS Sub-speciality codes
 
 ### v2.1.0 STU2
