@@ -6,6 +6,10 @@ This page describes the published versions of this implementation guide and diff
 Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
+    * Changes to Profiles
+        * DataStandardsWales-ServiceRequest
+            * Updated version from 0.1.1 to 1.0.0
+            * .code reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
