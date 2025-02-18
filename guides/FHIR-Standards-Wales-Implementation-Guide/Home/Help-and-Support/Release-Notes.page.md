@@ -6,7 +6,11 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-Appointment
+        * DataStandardsWales-Appointment        
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * Namespaces for PAS Appointment ids
+        * Namespaces for PAS Sub-speciality codes
 
 Guide: 
 * Added a new page to outline the DataStandardsWales-Appointment profile

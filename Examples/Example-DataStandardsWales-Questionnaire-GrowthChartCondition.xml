@@ -1,8 +1,8 @@
-<Questionnaire>
+<Questionnaire xmlns="http://hl7.org/fhir">
 	<id value="Example-DataStandardsWales-Questionnaire-GrowthChartCondition"/>
-		<meta>
-			<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
-		</meta>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Questionnaire" />
+	</meta>
 	<title value="Growth Chart Condition" />
 	<status value="active"/>
 	<description value="This questionnaire is to document if the patient has Turner's, Down's syndrome or neither. This information will determine the graph shown on the patient's growth chart." />
