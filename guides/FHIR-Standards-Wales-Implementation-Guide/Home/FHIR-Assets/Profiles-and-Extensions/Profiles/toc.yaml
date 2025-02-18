@@ -2,6 +2,8 @@
   filename: Index.page.md
 - name: ExamplarProfilePage
   filename: ExamplarProfilePage.page.md
+- name: DataStandardsWales-Appointment
+  filename: DataStandardsWales-Appointment.page.md
 - name: DataStandardsWales-AllergyIntolerance
   filename: DataStandardsWales-AllergyIntolerance.page.md
 - name: DataStandardsWales-AllergyList
@@ -72,4 +74,3 @@
   filename: DataStandardsWales-Specimen.page.md
 - name: Examples
   filename: Examples
-
