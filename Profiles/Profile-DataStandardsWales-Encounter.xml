@@ -32,6 +32,15 @@
       <sliceName value="OutcomeOfAttendance" />
       <mustSupport value="true" />
     </element>
+    <element id="Encounter.extension:Speciality">
+      <path value="Encounter.extension" />
+      <sliceName value="Speciality" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-Speciality" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Encounter.subject">
       <path value="Encounter.subject" />
       <type>
