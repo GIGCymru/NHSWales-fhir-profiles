@@ -85,6 +85,8 @@ The `Encounter.class` field **SHALL** be populated using the values defined by t
 
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard: 
+  * Data Standards Wales extensions
+    * {{pagelink:Extension-DataStandardsWales-Speciality}} supports the capture of the specialty of a practitioner that would be required to perform the service at this encounter
   * UK Core extensions
     * [UKCore STU2-AdmissionMethod](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-AdmissionMethod.page.md?version=current) supports the exchange of information representing the method by which a patient was admitted to hospital.
     * [UKCore STU2-DichargeMethod](https://simplifier.net/guide/uk-core-implementation-guide-stu2/Home/ProfilesandExtensions/ExtensionLibrary/Extension-UKCore-DischargeMethod.page.md?version=current) supports the exchange of information representing the method by which a patient was discharged from hospital.

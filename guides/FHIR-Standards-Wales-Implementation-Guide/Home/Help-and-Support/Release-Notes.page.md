@@ -6,7 +6,14 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-Appointment        
+        * DataStandardsWales-Appointment  
+    * Changes to Profiles
+        * DataStandardsWales-Encounter
+            * Updated version from 0.1.1 to 1.0.0
+            * Updated status from draft to active
+            * Added .extension:Speciality    
+    * New Extensions
+        * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * Namespaces for PAS Appointment ids
@@ -14,6 +21,8 @@ Package:
 
 Guide: 
 * Added a new page to outline the DataStandardsWales-Appointment profile
+* Added a new page to outline the DataStandardsWales-Speciality extension
+* Updated relevant pages within the Guide to reflect changes outlined in Package.
 
 ### v2.1.0 STU2
 Package:
