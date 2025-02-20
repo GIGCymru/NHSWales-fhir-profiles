@@ -39,6 +39,8 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="The specialty of a practitioner that would be required to perform the service requested at this encounter" />
+      <definition value="The specialty of a practitioner that would be required to perform the service requested at this encounter" />
       <type>
         <code value="CodeableConcept" />
       </type>
