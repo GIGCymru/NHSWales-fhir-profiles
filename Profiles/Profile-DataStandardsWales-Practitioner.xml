@@ -36,7 +36,7 @@
     </element>
     <element id="Practitioner.identifier:nadexIdentifier.system">
       <path value="Practitioner.identifier.system" />
-      <fixedUri value="https://fhir.nhs.uk/Id/nadex-identifier" />
+      <fixedUri value="https://fhir.nhs.wales/Id/nadex-identifier" />
     </element>
     <element id="Practitioner.identifier:gdcNumber">
       <path value="Practitioner.identifier" />
