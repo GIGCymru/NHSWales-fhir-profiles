@@ -1,0 +1,8 @@
+- name: Example-DataStandardsWales-Provenance-DemographicsAsRecorded
+  filename: Example-DataStandardsWales-Provenance-DemographicsAsRecorded.page.md
+- name: Example-DataStandardsWales-Provenance-DemographicUpdate
+  filename: Example-DataStandardsWales-Provenance-DemographicUpdate.page.md
+- name: Example-DataStandardsWales-Provenance-MultipleTargets
+  filename: Example-DataStandardsWales-Provenance-MultipleTargets.page.md
+- name: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole
+  filename: Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole.page.md

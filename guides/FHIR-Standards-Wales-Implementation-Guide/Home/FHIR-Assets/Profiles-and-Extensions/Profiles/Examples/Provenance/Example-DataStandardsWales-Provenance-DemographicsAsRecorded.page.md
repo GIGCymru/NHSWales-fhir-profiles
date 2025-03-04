@@ -1,4 +1,6 @@
-### Example Provenance - Growth Charts
+<div class="warning"><span class="ClinicalWarn"></span></div>
+
+## Example Provenance - Demographics As Recorded Extension
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -20,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{tree:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{table:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{xml:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{json:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Provenance/Example-DataStandardsWales-Provenance-Growth-Charts}}
+      {{narrative:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>  
   </div>
 </div>

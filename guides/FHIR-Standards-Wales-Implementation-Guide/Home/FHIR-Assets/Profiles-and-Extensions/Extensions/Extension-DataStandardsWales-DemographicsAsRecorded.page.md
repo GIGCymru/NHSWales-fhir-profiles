@@ -26,7 +26,7 @@ This extension may be used on the following profile(s):
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
-         <li>Currently under development</li>
+          <li>{{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}</li>
       </list>
     </div>
   </div>
