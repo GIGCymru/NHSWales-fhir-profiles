@@ -6,12 +6,18 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
-        * DataStandardsWales-Appointment  
+        * DataStandardsWales-Appointment        
     * Changes to Profiles
         * DataStandardsWales-Encounter
             * Updated version from 0.1.1 to 1.0.0
             * Updated status from draft to active
-            * Added .extension:Speciality    
+            * Added .extension:Speciality 
+        * DataStandardsWales-Practitioner
+            * Updated nadexIdentifier slice to include a fixed system url
+        * DataStandardsWales-ServiceRequest
+            * Updated version from 0.1.1 to 1.0.0
+            * Status changed from "Draft" to "Active"
+            * .code reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
     * New Extensions
         * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
