@@ -8,6 +8,8 @@ Package:
     * New Profiles
         * DataStandardsWales-Appointment        
     * Changes to Profiles
+        * DataStandardsWales-Practitioner
+            * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.1 to 1.0.0
             * Status changed from "Draft" to "Active"
