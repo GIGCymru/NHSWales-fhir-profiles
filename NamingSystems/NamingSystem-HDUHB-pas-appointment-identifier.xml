@@ -10,7 +10,7 @@
   <usage value="Appointment identity"/> 
   <uniqueId> 
     <type value="uri"/> 
-    <value value="https://fhir.hduhb.nhs.wales/Id/pas-visit-identifier"/> 
+    <value value="https://fhir.hduhb.nhs.wales/Id/pas-event-code"/> 
     <preferred value="true"/> 
   </uniqueId>
 </NamingSystem> 
