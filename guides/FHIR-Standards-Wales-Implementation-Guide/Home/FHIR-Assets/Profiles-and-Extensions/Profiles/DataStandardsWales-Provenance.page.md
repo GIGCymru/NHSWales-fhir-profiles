@@ -69,7 +69,7 @@ The `Provenance.recorded` field **SHALL** be include a timestamp to indicate whe
 
 The `Provenance.target` field **SHALL** be populated to reference the FHIR resource(s) that were generated or updated by the activity described in this resource. A provenance can point to more than one target if multiple resources were created/updated by the same activity.
 
-Please see the Provenance page within the Guidance section above for further information. 
+Please see the {{pagelink:Home/Guidance/Provenance}} page within the Guidance section for further information. 
 
 ### Extensions 
 Some use cases require the original demographic data at time of recording to stored directly against the clinical data e.g. for diagnostic reports in Wales. This additional provenace can be captured using the {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extension.
