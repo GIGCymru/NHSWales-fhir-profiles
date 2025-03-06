@@ -64,7 +64,7 @@ These pages contain guidance on the following areas:
       <td class="resource">{{pagelink:DataStandardsWales-Location}} </td> 
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	 
       <td class="resource">{{pagelink:DataStandardsWales-Appointment}}  </td> 
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>	  
+	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>	  
     </tr>
     <tr>
       <td class="resource">{{pagelink:DataStandardsWales-Practitioner}} </td>
