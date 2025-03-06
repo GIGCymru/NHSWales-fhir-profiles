@@ -8,6 +8,10 @@ Package:
     * New Profiles
         * DataStandardsWales-Appointment        
     * Changes to Profiles
+        * DataStandardsWales-Encounter
+            * Updated version from 0.1.1 to 1.0.0
+            * Updated status from draft to active
+            * Added .extension:Speciality 
         * DataStandardsWales-Practitioner
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
@@ -15,13 +19,28 @@ Package:
             * Status changed from "Draft" to "Active"
             * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
             * .performer. Must Support flag added
+    * New Extensions
+        * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * Namespaces for PAS Appointment ids
         * Namespaces for PAS Sub-speciality codes
-
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Provenance
+            * {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text:Example Provenance record linked to a Patient demographic update as result of an HL7v2 patient demographic update }}
+            * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text:Example Provenance record with multiple targets e.g. for growth chart observations}}
+            * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}
+    * Removed Examples
+        * Provenance
+            * Example Provenance - Amend Device and Document Reference
+            * Example Provenance - Amend where Device is unavailable
+            * Example Provenance - Growth Charts 
 Guide: 
 * Added a new page to outline the DataStandardsWales-Appointment profile
+* Updates to the DataStandardsWales-Provenance profile page, along with updated examples
+* Added a new page to outline the DataStandardsWales-Speciality extension
+* Updated relevant pages within the Guide to reflect changes outlined in Package.
 
 ### v2.1.0 STU2
 Package:

@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture Demographics details recorded as at the time of the care record change.
+An extension to carry the specialty of a practitioner that would be required to perform the service at this encounter
 
 ### Purpose
-This extends the Provenance resource to capture Demographics details recorded as at the time of the care record change. This will be used to ensure that patient record items are assigned to the correct patient record within the Care Data Repository.
+This extension extends the Encounter resource to capture the specialty of a practitioner that would be required to perform the  service at this encounter.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* Provenance
+* Encounter
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,11 +22,11 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdemographicsasrecorded, snapshot}}
+      {{tree:extensiondatastandardswalesspeciality, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
-          <li>{{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}</li>
+         <li>Currently under development</li>
       </list>
     </div>
   </div>

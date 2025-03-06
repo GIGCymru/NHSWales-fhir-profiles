@@ -33,10 +33,6 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Example Diagnostic Report - Stress Test}}
 * {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Example Diagnostic Report - ECG}}
 
-### Laboratory Examples
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
-* {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
-
 ### Encounter Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Encounter-InProgressEmergencyAdmissio.page.md, text:Example Encounter - In-Progress Emergency Admission}}
 
@@ -50,6 +46,17 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}}
 * {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}}
 * {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}}
+
+### Laboratory Examples
+* {{pagelink:Example-DataStandardsWales-DiagnosticReport-FBC, text: Example Diagnostic Report - Full Blood Count}}
+* {{pagelink:Example-DataStandardsWales-DiagnosticReport-MultiplePanel, text: Example Diagnostic Report - Multiple Panel}}
+
+### Laboratory Group Examples
+* {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
+* {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
+
+### Laboratory Result Examples
+* {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
 
 ### Location Examples
 * {{pagelink:Example-DataStandardsWales-Location-CadogWard, text:Example Location - Cadog Ward (GGH)}}
@@ -90,13 +97,6 @@ The following examples are published with this guide and all available as a down
 ### Observation Vital Signs Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Observation-VitalSigns/Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference.page.md, text:Example Observation Vital Signs - Head Circumference}}
 
-### Laboratory Group Examples
-* {{pagelink:Example-DataStandardsWales-ObservationGroup-FBC, text: Example Observation Group - Full Blood Count}}
-* {{pagelink:Example-DataStandardsWales-ObservationGroup-LFT, text: Example Observation Group - Liver Function Test}}
-
-### Laboratory Result Examples
-* {{pagelink:Example-DataStandardsWales-ObservationResult-FBCWBC, text: Example Observation Result - White blood cell (WBC) count}}
-
 ### Organization Examples
 * {{pagelink:Example-DataStandardsWales-Organization-GGH, text: Example Organization - Glangwili General Hospital}}
 * {{pagelink:Example-DataStandardsWales-Organization-NPT, text: Example Organization - Neath Port Talbot Hospital}}
@@ -123,10 +123,10 @@ The following examples are published with this guide and all available as a down
 * {{pagelink:Example-DataStandardsWales-PractitionerRole-HCA, text:Example PractitionerRole - Health Care Assistant}}
 
 ### Provenance Examples
-* {{pagelink:Example-DataStandardsWales-Provenance-Amend, text: Example Provenance - Amend Device and Document Reference}}
-* {{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text: Example Provenance - Amend where Device isn't available}}
-* {{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text: Example Provenance - Growth Charts}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text: Example Provenance - Demographics as Recorded extension usage}}
+* {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text: Example Provenance - Demographics update as result of an HL7v2 patient demographic update }}
 * {{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text: Example Provanance - Health Care Assistant Practitioner and PractitionerRole}}
+* {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text: Example Provenance - record with multiple targets e.g. for growth chart observations}}
 
 ### Questionnaire Examples
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/Examples/Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md, text: Example Questionnaire - Growth Chart Condition}}

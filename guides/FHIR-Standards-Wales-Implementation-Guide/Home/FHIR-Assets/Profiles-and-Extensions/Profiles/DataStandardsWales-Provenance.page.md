@@ -38,10 +38,9 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 	</div>
   <div id="tabeg" class="tabcontent">
     <list>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend, text:Example Provenance - Amend Device and Document Reference }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Amend-Alt, text:Example Provenance - Amend where Device is unavailable }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-Growth-Charts, text:Example Provenance - Growth Charts }}</li>
-        <li>{{pagelink:Example-DataStandardsWales-Provenance-HCA-PractitionerAndRole, text:Example Provenance - Health Care Assistant Practitioner and PractitionerRole }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text:Example Provenance record linked to a Patient demographic update as result of an HL7v2 patient demographic update }}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text:Example Provenance record with multiple targets e.g. for growth chart observations}}</li>
+        <li>{{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}</li>
       </list>
   </div>
 </div>
@@ -49,26 +48,28 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
 ### Mandatory and Must Support Data Elements
 Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Must-Support-Data-Elements.page.md,text: Mandatory and Must Support}} page for guidance on how these elements should be interpreted.
  
-**Each Provenance must have:**
-1. Provenance.target
-1. Provenance.recorded
-1. Provenance.agent
-1. Provenance.agent.who
+Each Provenance must have:
+* One or more targets
+* A recorded timestamp
+* One or more agents
 
-**Each Provenance must support:**
-1. Provenance.target
-1. Provenance.recorded
-1. Provenance.agent
-1. Provenance.signature
+Each Provenance must support:
+* One or more entities if relevant
 
 ### Implementation Guidance 
-* The `Provenance.agent.who` field **SHALL** be populated.
-* The `Provenance.agent` field **SHALL** be populated.
-* The `Provenance.recorded` field **SHALL** be populated.
-* The `Provenance.target` field **SHALL** be populated.
-<br><br>
+The `Provenance.agent` field **SHOULD** include all agents involved in the activity. Typical agents include
+* Devices such as software systems or components
+* Clinical devices 
+* Human users
 
-### Extension 
-The extension listed below has been created to support PAS entries: 
+The `Provenance.entity` field **MAY** be used to indicate one or more entities in this activity, and may be used to refer, for example, to an HL7v2 message used to update demographic information within a Patient resource. 
 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extends the Provenance resource to capture demographics details recorded as at the time of the care record change.
+The `Provenance.recorded` field **SHALL** be include a timestamp to indicate when the activity was recorded/updated.
+
+
+The `Provenance.target` field **SHALL** be populated to reference the FHIR resource(s) that were generated or updated by the activity described in this resource. A provenance can point to more than one target if multiple resources were created/updated by the same activity.
+
+Please see the {{pagelink:Home/Guidance/Provenance}} page within the Guidance section for further information. 
+
+### Extensions 
+Some use cases require the original demographic data at time of recording to stored directly against the clinical data e.g. for diagnostic reports in Wales. This additional provenace can be captured using the {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DemographicsAsRecorded.page.md,text:DataStandardsWales-DemographicsAsRecorded}} extension.

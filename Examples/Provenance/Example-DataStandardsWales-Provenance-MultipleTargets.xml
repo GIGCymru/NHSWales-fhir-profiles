@@ -1,10 +1,19 @@
 <Provenance xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Provenance-Amend" />
+    <id value="Example-DataStandardsWales-Provenance-MultipleTargets"/>
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
     </meta>
     <target>
-        <reference value="Patient/4580d59e/_history/2" />
+        <reference value="Observation/0c746e45-1795-47ac-a584-4cd9ddb773c1" />
+    </target>
+    <target>
+        <reference value="Observation/10698c9c-94e4-4e6b-af90-91c91906b2bf" />
+    </target>
+    <target>
+        <reference value="Observation/3eb8fa7e-3f0b-49e2-8a7c-fa2117a31f54" />
+    </target>
+    <target>
+        <reference value="Observation/ef5b72f7-37ef-46bb-a746-c01a74a9e16a" />
     </target>
     <recorded value="2024-08-08T08:06:07.046012Z" />
     <activity>
@@ -23,27 +32,21 @@
             </coding>
         </type>
         <who>
-            <reference value="Device/Example-DataStandardsWales-Device-WPAS" />
-            <display value="ABUHB WPAS" />
+            <reference value="Device/9240a1d4-fee3-59a3-a36d-4a6c68878bfa" />
+            <display value="Welsh Clinical Portal" />
         </who>
     </agent>
     <agent>
         <type>
             <coding>
                 <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type" />
-                <code value="assembler" />
-                <display value="Assembler" />
+                <code value="performer" />
+                <display value="Performer" />
             </coding>
         </type>
         <who>
-            <reference value="Device/Example-DataStandardsWales-Device-CDRcomponent" />
-            <display value="HL7 to FHIR conversion engine (CDR)" />
+            <reference value="Practitioner/e5d695e7-cf2a-4b7b-b827-39dad4f17331" />
+            <display value="David Mason" />
         </who>
     </agent>
-    <entity>
-        <role value="source" />
-        <what>
-            <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance" />
-        </what>
-    </entity>
 </Provenance>
