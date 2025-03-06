@@ -8,12 +8,18 @@ Package:
     * New Profiles
         * DataStandardsWales-Appointment        
     * Changes to Profiles
+        * DataStandardsWales-Encounter
+            * Updated version from 0.1.1 to 1.0.0
+            * Updated status from draft to active
+            * Added .extension:Speciality 
         * DataStandardsWales-Practitioner
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.1 to 1.0.0
             * Status changed from "Draft" to "Active"
             * .code reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
+    * New Extensions
+        * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
         * Namespaces for PAS Appointment ids
@@ -32,6 +38,8 @@ Package:
 Guide: 
 * Added a new page to outline the DataStandardsWales-Appointment profile
 * Updates to the DataStandardsWales-Provenance profile page, along with updated examples
+* Added a new page to outline the DataStandardsWales-Speciality extension
+* Updated relevant pages within the Guide to reflect changes outlined in Package.
 
 ### v2.1.0 STU2
 Package:
