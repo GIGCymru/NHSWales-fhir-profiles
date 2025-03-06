@@ -24,9 +24,20 @@ Package:
     * New Naming Systems
         * Namespaces for PAS Appointment ids
         * Namespaces for PAS Sub-speciality codes
-
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Provenance
+            * {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text:Example Provenance record linked to a Patient demographic update as result of an HL7v2 patient demographic update }}
+            * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text:Example Provenance record with multiple targets e.g. for growth chart observations}}
+            * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}
+    * Removed Examples
+        * Provenance
+            * Example Provenance - Amend Device and Document Reference
+            * Example Provenance - Amend where Device is unavailable
+            * Example Provenance - Growth Charts 
 Guide: 
 * Added a new page to outline the DataStandardsWales-Appointment profile
+* Updates to the DataStandardsWales-Provenance profile page, along with updated examples
 * Added a new page to outline the DataStandardsWales-Speciality extension
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
 
