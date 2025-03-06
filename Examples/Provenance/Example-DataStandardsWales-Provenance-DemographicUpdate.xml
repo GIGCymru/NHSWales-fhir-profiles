@@ -1,5 +1,5 @@
 <Provenance xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Provenance-Amend-alt" />
+    <id value="Example-DataStandardsWales-Provenance-DemographicUpdate" />
     <meta>
         <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance" />
     </meta>
@@ -23,10 +23,7 @@
             </coding>
         </type>
         <who>
-            <identifier>
-                <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
-                <value value="139" />
-            </identifier>
+            <reference value="Device/Example-DataStandardsWales-Device-WPAS" />
             <display value="ABUHB WPAS" />
         </who>
     </agent>
@@ -39,11 +36,14 @@
             </coding>
         </type>
         <who>
-            <identifier>
-                <system value="https://fhir.nhs.wales/Id/application-instance-identifier" />
-                <value value="370.2" />
-            </identifier>
+            <reference value="Device/Example-DataStandardsWales-Device-CDRcomponent" />
             <display value="HL7 to FHIR conversion engine (CDR)" />
         </who>
     </agent>
+    <entity>
+        <role value="source" />
+        <what>
+            <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-Provenance" />
+        </what>
+    </entity>
 </Provenance>

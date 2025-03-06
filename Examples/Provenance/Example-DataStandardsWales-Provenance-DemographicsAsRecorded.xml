@@ -1,0 +1,59 @@
+<Provenance xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Provenance-DemographicsAsRecorded"/>
+	<meta>
+		<profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Provenance"/>
+	</meta>
+	<extension url="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-CDR-demographicsAsRecorded">
+		<extension url="identifier">
+			<valueIdentifier>
+				<system value="https://fhir.abuhb.nhs.wales/Id/pas-identifier"/>
+				<value value="10222AB"/>
+			</valueIdentifier>
+		</extension>
+		<extension url="name">
+			<valueHumanName>
+				<family value="JONES"/>
+				<given value="JANE"/>
+				<prefix value="Mrs"/>
+			</valueHumanName>
+		</extension>
+		<extension url="gender">
+			<valueCode value="female"/>
+		</extension>
+		<extension url="birthDate">
+			<valueDate value="1985-04-21"/>
+		</extension>
+		<extension url="address">
+			<valueAddress>
+				<line value="200 Mackintosh Place"/>
+				<line value="Cardiff"/>
+				<postalCode value="CF1 9LA"/>
+			</valueAddress>
+		</extension>
+	</extension>
+	<target>
+		<reference value="Observation/aa2c3a80-c514-400c-98b0-d65a99c4b0c5"/>
+		<display value="Test result - Globulin 45 g/L"/>
+	</target>
+	<recorded value="2024-08-08T08:06:07.046012Z" />
+	<activity>
+		<coding>
+			<system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"/>
+			<code value="verify"/>
+			<display value="Verify Record Lifecycle Event"/>
+		</coding>
+	</activity>
+	<agent>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type" />
+                <code value="composer" />
+                <display value="Composer" />
+            </coding>
+        </type>
+        <who>
+            <reference value="Device/Example-DataStandardsWales-Device-WPAS" />
+            <display value="ABUHB WPAS" />
+        </who>
+    </agent>
+</Provenance>
