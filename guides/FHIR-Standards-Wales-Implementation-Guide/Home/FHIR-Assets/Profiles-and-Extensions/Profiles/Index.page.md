@@ -1,6 +1,7 @@
 ### {{page-title}}
 
 The following Profiles have been defined for this implementation guide.
+* {{pagelink:DataStandardsWales-Appointment}}
 * {{pagelink:DataStandardsWales-AllergyIntolerance}}
 * {{pagelink:DataStandardsWales-AllergyList}}
 * {{pagelink:DataStandardsWales-AuditEvent}}

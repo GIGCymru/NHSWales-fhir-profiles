@@ -34,6 +34,10 @@
       <definition value="NHS Wales NADEX Identifier" />
       <max value="1" />
     </element>
+    <element id="Practitioner.identifier:nadexIdentifier.system">
+      <path value="Practitioner.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/nadex-identifier" />
+    </element>
     <element id="Practitioner.identifier:gdcNumber">
       <path value="Practitioner.identifier" />
       <sliceName value="gdcNumber" />
