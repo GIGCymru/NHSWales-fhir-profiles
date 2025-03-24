@@ -27,10 +27,19 @@ Package:
         * Namespaces for PAS Sub-speciality codes
 * {{pagelink:Home/Example-Index.page.md,text:Examples}}:
     * New Examples
+        * Observation Vital Signs 
+            * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-BMI,text: BMI}}
+            * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-HeadCircumference,text: Head Circumference}}
+            * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-MaternalHeight,text: Maternal Height}}
+            * {{pagelink:Example-DataStandardsWales-Observation-VitalSigns-Weight,text: Weight}}
         * Provenance
             * {{pagelink:Example-DataStandardsWales-Provenance-DemographicUpdate, text:Example Provenance record linked to a Patient demographic update as result of an HL7v2 patient demographic update }}
             * {{pagelink:Example-DataStandardsWales-Provenance-MultipleTargets, text:Example Provenance record with multiple targets e.g. for growth chart observations}}
             * {{pagelink:Example-DataStandardsWales-Provenance-DemographicsAsRecorded, text:Example Provenance record showing the DemographicsAsRecorded extension}}
+        * Questionnaire
+            * {{pagelink:Example-DataStandardsWales-Questionnaire-GrowthChartCondition,text: Growth Chart Condition}}
+        * Questionnaire Response
+            * {{pagelink:Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition,text: Growth Chart Condition Response}}
     * Removed Examples
         * Provenance
             * Example Provenance - Amend Device and Document Reference
@@ -41,6 +50,7 @@ Guide:
 * Updates to the DataStandardsWales-Provenance profile page, along with updated examples
 * Added a new page to outline the DataStandardsWales-Speciality extension
 * Updated relevant pages within the Guide to reflect changes outlined in Package.
+* Created a new section for {{pagelink:Home/Guidance/Growth-Charts,text: Growth Charts}} guidance
 
 ### v2.1.0 STU2
 Package:
