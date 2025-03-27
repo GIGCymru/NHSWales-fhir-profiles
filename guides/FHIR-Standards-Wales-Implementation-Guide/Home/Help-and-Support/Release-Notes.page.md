@@ -19,6 +19,14 @@ Package:
             * Status changed from "Draft" to "Active"
             * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
             * .performer. Must Support flag added
+        * DataStandardsWales-Observation-VitalSigns
+            * Status fixed value removed
+        * DataStandardsWales-Observation-VitalSigns-BMI
+            * Status fixed value removed
+        * DataStandardsWales-Observation-VitalSigns-BodyHeight
+            * Status fixed value removed
+        * DataStandardsWales-Observation-VitalSigns-BodyWeight
+            * Status fixed value removed
     * New Extensions
         * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
