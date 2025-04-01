@@ -20,12 +20,16 @@ Package:
             * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
             * .performer. Must Support flag added
         * DataStandardsWales-Observation-VitalSigns
+            * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
         * DataStandardsWales-Observation-VitalSigns-BMI
+            * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
         * DataStandardsWales-Observation-VitalSigns-BodyHeight
+            * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
         * DataStandardsWales-Observation-VitalSigns-BodyWeight
+            * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
     * New Extensions
         * DataStandardsWales-Speciality 
