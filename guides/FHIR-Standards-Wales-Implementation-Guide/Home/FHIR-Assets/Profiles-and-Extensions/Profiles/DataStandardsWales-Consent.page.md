@@ -7,7 +7,7 @@ The [Consent](https://hl7.org/fhir/R4/consent.html) profile is to be used to exp
 * Research Consent Directive: Consent to participate in research protocol and information sharing required.
 * Advance Care Directives: Consent to instructions for potentially needed medical treatment (e.g. DNR).
  
-The {{page-title}} profile is derived from the [HL7 R4 Consent](https://fhir.hl7.org.uk/StructureDefinition/UKCore-Consent). It defines additional rules for use within health and care organisations in Wales.
+The {{page-title}} profile is derived from the [HL7 R4 Consent](https://hl7.org/fhir/R4/consent.html). It defines additional rules for use within health and care organisations in Wales.
 
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Consent}}
 
