@@ -68,6 +68,12 @@
   filename: Example-DataStandardsWales-PractitionerRole-Physiotherapist.page.md
 - name: Example-DataStandardsWales-PractitionerRole-PrescribingNurse
   filename: Example-DataStandardsWales-PractitionerRole-PrescribingNurse.page.md
+- name: Example-DataStandardsWales-Questionnaire-GrowthChartCondition
+  filename: Example-DataStandardsWales-Questionnaire-GrowthChartCondition.page.md
+- name: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition
+  filename: Example-DataStandardsWales-QuestionnaireResponse-GrowthChartCondition.page.md
+- name: Example-DataStandardsWales-RelatedPerson-NaturalMother
+  filename: Example-DataStandardsWales-RelatedPerson-NaturalMother.page.md
 - name: Medications
   filename: Medications
 - name: Allergies
