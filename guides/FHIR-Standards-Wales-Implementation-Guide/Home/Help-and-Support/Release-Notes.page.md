@@ -16,9 +16,9 @@ Package:
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.1 to 1.0.0
-            * Status changed from "Draft" to "Active"
-            * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
-            * .performer. Must Support flag added
+            * Updatd status from draft to active
+            * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core
+            * .performer. Added Must Support flag
     * New Extensions
         * DataStandardsWales-Speciality 
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
