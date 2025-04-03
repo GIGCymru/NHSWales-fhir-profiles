@@ -16,7 +16,7 @@ Package:
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.1 to 1.0.0
-            * Updatd status from draft to active
+            * Updated status from draft to active
             * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core
             * .performer. Added Must Support flag
     * New Extensions
@@ -49,7 +49,7 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Appointment profile
 * Updates to the DataStandardsWales-Provenance profile page, along with updated examples
 * Added a new page to outline the DataStandardsWales-Speciality extension
-* Updated relevant pages within the Guide to reflect changes outlined in Package.
+* Updated relevant pages within the Guide to reflect changes outlined in Package
 * Created a new section for {{pagelink:Home/Guidance/Growth-Charts,text: Growth Charts}} guidance
 
 ### v2.1.0 STU2
