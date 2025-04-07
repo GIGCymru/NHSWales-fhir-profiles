@@ -183,6 +183,9 @@ These pages contain guidance on the following areas:
 	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	</tr>
 	<tr>
+	 <td class="resource">{{pagelink:DataStandardsWales-Consent}}</td> <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
+	</tr>
+	<tr>
       <td class="resource">{{pagelink:DataStandardsWales-Provenance}}  </td> 
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
     </tr>
