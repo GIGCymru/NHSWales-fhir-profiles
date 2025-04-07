@@ -20,19 +20,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Provenance/Example-Provenance-PractitionerAndRole-HCA}}
+      {{tree:Example-Provenance-PractitionerAndRole-HCA}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Provenance/Example-Provenance-PractitionerAndRole-HCA}}
+      {{table:Example-Provenance-PractitionerAndRole-HCA}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Provenance/Example-Provenance-PractitionerAndRole-HCA}}
+      {{xml:Example-Provenance-PractitionerAndRole-HCA}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Provenance/Example-Provenance-PractitionerAndRole-HCA}}
+      {{json:Example-Provenance-PractitionerAndRole-HCA}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Provenance/Example-Provenance-PractitionerAndRole-HCA}}
+      {{narrative:Example-Provenance-PractitionerAndRole-HCA}}
     </div>  
   </div>
 </div>

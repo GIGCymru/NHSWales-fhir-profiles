@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{tree:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{table:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{xml:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{json:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Provenance/Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
+      {{narrative:Example-DataStandardsWales-Provenance-DemographicsAsRecorded}}
     </div>  
   </div>
 </div>
