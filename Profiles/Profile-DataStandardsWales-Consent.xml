@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Consent" />
   <version value="0.0.1" />
   <name value="DataStandardsWalesConsent" />
-  <title value="Data Standards Wales Device" />
+  <title value="Data Standards Wales Consent" />
   <status value="draft" />
   <date value="2025-04-03" />
   <publisher value="NHS Wales" />
