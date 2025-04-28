@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Immunization" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
-  <version value="0.1.1" />
+  <version value="1.0.0" />
   <name value="DataStandardsWalesImmunization" />
   <title value="Data Standards Wales Immunization" />
-  <status value="draft" />
-  <experimental value="true" />
+  <status value="active" />
+  <experimental value="false" />
   <date value="2023-05-24" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />

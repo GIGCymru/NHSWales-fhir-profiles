@@ -12,6 +12,16 @@ Package:
         * DataStandardsWales-ForecaseCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-ImmunizationMedication
+    * Changes to Profiles
+        * DataStandardsWales-Immunization
+            * Updated version from 0.1.1 to 1.0.0
+            * Updated status from draft to active
+            * Removed experimental flag
+            * New extensions added:
+                * DataStandardsWales-DateProcedureLastUpdated
+                * DataStandardsWales-ForecaseCreationSource
+                * DataStandardsWales-Immunization.basedOn
+                * DataStandardsWales-ImmunizationMedication
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
