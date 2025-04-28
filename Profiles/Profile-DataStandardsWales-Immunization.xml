@@ -33,7 +33,7 @@
     </element>
     <element id="Immunization.extension:extensionDataStandardsWalesImmunizationBasedOn">
       <path value="Immunization.extension" />
-      <sliceName value="extensionDataStandardsWalesImmunizationBasedOn" />
+      <sliceName value="DataStandardsWalesImmunizationBasedOn" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" />
@@ -42,7 +42,7 @@
     </element>
     <element id="Immunization.extension:extensionDataStandardsWalesImmunizationMedication">
       <path value="Immunization.extension" />
-      <sliceName value="extensionDataStandardsWalesImmunizationMedication" />
+      <sliceName value="DataStandardsWalesImmunizationMedication" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
@@ -51,7 +51,7 @@
     </element>
     <element id="Immunization.extension:extensionDataStandardsWalesForecaseCreationSource">
       <path value="Immunization.extension" />
-      <sliceName value="extensionDataStandardsWalesForecaseCreationSource" />
+      <sliceName value="DataStandardsWalesForecaseCreationSource" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
