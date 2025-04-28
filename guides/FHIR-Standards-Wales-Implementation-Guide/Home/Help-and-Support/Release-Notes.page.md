@@ -8,6 +8,7 @@ Package:
     * New Profiles
         * DataStandardsWales-Consent
     * New Extensions
+        * DataStandardsWales-ForecaseCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-ImmunizationMedication
 

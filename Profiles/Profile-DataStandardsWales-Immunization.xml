@@ -49,6 +49,15 @@
       </type>
       <isModifier value="false" />
     </element>
+    <element id="Immunization.extension:extensionDataStandardsWalesForecaseCreationSource">
+      <path value="Immunization.extension" />
+      <sliceName value="extensionDataStandardsWalesForecaseCreationSource" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Immunization.identifier">
       <path value="Immunization.identifier" />
       <mustSupport value="true" />
