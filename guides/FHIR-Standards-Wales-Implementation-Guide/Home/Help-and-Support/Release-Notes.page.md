@@ -9,6 +9,7 @@ Package:
         * DataStandardsWales-Consent
     * New Extensions
         * DataStandardsWales-Immunization.basedOn
+        * DataStandardsWales-ImmunizationMedication
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
