@@ -287,9 +287,8 @@
       <path value="Immunization.protocolApplied.targetDisease" />
       <mustSupport value="true" />
       <binding>
-        <strength value="required" />
+        <strength value="example" />
         <description value="(work in progress) The vaccine preventable disease the dose is being administered for." />
-        <valueSet value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases" />
       </binding>
     </element>
   </differential>

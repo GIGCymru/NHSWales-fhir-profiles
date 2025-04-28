@@ -22,6 +22,11 @@ Package:
                 * DataStandardsWales-ForecaseCreationSource
                 * DataStandardsWales-Immunization.basedOn
                 * DataStandardsWales-ImmunizationMedication
+            * Terminology binding changes:
+                * .protocolApplied.targetDisease. ValueSet reverted to UK Core STU2 so changed from covid-19-diseases to immunization-target-disease
+            * Binding strength changes:
+                * .protocolApplied.targetDisease. From required to example
+
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
