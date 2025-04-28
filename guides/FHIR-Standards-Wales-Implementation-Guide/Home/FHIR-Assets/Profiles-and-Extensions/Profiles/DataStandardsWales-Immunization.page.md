@@ -101,4 +101,9 @@ Each Immunization **must support**:
 |`Immunization.reasonCode`|Reasons why the vaccine was administered.|
 |`Immunization.protocolApplied`|The protocol being followed by the provider who administered the dose.|
 
----
+### Extensions
+
+The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
+
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Immunization.basedOn.page.md,text:DataStandardsWales-Immunization.basedOn}}
+
