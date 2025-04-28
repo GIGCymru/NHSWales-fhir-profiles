@@ -7,17 +7,11 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-Consent
-
-### v2.2.0 STU2
-Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
+    * New Extensions
+        * DataStandardsWales-Immunization.basedOn
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
-
-
-
 
 ### v2.2.0 STU2
 Package: 
