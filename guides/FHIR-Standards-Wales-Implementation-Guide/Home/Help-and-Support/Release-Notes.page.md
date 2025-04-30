@@ -9,7 +9,7 @@ Package:
         * DataStandardsWales-Consent
     * New Extensions
         * DataStandardsWales-DateProcedureLastUpdated
-        * DataStandardsWales-ForecaseCreationSource
+        * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-ImmunizationMedication
     * Changes to Profiles
@@ -19,7 +19,7 @@ Package:
             * Removed experimental flag
             * New extensions added:
                 * DataStandardsWales-DateProcedureLastUpdated
-                * DataStandardsWales-ForecaseCreationSource
+                * DataStandardsWales-ForecastCreationSource
                 * DataStandardsWales-Immunization.basedOn
                 * DataStandardsWales-ImmunizationMedication
             * Terminology binding changes:

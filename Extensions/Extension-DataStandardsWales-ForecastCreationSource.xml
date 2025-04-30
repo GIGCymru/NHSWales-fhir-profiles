@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-ForecaseCreationSource" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
+  <id value="Extension-DataStandardsWales-ForecastCreationSource" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
   <version value="0.0.1" />
-  <name value="ExtensionDataStandardsWalesForecaseCreationSource" />
-  <title value="Extension Data Standards Wales Forecase Creation Source" />
+  <name value="ExtensionDataStandardsWalesForecastCreationSource" />
+  <title value="Extension Data Standards Wales Forecast Creation Source" />
   <status value="draft" />
   <date value="2025-04-28" />
   <publisher value="NHS Wales" />
@@ -35,7 +35,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

@@ -7,7 +7,7 @@
   <title value="Data Standards Wales Immunization" />
   <status value="active" />
   <experimental value="false" />
-  <date value="2023-05-24" />
+  <date value="2025-04-30" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
@@ -49,12 +49,12 @@
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Immunization.extension:DataStandardsWalesForecaseCreationSource">
+    <element id="Immunization.extension:DataStandardsWalesForecastCreationSource">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesForecaseCreationSource" />
+      <sliceName value="DataStandardsWalesForecastCreationSource" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecaseCreationSource" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
       </type>
       <isModifier value="false" />
     </element>
