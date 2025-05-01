@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-ImmunizationMedication" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesImmunizationMedication" />
   <title value="Extension Data Standards Wales Immunization Medication" />
   <status value="draft" />

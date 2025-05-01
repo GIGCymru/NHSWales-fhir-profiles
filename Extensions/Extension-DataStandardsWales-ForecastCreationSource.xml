@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-ForecastCreationSource" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ForecastCreationSource" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesForecastCreationSource" />
   <title value="Extension Data Standards Wales Forecast Creation Source" />
   <status value="draft" />

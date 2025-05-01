@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-Immunization.basedOn" />
   <url value="http://hl7.org/fhir/5.0/StructureDefinition/Extension-Immunization.basedOn" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesImmunizationBasedOn" />
   <title value="Extension Data Standards Wales Immunization Based On" />
   <status value="draft" />

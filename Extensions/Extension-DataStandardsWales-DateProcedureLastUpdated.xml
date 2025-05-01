@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DateProcedureLastUpdated" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DateProcedureLastUpdated" />
-  <version value="0.0.1" />
+  <version value="0.1.0" />
   <name value="ExtensionDataStandardsWalesDateProcedureLastUpdated" />
   <title value="Extension Data Standards Wales Date Procedure Last Updated" />
   <status value="draft" />
