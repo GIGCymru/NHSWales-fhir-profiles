@@ -12,6 +12,8 @@ Package:
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-ImmunizationMedication
+    * R5 backport extension:
+        * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
         * DataStandardsWales-Immunization
             * Updated version from 0.1.1 to 1.0.0
@@ -22,6 +24,8 @@ Package:
                 * DataStandardsWales-ForecastCreationSource
                 * DataStandardsWales-Immunization.basedOn
                 * DataStandardsWales-ImmunizationMedication
+            * R5 backport extension:
+                * DataStandardsWales-Immunization.basedOn
             * Terminology binding changes:
                 * .protocolApplied.targetDisease. ValueSet reverted to UK Core STU2 so changed from covid-19-diseases to immunization-target-disease
             * Binding strength changes:
