@@ -17,7 +17,7 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="A plan, order or recommendation fulfilled in whole or in part by this immunization." />
+  <description value="A plan, order or recommendation fulfilled in whole or in part by this immunization. This is a R5 backport" />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
