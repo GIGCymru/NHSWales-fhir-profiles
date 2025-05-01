@@ -37,8 +37,6 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-  ### Example Usage Scenarios ###
-The following are example usage scenarios for the Immunization profile:
 
 - {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}} Query for a Flu Vaccination using query parameters such as `Immunization.extension:vaccinationProcedure`, `Immunization.vaccineCode` and `Immunization.reasonCode`.
 - {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}} Query for a vaccine that was not given using query parameters such as `Immunization.status` and `Immunization.statusReason`.
