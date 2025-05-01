@@ -17,6 +17,7 @@
       <rank value="1" />
     </telecom>
   </contact>
+  <description value="An extension to capture the procedure date was last updated." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
