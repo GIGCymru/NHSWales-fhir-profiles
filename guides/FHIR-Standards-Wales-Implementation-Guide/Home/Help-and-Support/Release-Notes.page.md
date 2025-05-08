@@ -8,10 +8,10 @@ Package:
     * New Profiles
         * DataStandardsWales-Consent
     * New Extensions
+        * DataStandardsWales-AdministeredProduct
         * DataStandardsWales-DateProcedureLastUpdated
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
-        * DataStandardsWales-ImmunizationMedication
     * R5 backport extension:
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
@@ -20,10 +20,10 @@ Package:
             * Updated status from draft to active
             * Removed experimental flag
             * New extensions added:
+                * DataStandardsWales-AdministeredProduct
                 * DataStandardsWales-DateProcedureLastUpdated
                 * DataStandardsWales-ForecastCreationSource
                 * DataStandardsWales-Immunization.basedOn
-                * DataStandardsWales-ImmunizationMedication
             * R5 backport extension:
                 * DataStandardsWales-Immunization.basedOn
             * Terminology binding changes:

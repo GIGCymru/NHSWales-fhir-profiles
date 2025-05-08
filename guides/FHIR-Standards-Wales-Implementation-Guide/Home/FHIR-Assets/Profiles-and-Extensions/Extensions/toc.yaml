@@ -22,7 +22,7 @@
   filename: Extension-DataStandardsWales-DateProcedureLastUpdated.page.md  
 - name: Extension-DataStandardsWales-Immunization.basedOn
   filename: Extension-DataStandardsWales-Immunization.basedOn.page.md
-- name: Extension-DataStandardsWales-ImmunizationMedication
-  filename: Extension-DataStandardsWales-ImmunizationMedication.page.md
+- name: Extension-DataStandardsWales-AdministeredProduct
+  filename: Extension-DataStandardsWales-AdministeredProduct.page.md
 - name: Extension-DataStandardsWales-ForecastCreationSource
   filename: Extension-DataStandardsWales-ForecastCreationSource.page.md

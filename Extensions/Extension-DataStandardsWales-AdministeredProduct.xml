@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-ImmunizationMedication" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
+  <id value="Extension-DataStandardsWales-AdministeredProduct" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AdministeredProduct" />
   <version value="0.1.0" />
-  <name value="ExtensionDataStandardsWalesImmunizationMedication" />
-  <title value="Extension Data Standards Wales Immunization Medication" />
+  <name value="ExtensionDataStandardsWalesAdministeredProduct" />
+  <title value="Extension Data Standards Wales Administered Product" />
   <status value="draft" />
   <date value="2025-04-28" />
   <publisher value="NHS Wales" />
@@ -36,7 +36,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AdministeredProduct" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
