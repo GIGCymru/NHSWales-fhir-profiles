@@ -40,12 +40,12 @@
       </type>
       <isModifier value="false" />
     </element>
-    <element id="Immunization.extension:DataStandardsWalesImmunizationMedication">
+    <element id="Immunization.extension:DataStandardsWalesAdministeredProduct">
       <path value="Immunization.extension" />
-      <sliceName value="DataStandardsWalesImmunizationMedication" />
+      <sliceName value="DataStandardsWalesAdministeredProduct" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-ImmunizationMedication" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-AdministeredProduct" />
       </type>
       <isModifier value="false" />
     </element>
