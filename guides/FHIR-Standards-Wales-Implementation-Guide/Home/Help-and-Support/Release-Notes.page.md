@@ -7,6 +7,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-Consent
+        * DataStandardsWales-ImmunizationRecommendation
 
 ### v2.2.0 STU2
 Package: 
