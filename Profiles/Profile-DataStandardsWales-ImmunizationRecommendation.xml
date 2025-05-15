@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-ImmunizationRecommendation" />
+  <url value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
+  <version value="0.0.1" />
+  <name value="DataStandardsWales-ImmunizationRecommendation" />
+  <title value="Data Standards Wales Immunization Recommendation" />
+  <status value="draft" />
+  <date value="2025-05-15" />
+  <publisher value="NHS Wales" />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="ImmunizationRecommendation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="ImmunizationRecommendation.patient">
+      <path value="ImmunizationRecommendation.patient" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+      </type>
+    </element>
+    <element id="ImmunizationRecommendation.patient.identifier.assigner">
+      <path value="ImmunizationRecommendation.patient.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="ImmunizationRecommendation.authority">
+      <path value="ImmunizationRecommendation.authority" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="ImmunizationRecommendation.authority.identifier.assigner">
+      <path value="ImmunizationRecommendation.authority.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="ImmunizationRecommendation.recommendation.supportingImmunization">
+      <path value="ImmunizationRecommendation.recommendation.supportingImmunization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
