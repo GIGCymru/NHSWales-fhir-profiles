@@ -1,10 +1,10 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to xxx
+An extension to capture manually entered recommendations by the healthcare professional.
 
 ### Purpose
-This extension shows xxx
+This extension is an element to capture manually entered recommendations by the healthcare professional.
 
 ### Context of Use
 This extension may be used on the following profile(s):
