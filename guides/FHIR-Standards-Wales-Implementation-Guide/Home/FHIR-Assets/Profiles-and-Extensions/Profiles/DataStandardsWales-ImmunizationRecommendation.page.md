@@ -4,20 +4,6 @@ name: DataStandardsWalesImmunizationRecommendation
 
 ## {{page-title}}
 
-### FQL
-
-@```
-    from
-        StructureDefinition
-    where
-        name='DataStandardsWalesImmunizationRecommendation'
-    select 
-        Profile: name,
-        Type: type,
-        Status: status,
-        Canonical: url
-```
-
 The [Immunization Recommendation](https://www.hl7.org/fhir/r4/immunizationrecommendation.html) resource is intended to cover communication of a specified patient's immunization recommendations and status across all healthcare disciplines in all care settings and all regions. The set of customized (for the patient) recommendations is based on the comparison of the patient's immunization history with a set of published recommendations (protocols).
 
 Additionally, the Immunization Recommendation resource is expected to cover key concepts related to the querying of a patient's immunization recommendations and status.
