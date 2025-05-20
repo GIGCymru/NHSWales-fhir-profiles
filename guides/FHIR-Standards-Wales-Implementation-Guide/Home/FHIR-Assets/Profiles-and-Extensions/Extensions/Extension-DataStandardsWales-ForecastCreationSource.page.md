@@ -4,7 +4,7 @@
 An extension to capture manually entered recommendations by the healthcare professional.
 
 ### Purpose
-This extension is an element to capture manually entered recommendations by the healthcare professional.
+This extends the resource to capture manually entered recommendations by the healthcare professional.
 
 ### Context of Use
 This extension may be used on the following profile(s):
