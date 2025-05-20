@@ -18,6 +18,7 @@
     </telecom>
   </contact>
   <description value="This extension shows immunisation medication." />
+  <purpose value="This extension shows immunisation medication." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
