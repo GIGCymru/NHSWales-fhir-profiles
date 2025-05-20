@@ -11,7 +11,7 @@ Package:
     * Changes to Profiles
         * DataStandardsWales-Immunization
             * Updated version from 0.1.1 to 0.1.2
-            * Added reference to DataStandardsWales-ImmunizationRecommendation
+            * .reasonReference Added reference to DataStandardsWales-ImmunizationRecommendation
 
 Guide: 
 * Added a new page to outline the DataStandardsWales-Consent profile
