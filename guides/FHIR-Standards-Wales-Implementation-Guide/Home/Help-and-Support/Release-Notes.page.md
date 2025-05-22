@@ -2,6 +2,32 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.3.0 STU2
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+        * DataStandardsWales-Consent
+        * DataStandardsWales-ImmunizationRecommendation
+    * Changes to Profiles
+        * DataStandardsWales-Immunization
+            * Updated version from 0.1.1 to 0.1.2
+            * .reasonReference Added reference to DataStandardsWales-ImmunizationRecommendation
+
+Guide: 
+* Added a new page to outline the DataStandardsWales-Consent profile
+* Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+
+### v2.2.0 STU2
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+
+Guide:
+* General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
+
+
+
+
 ### v2.2.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
@@ -16,9 +42,9 @@ Package:
             * Updated nadexIdentifier slice to include a fixed system url
         * DataStandardsWales-ServiceRequest
             * Updated version from 0.1.1 to 1.0.0
-            * Status changed from "Draft" to "Active"
-            * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core.
-            * .performer. Must Support flag added
+            * Updated status from draft to active
+            * .code. Reverted minimum cardinality from 1..1 to 0..1 in line with UK Core
+            * .performer. Added Must Support flag
         * DataStandardsWales-Observation-VitalSigns
             * Updated version from 1.0.0 to 1.1.0
             * Status fixed value removed
@@ -61,7 +87,7 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Appointment profile
 * Updates to the DataStandardsWales-Provenance profile page, along with updated examples
 * Added a new page to outline the DataStandardsWales-Speciality extension
-* Updated relevant pages within the Guide to reflect changes outlined in Package.
+* Updated relevant pages within the Guide to reflect changes outlined in Package
 * Created a new section for {{pagelink:Home/Guidance/Growth-Charts,text: Growth Charts}} guidance
 
 ### v2.1.0 STU2

@@ -151,6 +151,8 @@ These pages contain guidance on the following areas:
 	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Immunization}} </td>
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Draft</a></td>
+  	  <td class="resource">{{pagelink:DataStandardsWales-ImmunizationRecommendation}} </td> 
+	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Specimen}}  </td> 
@@ -181,6 +183,10 @@ These pages contain guidance on the following areas:
 	<tr>
 	  <td class="resource" style="width:74%">{{pagelink:DataStandardsWales-AuditEvent}} </td>
 	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
+	</tr>
+	<tr>
+	 <td class="resource">{{pagelink:DataStandardsWales-Consent}}</td> 
+	 <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td> 
 	</tr>
 	<tr>
       <td class="resource">{{pagelink:DataStandardsWales-Provenance}}  </td> 

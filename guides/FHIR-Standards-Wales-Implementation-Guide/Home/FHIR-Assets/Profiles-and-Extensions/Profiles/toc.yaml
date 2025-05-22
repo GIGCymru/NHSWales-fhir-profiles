@@ -10,6 +10,8 @@
   filename: DataStandardsWales-AllergyList.page.md
 - name: DataStandardsWales-AuditEvent
   filename: DataStandardsWales-AuditEvent.page.md
+- name: DataStandardsWales-Consent
+  filename: DataStandardsWales-Consent.page.md  
 - name: DataStandardsWales-Device
   filename: DataStandardsWales-Device.page.md
 - name: DataStandardsWales-DiagnosticReport
@@ -26,6 +28,8 @@
   filename: DataStandardsWales-ImagingStudy.page.md
 - name: DataStandardsWales-Immunization
   filename: DataStandardsWales-Immunization.page.md
+- name: DataStandardsWales-ImmunizationRecommendation
+  filename: DataStandardsWales-ImmunizationRecommendation.page.md
 - name: DataStandardsWales-Location
   filename: DataStandardsWales-Location.page.md
 - name: DataStandardsWales-Medication
