@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesSingleRecordAllergiesListConfirmedBy, snapshot}}
+      {{tree:extensiondatastandardswalessinglerecordallergieslistconfirmedby, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
