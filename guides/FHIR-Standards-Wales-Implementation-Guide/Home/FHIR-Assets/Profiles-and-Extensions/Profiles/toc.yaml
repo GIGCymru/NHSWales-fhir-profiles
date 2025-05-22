@@ -28,6 +28,8 @@
   filename: DataStandardsWales-ImagingStudy.page.md
 - name: DataStandardsWales-Immunization
   filename: DataStandardsWales-Immunization.page.md
+- name: DataStandardsWales-ImmunizationRecommendation
+  filename: DataStandardsWales-ImmunizationRecommendation.page.md
 - name: DataStandardsWales-Location
   filename: DataStandardsWales-Location.page.md
 - name: DataStandardsWales-Medication

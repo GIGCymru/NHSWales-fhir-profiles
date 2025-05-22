@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation-VitalSigns" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation-VitalSigns" />
-  <version value="1.0.0" />
+  <version value="1.1.0" />
   <name value="DataStandardsWalesObservationVitalSigns" />
   <title value="Data Standards Wales Observation Vital Signs" />
   <status value="draft" />
-  <date value="2025-01-01" />
+  <date value="2025-04-01" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="NHS Wales" />
