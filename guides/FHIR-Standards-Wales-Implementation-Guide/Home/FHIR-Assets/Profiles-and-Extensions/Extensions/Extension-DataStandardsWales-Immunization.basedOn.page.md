@@ -4,7 +4,7 @@
 An extension to carry a plan, order or recommendation fulfilled in whole or in part by this immunisation.
 
 ### Purpose
-This extension, which is a R5 backport, allows tracing of an authorisation for the Immunisation.
+This extension, which is a R5 backport, allows tracing of an authorisation for the immunisation.
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:ExtensionDataStandardsWalesImmunizationBasedOn, snapshot}}
+      {{tree:extensiondatastandardswalesimmunizationbasedon, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
