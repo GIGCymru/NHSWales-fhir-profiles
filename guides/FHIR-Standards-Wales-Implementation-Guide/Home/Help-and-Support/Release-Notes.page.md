@@ -37,6 +37,7 @@ Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 
 ### v2.2.0 STU2
 Package: 
