@@ -37,6 +37,7 @@ Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 
 ### v2.2.0 STU2
 Package: 
