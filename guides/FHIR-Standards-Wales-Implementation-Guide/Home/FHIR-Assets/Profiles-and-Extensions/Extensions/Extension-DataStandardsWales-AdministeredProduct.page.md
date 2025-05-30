@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry the timestampe at which the changes occurred.
+An extension to show Immunisation Medication.
 
 ### Purpose
-This extension is intended for use within the Single Record, and extends the AllergiesList resource to carry the timestampe at which the changes occurred
+This extension shows immunisation medication.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* AllergiesList
+* Immunization
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalessinglerecordallergieslistconfirmeddate, snapshot}}
+      {{tree:extensiondatastandardswalesadministeredproduct, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

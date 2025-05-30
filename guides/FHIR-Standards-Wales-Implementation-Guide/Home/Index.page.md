@@ -150,9 +150,7 @@ These pages contain guidance on the following areas:
   	  <td class="resource">{{pagelink:DataStandardsWales-Observation-Lab}} </td> 
 	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Immunization}} </td>
-	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Draft</a></td>
-  	  <td class="resource">{{pagelink:DataStandardsWales-ImmunizationRecommendation}} </td> 
-	  <td class=status">  <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
+	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Specimen}}  </td> 

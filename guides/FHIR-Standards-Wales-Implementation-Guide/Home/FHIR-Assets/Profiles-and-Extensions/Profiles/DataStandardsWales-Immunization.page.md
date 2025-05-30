@@ -4,20 +4,6 @@ name: DataStandardsWalesImmunization
 
 ## {{page-title}}
 
-### FQL
-
-@```
-    from
-        StructureDefinition
-    where
-        name='DataStandardsWalesImmunization'
-    select 
-        Profile: name,
-        Type: type,
-        Status: status,
-        Canonical: url
-```
-
 The [Immunization](https://www.hl7.org/fhir/r4/immunization.html) resource is a record of the immunization received by a patient, often in the form of a vaccine.
 
 The {{page-title}} profile is derived from the [UK Core Immunization Profile](https://simplifier.net/guide/UK-Core-Implementation-Guide-STU2/Home/ProfilesandExtensions/Profile-UKCore-Immunization?version=2.0.1). It defines additional rules for use within health and care organisations in Wales.
@@ -51,19 +37,14 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Immunization, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-  </div>    
-</div>
-
----
-
-### Example Usage Scenarios ###
-The following are example usage scenarios for the Immunization profile:
 
 - {{pagelink:ImmunizationFluVaccine, text: Example Immunization - Flu Vaccine}} Query for a Flu Vaccination using query parameters such as `Immunization.extension:vaccinationProcedure`, `Immunization.vaccineCode` and `Immunization.reasonCode`.
 - {{pagelink:ImmunizationNotGiven, text: Example Immunization - Not Given}} Query for a vaccine that was not given using query parameters such as `Immunization.status` and `Immunization.statusReason`.
 - {{pagelink:ImmunizationParentPresent, text: Example Immunization - Parent Present}} Query for a vaccination injection given to a paediatric patient with a parent/carer present using query parameters such as `Immunization.extension:parentPresent`, `Immunization.lotNumber` and `Immunization.expirationDate`.
 
 _*Examples provided have been clinically assured on the 07-Aug-2024_
+  </div>    
+</div>
 
 ---
 
@@ -101,4 +82,12 @@ Each Immunization **must support**:
 |`Immunization.reasonCode`|Reasons why the vaccine was administered.|
 |`Immunization.protocolApplied`|The protocol being followed by the provider who administered the dose.|
 
----
+### Extensions
+
+The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
+
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-AdministeredProduct.page.md,text:DataStandardsWales-AdministeredProduct}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-DateProcedureLastUpdated.page.md,text:DataStandardsWales-DateProcedureLastUpdated}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-ForecastCreationSource.page.md,text:DataStandardsWales-ForecastCreationSource}}
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Extensions/Extension-DataStandardsWales-Immunization.basedOn.page.md,text:DataStandardsWales-Immunization.basedOn}}
+
