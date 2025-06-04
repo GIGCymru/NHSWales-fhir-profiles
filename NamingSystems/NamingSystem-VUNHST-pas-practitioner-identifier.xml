@@ -1,0 +1,25 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-VUNHST-PAS-PractitionerIdentifier"/> 
+  <name value="VUNHSTPASPractitionerIdentifier"/> 
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2025-06-04" />
+  <publisher value="NHS Wales" />
+  <responsible value="Velindre University NHS Trust"/> 
+  <description value="This namespace indicates a Velindre University NHS Trust PAS practitioner identifier"/> 
+  <usage value="Practitioner Identity"/>
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.vunhst.nhs.wales/Id/pas-practitioner-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+  <uniqueId> 
+    <type value="oid"/> 
+    <value value="2.16.840.1.113883.2.1.8.1.3.310"/>     
+  </uniqueId>
+  <uniqueId> 
+    <type value="other"/> 
+    <value value="131"/>
+    <comment value="NHS Wales MPI Issuing Authority" />     
+  </uniqueId>   
+</NamingSystem> 
