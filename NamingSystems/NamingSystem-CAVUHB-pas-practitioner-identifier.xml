@@ -5,7 +5,7 @@
   <kind value="identifier"/>   
   <date value="2025-06-04" />
   <publisher value="NHS Wales" />
-  <responsible value="Carfiff and Vale University Health Board"/> 
+  <responsible value="Cardiff and Vale University Health Board"/> 
   <description value="This namespace indicates a Cardiff and Vale University Health Board PAS practitioner identifier"/> 
   <usage value="Practitioner identity"/> 
   <uniqueId> 
