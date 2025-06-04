@@ -31,7 +31,9 @@ Package:
                 * .protocolApplied.targetDisease. ValueSet reverted to UK Core STU2 so changed from covid-19-diseases to immunization-target-disease
             * Binding strength changes:
                 * .protocolApplied.targetDisease. From required to example
-
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * New Naming Systems
+        * Namespaces for PAS Practitioner ids
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
