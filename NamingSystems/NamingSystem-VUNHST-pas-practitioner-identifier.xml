@@ -12,10 +12,5 @@
     <type value="uri"/> 
     <value value="https://fhir.vunhst.nhs.wales/Id/pas-practitioner-identifier"/> 
     <preferred value="true"/> 
-  </uniqueId>
-  <uniqueId> 
-    <type value="other"/> 
-    <value value="131"/>
-    <comment value="NHS Wales MPI Issuing Authority" />     
-  </uniqueId>   
+  </uniqueId>  
 </NamingSystem> 

@@ -12,6 +12,5 @@
     <type value="uri"/> 
     <value value="https://fhir.pthb.nhs.wales/Id/pas-practitioner-identifier"/> 
     <preferred value="true"/> 
-  </uniqueId>
-  <uniqueId>  
+  </uniqueId> 
 </NamingSystem> 

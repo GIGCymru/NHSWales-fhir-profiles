@@ -13,5 +13,4 @@
     <value value="https://fhir.hduhb.nhs.wales/Id/pas-practitioner-identifier"/> 
     <preferred value="true"/> 
   </uniqueId>
-  <uniqueId>  
 </NamingSystem> 

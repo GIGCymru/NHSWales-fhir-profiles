@@ -9,4 +9,7 @@
   <description value="This namespace indicates a Cwm Taf Morgannwg University Health Board PAS practitioner identifier"/> 
   <usage value="Practitioner identity"/> 
   <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.ctmuhb.nhs.wales/Id/pas-practitioner-identifier"/> 
+    <preferred value="true"/>
 </NamingSystem> 
