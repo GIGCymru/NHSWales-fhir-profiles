@@ -33,7 +33,7 @@ Package:
                 * .protocolApplied.targetDisease. From required to example
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * New Naming Systems
-        * Namespaces for PAS Practitioner ids
+        * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
