@@ -35,6 +35,7 @@ Package:
     * Changes to Naming Systems
         * Namespaces for PAS Appointment ids
             * Updated value from pas-event-code to pas-event-identifier
+            * Updated name to include HBs name and PAS
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
