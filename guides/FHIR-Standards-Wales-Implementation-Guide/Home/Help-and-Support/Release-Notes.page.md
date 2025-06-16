@@ -36,6 +36,8 @@ Package:
         * Namespaces for PAS Appointment ids
             * Updated value from pas-event-code to pas-event-identifier
             * Changed name from AppointmentIdentifier to XXXXPasAppointmentIdentifier where XXXX is the healthboard/trust abbreviation
+        * Namespaces for SubSpeciality ids
+            * Removed all SubSpeciality Namespaces
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
