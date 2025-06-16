@@ -31,12 +31,16 @@ Package:
                 * .protocolApplied.targetDisease. ValueSet reverted to UK Core STU2 so changed from covid-19-diseases to immunization-target-disease
             * Binding strength changes:
                 * .protocolApplied.targetDisease. From required to example
-
+* {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
+    * Changes to Naming Systems
+        * Namespaces for SubSpeciality ids
+            * Removed all SubSpeciality Namespaces
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 
 ### v2.2.0 STU2

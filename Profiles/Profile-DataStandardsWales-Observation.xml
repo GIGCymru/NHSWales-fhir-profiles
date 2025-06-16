@@ -2,12 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Observation" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
-  <version value="0.1.1" />
+  <version value="0.1.2" />
   <name value="DataStandardsWalesObservation" />
   <title value="Data Standards Wales Observation" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2023-10-11" />
+  <date value="2025-05-29" />
   <publisher value="NHS Wales" />
   <copyright value="2024 NHS Wales." />
   <fhirVersion value="4.0.1" />
@@ -27,10 +27,10 @@
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ServiceRequest" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-MedicationRequest" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
       </type>
     </element>
     <element id="Observation.partOf">
