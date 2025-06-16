@@ -1,14 +1,14 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to carry a reference to a practitioner resource to identify who confirmed the changes.
+An extension to capture the procedure date was last updated.
 
 ### Purpose
-This extension is intended for use within the Single Record, and extends the AllergiesList resource to reference to a practitioner resource to identify who confirmed the changes.
+This extension shows when the procedure date was last updated.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* AllergiesList
+* Immunization
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalessinglerecordallergieslistconfirmedby, snapshot}}
+      {{tree:extensiondatastandardswalesdateprocedurelastupdated, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
