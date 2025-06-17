@@ -16,6 +16,22 @@ Package:
     * R5 backport extension:
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
+        * DataStandardsWales-Appointment
+            * Updated version from 1.0.0 to 1.0.1
+            * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-DiagnosticReport
+            * Updated version from 0.1.1 to 0.1.2
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-DiagnosticReport-Lab
+            * Updated version from 0.1.0 to 0.1.1
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-Encounter
+            * Updated version from 1.0.0 to 1.0.1
+            * .appointment. Added reference to DataStandardsWales-Appointment
+            * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-ImagingStudy
+            * Updated version from 0.0.6 to 0.0.7
+            * .basedOn. Added reference to DataStandardsWales-Appointment
         * DataStandardsWales-Immunization
             * Updated version from 0.1.1 to 1.0.0
             * Updated status from draft to active
@@ -31,10 +47,25 @@ Package:
                 * .protocolApplied.targetDisease. ValueSet reverted to UK Core STU2 so changed from covid-19-diseases to immunization-target-disease
             * Binding strength changes:
                 * .protocolApplied.targetDisease. From required to example
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.1.1 to 1.1.2
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-Observation
+            * Updated version from 0.1.1 to 0.1.2
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+         * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-MedicationRequest
+            * Updated version from 1.1.1 to 1.1.2
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
+        * DataStandardsWales-Observation
+            * Updated version from 0.1.1 to 0.1.2
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation   
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
+  
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
