@@ -63,6 +63,9 @@ Package:
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation   
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
+        * Namespaces for PAS Appointment ids
+            * Updated value from pas-event-code to pas-event-identifier
+            * Changed name from AppointmentIdentifier to XXXXPasAppointmentIdentifier where XXXX is the healthboard/trust abbreviation
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
   
