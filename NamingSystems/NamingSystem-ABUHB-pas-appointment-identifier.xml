@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-ABUHB-PAS-AppointmentIdentifier"/> 
-  <name value="ABUHBPasAppointmentIdentifier"/> 
+  <name value="ABUHBPASAppointmentIdentifier"/> 
   <status value="active" />
   <kind value="identifier"/>   
   <date value="2025-02-10" />

@@ -1,6 +1,6 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-CTMUHB-PAS-AppointmentIdentifier"/> 
-  <name value="CTMUHBPasAppointmentIdentifier"/> 
+  <name value="CTMUHBPASAppointmentIdentifier"/> 
   <status value="active" />
   <kind value="identifier"/>   
   <date value="2025-02-10" />
