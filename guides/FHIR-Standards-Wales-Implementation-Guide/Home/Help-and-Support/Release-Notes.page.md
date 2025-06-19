@@ -66,6 +66,8 @@ Package:
         * Namespaces for PAS Appointment ids
             * Updated value from pas-event-code to pas-event-identifier
             * Changed name from AppointmentIdentifier to XXXXPasAppointmentIdentifier where XXXX is the healthboard/trust abbreviation
+        * New Naming Systems
+            * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
   
