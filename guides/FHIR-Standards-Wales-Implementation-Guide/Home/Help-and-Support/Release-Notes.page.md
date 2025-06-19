@@ -13,7 +13,7 @@ Package:
         * DataStandardsWales-DateProcedureLastUpdated
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
-    * R5 backport extension:
+    * R5 backport Extension:
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
         * DataStandardsWales-Appointment
