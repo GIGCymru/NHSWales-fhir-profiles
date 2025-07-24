@@ -78,6 +78,7 @@ Guide:
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
+* Updated Provenance Guidance page.
 
 ### v2.2.0 STU2
 Package: 
