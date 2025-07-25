@@ -2,6 +2,28 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
+### v2.4.0 STU2
+Package: 
+* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
+    * New Profiles
+
+    * New Value Sets
+        * Data Standards Wales PAS Event Type
+    * New Code Systems
+        * Data Standards Wales WPAS Event Type
+
+
+Guide:
+
+
+
+
+
+
+
+
+
+
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:

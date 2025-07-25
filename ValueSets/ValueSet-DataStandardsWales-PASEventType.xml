@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-PASEventType"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-PASEventType"/>
+    <version value="0.0.1" />
+    <name value="DataStandardsWalesPASEventType"/>
+	<title value="Data Standards Wales PAS Event Type"/>
+    <status value="draft" />
+    <experimental value="true" />
+	<date value="2025-07-25" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A ValueSet for PAS event types NHS Wales."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-WPASEventType"/>
+		</include>
+	</compose>
+</ValueSet>
