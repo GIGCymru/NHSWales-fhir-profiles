@@ -30,13 +30,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, snapshot}}
+      {{tree:https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, snapshot}}
     </div>
     <div id="tabdiff" class="tabcontent">
-      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, diff}}
+      {{tree:https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, diff}}
   </div>
     <div id="tabhybrid" class="tabcontent">
-      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, hybrid}}
+      {{tree:https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
   </div>    
