@@ -144,7 +144,7 @@ These pages contain guidance on the following areas:
 	  <td class="resource">{{pagelink:DataStandardsWales-Observation-VitalSigns-BodyWeight}}  </td>
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Dosage}}  </td>
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Draft</a></td>
+	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a></td>
 	</tr>
 	<tr>
   	  <td class="resource">{{pagelink:DataStandardsWales-Observation-Lab}} </td> 
