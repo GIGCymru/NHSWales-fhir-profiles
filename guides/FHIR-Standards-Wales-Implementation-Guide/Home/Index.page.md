@@ -78,15 +78,15 @@ These pages contain guidance on the following areas:
 	  <td class="resource">{{pagelink:DataStandardsWales-PractitionerRole}} </td> 
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-Questionnaire}}  </td>
-	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span><\div></td>
+	  <td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
 	  <td class="resource">{{pagelink:DataStandardsWales-ServiceRequest}}  </td> 
 	  <td class=status">	  <a href="/ui/workflow/overview?id=1" class="tagactive" target="_blank">Active</a></td>
     </tr>
 	<tr>
 		<td class="resource">{{pagelink:DataStandardsWales-RelatedPerson}}  </td> 
-		<td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span><\div></td>
+		<td class=status"><a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
 		<td class="resource">{{pagelink:DataStandardsWales-QuestionnaireResponse}} </td> 
-		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span><\div></td>
+		<td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
     </tr>
 	</tbody>
 </table>
