@@ -78,7 +78,7 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Condition" />
         <targetProfile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Procedure" />
-        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
+        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation" />
       </type>
     </element>
     <element id="Encounter.diagnosis.condition">

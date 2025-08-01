@@ -155,6 +155,8 @@ These pages contain guidance on the following areas:
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-Specimen}}  </td> 
 	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
+	  <td class="resource">{{pagelink:DataStandardsWales-ImmunizationRecommendation}} </td>
+	  <td class=status"> <a href="/ui/workflow/overview?id=1" class="tagdraft" target="_blank">Draft</a><div class="tagexperimental tt">E<span class="tooltiptext">Experimental profile</span></div></td>
 	</tr>
 	<tr>
 	  <td class="resource">{{pagelink:DataStandardsWales-ImagingStudy}}  </td>

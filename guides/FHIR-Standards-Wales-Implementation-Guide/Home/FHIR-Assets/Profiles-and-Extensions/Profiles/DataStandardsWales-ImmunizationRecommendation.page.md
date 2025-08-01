@@ -10,7 +10,7 @@ Additionally, the Immunization Recommendation resource is expected to cover key 
 
 The {{page-title}} profile is derived from the [HL7 International Immunization Recommendation Profile](https://www.hl7.org/fhir/R4/immunizationrecommendation.html). It defines additional rules for use within health and care organisations in Wales.
 
-A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-ImmunizationRecommendation}}
+A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-ImmunizationRecommendation}}
 
 ### Formal Views of Profile Content
 <div class="tab-wrap">
