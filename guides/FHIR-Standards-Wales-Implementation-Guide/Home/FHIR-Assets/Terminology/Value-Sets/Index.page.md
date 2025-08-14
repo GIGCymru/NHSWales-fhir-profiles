@@ -17,6 +17,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-ObservationVitalSignsType, text:ValueSet-DataStandardsWales-ObservationVitalSignsType}}
 * {{pagelink:ValueSet-DataStandardsWales-Occupation, text:ValueSet-DataStandardsWales-Occupation}}
 * {{pagelink:ValueSet-DataStandardsWales-OxygenSaturation, text:ValueSet-DataStandardsWales-OxygenSaturation}}
+* {{pagelink:ValueSet-PASEventType, text:ValueSet-PASEventType}}
 * {{pagelink:ValueSet-DataStandardsWales-PatientRecordType, text:ValueSet-DataStandardsWales-PatientRecordType}}
 * {{pagelink:ValueSet-DataStandardsWales-ProvenanceActivity, text:ValueSet-DataStandardsWales-ProvenanceActivity}}
 * {{pagelink:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes, text:ValueSet-DataStandardsWales-QuestionnaireQuestionCodes}}
