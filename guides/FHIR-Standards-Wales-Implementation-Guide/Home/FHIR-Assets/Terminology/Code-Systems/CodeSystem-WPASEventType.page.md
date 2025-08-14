@@ -2,4 +2,4 @@
 
 ## {{page-title}}
 
-{{render:https://fhir.nhs.wales/CodeSystem/PASEventType}}
+{{render:https://fhir.nhs.wales/CodeSystem/WPASEventType}}
