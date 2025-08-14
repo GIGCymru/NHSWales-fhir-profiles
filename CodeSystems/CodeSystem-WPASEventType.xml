@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-WPASEventType"/>
-	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-WPASEventType"/>
+	<id value="WPASEventType"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/WPASEventType"/>
     <version value="0.0.1" />
-	<name value="DataStandardsWalesWPASEventType"/>
-	<title value="Data Standards Wales WPAS Event Type"/>
+	<name value="WPASEventType"/>
+	<title value="WPAS Event Type"/>
     <status value="draft" />
     <experimental value="true" />	
     <date value="2025-07-25" />
     <publisher value="NHS Wales" />
 	<contact>
-		<name value="Data Standards"/>	
+		<name value="FHIR Standards"/>	
 		<telecom>
 			<system value="email"/>
-			<value value="data.standards@wales.nhs.uk"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
 			<use value="work"/>
 		</telecom>
 	</contact>	
-	<description value="Welsh PAS Event Type codes and descriptions"/>
+	<description value="Specified Welsh PAS Event Type codes and descriptions that are not a data standard."/>
     <copyright value="2025 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
