@@ -2,28 +2,6 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.4.0 STU2
-Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
-
-    * New Value Sets
-        * Data Standards Wales PAS Event Type
-    * New Code Systems
-        * Data Standards Wales WPAS Event Type
-
-
-Guide:
-
-
-
-
-
-
-
-
-
-
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
@@ -82,7 +60,12 @@ Package:
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-Observation
             * Updated version from 0.1.1 to 0.1.2
-            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation   
+            * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation 
+* {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
+    * New Value Sets  
+        * PAS Event Type
+    * New Code Systems
+        * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
         * Namespaces for PAS Appointment ids
