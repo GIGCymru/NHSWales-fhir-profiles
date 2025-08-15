@@ -16,7 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="Specified ValueSet for PAS event types NHS Wales."/>
+	<description value="Specified ValueSet for PAS event types NHS Wales.This snapshot of the PAS Event Type ValueSet is not owned nor managed by Data Standards Team or the FHIR Service."/>
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
