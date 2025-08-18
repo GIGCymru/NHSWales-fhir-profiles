@@ -1,6 +1,7 @@
 ### {{page-title}}
 
 The following Code Systems have been defined for this implementation guide:
+* {{pagelink:CodeSystem-DataStandardsWales-DocumentCategory, text:CodeSystem-DataStandardsWales-DocumentCategory}}
 * {{pagelink:CodeSystem-DataStandardsWales-GenderIdentity, text:CodeSystem-DataStandardsWales-GenderIdentity}}
 * {{pagelink:CodeSystem-DataStandardsWales-MaritalStatus, text:CodeSystem-DataStandardsWales-MaritalStatus}}
 * {{pagelink:CodeSystem-DataStandardsWales-PatientRecordType, text:CodeSystem-DataStandardsWales-PatientRecordType}}

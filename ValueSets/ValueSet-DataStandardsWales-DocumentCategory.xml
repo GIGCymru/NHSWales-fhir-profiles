@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-DocumentCategory"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentCategory"/>
+    <version value="0.0.5" />
+    <name value="DataStandardsWalesDocumentCategory"/>
+	<title value="Data Standards Wales Document Category"/>
+    <status value="draft" />
+    <experimental value="true" />
+	<date value="2025-08-18" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A set of codes used to identify the category of a document within NHS Wales."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory"/>
+		</include>
+	</compose>
+</ValueSet>
