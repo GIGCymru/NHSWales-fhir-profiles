@@ -3,7 +3,7 @@
   <id value="DataStandardsWales-DocumentReference" />
   <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
   <version value="0.0.1" />
-  <name value="DataStandardsWales-DocumentReference" />
+  <name value="DataStandardsWalesDocumentReference" />
   <title value="Data Standards Wales Document Reference" />
   <status value="draft" />
   <experimental value="true" />

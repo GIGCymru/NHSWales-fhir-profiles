@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-DocumentAttribute" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+  <version value="0.0.1" />
+  <name value="DataStandardsWalesDocumentAttribute" />
+  <title value="Data Standards Wales Document Attribute" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-08-18" />
+  <publisher value="NHS Wales" />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="DocumentReference.extension" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <type>
+        <code value="Coding" />
+      </type>
+    </element>
+    <element id="Extension.value[x].system">
+      <path value="Extension.value[x].system" />
+      <fixedUri value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
+    </element>
+  </differential>
+</StructureDefinition>
