@@ -2,7 +2,7 @@
 
 ## {{page-title}}
 
-This snapshot of the PAS Event Type CodeSystem is not owned nor managed by Data Standards Team or the FHIR Service. 
+WPAS Event Type CodeSystem is owned and managed by Digital Health and Care Wales WPAS. These are not a data standard and this snapshot is for example use only. 
 
 {{render:https://fhir.nhs.wales/CodeSystem/WPASEventType}}
 

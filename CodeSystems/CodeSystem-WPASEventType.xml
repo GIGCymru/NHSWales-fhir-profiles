@@ -17,7 +17,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>	
-	<description value="Specified Welsh PAS Event Type codes and descriptions that are not a data standard.This snapshot of the PAS Event Type CodeSystem is not owned nor managed by Data Standards Team or the FHIR Service."/>
+	<description value="Specified Welsh PAS Event Type codes and descriptions is owned and managed by Digital Health and Care Wales WPAS. These are not a data standard and this snapshot is for example use only."/>
     <copyright value="2025 NHS Wales." />
 	<caseSensitive value="true"/>
 	<content value="complete"/>
