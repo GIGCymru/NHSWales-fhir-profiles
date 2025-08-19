@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DocumentDigitalStatus" />
+  <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
   <version value="0.0.1" />
-  <name value="DataStandardsWalesDocumentDigitalStatus" />
+  <name value="ExtensionDataStandardsWalesDocumentDigitalStatus" />
   <title value="Data Standards Wales Document Digital Status" />
   <status value="draft" />
   <experimental value="true" />
@@ -22,16 +22,22 @@
   <purpose value="This extension shows the digital status of a document." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
-  <kind value="resource" />
+  <kind value="complex-type" />
   <abstract value="false" />
   <context>
     <type value="element" />
-    <expression value="DocumentReference.extension" />
+    <expression value="DocumentReference" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="DocumentDigitalStatus" />
+      <definition value="The digital status of the document" />
+      <max value="1" />
+    </element>
     <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
@@ -40,6 +46,7 @@
       <path value="Extension.value[x]" />
       <short value="Document Digital Status" />
       <definition value="A code to indicate the digital status of a document" />
+      <min value="1" />
       <type>
         <code value="Coding" />
       </type>

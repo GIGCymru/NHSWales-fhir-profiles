@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DocumentRepository" />
+  <id value="Extension-DataStandardsWales-DocumentRepository" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
   <version value="0.0.1" />
-  <name value="DataStandardsWalesDocumentRepository" />
-  <title value="Data Standards Wales Document Repository" />
+  <name value="ExtensionDataStandardsWalesDocumentRepository" />
+  <title value="Data Standards Wales DocumentRepository" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-08-18" />
@@ -22,11 +22,11 @@
   <purpose value="This extension shows the repository in which a document is stored." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
-  <kind value="resource" />
+  <kind value="complex-type" />
   <abstract value="false" />
   <context>
     <type value="element" />
-    <expression value="DocumentReference.extension" />
+    <expression value="DocumentReference" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
@@ -34,6 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
+      <short value="DocumentRepository" />
+      <definition value="The repository in which a document is stored." />
       <max value="1" />
     </element>
     <element id="Extension.url">
@@ -42,6 +44,9 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="Document Repository" />
+      <definition value="A code to indicate the repository in which a document is stored." />
+      <min value="1" />
       <type>
         <code value="Reference" />
       </type>

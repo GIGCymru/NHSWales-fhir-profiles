@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DataStandardsWales-DocumentAttribute" />
+  <id value="Extension-DataStandardsWales-DocumentAttribute" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
   <version value="0.0.1" />
-  <name value="DataStandardsWalesDocumentAttribute" />
+  <name value="ExtensionDataStandardsWalesDocumentAttribute" />
   <title value="Data Standards Wales Document Attribute" />
   <status value="draft" />
   <experimental value="true" />
@@ -22,7 +22,7 @@
   <purpose value="This extension shows document attributes." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
-  <kind value="resource" />
+  <kind value="complex-type" />
   <abstract value="false" />
   <context>
     <type value="element" />

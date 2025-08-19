@@ -17,6 +17,38 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
   <derivation value="constraint" />
   <differential>
+    <element id="DocumentReference.extension">
+      <path value="DocumentReference.extension" />
+      <min value="1" />
+    </element>
+    <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentAttribute">
+      <path value="DocumentReference.extension" />
+      <sliceName value="extensionDataStandardsWalesDocumentAttribute" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentDigitalStatus">
+      <path value="DocumentReference.extension" />
+      <sliceName value="extensionDataStandardsWalesDocumentDigitalStatus" />
+      <min value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentRepository">
+      <path value="DocumentReference.extension" />
+      <sliceName value="extensionDataStandardsWalesDocumentRepository" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="DocumentReference.identifier">
       <path value="DocumentReference.identifier" />
       <mustSupport value="true" />
