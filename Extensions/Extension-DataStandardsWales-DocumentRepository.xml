@@ -9,6 +9,17 @@
   <experimental value="true" />
   <date value="2025-08-18" />
   <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension shows the repository in which a document is stored." />
+  <purpose value="This extension shows the repository in which a document is stored." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
