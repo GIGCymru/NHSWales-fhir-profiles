@@ -46,7 +46,6 @@
       <path value="Extension.value[x]" />
       <short value="Document Repository" />
       <definition value="A code to indicate the repository in which a document is stored." />
-      <min value="1" />
       <type>
         <code value="Reference" />
       </type>

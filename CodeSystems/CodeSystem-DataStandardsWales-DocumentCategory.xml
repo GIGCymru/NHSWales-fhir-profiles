@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-PatientRecordType"/>
+	<id value="DataStandardsWales-DocumentCategory"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory"/>
     <version value="0.0.1" />
 	<name value="DataStandardsWalesDocumentCategory"/>
@@ -9,14 +9,15 @@
     <experimental value="true" />	
     <date value="2025-08-18" />
     <publisher value="NHS Wales" />
-	<contact>
-		<name value="Data Standards"/>	
+    <contact>
+		<name value="FHIR Standards" />
 		<telecom>
-			<system value="email"/>
-			<value value="data.standards@wales.nhs.uk"/>
-			<use value="work"/>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
 		</telecom>
-	</contact>	
+    </contact>
 	<description value="A set of codes used to identify the category of a document within NHS Wales"/>
     <copyright value="2025 NHS Wales." />
 	<caseSensitive value="true"/>
@@ -63,12 +64,12 @@
 	</concept>
 	<concept>
 		<code value="miscellaneous third party documents"/>
-		<display value="Miscellaneous & Third Party Documents"/>
+		<display value="Miscellaneous and Third Party Documents"/>
 		<definition value="Miscellaneous and Third Party Document Records"/>
 	</concept>
 	<concept>
 		<code value="notification legal documents"/>
-		<display value="Notification & Legal Documents"/>
+		<display value="Notification and Legal Documents"/>
 		<definition value="Notification and Legal Document Records"/>
 	</concept>
 	<concept>
@@ -78,12 +79,12 @@
 	</concept>
 	<concept>
 		<code value="patient preferences instructions held records"/>
-		<display value="Patient Preferences / Instructions & Held Records"/>
+		<display value="Patient Preferences / Instructions and Held Records"/>
 		<definition value="Patient Preferences and/or Instructions and Held Document Records"/>
 	</concept>
 	<concept>
 		<code value="reports test results"/>
-		<display value="Reports & Test Results"/>
+		<display value="Reports and Test Results"/>
 		<definition value="Reports and Test Result Records"/>
 	</concept>
 	<concept>

@@ -46,7 +46,6 @@
       <path value="Extension.value[x]" />
       <short value="Document Digital Status" />
       <definition value="A code to indicate the digital status of a document" />
-      <min value="1" />
       <type>
         <code value="Coding" />
       </type>

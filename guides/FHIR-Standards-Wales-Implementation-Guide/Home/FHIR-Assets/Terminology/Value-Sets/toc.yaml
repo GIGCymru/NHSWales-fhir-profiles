@@ -2,6 +2,8 @@
   filename: Index.page.md
 - name: ValueSet-DataStandardsWales-DocumentCategory
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
+- name: ValueSet-DataStandardsWales-DocumentDigitalStatus
+  filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
 - name: ValueSet-DataStandardsWales-GenderIdentity
   filename: ValueSet-DataStandardsWales-GenderIdentity.page.md
 - name: ValueSet-DataStandardsWales-ProvenanceActivity

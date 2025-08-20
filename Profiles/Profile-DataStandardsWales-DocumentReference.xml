@@ -17,10 +17,6 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
   <derivation value="constraint" />
   <differential>
-    <element id="DocumentReference.extension">
-      <path value="DocumentReference.extension" />
-      <min value="1" />
-    </element>
     <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="extensionDataStandardsWalesDocumentAttribute" />
@@ -33,7 +29,6 @@
     <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentDigitalStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="extensionDataStandardsWalesDocumentDigitalStatus" />
-      <min value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
@@ -78,11 +73,12 @@
       <path value="DocumentReference.subject" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element id="DocumentReference.date">
       <path value="DocumentReference.date" />
@@ -134,8 +130,8 @@
       <path value="DocumentReference.context.encounter" />
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
       </type>
     </element>
     <element id="DocumentReference.context.related">
