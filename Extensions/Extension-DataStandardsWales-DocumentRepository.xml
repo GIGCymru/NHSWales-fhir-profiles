@@ -48,11 +48,7 @@
       <definition value="A code to indicate the repository in which a document is stored." />
       <type>
         <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
       </type>
-    </element>
-    <element id="Extension.value[x].reference">
-      <path value="Extension.value[x].reference" />
-      <fixedString value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
-    </element>
   </differential>
 </StructureDefinition>
