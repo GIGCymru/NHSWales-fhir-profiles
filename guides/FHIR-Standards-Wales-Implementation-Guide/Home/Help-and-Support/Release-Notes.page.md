@@ -21,6 +21,7 @@ Package:
         * New Value Sets
             * DataStandardsWales-DocumentCategory
             * DataStandardsWales-DocumentDigitalStatus
+            * DataStandardsWales-DocumentType
 
 Guide:
 * Updated relevant pages within the Guide to reflect changes outlined in Package
