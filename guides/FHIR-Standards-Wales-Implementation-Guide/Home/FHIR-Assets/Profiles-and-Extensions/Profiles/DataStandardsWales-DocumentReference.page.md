@@ -31,7 +31,7 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference, diff}}
   </div>
     <div id="tabhybrid" class="tabcontent">
-      {{tree:tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference, hybrid}}
+      {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
 
@@ -56,15 +56,16 @@ Each Encounter must support:
 1. An authenticator
 1. A custodian
 1. One or more security labels
-
-The `DocumentReference.status` field **SHALL** be populated with a value from [FHIR Document Reference Status](http://hl7.org/fhir/ValueSet/document-reference-status|4.0.1)
 <br><br>
 
-The `DocumentReference.docStatus` field **SHALL** be populated with a value from [FHIR Document Composition Status](http://hl7.org/fhir/ValueSet/composition-status|4.0.1)
+The `DocumentReference.status` field **SHALL** be populated with a value from [HL7 FHIR Document Reference Status](http://hl7.org/fhir/ValueSet/document-reference-status|4.0.1)
+<br><br>
+
+The `DocumentReference.docStatus` field **SHALL** be populated with a value from [HL7 FHIR Document Composition Status](http://hl7.org/fhir/ValueSet/composition-status|4.0.1)
 <br><br>
 
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard: 
-    * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of a value from {{pagelink:Extension-DataStandardsWales-DocumentAttribute}}.
+    * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
     * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
     * {{pagelink:Extension-DataStandardsWales-DocumentRepository}} supports the capture of the repository in which a document reference is stored by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile

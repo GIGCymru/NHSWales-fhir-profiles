@@ -10,6 +10,12 @@
   filename: Extension-DataStandardsWales-Religion.page.md
 - name: Extension-DataStandardsWales-DemographicsAsRecorded
   filename: Extension-DataStandardsWales-DemographicsAsRecorded.page.md
+- name: Extension-DataStandardsWales-DocumentAttribute
+  filename: Extension-DataStandardsWales-DocumentAttribute.page.md
+- name: Extension-DataStandardsWales-DocumentDigitalStatus
+  filename: Extension-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: Extension-DataStandardsWales-DocumentRepository
+  filename: Extension-DataStandardsWales-DocumentRepository.page.md
 - name: Extension Data Standards Wales Speciality
   filename: Extension-DataStandardsWales-Speciality.page.md
 - name: Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy
