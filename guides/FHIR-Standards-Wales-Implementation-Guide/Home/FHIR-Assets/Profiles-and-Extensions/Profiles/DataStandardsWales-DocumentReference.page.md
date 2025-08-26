@@ -66,6 +66,6 @@ The `DocumentReference.docStatus` field **SHALL** be populated with a value from
 
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard: 
-    * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
-    * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
-    * {{pagelink:Extension-DataStandardsWales-DocumentRepository}} supports the capture of the repository in which a document reference is stored by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile
+  * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
+  * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
+  * {{pagelink:Extension-DataStandardsWales-DocumentRepository}} supports the capture of the repository in which a document reference is stored by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile

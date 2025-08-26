@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: ValueSet-DataStandardsWales-DocumentAttribute
+  filename: ValueSet-DataStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-DataStandardsWales-DocumentCategory
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
 - name: ValueSet-DataStandardsWales-DocumentDigitalStatus
