@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-DocumentType"/>
-	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentType"/>
+	<id value="DataStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute"/>
     <version value="0.0.5" />
-    <name value="DataStandardsWalesDocumentType"/>
-	<title value="Data Standards Wales Document Type"/>
+    <name value="DataStandardsWalesDocumentAttribute"/>
+	<title value="Data Standards Wales Document Attribute"/>
     <status value="draft" />
     <experimental value="true" />
 	<date value="2025-08-18" />
@@ -17,7 +17,7 @@
 			<rank value="1" />
 		</telecom>
     </contact>
-	<description value="A set of codes used to identify the category of a document within NHS Wales."/>
+	<description value="A set of codes used to identify the attribute(s) of a document within NHS Wales."/>
 	<copyright value="2025 NHS Wales." />
     <compose>
         <include>
@@ -25,7 +25,7 @@
             <filter>
                 <property value="constraint" />
                 <op value="=" />
-                <value value="DescendantOf 1127551000000109" />
+                <value value="DescendantOf 419891008" />
             </filter>
         </include>
     </compose>
