@@ -29,6 +29,7 @@ Package:
             * Updated version from 1.0.0 to 1.0.1
             * .appointment. Added reference to DataStandardsWales-Appointment
             * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+            * .serviceProvider. Added Must Support flag.
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.6 to 0.0.7
             * .basedOn. Added reference to DataStandardsWales-Appointment
