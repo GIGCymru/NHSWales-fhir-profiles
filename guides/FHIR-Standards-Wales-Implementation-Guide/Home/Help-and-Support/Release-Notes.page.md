@@ -74,8 +74,8 @@ Guide:
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 * Updated Provenance Guidance page.
-* Added HL7 Ineternationl R4 tile to Related Page.
-* Added HL7 Ineternationl R5 tile to Related Page.
+* Added HL7 International R4 tile to Related Pages.
+* Added HL7 International R5 tile to Related Pages.
 
 ### v2.2.0 STU2
 Package: 
