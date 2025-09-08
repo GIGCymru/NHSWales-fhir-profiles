@@ -73,7 +73,7 @@ The DataStandardsWales-Observation profile may be used when presenting an Group 
 
 #### Observation Group
 * The `Observation.status` field **SHALL** be populated to indicate whether the Observation is Preliminary or Final.
-* The `Observation.category` field **SHALL** be populated with a fixed value **laboratory** from the ValueSet [Observation Catergory] (http://hl7.org/fhir/ValueSet/observation-category).
+* The `Observation.category` field **SHALL** be populated with a fixed value **laboratory** from the ValueSet [Observation Catergory](http://hl7.org/fhir/ValueSet/observation-category).
 * The `Observation.code` field **SHALL** contain all available codes for the requested panel.
   * Codes assigned to the ObservationGroup by the Welsh Results and Reporting Service
   * Other Codes available such as SNOMED CT.
@@ -86,7 +86,7 @@ The DataStandardsWales-Observation profile may be used when presenting an Group 
 
 #### Observation Result
 * The `Observation.status` field **SHALL** be populated to indicate whether the Observation is Preliminary or Final.
-* The `Observation.category` field **SHALL** be populated with a fixed value **laboratory** from the ValueSet [Observation Catergory] (http://hl7.org/fhir/ValueSet/observation-category).
+* The `Observation.category` field **SHALL** be populated with a fixed value **laboratory** from the ValueSet [Observation Catergory](http://hl7.org/fhir/ValueSet/observation-category).
 * The `Observation.code` field **SHALL** contain all available codes for the requested panel.
   * Codes assigned to the ObservationResult by the Welsh Results and Reporting Service
   * Other Codes available such as SNOMED CT.
@@ -95,9 +95,9 @@ The DataStandardsWales-Observation profile may be used when presenting an Group 
   * Identifiers assigned to the DiagnosticReport by the Welsh Results and Reporting Service
   * Other identifiers assigned by other clinical system.
 * The `Observation.effective` field **SHOULD** be populated. The diagnostically relevant time (known as the “effective time” and typically the time of the procedure)
-* The `Observation.value` field **SHOULD** be populated. The observation result value should be populated if available as **Quantity** resource using the [Units of Measure] (http://unitsofmeasure.org) system.
-* The `Observation.interpretation` field **SHOULD** be populated. The observation result interpretation should be populated if available using [Observation Interpretation] (http://hl7.org/fhir/ValueSet/observation-interpretation).
-* The `Observation.referenceRange` field **SHOULD** be populated. The observation result referenceRange should be populated if available using the [Units of Measure] (http://unitsofmeasure.org) system.
+* The `Observation.value` field **SHOULD** be populated. The observation result value should be populated if available as **Quantity** resource using the [Units of Measure](http://unitsofmeasure.org) system.
+* The `Observation.interpretation` field **SHOULD** be populated. The observation result interpretation should be populated if available using [Observation Interpretation](http://hl7.org/fhir/ValueSet/observation-interpretation).
+* The `Observation.referenceRange` field **SHOULD** be populated. The observation result referenceRange should be populated if available using the [Units of Measure](http://unitsofmeasure.org) system.
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:
