@@ -95,9 +95,9 @@ The DataStandardsWales-Observation profile may be used when presenting an Group 
   * Identifiers assigned to the DiagnosticReport by the Welsh Results and Reporting Service
   * Other identifiers assigned by other clinical system.
 * The `Observation.effective` field **SHOULD** be populated. The diagnostically relevant time (known as the “effective time” and typically the time of the procedure)
-* The `Observation.value` field **SHOULD** be populated. The observation result value should be populated if available as **Quantity** resource using the [Units of Measure](http://unitsofmeasure.org) system.
+* The `Observation.value` field **SHOULD** be populated. The observation result value should be populated if available as **Quantity** resource using the [Units of Measure](https://unitsofmeasure.org) system.
 * The `Observation.interpretation` field **SHOULD** be populated. The observation result interpretation should be populated if available using [Observation Interpretation](http://hl7.org/fhir/ValueSet/observation-interpretation).
-* The `Observation.referenceRange` field **SHOULD** be populated. The observation result referenceRange should be populated if available using the [Units of Measure](http://unitsofmeasure.org) system.
+* The `Observation.referenceRange` field **SHOULD** be populated. The observation result referenceRange should be populated if available using the [Units of Measure](https://unitsofmeasure.org) system.
 
 ### Mandatory Search Parameters
 The following search parameters and search parameter combinations **SHALL** be supported:
