@@ -93,7 +93,7 @@ The following example resources are provided within this guide:
  - {{pagelink:Example-DataStandardsWales-DiagnosticReport-ECG, text: Cardiology - ECG}}
  - {{pagelink:Example-DataStandardsWales-DiagnosticReport-StressTest, text: Cardiology - Stress Test}}
 
- * Please see [Data Standards Wales DiagnosticReport Profile for Laboratory results]{{pagelink:DataStandardsWales-DiagnosticReport-Lab}} for examples of Pathology/Laboratory results.
+ * Please see {{pagelink:Example-DataStandardsWales-DiagnosticReport-Lab, text: Data Standards Wales DiagnosticReport Profile for Laboratory results}} for examples of Pathology/Laboratory results.
       
 
 ### Mandatory Search Parameters
