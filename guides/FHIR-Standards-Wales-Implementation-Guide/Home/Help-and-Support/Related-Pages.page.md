@@ -78,21 +78,22 @@ A list of the sites developed by UK Core to assist with the standardisation of F
     </div>
 </div>
 
-### HL7 FHIR Internatiional
+### HL7 FHIR International
 
 A list of the sites developed by HL7 International to assist with development ad publication of FHIR resources.
 
 <div class="container">
     <div class="row">
         <div class="col-md-7 card">
-            <h4><b><a href="https://www.hl7.org/fhir/R4/" alt="HL7 International R4" target="_blank">HL7 Internation R4</a></b></h4>
-            <p>The current NHS Wales FHIR Implementation guide have resources that are derived from UK Core which is based on HL7 Internation R4</p>
+            <h4><b><a href="https://www.hl7.org/fhir/R4/" alt="HL7 International R4" target="_blank">HL7 International R4</a></b></h4>
+            <p>The current NHS Wales FHIR Implementation guide have resources that are derived from UK Core which is based on HL7 International R4</p>
         </div>
         <div class="col-md-7 card">
             <h4><b><a href="https://hl7.org/fhir/R5/index.html" alt="HL7 International R5" target="_blank">HL7 International R5</a></b></h4>
-            <p>The current NHS Wales FHIR Implementation guide have resources that are derived HL7 Internation R5</p>
+            <p>The current NHS Wales FHIR Implementation guide have resources that are derived HL7 International R5</p>
         </div>
-
+    </div>
+</div>
 
 ### FHIR Development Initiatives and Communities
 
