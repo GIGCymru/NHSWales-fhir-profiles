@@ -71,9 +71,11 @@ Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
-* Updated Provenance Guidance page.
+* Updated Provenance Guidance page
+* Updated Introduction with additional guidance
 
 ### v2.2.0 STU2
 Package: 

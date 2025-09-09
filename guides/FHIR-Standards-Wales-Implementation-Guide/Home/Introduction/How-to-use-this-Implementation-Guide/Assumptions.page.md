@@ -1,5 +1,5 @@
 ### {{page-title}}
-The Data Standards Wales FHIR Implementation Guide, including this website and the associated package of FHIR Resources, is intended to provide guidance for the implementation of interoperable standards for data in systems, platforms, and services in health and care for Wales.
+The Data Standards Wales FHIR Implementation Guide, including this website and the associated package of FHIR Resources, is intended to provide guidance for the implementation of interoperable standards for data in systems, platforms, and services in health and social care for Wales.
 
 Where a specific system, platform, or service implements these basic standards there will invariably be an additional layer of proscriptive constraints and assumptions to reflect business logic and functional requirements.
 
