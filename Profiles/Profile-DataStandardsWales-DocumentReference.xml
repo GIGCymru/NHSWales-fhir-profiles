@@ -24,17 +24,20 @@
     <element id="DocumentReference.extension:digitalStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="digitalStatus" />
-      <short value="documentDigitalStatus" />
+      <short value="The digital status of the document" />
+      <definition value="Indicates whether the document was always digital or created from a paper original via scanning." />
       <min value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
       </type>
       <isModifier value="false" />
     </element>
     <element id="DocumentReference.extension:documentRepository">
       <path value="DocumentReference.extension" />
       <sliceName value="documentRepository" />
+      <short value="The repository in which the document is stored." />
+      <definition value="The system from which the content of the document can be retrieved via the content URL for viewing.  This may be a national system or a more localised system authorised to store documents that are part of the holistic clinical data record." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
@@ -44,6 +47,8 @@
     <element id="DocumentReference.extension:documentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="documentAttribute" />
+      <short value="Additional metadata for the document" />
+      <definition value="Additional metadata as applicable to the document type.  This element should be used with care to avoid a proliferation of undefined metadata." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />

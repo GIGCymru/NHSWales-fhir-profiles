@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
+  <id value="Extension-DataStandardsWales-DigitalStatus" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
   <version value="0.0.1" />
-  <name value="ExtensionDataStandardsWalesDocumentDigitalStatus" />
-  <title value="Data Standards Wales Document Digital Status" />
+  <name value="ExtensionDataStandardsWalesDigitalStatus" />
+  <title value="Data Standards Wales Digital Status" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-08-18" />
@@ -34,17 +34,17 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <short value="DocumentDigitalStatus" />
+      <short value="DigitalStatus" />
       <definition value="The digital status of the document" />
       <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Document Digital Status" />
+      <short value="Digital Status" />
       <definition value="A code to indicate the digital status of a document" />
       <type>
         <code value="Coding" />
@@ -52,7 +52,7 @@
       <binding>
         <strength value="required" />
         <description value="Document Digital Status" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentDigitalStatus" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DigitalStatus" />
       </binding>
     </element>
   </differential>
