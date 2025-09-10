@@ -76,8 +76,8 @@ Guide:
 * Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
-* Updated Provenance Guidance page
-* Updated Introduction with additional guidance
+* Updated Provenance Guidance page.
+* Moved DataStandardsWales-Device from Diagostics to Entities in Resource Index page.
 
 ### v2.2.0 STU2
 Package: 
