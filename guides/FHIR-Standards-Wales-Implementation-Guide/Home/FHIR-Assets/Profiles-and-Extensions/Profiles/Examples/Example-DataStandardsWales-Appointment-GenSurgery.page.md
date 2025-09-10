@@ -1,6 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example Follow Up Appointment
+## Example General Surgery Appointment
 
 <div class="tab-wrap">
   <ul class="tab-head">
@@ -22,19 +22,19 @@
   </ul>
   <div class="tab-main">
     <div id="tabtree" class="tabcontent">
-      {{tree:Appointment/Example-Appointment-GenSurgery-FollowUp}}
+      {{tree:Appointment/Example-DataStandardsWales-Appointment-GenSurgery}}
     </div>
     <div id="tabtable" class="tabcontent">
-      {{table:Appointment/Example-Appointment-GenSurgery-FollowUp}}
+      {{table:Appointment/Example-DataStandardsWales-Appointment-GenSurgery}}
     </div>       
     <div id="tabxml" class="tabcontent active">      
-      {{xml:Appointment/Example-Appointment-GenSurgery-FollowUp}}
+      {{xml:Appointment/Example-DataStandardsWales-Appointment-GenSurgery}}
     </div>
     <div id="tabjson" class="tabcontent">
-      {{json:Appointment/Example-Appointment-GenSurgery-FollowUp}}
+      {{json:Appointment/Example-DataStandardsWales-Appointment-GenSurgery}}
     </div>       
     <div id="tabnarrative" class="tabcontent">
-      {{narrative:Appointment/Example-Appointment-GenSurgery-FollowUp}}
+      {{narrative:Appointment/Example-DataStandardsWales-Appointment-GenSurgery}}
     </div>  
   </div>
 </div>
