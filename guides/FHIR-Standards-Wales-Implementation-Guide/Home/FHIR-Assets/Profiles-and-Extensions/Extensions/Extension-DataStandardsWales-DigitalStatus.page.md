@@ -4,11 +4,11 @@
 An extension to capture the digital status of a document
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}.
+This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-DataStandardsWales-DigitalStatus}}.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* {{pagelink:Profile-DataStandardsWales-DocumentReference}}
+* {{pagelink:DataStandardsWales-DocumentReference}}
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdocumentdigitalstatus, snapshot}}
+      {{tree:extensiondatastandardswalesdigitalstatus, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>

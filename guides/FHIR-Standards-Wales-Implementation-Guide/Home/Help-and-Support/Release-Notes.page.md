@@ -2,39 +2,19 @@
 
 This page describes the published versions of this implementation guide and differences between versions:
 
-### v2.4.0 STU2
-Package: 
-* {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
-    * New Profiles
-        * DataStandardsWales-DocumentReference
-    * New Extensions
-        * DataStandardsWales-DocumentAttribute
-        * DataStandardsWales-DocumentDigitalStatus
-        * DataStandardsWales-DocumentRepository
-    * R5 backport Extensions
-    * Changes to Profiles
-* {{pagelink:Home/FHIR-Assets/Terminology.page.md,text:Terminology}}
-    * Changes to Terminology
-        * New Code Systems
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-        * New Value Sets
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-            * DataStandardsWales-DocumentType
-
-Guide:
-* Updated relevant pages within the Guide to reflect changes outlined in Package
-
 ### v2.3.0 STU2
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-Consent
+        * DataStandardsWales-DocumentReference
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
         * DataStandardsWales-AdministeredProduct
         * DataStandardsWales-DateProcedureLastUpdated
+        * DataStandardsWales-DocumentAttribute
+        * DataStandardsWales-DigitalStatus
+        * DataStandardsWales-DocumentRepository
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
     * R5 backport Extension:
@@ -88,12 +68,29 @@ Package:
             * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
+    * Changes to Terminology
+        * New Code Systems
+            * DataStandardsWales-DocumentCategory
+            * DataStandardsWales-DigitalStatus
+        * New Value Sets
+            * DataStandardsWales-DocumentCategory
+            * DataStandardsWales-DigitalStatus
+            * DataStandardsWales-DocumentType
   
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Added a new page to outline the DataStandardsWales-DocumentReference profile
+* Added a new page to outline the Extension-DataStandardsWales-DocumentAttribute extension
+* Added a new page to outline the Extension-DataStandardsWales-DocumentRepository extension
+* Added a new page to outline the Extension-DataStandardsWales-DigitalStatus extension
+* Added a new page to outline the ValueSet-DataStandardsWales-DocumentCategory value set
+* Added a new page to outline the ValueSet-DataStandardsWales-DigitalStatus value set
+* Added a new page to outline the ValueSet-DataStandardsWales-DocumentType value set
+* Added a new page to outline the CodeSystem-DataStandardsWales-DocumentCategory code system
+* Added a new page to outline the Codesystem-DataStandardsWales-DigitalStatus code system
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 * Updated Provenance Guidance page.

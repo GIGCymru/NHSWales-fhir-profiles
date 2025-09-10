@@ -8,9 +8,9 @@ This extension extends the DocumentReference resource to capture the specific re
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* {{pagelink:Profile-DataStandardsWales-DocumentReference}}
+* {{pagelink:DataStandardsWales-DocumentReference}}
 This extension references the following profile(s):
-* {{pagelink:Profile-DataStandardsWales-Device}}
+* {{pagelink:DataStandardsWales-Device}}
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
