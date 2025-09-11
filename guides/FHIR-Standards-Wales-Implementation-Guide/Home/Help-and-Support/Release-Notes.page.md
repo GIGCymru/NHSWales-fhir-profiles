@@ -7,6 +7,7 @@ Package:
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
         * DataStandardsWales-Composition
+        * DataStandardsWales-Condition        
         * DataStandardsWales-Consent
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
@@ -82,6 +83,7 @@ Package:
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
+* Added a new page to outline the DataStandardsWales-Condition profile
 * Added a new page to outline the DataStandardsWales-Composition profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Removed DataStandardsWales-Dosage profile from main index
