@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-Condition" />
-  <url value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Condition" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Condition" />
   <version value="0.0.1" />
   <name value="DataStandardsWalesCondition" />
   <title value="Data Standards Wales Condition" />
@@ -31,7 +31,7 @@
       <path value="Condition.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Condition.subject">
@@ -39,48 +39,48 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
       </type>
     </element>
     <element id="Condition.encounter">
       <path value="Condition.encounter" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Encounter" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
       </type>
     </element>
     <element id="Condition.recorder">
       <path value="Condition.recorder" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Practitioner" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-PractitionerRole" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
     </element>
     <element id="Condition.recorder.identifier.assigner">
       <path value="Condition.recorder.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Condition.asserter">
       <path value="Condition.asserter" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Practitioner" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-PractitionerRole" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
       </type>
     </element>
     <element id="Condition.asserter.identifier.assigner">
       <path value="Condition.asserter.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Condition.stage.assessment">
@@ -88,32 +88,32 @@
       <type>
         <code value="Reference" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ClinicalImpression" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-DiagnosticReport" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Observation" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DiagnosticReport" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Observation" />
       </type>
     </element>
     <element id="Condition.stage.assessment.identifier.assigner">
       <path value="Condition.stage.assessment.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Condition.evidence.detail.identifier.assigner">
       <path value="Condition.evidence.detail.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Condition.note.author[x]">
       <path value="Condition.note.author[x]" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Organization" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-RelatedPerson" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Patient" />
-        <targetProfile value="https://fhir.nhs.wales/fhir/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
       </type>
       <type>
         <code value="string" />

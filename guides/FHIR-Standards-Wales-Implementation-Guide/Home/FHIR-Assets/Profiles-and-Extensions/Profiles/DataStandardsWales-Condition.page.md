@@ -51,5 +51,5 @@ Each Condition record must support:
 * A `Condition.clinicalStatus` to indicate the clinical status of the condition.
 * A `Condition.verificationStatus` to indicate whether and how the clinical status of the condition is verified.
 * A `Condition.severity` to indicate a subjective assessment of the severity of the condition as evaluated by the clinician.
-* A `Condition.code` to indicate the identity of the condition, problem or diagnosis..
+* A `Condition.code` to indicate the identity of the condition, problem or diagnosis.
 * A `Condition.recorder` to indicate the individual who recorded the record and takes responsibility for its content.
