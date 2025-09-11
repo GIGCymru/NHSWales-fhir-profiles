@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="WPASEventType"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/WPASEventType"/>
+    <version value="0.0.1" />
+	<name value="WPASEventType"/>
+	<title value="WPAS Event Type"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-07-25" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="FHIR Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="fhir.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This CodeSystem contains a list of event codes and descriptions specific to Welsh PAS. These codes are owned and maintained by the DHCW Welsh PAS team."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="4C"/>
+		<display value="Pathway starts from previous Admission (same clinician) - No longer used"/>
+	</concept>
+	<concept>
+		<code value="47"/>
+		<display value="Decision to change pathway, awaiting outcome of intervention"/>
+	</concept>
+	<concept>
+		<code value="48"/>
+		<display value="Decision to change pathway with referral to diagnostics outside the trust"/>
+	</concept>
+	<concept>
+		<code value="49"/>
+		<display value="Decision to change pathway with referral to tertiary centre (Cardiology only)"/>
+	</concept>
+	<concept>
+		<code value="4D"/>
+		<display value="Decision to change pathway with referral to diagnostics"/>
+	</concept>
+	<concept>
+		<code value="4H"/>
+		<display value="Decision to change pathway with referral to therapy"/>
+	</concept>
+	<concept>
+		<code value="4W"/>
+		<display value="Change to pathway with addition to elective list"/>
+	</concept>
+	<concept>
+		<code value="57"/>
+		<display value="Awaiting outcome of intervention"/>
+	</concept>
+	<concept>
+		<code value="58"/>
+		<display value="Awaiting outcome of diagnostic test (Outside Trust)"/>
+	</concept>
+	<concept>
+		<code value="59"/>
+		<display value="Referral to tertiary centre(Cardiology only)"/>
+	</concept>
+	<concept>
+		<code value="69"/>
+		<display value="Referred to tertiary centre (not Cardiology)"/>
+	</concept>
+	<concept>
+		<code value="6H"/>
+		<display value="Therapy treatment completes pathway"/>
+	</concept>
+	<concept>
+		<code value="6D"/>
+		<display value="Patient Journey Ends"/>
+	</concept>
+	<concept>
+		<code value="6M"/>
+		<display value="Active monitoring previously commenced"/>
+	</concept>
+	<concept>
+		<code value="6X"/>
+		<display value="Treatment has already taken place"/>
+	</concept>
+	<concept>
+		<code value="75"/>
+		<display value="Decision to change pathway, Patient declines treatment"/>
+	</concept>
+	<concept>
+		<code value="79"/>
+		<display value="Decision to change pathway, with referral to tertiary centre (except Cardiology)"/>
+	</concept>
+	<concept>
+		<code value="7N"/>
+		<display value="Decision to change pathway, new treatment commenced today"/>
+	</concept>
+	<concept>
+		<code value="7X"/>
+		<display value="Pathway began prior to collection of data"/>
+	</concept>
+	<concept>
+		<code value="GA"/>
+		<display value="General Adjustment"/>
+	</concept>
+	<concept>
+		<code value="7Z"/>
+		<display value="Pre-RTT Pathway"/>
+	</concept>
+	<concept>
+		<code value="5D"/>
+		<display value="Awaiting Clinical Decision"/>
+	</concept>
+	<concept>
+		<code value="5J"/>
+		<display value="No change to Pathway"/>
+	</concept>
+	<concept>
+		<code value="5T"/>
+		<display value="Referred to Tertiary Centre (same Trust)"/>
+	</concept>
+	<concept>
+		<code value="6N"/>
+		<display value="Could not attend"/>
+	</concept>
+	<concept>
+		<code value="5N"/>
+		<display value="Could not attend"/>
+	</concept>
+	<concept>
+		<code value="7A"/>
+		<display value="Pathway starts from an A&amp;E referral"/>
+	</concept>
+	<concept>
+		<code value="7B"/>
+		<display value="Pathway starts from previous Admission (different clinician)"/>
+	</concept>
+	<concept>
+		<code value="5F"/>
+		<display value="Added to Follow Up WL"/>
+	</concept>
+	<concept>
+		<code value="4M"/>
+		<display value="Pathway created during Migration"/>
+	</concept>
+	<concept>
+		<code value="7C"/>
+		<display value="Pathway starts from previous Admission (same clinician)"/>
+	</concept>
+	<concept>
+		<code value="6R"/>
+		<display value="Condition resolved"/>
+	</concept>
+	<concept>
+		<code value="40"/>
+		<display value="New Referral received"/>
+	</concept>
+	<concept>
+		<code value="41"/>
+		<display value="Decision to change pathway, treatment in the future"/>
+	</concept>
+	<concept>
+		<code value="42"/>
+		<display value="Reinstatement on Pathway"/>
+	</concept>
+	<concept>
+		<code value="4A"/>
+		<display value="Original Start is Unknown"/>
+	</concept>
+	<concept>
+		<code value="5X"/>
+		<display value="Event unknown at present"/>
+	</concept>
+	<concept>
+		<code value="50"/>
+		<display value="No action - await further review"/>
+	</concept>
+	<concept>
+		<code value="51"/>
+		<display value="Refer to diagnostics"/>
+	</concept>
+	<concept>
+		<code value="52"/>
+		<display value="Refer to therapies"/>
+	</concept>
+	<concept>
+		<code value="60"/>
+		<display value="Discharged / referred back to GP"/>
+	</concept>
+	<concept>
+		<code value="61"/>
+		<display value="Treatment commenced today"/>
+	</concept>
+	<concept>
+		<code value="62"/>
+		<display value="Active monitoring commenced today"/>
+	</concept>
+	<concept>
+		<code value="63"/>
+		<display value="Referred to another Consultant"/>
+	</concept>
+	<concept>
+		<code value="64"/>
+		<display value="Admitted direct from clinic"/>
+	</concept>
+	<concept>
+		<code value="65"/>
+		<display value="Patient declined treatment"/>
+	</concept>
+	<concept>
+		<code value="66"/>
+		<display value="Patient treated elsewhere (including treatment as emergency)"/>
+	</concept>
+	<concept>
+		<code value="67"/>
+		<display value="Did not attend"/>
+	</concept>
+	<concept>
+		<code value="53"/>
+		<display value="Added to waiting list for elective admission"/>
+	</concept>
+	<concept>
+		<code value="54"/>
+		<display value="Treatment proposed-delivery intended at future appointment"/>
+	</concept>
+	<concept>
+		<code value="55"/>
+		<display value="Diagnostic / therapy completed - return to referring clinician"/>
+	</concept>
+	<concept>
+		<code value="56"/>
+		<display value="Hospital Cancellation"/>
+	</concept>
+	<concept>
+		<code value="68"/>
+		<display value="Patient deceased"/>
+	</concept>
+	<concept>
+		<code value="4B"/>
+		<display value="Pathway starts from previous Admission (different clinician)"/>
+	</concept>
+	<concept>
+		<code value="TT"/>
+		<display value="Telephone Contact (in Working Hours)"/>
+	</concept>
+	<concept>
+		<code value="TW"/>
+		<display value="Telephone Contact (Outside Working Hours)"/>
+	</concept>
+	<concept>
+		<code value="TR"/>
+		<display value="Reasonable appointment offered"/>
+	</concept>
+	<concept>
+		<code value="TO"/>
+		<display value="Appointment Offered"/>
+	</concept>
+	<concept>
+		<code value="T3"/>
+		<display value="No reply within 3 weeks"/>
+	</concept>
+	<concept>
+		<code value="TA"/>
+		<display value="Appt Agreed with Patient"/>
+	</concept>
+	<concept>
+		<code value="TN"/>
+		<display value="Appt Not Agreed with Patient"/>
+	</concept>
+	<concept>
+		<code value="GM"/>
+		<display value="General Medical Adjustment"/>
+	</concept>
+	<concept>
+		<code value="GS"/>
+		<display value="General Social Adjustment"/>
+	</concept>
+	<concept>
+		<code value="6J"/>
+		<display value="Refusal of reasonable offer"/>
+	</concept>
+	<concept>
+		<code value="PN"/>
+		<display value="Pathway Note"/>
+	</concept>
+	<concept>
+		<code value="6P"/>
+		<display value="Patient Initiated FollowUp"/>
+	</concept>
+	<concept>
+		<code value="6S"/>
+		<display value="See on Symptom"/>
+	</concept>
+	<concept>
+		<code value="7D"/>
+		<display value="Pathway starts from Emergency Admission"/>
+	</concept>
+	<concept>
+		<code value="7M"/>
+		<display value="Pathway starts from an MDT Event"/>
+	</concept>
+	<concept>
+		<code value="7W"/>
+		<display value="Pathway starts from Ward Attender"/>
+	</concept>
+</CodeSystem>
