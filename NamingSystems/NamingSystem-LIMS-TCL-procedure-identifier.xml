@@ -6,7 +6,7 @@
   <date value="2025-09-11" />
   <publisher value="NHS Wales" />
   <responsible value="Digital Health and Care Wales"/> 
-  <description value="This namespace is identifier for a Trac Care Lab (LIMS) procedure code"/> 
+  <description value="This namespace is an identifier for a Trac Care Lab (LIMS) procedure code"/> 
   <usage value="LIMS diagnostic procedure code identifier"/> 
   <uniqueId> 
     <type value="uri"/> 
