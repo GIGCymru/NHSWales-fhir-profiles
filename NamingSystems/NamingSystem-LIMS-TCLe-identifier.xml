@@ -1,0 +1,20 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="NHSWales-LIMS-TCLe-Report"/> 
+  <name value="TCLeReportIdentifier"/>
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2025-09-11" />
+  <publisher value="NHS Wales" />
+  <responsible value="Digital Health and Care Wales"/> 
+  <description value="This namespace is an identifier for a Trac Care Lab (LIMS2) report"/> 
+  <usage value="LIMS2 diagnostic report"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.nhs.wales/Id/lims-tcle-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+  <uniqueId> 
+    <type value="oid"/> 
+    <value value="2.16.840.1.113883.2.1.8.1.3.328"/>     
+  </uniqueId>  
+</NamingSystem> 
