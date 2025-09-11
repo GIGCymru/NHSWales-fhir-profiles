@@ -6,6 +6,7 @@ This page describes the published versions of this implementation guide and diff
 Package: 
 * {{pagelink:Home/FHIR-Assets/Profiles-and-Extensions,text:Profiles and Extensions}}:
     * New Profiles
+        * DataStandardsWales-Composition
         * DataStandardsWales-Consent
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
@@ -29,6 +30,7 @@ Package:
             * Updated version from 1.0.0 to 1.0.1
             * .appointment. Added reference to DataStandardsWales-Appointment
             * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+            * .serviceProvider. Added Must Support flag.
         * DataStandardsWales-ImagingStudy
             * Updated version from 0.0.6 to 0.0.7
             * .basedOn. Added reference to DataStandardsWales-Appointment
@@ -80,9 +82,15 @@ Package:
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
 * Added a new page to outline the DataStandardsWales-Consent profile
+* Added a new page to outline the DataStandardsWales-Composition profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
+* Updated Provenance Guidance page
+* Moved DataStandardsWales-Device from Diagnostics to Entities in Resource Index page
+* Added HL7 International R4 tile to Related Pages
+* Added HL7 International R5 tile to Related Pages
 
 ### v2.2.0 STU2
 Package: 
