@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="NHSWales-LIMS-TCL-Procedure"/> 
+  <name value="TCLProcedureCodeIdentifier"/>
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2025-09-11" />
+  <publisher value="NHS Wales" />
+  <responsible value="Digital Health and Care Wales"/> 
+  <description value="This namespace is an identifier for a Trac Care Lab (LIMS) procedure code"/> 
+  <usage value="LIMS diagnostic procedure code identifier"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.nhs.wales/Id/lims-tcl-procedure-code"/> 
+    <preferred value="true"/> 
+  </uniqueId> 
+</NamingSystem> 

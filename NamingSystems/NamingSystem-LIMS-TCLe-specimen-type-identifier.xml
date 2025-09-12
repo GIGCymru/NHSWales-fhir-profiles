@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="NHSWales-LIMS-TCLe-SpecimenType-Code"/> 
+  <name value="TCLeSpecimenTypeCodeIdentifier"/>
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2025-09-11" />
+  <publisher value="NHS Wales" />
+  <responsible value="Digital Health and Care Wales"/> 
+  <description value="This namespace is an identifier for a Trac Care Lab (LIMS2) specimen type code"/> 
+  <usage value="LIMS2 diagnostic specimen type code identifier"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.nhs.wales/Id/lims-tcle-specimen-type"/> 
+    <preferred value="true"/> 
+  </uniqueId> 
+</NamingSystem> 
