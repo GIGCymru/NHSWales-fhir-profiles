@@ -12,6 +12,8 @@
   filename: DataStandardsWales-AuditEvent.page.md
 - name: DataStandardsWales-Composition
   filename: DataStandardsWales-Composition.page.md  
+- name: DataStandardsWales-Condition
+  filename: DataStandardsWales-Condition.page.md  
 - name: DataStandardsWales-Consent
   filename: DataStandardsWales-Consent.page.md  
 - name: DataStandardsWales-Device
