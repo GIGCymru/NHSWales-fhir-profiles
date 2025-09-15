@@ -4,8 +4,8 @@
     <version value="1.0.0" />
     <name value="DataStandardsWalesUECCareConsultationMechanism"/>
 	<title value="Data Standards Wales UEC Care Consultation Mechanism"/>
-    <status value="draft" />
-    <experimental value="true" />
+    <status value="active" />
+    <experimental value="false" />
 	<date value="2025-09-15" />
     <publisher value="NHS Wales" />
 	<contact>
