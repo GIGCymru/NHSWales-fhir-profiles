@@ -32,7 +32,6 @@
       <sliceName value="nadexIdentifier" />
       <short value="NHS Wales NADEX Identifier" />
       <definition value="NHS Wales NADEX Identifier" />
-      <max value="1" />
     </element>
     <element id="Practitioner.identifier:nadexIdentifier.system">
       <path value="Practitioner.identifier.system" />
