@@ -64,6 +64,10 @@ Package:
         * DataStandardsWales-Observation
             * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation 
+        * DataStandardsWales-Practitioner
+            * Updated version from 1.1.2 to 1.1.3
+            * Cardinality changes:
+                * identifier:nadexIdentifier. From 0..1 to 0..* 
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Value Sets  
         * PAS Event Type
