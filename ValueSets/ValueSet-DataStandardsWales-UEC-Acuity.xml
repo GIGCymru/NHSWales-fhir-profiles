@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-Acuity" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECAcuity" />
+    <title value="Data Standards Wales ValueSet UEC Acuity" />
+    <status value="active" />
+    <date value="2025-09-16" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="Data Standards" />
+        <telecom>
+            <system value="email" />
+            <value value="data.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="This ValueSet captures the acuity for the patient's attendance in Emergency Care." />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="1064891000000107 OR 1064911000000105 OR 1064901000000108 OR 1077241000000103 OR 1077251000000100" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="17af4348-525a-486d-bc23-baa24ea7ab1a" />
+        <timestamp value="2023-10-31T22:11:00+00:00" />
+        <total value="5" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1064891000000107" />
+            <display value="Immediate resuscitation level emergency care" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1064911000000105" />
+            <display value="Very urgent level emergency care" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1064901000000108" />
+            <display value="Urgent level emergency care" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077241000000103" />
+            <display value="Standard level emergency care" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077251000000100" />
+            <display value="Non-urgent level emergency care" />
+        </contains>
+    </expansion>
+</ValueSet>
