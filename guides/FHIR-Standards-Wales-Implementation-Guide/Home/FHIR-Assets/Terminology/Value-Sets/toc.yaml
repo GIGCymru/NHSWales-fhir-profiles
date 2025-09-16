@@ -52,3 +52,5 @@
   filename: ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md
 - name: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism
   filename: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md
+- name: ValueSet-DataStandardsWales-UEC-ArrivalMode
+  filename: ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md
