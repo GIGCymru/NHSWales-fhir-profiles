@@ -16,7 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="This ValueSet contains to indicate the mechanism of the consultation"/>
+	<description value="This ValueSet indicates the mechanism of the consultation."/>
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
