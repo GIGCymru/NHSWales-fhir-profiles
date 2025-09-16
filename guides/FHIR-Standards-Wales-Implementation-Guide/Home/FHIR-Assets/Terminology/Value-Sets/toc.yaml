@@ -48,3 +48,5 @@
   filename: ValueSet-DataStandardsWales-RespirationRate.page.md
 - name: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements
   filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
+- name: ValueSet-DataStandardsWales-UEC-AttendanceCategory
+  filename: ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md

@@ -70,6 +70,7 @@ Package:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Value Sets  
+        * Data Standards Wales UEC Attendance Category
         * PAS Event Type
     * New Code Systems
         * Data Standards Wales UEC Attendance Category
