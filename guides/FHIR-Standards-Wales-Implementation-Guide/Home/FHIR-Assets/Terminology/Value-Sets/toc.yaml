@@ -50,3 +50,5 @@
   filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
 - name: ValueSet-DataStandardsWales-UEC-AttendanceCategory
   filename: ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md
+- name: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism
+  filename: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md
