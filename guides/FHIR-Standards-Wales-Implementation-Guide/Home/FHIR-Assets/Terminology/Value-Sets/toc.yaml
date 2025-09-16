@@ -58,3 +58,5 @@
   filename: ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md
 - name: ValueSet-DataStandardsWales-UEC-Acuity
   filename: ValueSet-DataStandardsWales-UEC-Acuity.page.md
+- name: ValueSet-DataStandardsWales-UEC-DischargeDestination
+  filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md

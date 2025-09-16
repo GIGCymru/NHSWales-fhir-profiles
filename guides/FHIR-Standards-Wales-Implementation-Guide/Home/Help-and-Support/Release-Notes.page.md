@@ -75,6 +75,7 @@ Package:
         * Data Standards Wales UEC Attendance Category
         * Data Standards Wales UEC Attendance Source
         * Data Standards Wales UEC Care Consultation Mechanism
+        * Data Standards Wales UEC Care Discharge Destination
         * PAS Event Type
     * New Code Systems
         * Data Standards Wales UEC Attendance Category
