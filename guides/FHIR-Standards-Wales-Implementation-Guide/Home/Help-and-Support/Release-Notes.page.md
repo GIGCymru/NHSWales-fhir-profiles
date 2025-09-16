@@ -72,6 +72,7 @@ Package:
     * New Value Sets  
         * PAS Event Type
     * New Code Systems
+        * Data Standards Wales UEC Attendance Category
         * Data Standards Wales UEC CareConsultation Mechanism
         * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}

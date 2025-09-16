@@ -17,7 +17,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>	
-    <description value="UEC CareConsultation Mechanism"/>
+    <description value="This CodeSystem lists reason for the patient's attendance."/>
     <copyright value="2025 NHS Wales." />
     <caseSensitive value="true"/>
     <content value="complete"/>
