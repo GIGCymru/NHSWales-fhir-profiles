@@ -56,4 +56,4 @@ Each Immunization Recommendation **must have**:
 |`ImmunizationRecommendation.patient`|The patient for whom the immunisation was recommended.|
 |`ImmunizationRecommendation.date`|The date on which the recommendation was made.|
 |`ImmunizationRecommendation.recommendation`|The nature of the recommendation.|
-|`ImmunizationRecommendation.forecastStatus`|Indicates the patient status with respect to the path to immunity for the target disease, e.g. due, complete, immune, or contraindicated.|
+|`ImmunizationRecommendation.recommendation.forecastStatus`|Indicates the patient status with respect to the path to immunity for the target disease, e.g. due, complete, immune, or contraindicated.|

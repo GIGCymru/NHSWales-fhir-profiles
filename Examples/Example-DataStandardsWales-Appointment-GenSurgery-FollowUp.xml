@@ -1,0 +1,83 @@
+<Appointment xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Appointment-GenSurgery" />
+    <meta>
+        <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Appointment" />
+    </meta>
+    <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-BookingOrganization">
+        <valueReference>
+            <reference value="Organization/a7b895e9-f459-5d7b-9d90-e00087caf3d9" />
+            <display value="Hywel Dda University Local Health Board" />
+        </valueReference>
+    </extension>
+    <extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-DeliveryChannel">
+        <valueCoding>
+            <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-DeliveryChannel" />
+            <code value="In-person" />
+            <display value="In-person" />
+        </valueCoding>
+    </extension>
+    <identifier>
+        <system value="https://fhir.hduhb.nhs.wales/Id/pas-event-identifier" />
+        <value value="1002006197" />
+    </identifier>
+    <status value="booked" />
+    <serviceCategory>
+        <coding>
+            <system value="https://fhir.nhs.wales/CodeSystem/WPASEventType" />
+            <code value="54" />
+            <display value="Treatment proposed-delivery intended at future appointment" />
+        </coding>
+    </serviceCategory>
+    <specialty>
+        <coding>
+            <system value="https://fhir.hl7.org.uk/CodeSystem/UKCore-PracticeSettingCode" />
+            <code value="100" />
+            <display value="General Surgery" />
+        </coding>
+    </specialty>
+    <specialty>
+        <coding>
+            <system value="https://fhir.hduhb.nhs.wales/CodeSystem/SubSpecialtyCode" />
+            <code value="100011" />
+            <display value="General Surgery (Pre-Op Ass.)" />
+        </coding>
+    </specialty>
+    <appointmentType>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0276" />
+            <code value="FOLLOWUP" />
+            <display value="A follow up visit from a previous appointment" />
+        </coding>
+    </appointmentType>
+    <description value="Face to face appointment" />
+    <start value="2024-01-09T08:45:00" />
+    <end value="2024-01-09T09:30:00" />
+    <participant>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType" />
+                <code value="ATND" />
+                <display value="attender" />
+            </coding>
+        </type>
+        <actor>
+            <reference value="Practitioner/1f601d0d-39a4-5874-adb5-0bce5a9e7ba7" />
+            <display value="Dr Rosa Perkin" />
+        </actor>
+        <status value="accepted" />
+    </participant>
+    <participant>
+        <actor>
+            <reference value="Patient/1f58e4d1-97ba-455f-a8e7-30a759b1e371" />
+            <display value="Richard Jones" />
+        </actor>
+        <status value="needs-action" />
+    </participant>
+    <participant>
+        <actor>
+            <reference value="Location/546764e5-4f73-5f24-8e27-91ba1d1e0046" />
+            <display value="BGH - Pre Assessment Clinic - Day Surgery Unit" />
+        </actor>
+        <status value="accepted" />
+    </participant>
+</Appointment>
