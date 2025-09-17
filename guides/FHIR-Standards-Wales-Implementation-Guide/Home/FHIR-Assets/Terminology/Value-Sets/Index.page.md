@@ -27,9 +27,9 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}}
 * {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-Acuity.page.md, text:ValueSet-DataStandardsWales-UEC-Acuity}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:ValueSet-DataStandardsWales-UEC-CareConsultationMechanism}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
+* {{pagelink:ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
+* {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
+* {{pagelink:ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
+* {{pagelink:ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:ValueSet-DataStandardsWales-UEC-CareConsultationMechanism}}
+* {{pagelink:ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
 * {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}
