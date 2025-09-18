@@ -8,6 +8,6 @@ The following Code Systems have been defined for this implementation guide:
 * {{pagelink:CodeSystem-DataStandardsWales-RecordingSetting, text:CodeSystem-DataStandardsWales-RecordingSetting}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-Sex.page.md, text:CodeSystem-DataStandardsWales-Sex}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-Title.page.md, text:CodeSystem-DataStandardsWales-Title}}
-* {{pagelink:CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
-* {{pagelink:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md, text:CodeSystem-DataStandardsWales-UEC-AttendanceCategory}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Code-Systems/CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism}}
 * {{pagelink:CodeSystem-DataStandardsWales-WrrsTaskType, text:CodeSystem-DataStandardsWales-WrrsTaskType}}
