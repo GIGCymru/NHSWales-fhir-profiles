@@ -6,6 +6,7 @@
   <name value="DataStandardsWalesEncounterUEC" />
   <title value="Data Standards Wales Encounter UEC" />
   <status value="draft" />
+  <experimental value="true" />
   <date value="2025-09-17" />
   <publisher value="NHS Wales" />
   <copyright value="2025 NHS Wales" />
@@ -15,4 +16,55 @@
   <type value="Encounter" />
   <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
   <derivation value="constraint" />
+  <differential>
+    <element id="Encounter.extension:uecActivityType">
+      <path value="Encounter.extension" />
+      <sliceName value="uecActivityType" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ActivityType" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:uecExpectedTimeOfTreatment">
+      <path value="Encounter.extension" />
+      <sliceName value="uecExpectedTimeOfTreatment" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:uecConsultationMechanism">
+      <path value="Encounter.extension" />
+      <sliceName value="uecConsultationMechanism" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ConsultationMechanism" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:modeOfArrival">
+      <path value="Encounter.extension" />
+      <sliceName value="modeOfArrival" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival" />
+      </type>
+      <isModifier value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-ArrivalMode" />
+      </binding>
+    </element>
+    <element id="Encounter.extension:uecAttendanceCategory">
+      <path value="Encounter.extension" />
+      <sliceName value="uecAttendanceCategory" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory" />
+      </type>
+      <isModifier value="false" />
+    </element>
+  </differential>
 </StructureDefinition>
