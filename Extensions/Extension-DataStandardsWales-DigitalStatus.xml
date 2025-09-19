@@ -38,20 +38,25 @@
       <definition value="The digital status of the document" />
       <max value="1" />
     </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <max value="0" />
+    </element>
     <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Digital Status" />
-      <definition value="A code to indicate the digital status of a document" />
+      <short value="born-digital-document | scanned-paper-document | unknown" />
+      <definition value="Indicates whether the document was always digital or created from a paper original via scanning." />
+      <min value="1" />
       <type>
-        <code value="Coding" />
+        <code value="code" />
       </type>
       <binding>
         <strength value="required" />
-        <description value="Document Digital Status" />
+        <description value="A code to indicate the digital status of a document" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentDigitalStatus" />
       </binding>
     </element>
