@@ -16,5 +16,7 @@
   filename: CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md  
 - name: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism
   filename: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md
+- name: CodeSystem-DataStandardsWales-UEC-ActivityType
+  filename: CodeSystem-DataStandardsWales-UEC-ActivityType.page.md
 - name: CodeSystem-DataStandardsWales-WrrsTaskType
   filename: CodeSystem-DataStandardsWales-WrrsTaskType.page.md
