@@ -60,3 +60,5 @@
   filename: ValueSet-DataStandardsWales-UEC-Acuity.page.md
 - name: ValueSet-DataStandardsWales-UEC-DischargeDestination
   filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
+- name: ValueSet-DataStandardsWales-UEC-ActivityType
+  filename: ValueSet-DataStandardsWales-UEC-ActivityType.page.md

@@ -70,6 +70,7 @@ Package:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Value Sets  
+        * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Acuity
         * Data Standards Wales UEC Arrival Mode
         * Data Standards Wales UEC Attendance Category
@@ -78,6 +79,7 @@ Package:
         * Data Standards Wales UEC Care Discharge Destination
         * PAS Event Type
     * New Code Systems
+        * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Attendance Category
         * Data Standards Wales UEC Care Consultation Mechanism
         * WPAS Event Type

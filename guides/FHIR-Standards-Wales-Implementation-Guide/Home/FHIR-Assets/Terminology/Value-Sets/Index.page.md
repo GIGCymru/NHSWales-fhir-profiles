@@ -26,6 +26,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-RespirationRate, text:ValueSet-DataStandardsWales-RespirationRate}}
 * {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}}
 * {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ActivityType.page.md, text:ValueSet-DataStandardsWales-UEC-ActivityType}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-Acuity.page.md, text:ValueSet-DataStandardsWales-UEC-Acuity}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
 * {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
