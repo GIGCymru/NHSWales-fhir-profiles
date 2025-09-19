@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-DigitalStatus"/>
-	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DigitalStatus"/>
-    <version value="0.0.1" />
-	<name value="DataStandardsWalesDigitalStatus"/>
-	<title value="Data Standards Wales Digital Status"/>
+	<id value="DataStandardsWales-DocumentDigitalStatus"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentDigitalStatus"/>
+    <version value="0.0.2" />
+	<name value="DataStandardsWalesDocumentDigitalStatus"/>
+	<title value="Data Standards Wales Document Digital Status"/>
     <status value="draft" />
     <experimental value="true" />	
-    <date value="2025-08-18" />
+    <date value="2025-09-19" />
     <publisher value="NHS Wales" />
     <contact>
 		<name value="FHIR Standards" />
@@ -23,17 +23,17 @@
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
-		<code value="1"/>
+		<code value="born-digital-document"/>
 		<display value="Born-digital document"/>
 		<definition value="The document was originally created in a digital format."/>
 	</concept>	
 	<concept>
-		<code value="2"/>
+		<code value="scanned-paper-document"/>
 		<display value="Scanned paper document"/>
 		<definition value="The document was originally created in a non-digital format and subsequently digitised."/>
 	</concept>
 	<concept>
-		<code value="3"/>
+		<code value="unknown"/>
 		<display value="Unknown"/>
 		<definition value="It is unknown whether the document was originally created in a digital or non-digital format."/>
 	</concept>

@@ -52,7 +52,7 @@
       <binding>
         <strength value="required" />
         <description value="Document Digital Status" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DigitalStatus" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentDigitalStatus" />
       </binding>
     </element>
   </differential>
