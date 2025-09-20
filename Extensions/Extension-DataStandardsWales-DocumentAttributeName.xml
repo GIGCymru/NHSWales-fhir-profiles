@@ -22,16 +22,21 @@
   <purpose value="Provides the name of the document attribute to which the value relates." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
-  <kind value="primitive-type" />
+  <kind value="complex-type" />
   <abstract value="false" />
   <context>
     <type value="extension" />
-    <expression value="DocumentReference" />
+    <expression value="DocumentReference.extension" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <min value="1" />
+      <max value="1" />
+    </element>
     <element id="Extension.extension">
       <path value="Extension.extension" />
       <max value="0" />
@@ -48,7 +53,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
       </binding>
     </element>
     <element id="Extension.value[x].extension">

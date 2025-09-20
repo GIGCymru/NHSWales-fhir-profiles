@@ -39,8 +39,7 @@
       <short value="The name code for the document attribute" />
       <definition value="A descriptive code for the document attribute e.g.IsPharmacyLocked" />
       <requirements value="Included for legacy data not explicitly handled via DocumentReference and related resources." />
-      <min value="1" />
-      <max value="1" />
+      <max />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
@@ -50,6 +49,7 @@
       <path value="Extension.value[x]" />
       <short value="Document Attribute" />
       <definition value="A code to indicate the attribute of a document" />
+      <max value="0" />
       <type>
         <code value="string" />
       </type>
