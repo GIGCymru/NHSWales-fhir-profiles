@@ -76,6 +76,15 @@
       </type>
       <isModifier value="false" />
     </element>
+    <element id="DocumentReference.extension:errorStatus">
+      <path value="DocumentReference.extension" />
+      <sliceName value="errorStatus" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="DocumentReference.masterIdentifier">
       <path value="DocumentReference.masterIdentifier" />
       <max value="0" />

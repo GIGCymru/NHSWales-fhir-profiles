@@ -25,8 +25,8 @@
   <kind value="complex-type" />
   <abstract value="false" />
   <context>
-    <type value="extension" />
-    <expression value="DocumentReference.extension" />
+    <type value="element" />
+    <expression value="DocumentReference" />
   </context>
   <type value="Extension" />
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
@@ -34,7 +34,6 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <min value="1" />
       <max value="1" />
     </element>
     <element id="Extension.extension">
