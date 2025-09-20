@@ -1,0 +1,24 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-WCRS-document-identifier" />
+    <name value="WCRSDocumentIdentifier" />
+	<status value="active" />
+    <kind value="identifier" />  
+    <date value="2025-09-20" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="FHIR Standards" />
+        <telecom>
+        <system value="email" />
+        <value value="fhir.standards@wales.nhs.uk" />
+        <use value="work" />
+        <rank value="1" />
+        </telecom>
+    </contact>
+    <responsible value="Digital Health and Care Wales" />
+    <usage value="This namespace indicates an NHS Wales Document Id issued by the Welsh Care Records Service, unique to a specific document version." />
+    <uniqueId>
+        <type value="uri" />
+        <value value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
+        <preferred value="true" />
+    </uniqueId>
+</NamingSystem>
