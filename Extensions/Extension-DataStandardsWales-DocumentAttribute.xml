@@ -35,10 +35,8 @@
     <element id="Extension.extension">
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
       <path value="Extension.extension" />
-      <label value="attributeName" />
-      <short value="The name code for the document attribute" />
-      <definition value="A descriptive code for the document attribute e.g.IsPharmacyLocked" />
       <requirements value="Included for legacy data not explicitly handled via DocumentReference and related resources." />
+      <min value="1" />
       <max />
     </element>
     <element id="Extension.url">
