@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-DocumentAttributeName" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesDocumentAttributeName" />
+  <title value="Data Standards Wales Document Attribute Name" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-09-20" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension carries the name of the document attribute" />
+  <purpose value="Provides the name of the document attribute to which the value relates." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="primitive-type" />
+  <abstract value="false" />
+  <context>
+    <type value="extension" />
+    <expression value="DocumentReference" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute" />
+      </binding>
+    </element>
+    <element id="Extension.value[x].extension">
+      <path value="Extension.value[x].extension" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
