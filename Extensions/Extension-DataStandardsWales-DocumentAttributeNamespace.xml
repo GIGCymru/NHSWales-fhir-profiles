@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-DocumentAttributeName" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+  <id value="Extension-DataStandardsWales-DocumentAttributeNamespace" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
   <version value="0.0.1" />
-  <name value="ExtensionDataStandardsWalesDocumentAttributeName" />
-  <title value="Data Standards Wales Document Attribute Name" />
+  <name value="ExtensionDataStandardsWalesDocumentAttributeNamespace" />
+  <title value="Data Standards Wales Document Attribute Namespace" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-09-20" />
@@ -18,8 +18,8 @@
       <rank value="1" />
     </telecom>
   </contact>
-  <description value="This extension carries the name code of the document attribute" />
-  <purpose value="Provides the name of the document attribute to which the value relates." />
+  <description value="This extension carries the namespace associated with the document attribute.  Note that for some attributes namespace may vary according to value domain." />
+  <purpose value="Provides a namespace for the document attribute." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />
@@ -43,18 +43,14 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
       <min value="1" />
       <type>
-        <code value="code" />
+        <code value="string" />
       </type>
-      <binding>
-        <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
-      </binding>
     </element>
     <element id="Extension.value[x].extension">
       <path value="Extension.value[x].extension" />
