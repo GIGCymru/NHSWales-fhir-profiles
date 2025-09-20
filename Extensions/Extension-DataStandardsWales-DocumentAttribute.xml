@@ -34,10 +34,9 @@
   <differential>
     <element id="Extension.extension">
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
       <path value="Extension.extension" />
       <requirements value="Included for legacy data not explicitly handled via DocumentReference and related resources." />
-      <min value="1" />
-      <max />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
@@ -45,9 +44,6 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Document Attribute" />
-      <definition value="A code to indicate the attribute of a document" />
-      <max value="0" />
       <type>
         <code value="string" />
       </type>

@@ -47,6 +47,8 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="The namespace associated with the document attribute." />
+      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
       <min value="1" />
       <type>
         <code value="string" />
