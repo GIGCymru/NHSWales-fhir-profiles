@@ -88,6 +88,29 @@
         <code value="string" />
       </type>
     </element>
+    <element id="Extension.extension:attributeNamespace">
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
+      <path value="Extension.extension" />
+      <sliceName value="attributeNamespace" />
+      <sliceIsConstraining value="false" />
+      <short value="The namespace associated with the document attribute value." />
+      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:attributeNamespace.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:attributeNamespace.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="attributeNamespace" />
+    </element>
+    <element id="Extension.extension:attributeNamespace.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
     <element id="Extension.extension:valueDomain">
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
       <path value="Extension.extension" />
@@ -105,29 +128,6 @@
       <fixedUri value="valueDomain" />
     </element>
     <element id="Extension.extension:valueDomain.value[x]">
-      <path value="Extension.extension.value[x]" />
-      <type>
-        <code value="string" />
-      </type>
-    </element>
-    <element id="Extension.extension:namespace">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
-      <path value="Extension.extension" />
-      <sliceName value="namespace" />
-      <sliceIsConstraining value="false" />
-      <short value="The namespace associated with the document attribute value." />
-      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
-      <max value="1" />
-    </element>
-    <element id="Extension.extension:namespace.extension">
-      <path value="Extension.extension.extension" />
-      <max value="0" />
-    </element>
-    <element id="Extension.extension:namespace.url">
-      <path value="Extension.extension.url" />
-      <fixedUri value="namespace" />
-    </element>
-    <element id="Extension.extension:namespace.value[x]">
       <path value="Extension.extension.value[x]" />
       <type>
         <code value="string" />
