@@ -35,8 +35,148 @@
     <element id="Extension.extension">
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValue" />
       <path value="Extension.extension" />
       <requirements value="Included for legacy data not explicitly handled via DocumentReference and related resources." />
+      <min value="1" />
+    </element>
+    <element id="Extension.extension:attributeName">
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
+      <path value="Extension.extension" />
+      <sliceName value="attributeName" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:attributeName.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:attributeName.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="attributeName" />
+    </element>
+    <element id="Extension.extension:attributeName.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="User-readable  semantic codes for allowed attributes.  Based on document metadata data held as document attributes in the Welsh Care Records Service and not represented via dedicated elements." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
+      </binding>
+    </element>
+    <element id="Extension.extension:attributeValue">
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValue" />
+      <path value="Extension.extension" />
+      <sliceName value="attributeValue" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:attributeValue.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:attributeValue.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="attributeValue" />
+    </element>
+    <element id="Extension.extension:attributeValue.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="boolean" />
+      </type>
+      <type>
+        <code value="date" />
+      </type>
+      <type>
+        <code value="dateTime" />
+      </type>
+      <type>
+        <code value="decimal" />
+      </type>
+      <type>
+        <code value="id" />
+      </type>
+      <type>
+        <code value="instant" />
+      </type>
+      <type>
+        <code value="integer" />
+      </type>
+      <type>
+        <code value="oid" />
+      </type>
+      <type>
+        <code value="positiveInt" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
+      <type>
+        <code value="time" />
+      </type>
+      <type>
+        <code value="unsignedInt" />
+      </type>
+      <type>
+        <code value="uri" />
+      </type>
+      <type>
+        <code value="url" />
+      </type>
+      <type>
+        <code value="uuid" />
+      </type>
+    </element>
+    <element id="Extension.extension:valueDomain">
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
+      <path value="Extension.extension" />
+      <sliceName value="valueDomain" />
+      <short value="The specific domain to which the value of the document attribute belongs" />
+      <definition value="Some document attributes contain different sets of values for a pre-defined set of domains.  In this case, the value domain provides the context for the value, to provide an unambiguous meaning." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:valueDomain.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:valueDomain.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="valueDomain" />
+    </element>
+    <element id="Extension.extension:valueDomain.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+    <element id="Extension.extension:namespace">
+      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
+      <path value="Extension.extension" />
+      <sliceName value="namespace" />
+      <sliceIsConstraining value="false" />
+      <short value="The namespace associated with the document attribute value." />
+      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:namespace.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:namespace.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="namespace" />
+    </element>
+    <element id="Extension.extension:namespace.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+      <type>
+        <code value="uri" />
+      </type>
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
@@ -44,6 +184,7 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <max value="0" />
       <type>
         <code value="string" />
       </type>

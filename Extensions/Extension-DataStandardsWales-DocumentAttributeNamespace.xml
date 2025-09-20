@@ -34,7 +34,6 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <min value="1" />
       <max value="1" />
     </element>
     <element id="Extension.extension">
@@ -53,10 +52,9 @@
       <type>
         <code value="string" />
       </type>
-    </element>
-    <element id="Extension.value[x].extension">
-      <path value="Extension.value[x].extension" />
-      <max value="0" />
+      <type>
+        <code value="uri" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>

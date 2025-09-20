@@ -44,6 +44,25 @@
       </type>
       <isModifier value="false" />
     </element>
+    <element id="DocumentReference.extension:version">
+      <path value="DocumentReference.extension" />
+      <sliceName value="version" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:attester">
+      <path value="DocumentReference.extension" />
+      <sliceName value="attester" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="DocumentReference.extension:documentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="documentAttribute" />
@@ -54,6 +73,10 @@
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
       </type>
       <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.masterIdentifier">
+      <path value="DocumentReference.masterIdentifier" />
+      <max value="0" />
     </element>
     <element id="DocumentReference.identifier">
       <path value="DocumentReference.identifier" />
@@ -110,6 +133,7 @@
     </element>
     <element id="DocumentReference.authenticator">
       <path value="DocumentReference.authenticator" />
+      <max value="0" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
@@ -147,6 +171,7 @@
     </element>
     <element id="DocumentReference.context.sourcePatientInfo">
       <path value="DocumentReference.context.sourcePatientInfo" />
+      <max value="0" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
