@@ -36,8 +36,6 @@
     <element id="DocumentReference.extension:sourceSystem">
       <path value="DocumentReference.extension" />
       <sliceName value="sourceSystem" />
-      <short value="The repository in which the document is stored." />
-      <definition value="The system from which the content of the document can be retrieved via the content URL for viewing.  This may be a national system or a more localised system authorised to store documents that are part of the holistic clinical data record." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
@@ -47,6 +45,8 @@
     <element id="DocumentReference.extension:version">
       <path value="DocumentReference.extension" />
       <sliceName value="version" />
+      <short value="An explicitly assigned identifer of a variation of the content in the DocumentReference." />
+      <definition value="An explicitly assigned identifer of a variation of the content in the DocumentReference e.g. the SetSequenceNumber issued by the Welsh Care Records Service. (Backported from FHIR R5.)" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -57,6 +57,8 @@
     <element id="DocumentReference.extension:attester">
       <path value="DocumentReference.extension" />
       <sliceName value="attester" />
+      <short value="Attests to accuracy of the document." />
+      <definition value="A participant who has authenticated the accuracy of the document.  (Backported from FHIR R5)" />
       <type>
         <code value="Extension" />
         <profile value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
@@ -66,6 +68,8 @@
     <element id="DocumentReference.extension:documentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="documentAttribute" />
+      <short value="Additional metadata associated with legacy documents." />
+      <definition value="For legacy documents only.  Additional metadata as stored in the originating system for the legacy document.  This element is restricted to historic metadata and is not intended to be used as an extension point for undefined metadata." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
@@ -78,7 +82,33 @@
     </element>
     <element id="DocumentReference.identifier">
       <path value="DocumentReference.identifier" />
+      <slicing>
+        <description value="Slices provided for the different types of national identifiers issued by the Welsh Care Records Service." />
+        <rules value="open" />
+      </slicing>
       <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsDocumentId">
+      <path value="DocumentReference.identifier" />
+      <sliceName value="wcrsDocumentId" />
+      <short value="The WCRS DocumentId." />
+      <definition value="The version-specific DocumentId issued by the Welsh Care Records Service." />
+      <max value="1" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsDocumentId.system">
+      <path value="DocumentReference.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsSupersessionSetId">
+      <path value="DocumentReference.identifier" />
+      <sliceName value="wcrsSupersessionSetId" />
+      <short value="The WCRS DocumentSupersessionSetId." />
+      <definition value="The version-independent DocumentSupersessionSetId issued by the Welsh Care Records Service." />
+      <max value="1" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsSupersessionSetId.system">
+      <path value="DocumentReference.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
     </element>
     <element id="DocumentReference.docStatus">
       <path value="DocumentReference.docStatus" />
@@ -166,6 +196,13 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
       </type>
+    </element>
+    <element id="DocumentReference.context.practiceSetting">
+      <path value="DocumentReference.context.practiceSetting" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://simplifier.net/hl7-fhir--uk-core-r4-stu2-sequence2/ukcore-caresettingtype" />
+      </binding>
     </element>
     <element id="DocumentReference.context.sourcePatientInfo">
       <path value="DocumentReference.context.sourcePatientInfo" />
