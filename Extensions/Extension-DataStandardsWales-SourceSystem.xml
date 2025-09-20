@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-DocumentRepository" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
-  <version value="0.0.1" />
-  <name value="ExtensionDataStandardsWalesDocumentRepository" />
-  <title value="Data Standards Wales DocumentRepository" />
+  <id value="Extension-DataStandardsWales-SourceSystem" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
+  <version value="0.0.2" />
+  <name value="ExtensionDataStandardsWalesSourceSystem" />
+  <title value="Data Standards Wales Source System" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2025-08-18" />
+  <date value="2025-09-20" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -34,18 +34,18 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <short value="DocumentRepository" />
-      <definition value="The repository in which a document is stored." />
+      <short value="The source system for the document details." />
+      <definition value="The system from which the document details were sourced to create the document reference." />
       <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Document Repository" />
-      <definition value="A code to indicate the repository in which a document is stored." />
+      <short value="Source system." />
+      <definition value="The source system for the document details." />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />

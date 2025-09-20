@@ -33,14 +33,14 @@
       </type>
       <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:documentRepository">
+    <element id="DocumentReference.extension:sourceSystem">
       <path value="DocumentReference.extension" />
-      <sliceName value="documentRepository" />
+      <sliceName value="sourceSystem" />
       <short value="The repository in which the document is stored." />
       <definition value="The system from which the content of the document can be retrieved via the content URL for viewing.  This may be a national system or a more localised system authorised to store documents that are part of the holistic clinical data record." />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentRepository" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
       </type>
       <isModifier value="false" />
     </element>
