@@ -66,5 +66,21 @@
       </type>
       <isModifier value="false" />
     </element>
+    <element id="Encounter.hospitalization.admitSource">
+      <path value="Encounter.hospitalization.admitSource" />
+      <binding>
+        <strength value="required" />
+        <description value="The source of admission to a UEC encounter." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceSource" />
+      </binding>
+    </element>
+    <element id="Encounter.hospitalization.dischargeDisposition">
+      <path value="Encounter.hospitalization.dischargeDisposition" />
+      <binding>
+        <strength value="preferred" />
+        <description value="The destination of a Patient on completion of a UEC Encounter" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination" />
+      </binding>
+    </element>
   </differential>
 </StructureDefinition>
