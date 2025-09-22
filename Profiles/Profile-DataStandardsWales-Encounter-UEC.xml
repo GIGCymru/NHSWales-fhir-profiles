@@ -77,7 +77,7 @@
     <element id="Encounter.hospitalization.dischargeDisposition">
       <path value="Encounter.hospitalization.dischargeDisposition" />
       <binding>
-        <strength value="preferred" />
+        <strength value="required" />
         <description value="The destination of a Patient on completion of a UEC Encounter" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination" />
       </binding>

@@ -48,9 +48,6 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival" />
       </type>
       <isModifier value="false" />
-    </element>
-    <element id="Encounter.extension:modeOfArrival.value[x]">
-      <path value="Encounter.extension.value[x]" />
       <binding>
         <strength value="preferred" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-ArrivalMode" />
@@ -79,14 +76,34 @@
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
       </binding>
     </element>
+    <element id="Encounter.extension:uecDischargeDestination">
+      <path value="Encounter.extension" />
+      <sliceName value="uecDischargeDestination" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeDestination" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:uecAttendanceSource">
+      <path value="Encounter.extension" />
+      <sliceName value="uecAttendanceSource" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceSource" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.type">
+      <path value="Encounter.type" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-EncounterType" />
+      </binding>
+    </element>
     <element id="Encounter.type.coding">
       <path value="Encounter.type.coding" />
       <definition value="The type of activity for a UEC encounter." />
-      <binding>
-        <strength value="preferred" />
-        <description value="UEC activity type" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-ActivityType" />
-      </binding>
     </element>
     <element id="Encounter.subject">
       <path value="Encounter.subject" />
@@ -159,14 +176,6 @@
       <path value="Encounter.hospitalization.admitSource" />
       <mustSupport value="true" />
     </element>
-    <element id="Encounter.hospitalization.admitSource.coding">
-      <path value="Encounter.hospitalization.admitSource.coding" />
-      <binding>
-        <strength value="preferred" />
-        <description value="Source of admission for a UEC Encounter" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceSource" />
-      </binding>
-    </element>
     <element id="Encounter.hospitalization.destination">
       <path value="Encounter.hospitalization.destination" />
       <type>
@@ -175,14 +184,6 @@
         <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
       </type>
       <mustSupport value="true" />
-    </element>
-    <element id="Encounter.hospitalization.dischargeDisposition.coding">
-      <path value="Encounter.hospitalization.dischargeDisposition.coding" />
-      <binding>
-        <strength value="preferred" />
-        <description value="Discharge destination for a UEC Encounter" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination" />
-      </binding>
     </element>
     <element id="Encounter.location.location">
       <path value="Encounter.location.location" />
