@@ -1,7 +1,7 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture the attributes of a document
+An extension to capture attributes of a document that are not explicitly addressed within DocumentReference.  Indended for use by exception only e.g. in the case of legacy documents.
 
 ### Purpose
 This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
