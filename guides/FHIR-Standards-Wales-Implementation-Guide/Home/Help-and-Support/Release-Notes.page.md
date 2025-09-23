@@ -9,12 +9,15 @@ Package:
         * DataStandardsWales-Composition
         * DataStandardsWales-Condition        
         * DataStandardsWales-Consent
+        * DataStandardsWales-Encounter-UEC
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
         * DataStandardsWales-AdministeredProduct
         * DataStandardsWales-DateProcedureLastUpdated
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
+        * DataStandardsWales-UECAttendanceCategory
+        * DataStandardsWales-UECExpectedTimeOfTreatment
     * R5 backport Extension:
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
@@ -90,7 +93,11 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-Condition profile
 * Added a new page to outline the DataStandardsWales-Composition profile
+* Added a new page to outline the DataStandardsWales-Encounter-UEC profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
+* Added guidance pages for all new Extension profiles
+* Added guidance pages for all new Code Systems
+* Added guidance pages for all new Value Sets
 * Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table

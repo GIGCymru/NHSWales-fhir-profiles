@@ -17,30 +17,12 @@
   <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
   <derivation value="constraint" />
   <differential>
-    <element id="Encounter.extension:uecActivityType">
-      <path value="Encounter.extension" />
-      <sliceName value="uecActivityType" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ActivityType" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="Encounter.extension:uecExpectedTimeOfTreatment">
       <path value="Encounter.extension" />
       <sliceName value="uecExpectedTimeOfTreatment" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="Encounter.extension:uecConsultationMechanism">
-      <path value="Encounter.extension" />
-      <sliceName value="uecConsultationMechanism" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ConsultationMechanism" />
       </type>
       <isModifier value="false" />
     </element>
@@ -65,6 +47,13 @@
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory" />
       </type>
       <isModifier value="false" />
+    </element>
+    <element id="Encounter.type">
+      <path value="Encounter.type" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-ActivityType" />
+      </binding>
     </element>
     <element id="Encounter.hospitalization.admitSource">
       <path value="Encounter.hospitalization.admitSource" />

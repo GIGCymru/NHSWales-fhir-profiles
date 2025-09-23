@@ -15,3 +15,5 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedDate}}
 * {{pagelink:Extension-DataStandardsWales-SingleRecord-AllergiesListUpdated}}
 * {{pagelink:Extension-DataStandardsWales-Speciality}}
+* {{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}}
+* {{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}}

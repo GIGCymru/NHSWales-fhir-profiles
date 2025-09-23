@@ -12,6 +12,7 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
 * {{pagelink:DataStandardsWales-DiagnosticReport-Lab}}
 * {{pagelink:DataStandardsWales-Encounter}}
+* {{pagelink:DataStandardsWales-Encounter-UEC}}
 * {{pagelink:DataStandardsWales-Endpoint}}
 * {{pagelink:DataStandardsWales-ImagingStudy}}
 * {{pagelink:DataStandardsWales-Immunization}}
