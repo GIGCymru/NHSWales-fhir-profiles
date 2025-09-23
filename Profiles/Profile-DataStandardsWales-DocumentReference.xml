@@ -207,6 +207,7 @@
     </element>
     <element id="DocumentReference.context.practiceSetting">
       <path value="DocumentReference.context.practiceSetting" />
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <valueSet value="https://simplifier.net/hl7-fhir--uk-core-r4-stu2-sequence2/ukcore-caresettingtype" />
