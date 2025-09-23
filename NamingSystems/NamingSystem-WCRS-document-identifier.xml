@@ -15,7 +15,8 @@
         </telecom>
     </contact>
     <responsible value="Digital Health and Care Wales" />
-    <usage value="This namespace indicates an NHS Wales Document Id issued by the Welsh Care Records Service, unique to a specific document version." />
+    <description value="This namespace indicates an NHS Wales Document Id issued by the Welsh Care Records Service, unique to a specific document version." />
+    <usage value="Document identity"/>
     <uniqueId>
         <type value="uri" />
         <value value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />

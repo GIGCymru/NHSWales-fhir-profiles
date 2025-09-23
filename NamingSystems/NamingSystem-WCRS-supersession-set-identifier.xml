@@ -15,7 +15,8 @@
         </telecom>
     </contact>
     <responsible value="Digital Health and Care Wales" />
-    <usage value="This namespace indicates an NHS Wales DocumentSupersessionSetId issued by the Welsh Care Records Service.  This identifier is common across document versions." />
+    <description value="This namespace indicates an NHS Wales DocumentSupersessionSetId issued by the Welsh Care Records Service.  This identifier is common across document versions." />
+    <usage value="Document identity"/>
     <uniqueId>
         <type value="uri" />
         <value value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
