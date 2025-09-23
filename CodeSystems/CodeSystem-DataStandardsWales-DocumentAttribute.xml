@@ -299,6 +299,9 @@
 		<code value="SensitivePrior"/>
 	</concept>
 	<concept>
+		<code value="ShareWithPatient"/>
+	</concept>
+	<concept>
 		<code value="ShareWithReferrer"/>
 	</concept>
 	<concept>
