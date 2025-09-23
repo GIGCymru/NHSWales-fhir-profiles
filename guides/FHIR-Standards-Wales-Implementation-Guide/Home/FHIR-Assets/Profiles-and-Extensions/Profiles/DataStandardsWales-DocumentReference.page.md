@@ -43,19 +43,25 @@ Refer to the {{pagelink:Home/Introduction/Profile-Descriptions/Mandatory-and-Mus
  
 Each DocumentReference must have:
 1. A status
+1. A digital status
 1. One or more attachments as *either* a base 64 binary *or* a URL. 
 
-Each Encounter must support:
+Each DocumentReference must support:
 1. One or more identifiers
 1. A document status
+1. An error status (idapplicable if document is entered in error)
 1. A type
 1. One or more categories
 1. A subject
 1. A date
 1. One or more authors
-1. An authenticator
+1. One or more attesters
 1. A custodian
 1. One or more security labels
+1. A practice setting
+1. A source system
+1. A version
+
 <br><br>
 
 The `DocumentReference.status` field **SHALL** be populated with a value from [HL7 FHIR Document Reference Status](http://hl7.org/fhir/ValueSet/document-reference-status|4.0.1)
