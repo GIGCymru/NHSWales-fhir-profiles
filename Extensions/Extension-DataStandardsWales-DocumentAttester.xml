@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
   <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentAttester" />
   <title value="Extension Data Standards Wales Document Attester" />
@@ -35,7 +35,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
     </element>
   </differential>
 </StructureDefinition>

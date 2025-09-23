@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
   <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentVersion" />
   <title value="Extension Data Standards Wales Document Version" />
   <status value="draft" />
   <experimental value="true" />
-  <date value="2025-09-20" />
+  <date value="2025-09-23" />
   <publisher value="NHS Wales" />
   <contact>
     <name value="FHIR Standards" />
@@ -35,7 +35,13 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>

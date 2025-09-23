@@ -39,29 +39,6 @@
       </type>
       <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:version">
-      <path value="DocumentReference.extension" />
-      <sliceName value="version" />
-      <short value="An explicitly assigned identifer of a variation of the content in the DocumentReference." />
-      <definition value="An explicitly assigned identifer of a variation of the content in the DocumentReference e.g. the SetSequenceNumber issued by the Welsh Care Records Service. (Backported from FHIR R5.)" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
-      </type>
-      <isModifier value="false" />
-    </element>
-    <element id="DocumentReference.extension:attester">
-      <path value="DocumentReference.extension" />
-      <sliceName value="attester" />
-      <short value="Attests to accuracy of the document." />
-      <definition value="A participant who has authenticated the accuracy of the document.  (Backported from FHIR R5)" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
-      </type>
-      <isModifier value="false" />
-    </element>
     <element id="DocumentReference.extension:errorStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="errorStatus" />
@@ -70,6 +47,15 @@
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:documentAttribute">
+      <path value="DocumentReference.extension" />
+      <sliceName value="documentAttribute" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
       </type>
       <isModifier value="false" />
     </element>
