@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-DigitalStatus" />
-  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
+  <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
   <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDigitalStatus" />
-  <title value="Data Standards Wales Digital Status" />
+  <title value="Data Standards Wales Document Digital Status" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-08-18" />
@@ -34,8 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <short value="DigitalStatus" />
-      <definition value="The digital status of the document" />
+      <short value="Document digital status" />
+      <definition value="The digital status of the document. Indicates whether the document was always digital or created from a paper original via scanning." />
       <max value="1" />
     </element>
     <element id="Extension.extension">
@@ -44,7 +44,7 @@
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DigitalStatus" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

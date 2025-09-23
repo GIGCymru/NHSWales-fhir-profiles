@@ -68,8 +68,8 @@
     <element id="DocumentReference.extension:documentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="documentAttribute" />
-      <short value="Additional metadata associated with legacy documents." />
-      <definition value="For legacy documents only.  Additional metadata as stored in the originating system for the legacy document.  This element is restricted to historic metadata and is not intended to be used as an extension point for undefined metadata." />
+      <short value="Additional metadata for the document." />
+      <definition value="Additional metadata as applicable to the document type.  This element should be used with care to avoid a proliferation of undefined metadata." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
@@ -79,6 +79,8 @@
     <element id="DocumentReference.extension:errorStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="errorStatus" />
+      <short value="Document error status" />
+      <definition value="An extension to carry a descriptive code for the document error status e.g. potential-misfile.  This value can be interpreted by end systems to affect document handling and presentation e.g. watermarking." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />

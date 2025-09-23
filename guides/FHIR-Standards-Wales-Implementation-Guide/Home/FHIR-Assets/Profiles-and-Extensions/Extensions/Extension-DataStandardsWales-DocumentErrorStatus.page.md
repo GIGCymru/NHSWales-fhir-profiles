@@ -1,10 +1,10 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture attributes of a document that are not explicitly addressed within DocumentReference.  Intended for use by exception only to capture data important for specific document types e.g.clinical trial code for cancer-related documents.  May be used more extensively for legacy documents.
+An extension to capture the error status of a document
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
+This extension extends the DocumentReference resource to capture the distinct error status that applies to a document "entered-in-error".  The values supported are restricted by {{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus}}.
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -22,7 +22,7 @@ This extension may be used on the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdocumentattribute, snapshot}}
+      {{tree:extensiondatastandardswalesdocumenterrorstatus, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
