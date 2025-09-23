@@ -74,6 +74,7 @@
       <path value="Extension.extension" />
       <sliceName value="attributeValue" />
       <short value="The value recorded against the document attribute." />
+      <definition value="The value recorded against the document attribute.  This is modelled as a string format for flexibility.  The actual datatype of the value will depend upon the specific document attribute.  For example some may be dates, other integers and others a fixed list of codes." />
       <max value="1" />
     </element>
     <element id="Extension.extension:attributeValue.extension">
