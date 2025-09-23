@@ -34,6 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
+      <short value="The value recorded against the document attribute." />
+      <definition value="The value recorded against the document attribute.  This is modelled as a string format for flexibility.  The actual datatype of the value will depend upon the specific document attribute.  For example some may be dates, other integers and others a fixed list of codes." />
       <min value="1" />
       <max value="1" />
     </element>

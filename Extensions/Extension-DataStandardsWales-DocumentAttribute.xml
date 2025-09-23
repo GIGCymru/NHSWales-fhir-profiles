@@ -45,6 +45,8 @@
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
       <path value="Extension.extension" />
       <sliceName value="attributeName" />
+      <short value="The name code for the document attribute." />
+      <definition value="A formal descriptive code for the document attribute e.g. ShareWithReferrer." />
       <min value="1" />
       <max value="1" />
     </element>
@@ -71,6 +73,7 @@
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValue" />
       <path value="Extension.extension" />
       <sliceName value="attributeValue" />
+      <short value="The value recorded against the document attribute." />
       <max value="1" />
     </element>
     <element id="Extension.extension:attributeValue.extension">
@@ -115,7 +118,7 @@
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
       <path value="Extension.extension" />
       <sliceName value="valueDomain" />
-      <short value="The specific domain to which the value of the document attribute belongs" />
+      <short value="The specific domain to which the value of the document attribute belongs." />
       <definition value="Some document attributes contain different sets of values for a pre-defined set of domains.  In this case, the value domain provides the context for the value, to provide an unambiguous meaning." />
       <max value="1" />
     </element>

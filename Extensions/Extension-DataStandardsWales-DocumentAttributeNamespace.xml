@@ -52,9 +52,12 @@
       <type>
         <code value="string" />
       </type>
-      <type>
-        <code value="uri" />
-      </type>
+    </element>
+    <element id="Extension.value[x].extension">
+      <path value="Extension.value[x].extension" />
+      <short value="The namespace associated with the document attribute value." />
+      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>

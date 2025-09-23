@@ -37,6 +37,7 @@
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
       </type>
+      <mustSupport value="true" />
       <isModifier value="false" />
     </element>
     <element id="DocumentReference.extension:errorStatus">
@@ -48,6 +49,7 @@
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
       </type>
+      <mustSupport value="true" />
       <isModifier value="false" />
     </element>
     <element id="DocumentReference.extension:documentAttribute">
