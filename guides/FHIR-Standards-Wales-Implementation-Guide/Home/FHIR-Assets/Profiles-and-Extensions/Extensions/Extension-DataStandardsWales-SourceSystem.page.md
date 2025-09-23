@@ -1,10 +1,10 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture the repository in which a document is stored
+An extension to capture the system from which the document details were sourced to create the document reference.
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the specific repository in which a document is stored.
+This extension extends the DocumentReference resource to capture the specific system that provided the document metadata.
 
 ### Context of Use
 This extension may be used on the following profile(s):
@@ -24,7 +24,7 @@ This extension references the following profile(s):
   </ul>
   <div class="tab-main">
     <div id="tabsnap" class="tabcontent active">      
-      {{tree:extensiondatastandardswalesdocumentrepository, snapshot}}
+      {{tree:extensiondatastandardswalessourcesystem, snapshot}}
     </div>
     <div id="tabeg" class="tabcontent">
       <list>
