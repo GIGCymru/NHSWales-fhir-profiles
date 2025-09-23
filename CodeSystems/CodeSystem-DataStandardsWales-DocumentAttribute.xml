@@ -23,333 +23,333 @@
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
-		<code name="AilmentCode"/>
+		<code value="AilmentCode"/>
 	</concept>
 	<concept>
-		<code name="AilmentName"/>
+		<code value="AilmentName"/>
 	</concept>
 	<concept>
-		<code name="AllergiesRecorded"/>
+		<code value="AllergiesRecorded"/>
 	</concept>
 	<concept>
-		<code name="AwaitingAdditionalInfo"/>
+		<code value="AwaitingAdditionalInfo"/>
 	</concept>
 	<concept>
-		<code name="CancelledBy"/>
+		<code value="CancelledBy"/>
 	</concept>
 	<concept>
-		<code name="CancelledOn"/>
+		<code value="CancelledOn"/>
 	</concept>
 	<concept>
-		<code name="CareSequence"/>
+		<code value="CareSequence"/>
 	</concept>
 	<concept>
-		<code name="CareSetting"/>
+		<code value="CareSetting"/>
 	</concept>
 	<concept>
-		<code name="CasDbId"/>
+		<code value="CasDbId"/>
 	</concept>
 	<concept>
-		<code name="Clinic"/>
+		<code value="Clinic"/>
 	</concept>
 	<concept>
-		<code name="ClinicalCircumstanceDescription"/>
+		<code value="ClinicalCircumstanceDescription"/>
 	</concept>
 	<concept>
-		<code name="ClinicCode"/>
+		<code value="ClinicCode"/>
 	</concept>
 	<concept>
-		<code name="ClinicName"/>
+		<code value="ClinicName"/>
 	</concept>
 	<concept>
-		<code name="CloneDateTime"/>
+		<code value="CloneDateTime"/>
 	</concept>
 	<concept>
-		<code name="CloneSequenceNumber"/>
+		<code value="CloneSequenceNumber"/>
 	</concept>
 	<concept>
-		<code name="CloneSourceDocumentId"/>
+		<code value="CloneSourceDocumentId"/>
 	</concept>
 	<concept>
-		<code name="CloneSourceIsDraft"/>
+		<code value="CloneSourceIsDraft"/>
 	</concept>
 	<concept>
-		<code name="CloneSourceSetSeqNo"/>
+		<code value="CloneSourceSetSeqNo"/>
 	</concept>
 	<concept>
-		<code name="CloneSourceSupersessionSet"/>
+		<code value="CloneSourceSupersessionSet"/>
 	</concept>
 	<concept>
-		<code name="Comments"/>
+		<code value="Comments"/>
 	</concept>
 	<concept>
-		<code name="ConsultantPriority"/>
+		<code value="ConsultantPriority"/>
 	</concept>
 	<concept>
-		<code name="ConsultationPeriod"/>
+		<code value="ConsultationPeriod"/>
 	</concept>
 	<concept>
-		<code name="ConsultationType"/>
+		<code value="ConsultationType"/>
 	</concept>
 	<concept>
-		<code name="CounterSignatureRequestorId"/>
+		<code value="CounterSignatureRequestorId"/>
 	</concept>
 	<concept>
-		<code name="DalHasBeenReactivated"/>
+		<code value="DalHasBeenReactivated"/>
 	</concept>
 	<concept>
-		<code name="DataMigrationSource"/>
+		<code value="DataMigrationSource"/>
 	</concept>
 	<concept>
-		<code name="DateReceived"/>
+		<code value="DateReceived"/>
 	</concept>
 	<concept>
-		<code name="DateReferred"/>
+		<code value="DateReferred"/>
 	</concept>
 	<concept>
-		<code name="DateSubmitted"/>
+		<code value="DateSubmitted"/>
 	</concept>
 	<concept>
-		<code name="DestinationHealthboardCode"/>
+		<code value="DestinationHealthboardCode"/>
 	</concept>
 	<concept>
-		<code name="DestinationHospitalCode"/>
+		<code value="DestinationHospitalCode"/>
 	</concept>
 	<concept>
-		<code name="DestinationSpecialtyCode"/>
+		<code value="DestinationSpecialtyCode"/>
 	</concept>
 	<concept>
-		<code name="Diagnosis"/>
+		<code value="Diagnosis"/>
 	</concept>
 	<concept>
-		<code name="DiagnosisDate"/>
+		<code value="DiagnosisDate"/>
 	</concept>
 	<concept>
-		<code name="Discipline"/>
+		<code value="Discipline"/>
 	</concept>
 	<concept>
-		<code name="DocumentRequiresCountersignature"/>
+		<code value="DocumentRequiresCountersignature"/>
 	</concept>
 	<concept>
-		<code name="Duplicate"/>
+		<code value="Duplicate"/>
 	</concept>
 	<concept>
-		<code name="EditCrossOrg"/>
+		<code value="EditCrossOrg"/>
 	</concept>
 	<concept>
-		<code name="Encoding"/>
+		<code value="Encoding"/>
 	</concept>
 	<concept>
-		<code name="EventId"/>
+		<code value="EventId"/>
 	</concept>
 	<concept>
-		<code name="FinalEditDateTime"/>
+		<code value="FinalEditDateTime"/>
 	</concept>
 	<concept>
-		<code name="GMCCode"/>
+		<code value="GMCCode"/>
 	</concept>
 	<concept>
-		<code name="HepmaSystem"/>
+		<code value="HepmaSystem"/>
 	</concept>
 	<concept>
-		<code name="HoldUntil"/>
+		<code value="HoldUntil"/>
 	</concept>
 	<concept>
-		<code name="IsEmergency"/>
+		<code value="IsEmergency"/>
 	</concept>
 	<concept>
-		<code name="IsHistoricDalSaved"/>
+		<code value="IsHistoricDalSaved"/>
 	</concept>
 	<concept>
-		<code name="IsPharmacyLocked"/>
+		<code value="IsPharmacyLocked"/>
 	</concept>
 	<concept>
-		<code name="LocalDocumentTypeCode"/>
+		<code value="LocalDocumentTypeCode"/>
 	</concept>
 	<concept>
-		<code name="LocalSubSpecialty"/>
+		<code value="LocalSubSpecialty"/>
 	</concept>
 	<concept>
-		<code name="LocalSubSpecialtyCode"/>
+		<code value="LocalSubSpecialtyCode"/>
 	</concept>
 	<concept>
-		<code name="LocationType"/>
+		<code value="LocationType"/>
 	</concept>
 	<concept>
-		<code name="MandatoryCoscDate"/>
+		<code value="MandatoryCoscDate"/>
 	</concept>
 	<concept>
-		<code name="ManualDal"/>
+		<code value="ManualDal"/>
 	</concept>
 	<concept>
-		<code name="MedicalRecordType"/>
+		<code value="MedicalRecordType"/>
 	</concept>
 	<concept>
-		<code name="MeetingDate"/>
+		<code value="MeetingDate"/>
 	</concept>
 	<concept>
-		<code name="OptimalCoscDate"/>
+		<code value="OptimalCoscDate"/>
 	</concept>
 	<concept>
-		<code name="OutcomeAction"/>
+		<code value="OutcomeAction"/>
 	</concept>
 	<concept>
-		<code name="PasLink"/>
+		<code value="PasLink"/>
 	</concept>
 	<concept>
-		<code name="PathwayId"/>
+		<code value="PathwayId"/>
 	</concept>
 	<concept>
-		<code name="PathwayIdentifier"/>
+		<code value="PathwayIdentifier"/>
 	</concept>
 	<concept>
-		<code name="PatientActionIfHadNotReceivedConsultationCode"/>
+		<code value="PatientActionIfHadNotReceivedConsultationCode"/>
 	</concept>
 	<concept>
-		<code name="PatientActionIfHadNotReceivedConsultationText"/>
+		<code value="PatientActionIfHadNotReceivedConsultationText"/>
 	</concept>
 	<concept>
-		<code name="PatientPrivacyCategory"/>
+		<code value="PatientPrivacyCategory"/>
 	</concept>
 	<concept>
-		<code name="PatientRevoke"/>
+		<code value="PatientRevoke"/>
 	</concept>
 	<concept>
-		<code name="PatientShare"/>
+		<code value="PatientShare"/>
 	</concept>
 	<concept>
-		<code name="PharmacistGphc"/>
+		<code value="PharmacistGphc"/>
 	</concept>
 	<concept>
-		<code name="PharmacistName"/>
+		<code value="PharmacistName"/>
 	</concept>
 	<concept>
-		<code name="PharmacyName"/>
+		<code value="PharmacyName"/>
 	</concept>
 	<concept>
-		<code name="PharmacyPPA"/>
+		<code value="PharmacyPPA"/>
 	</concept>
 	<concept>
-		<code name="PracticeID"/>
+		<code value="PracticeID"/>
 	</concept>
 	<concept>
-		<code name="PrescribedItemFormularyIds"/>
+		<code value="PrescribedItemFormularyIds"/>
 	</concept>
 	<concept>
-		<code name="PrescribedItemNames"/>
+		<code value="PrescribedItemNames"/>
 	</concept>
 	<concept>
-		<code name="PreviousActionCompleted"/>
+		<code value="PreviousActionCompleted"/>
 	</concept>
 	<concept>
-		<code name="PrioritisationData"/>
+		<code value="PrioritisationData"/>
 	</concept>
 	<concept>
-		<code name="Priority"/>
+		<code value="Priority"/>
 	</concept>
 	<concept>
-		<code name="PriorityChangeReason"/>
+		<code value="PriorityChangeReason"/>
 	</concept>
 	<concept>
-		<code name="ReadOnly"/>
+		<code value="ReadOnly"/>
 	</concept>
 	<concept>
-		<code name="ReasonForSensitivity"/>
+		<code value="ReasonForSensitivity"/>
 	</concept>
 	<concept>
-		<code name="Rebook"/>
+		<code value="Rebook"/>
 	</concept>
 	<concept>
-		<code name="RecipientHospital"/>
+		<code value="RecipientHospital"/>
 	</concept>
 	<concept>
-		<code name="RecipientSpecialty"/>
+		<code value="RecipientSpecialty"/>
 	</concept>
 	<concept>
-		<code name="ReferralActionedBy"/>
+		<code value="ReferralActionedBy"/>
 	</concept>
 	<concept>
-		<code name="ReferralActionedDate"/>
+		<code value="ReferralActionedDate"/>
 	</concept>
 	<concept>
-		<code name="ReferralAdviceCode"/>
+		<code value="ReferralAdviceCode"/>
 	</concept>
 	<concept>
-		<code name="ReferralAdviceText"/>
+		<code value="ReferralAdviceText"/>
 	</concept>
 	<concept>
-		<code name="ReferralId"/>
+		<code value="ReferralId"/>
 	</concept>
 	<concept>
-		<code name="ReferralType"/>
+		<code value="ReferralType"/>
 	</concept>
 	<concept>
-		<code name="ReferrerPasCode"/>
+		<code value="ReferrerPasCode"/>
 	</concept>
 	<concept>
-		<code name="ReferrerSpecialtyCode"/>
+		<code value="ReferrerSpecialtyCode"/>
 	</concept>
 	<concept>
-		<code name="ReferringClinicianCode"/>
+		<code value="ReferringClinicianCode"/>
 	</concept>
 	<concept>
-		<code name="RequiresSignOff"/>
+		<code value="RequiresSignOff"/>
 	</concept>
 	<concept>
-		<code name="SensitivePrior"/>
+		<code value="SensitivePrior"/>
 	</concept>
 	<concept>
-		<code name="ShareWithReferrer"/>
+		<code value="ShareWithReferrer"/>
 	</concept>
 	<concept>
-		<code name="Signer"/>
+		<code value="Signer"/>
 	</concept>
 	<concept>
-		<code name="SingleCancerPathwayIdentifier"/>
+		<code value="SingleCancerPathwayIdentifier"/>
 	</concept>
 	<concept>
-		<code name="SpecificSiteTeam"/>
+		<code value="SpecificSiteTeam"/>
 	</concept>
 	<concept>
-		<code name="SpellNumber"/>
+		<code value="SpellNumber"/>
 	</concept>
 	<concept>
-		<code name="Status"/>
+		<code value="Status"/>
 	</concept>
 	<concept>
-		<code name="SubDocumentType"/>
+		<code value="SubDocumentType"/>
 	</concept>
 	<concept>
-		<code name="SubDocumentTypeCode"/>
+		<code value="SubDocumentTypeCode"/>
 	</concept>
 	<concept>
-		<code name="SubjectOrganisation"/>
+		<code value="SubjectOrganisation"/>
 	</concept>
 	<concept>
-		<code name="SubjectOrganisationCode"/>
+		<code value="SubjectOrganisationCode"/>
 	</concept>
 	<concept>
-		<code name="SubSpecialty"/>
+		<code value="SubSpecialty"/>
 	</concept>
 	<concept>
-		<code name="SubSpecialtyCode"/>
+		<code value="SubSpecialtyCode"/>
 	</concept>
 	<concept>
-		<code name="ThirdPartyDataIncluded"/>
+		<code value="ThirdPartyDataIncluded"/>
 	</concept>
 	<concept>
-		<code name="TreatmentStartDate"/>
+		<code value="TreatmentStartDate"/>
 	</concept>
 	<concept>
-		<code name="TumourSiteCode"/>
+		<code value="TumourSiteCode"/>
 	</concept>
 	<concept>
-		<code name="UniqueId"/>
+		<code value="UniqueId"/>
 	</concept>
 	<concept>
-		<code name="VisitNumber"/>
+		<code value="VisitNumber"/>
 	</concept>
 	<concept>
-		<code name="WorklistId"/>
+		<code value="WorklistId"/>
 	</concept>
 </CodeSystem>
