@@ -109,10 +109,10 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <targetProfile value="DataStandardsWalesPatient" />
-        <targetProfile value="DataStandardsWalesPractitioner" />
-        <targetProfile value="DataStandardsWalesPractitionerRole" />
-        <targetProfile value="DataStandardsWalesOrganization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
       </type>
     </element>
     <element id="Extension.url">
