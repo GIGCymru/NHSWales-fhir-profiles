@@ -3,7 +3,7 @@
   <id value="Extension-DataStandardsWales-DocumentDigitalStatus" />
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
   <version value="0.0.1" />
-  <name value="ExtensionDataStandardsWalesDigitalStatus" />
+  <name value="ExtensionDataStandardsWalesDocumentDigitalStatus" />
   <title value="Data Standards Wales Document Digital Status" />
   <status value="draft" />
   <experimental value="true" />
