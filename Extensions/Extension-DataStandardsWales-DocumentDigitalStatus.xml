@@ -36,6 +36,7 @@
       <path value="Extension" />
       <short value="Document digital status" />
       <definition value="The digital status of the document. Indicates whether the document was always digital or created from a paper original via scanning." />
+      <min value="1" />
       <max value="1" />
     </element>
     <element id="Extension.extension">
@@ -59,6 +60,10 @@
         <description value="A code to indicate the digital status of a document" />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentDigitalStatus" />
       </binding>
+    </element>
+        <element id="Extension.value[x].extension">
+      <path value="Extension.value[x].extension" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
