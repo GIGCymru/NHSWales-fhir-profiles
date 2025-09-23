@@ -32,6 +32,11 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Additional metadata for the document" />
+      <definition value="Additional metadata as applicable to the document type.  This element should be used with care to avoid a proliferation of undefined metadata." />
+    </element>
     <element id="Extension.extension">
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
       <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />

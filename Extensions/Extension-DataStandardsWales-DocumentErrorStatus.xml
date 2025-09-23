@@ -34,6 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
+      <short value="Document error status" />
+      <definition value="An extension to carry a descriptive code for the document error status e.g. potential-misfile.  The error status can be used by systems to affect document handling and presentation e.g. watermarking." />
       <max value="1" />
     </element>
     <element id="Extension.extension">
