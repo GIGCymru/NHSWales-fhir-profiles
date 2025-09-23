@@ -10,7 +10,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
-* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-EncounetrType.page.md, text:ValueSet-DataStandardsWales-EncounterType}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-EncounterType.page.md, text:ValueSet-DataStandardsWales-EncounterType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
