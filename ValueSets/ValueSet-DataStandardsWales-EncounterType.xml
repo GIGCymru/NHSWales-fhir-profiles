@@ -16,7 +16,7 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-	<description value="This ValueSet indicates the mechanism of the consultation and activity type for Urgent and Emergency Care Services which is based on UEC Standard.It is also UK Core Encounter Type which is a set of codes that describe an encounter between a care professional and the patient (or patient's record). \n\n Selected from codes from the SNOMED CT UK coding system that define: \n - an indirect encounter \n - the establishment seen in \n - the site of the encounter."/>
+	<description value="This ValueSet indicates the mechanism of the consultation and activity type for Urgent and Emergency Care Services which is based on UEC Standard.It is also UK Core Encounter Type which is a set of codes that describe an encounter between a care professional and the patient (or patient's record)."/>
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
