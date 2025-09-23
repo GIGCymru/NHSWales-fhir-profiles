@@ -69,7 +69,8 @@ Package:
             * Cardinality changes:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
-    * New Value Sets  
+    * New Value Sets 
+        * Data Standards Wales Encounter Type 
         * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Acuity
         * Data Standards Wales UEC Arrival Mode
