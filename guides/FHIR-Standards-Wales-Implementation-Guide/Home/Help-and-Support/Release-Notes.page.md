@@ -11,13 +11,16 @@ Package:
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
         * DataStandardsWales-AdministeredProduct
-        * DataStandardsWales-DateProcedureLastUpdated
+        * DataStandardsWales-DateProcedureLastUpdated        
         * DataStandardsWales-DocumentAttribute
-        * DataStandardsWales-DigitalStatus
-        * DataStandardsWales-DocumentRepository
+        * DataStandardsWales-DocumentDigitalStatus
+        * DataStandardsWales-DocumentErrorStatus
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
-    * R5 backport Extension:
+        * DataStandardsWales-SourceSystem
+    * R5 backport Extension:      
+        * DataStandardsWales-DocumentAttester
+        * DataStandardsWales-DocumentVersion
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
         * DataStandardsWales-Appointment
@@ -66,15 +69,21 @@ Package:
             * Changed name from AppointmentIdentifier to XXXXPASAppointmentIdentifier where XXXX is the healthboard/trust abbreviation
         * New Naming Systems
             * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
+            * Namespace for WCRS DocumentId values
+            * Namespace for WCRS DocumentSupersessionSetId values
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
     * Changes to Terminology
         * New Code Systems
+            * DataStandardsWales-DocumentAttribute
             * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DigitalStatus
+            * DataStandardsWales-DocumentDigitalStatus
+            * DataStandardsWales-DocumentErrorStatus
         * New Value Sets
+            * DataStandardsWales-DocumentAttribute
             * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DigitalStatus
+            * DataStandardsWales-DocumentDigitalStatus
+            * DataStandardsWales-DocumentErrorStatus
             * DataStandardsWales-DocumentType
   
 
@@ -83,16 +92,24 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Added a new page to outline the DataStandardsWales-DocumentReference profile
+* Added a new page to outline the Extension-DataStandardsWales-DocumentAttester extension
 * Added a new page to outline the Extension-DataStandardsWales-DocumentAttribute extension
-* Added a new page to outline the Extension-DataStandardsWales-DocumentRepository extension
-* Added a new page to outline the Extension-DataStandardsWales-DigitalStatus extension
+* Added a new page to outline the Extension-DataStandardsWales-DocumentDigitalStatus extension
+* Added a new page to outline the Extension-DataStandardsWales-DocumentErrorStatus extension
+* Added a new page to outline the Extension-DataStandardsWales-DocumentVersion extension
+* Added a new page to outline the Extension-DataStandardsWales-SourceSystem extension
+* Added a new page to outline the ValueSet-DataStandardsWales-DocumentAttribute value set
 * Added a new page to outline the ValueSet-DataStandardsWales-DocumentCategory value set
-* Added a new page to outline the ValueSet-DataStandardsWales-DigitalStatus value set
+* Added a new page to outline the ValueSet-DataStandardsWales-DocumentDigitalStatus value set
+* Added a new page to outline the ValueSet-DataStandardsWales-DocumentErrorStatus value set
 * Added a new page to outline the ValueSet-DataStandardsWales-DocumentType value set
+* Added a new page to outline the CodeSystem-DataStandardsWales-DocumentAttribute code system
 * Added a new page to outline the CodeSystem-DataStandardsWales-DocumentCategory code system
-* Added a new page to outline the Codesystem-DataStandardsWales-DigitalStatus code system
+* Added a new page to outline the Codesystem-DataStandardsWales-DocumentDigitalStatus code system
+* Added a new page to outline the Codesystem-DataStandardsWales-DocumentErrorStatus code system
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
++ Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table
 * Updated Provenance Guidance page.
 
 ### v2.2.0 STU2
