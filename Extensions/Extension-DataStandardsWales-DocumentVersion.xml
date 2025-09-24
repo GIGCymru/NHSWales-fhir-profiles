@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-DocumentVersion" />
   <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
   <version value="0.0.2" />
   <name value="ExtensionDataStandardsWalesDocumentVersion" />
