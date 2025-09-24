@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-DocumentAttribute"/>
-	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute"/>
-    <version value="0.0.6" />
-    <name value="DataStandardsWalesDocumentAttribute"/>
-	<title value="Data Standards Wales Document Attribute"/>
+	<id value="FHIRStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentAttribute"/>
+    <version value="0.0.1" />
+    <name value="FHIRStandardsWalesDocumentAttribute"/>
+	<title value="FHIR Standards Wales Document Attribute"/>
     <status value="draft" />
     <experimental value="true" />
 	<date value="2025-09-19" />
@@ -21,7 +21,7 @@
 	<copyright value="2025 NHS Wales." />
     <compose>
         <include>
-            <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute" />
+            <system value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute" />
         </include>
     </compose>
 </ValueSet>

@@ -10,10 +10,8 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute, text:ValueSet-DataStandardsWales-DocumentAttribute}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentCategory, text:ValueSet-DataStandardsWales-DocumentCategory}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus, text:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
-* {{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus, text:ValueSet-DataStandardsWales-DocumentErrorStatus}}
 * {{pagelink:ValueSet-DataStandardsWales-DocumentType, text:ValueSet-DataStandardsWales-DocumentType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
@@ -31,3 +29,6 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}}
 * {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
 * {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute, text:ValueSet-FHIRStandardsWales-DocumentAttribute}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction, text:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
+* {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus, text:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}

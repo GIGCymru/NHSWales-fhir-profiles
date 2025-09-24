@@ -2,7 +2,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentDigitalStatus"/>
 	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentDigitalStatus"/>
-    <version value="0.0.2" />
+    <version value="0.0.1" />
 	<name value="DataStandardsWalesDocumentDigitalStatus"/>
 	<title value="Data Standards Wales Document Digital Status"/>
     <status value="draft" />

@@ -1,13 +1,9 @@
 - name: Index
   filename: Index.page.md
-- name: CodeSystem-DataStandardsWales-DocumentAttribute
-  filename: CodeSystem-DataStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-DataStandardsWales-DocumentCategory
   filename: CodeSystem-DataStandardsWales-DocumentCategory.page.md
 - name: CodeSystem-DataStandardsWales-DocumentDigitalStatus
   filename: CodeSystem-DataStandardsWales-DocumentDigitalStatus.page.md
-- name: CodeSystem-DataStandardsWales-DocumentErrorStatus
-  filename: CodeSystem-DataStandardsWales-DocumentErrorStatus.page.md 
 - name: CodeSystem-DataStandardsWales-GenderIdentity
   filename: CodeSystem-DataStandardsWales-GenderIdentity.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus
@@ -22,3 +18,9 @@
   filename: CodeSystem-DataStandardsWales-Title.page.md
 - name: CodeSystem-DataStandardsWales-WrrsTaskType
   filename: CodeSystem-DataStandardsWales-WrrsTaskType.page.md
+- name: CodeSystem-FHIRStandardsWales-DocumentAttribute
+  filename: CodeSystem-FHIRStandardsWales-DocumentAttribute.page.md
+- name: CodeSystem-FHIRStandardsWales-DocumentErrorAction
+  filename: CodeSystem-FHIRStandardsWales-DocumentErrorAction.page.md 
+- name: CodeSystem-FHIRStandardsWales-DocumentErrorStatus
+  filename: CodeSystem-FHIRStandardsWales-DocumentErrorStatus.page.md 

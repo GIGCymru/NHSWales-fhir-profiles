@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-DataStandardsWales-DocumentAttester" />
   <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
-  <version value="0.0.2" />
+  <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentAttester" />
   <title value="Extension Data Standards Wales Document Attester" />
   <status value="draft" />

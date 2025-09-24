@@ -66,7 +66,7 @@
       <binding>
         <strength value="required" />
         <description value="User-readable semantic codes for allowed attributes.  Based on document metadata data held as document attributes in the Welsh Care Records Service and not represented via dedicated elements." />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentAttribute" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentAttribute" />
       </binding>
     </element>
     <element id="Extension.extension:attributeValue">

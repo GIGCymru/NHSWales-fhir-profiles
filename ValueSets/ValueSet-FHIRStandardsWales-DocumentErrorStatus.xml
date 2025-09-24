@@ -1,11 +1,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-DocumentErrorStatus"/>
-	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentErrorStatus"/>
-    <version value="0.0.1" />
-    <name value="DataStandardsWalesDocumentErrorStatus"/>
-	<title value="Data Standards Wales Document Error Status"/>
-    <status value="draft" />
-    <experimental value="true" />
+	<id value="FHIRStandardsWales-DocumentErrorStatus"/>
+	<url value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentErrorStatus"/>
+    <version value="1.0.0" />
+    <name value="FHIRStandardsWalesDocumentErrorStatus"/>
+	<title value="FHIR Standards Wales Document Error Status"/>
+    <status value="active" />
 	<date value="2025-09-19" />
     <publisher value="NHS Wales" />
     <contact>
@@ -21,7 +20,7 @@
 	<copyright value="2025 NHS Wales." />
 	<compose>
 		<include>
-			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentErrorStatus"/>
+			<system value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentErrorStatus"/>
 		</include>
 	</compose>
 </ValueSet>

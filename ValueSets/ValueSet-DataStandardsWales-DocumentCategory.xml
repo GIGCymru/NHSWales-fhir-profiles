@@ -1,7 +1,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-DocumentCategory"/>
 	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentCategory"/>
-    <version value="0.0.5" />
+    <version value="0.0.1" />
     <name value="DataStandardsWalesDocumentCategory"/>
 	<title value="Data Standards Wales Document Category"/>
     <status value="draft" />

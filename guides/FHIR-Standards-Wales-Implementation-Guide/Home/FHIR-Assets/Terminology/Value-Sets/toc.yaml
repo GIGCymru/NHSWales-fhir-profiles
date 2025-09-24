@@ -1,13 +1,9 @@
 - name: Index
   filename: Index.page.md
-- name: ValueSet-DataStandardsWales-DocumentAttribute
-  filename: ValueSet-DataStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-DataStandardsWales-DocumentCategory
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
 - name: ValueSet-DataStandardsWales-DocumentDigitalStatus
   filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
-- name: ValueSet-DataStandardsWales-DocumentErrorStatus
-  filename: ValueSet-DataStandardsWales-DocumentErrorStatus.page.md
 - name: ValueSet-DataStandardsWales-DocumentType
   filename: ValueSet-DataStandardsWales-DocumentType.page.md
 - name: ValueSet-DataStandardsWales-GenderIdentity
@@ -58,3 +54,9 @@
   filename: ValueSet-DataStandardsWales-RespirationRate.page.md
 - name: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements
   filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
+- name: ValueSet-FHIRStandardsWales-DocumentAttribute
+  filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
+- name: ValueSet-FHIRStandardsWales-DocumentErrorAction
+  filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
+- name: ValueSet-FHIRStandardsWales-DocumentErrorStatus
+  filename: ValueSet-FHIRStandardsWales-DocumentErrorStatus.page.md

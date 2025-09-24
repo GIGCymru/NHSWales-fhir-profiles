@@ -56,7 +56,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentErrorStatus" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentErrorStatus" />
       </binding>
     </element>
     <element id="Extension.value[x].extension">
