@@ -72,9 +72,20 @@ Package:
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
-    * New Value Sets  
+    * New Value Sets 
+        * Data Standards Wales Encounter Type 
+        * Data Standards Wales UEC Activity Type
+        * Data Standards Wales UEC Acuity
+        * Data Standards Wales UEC Arrival Mode
+        * Data Standards Wales UEC Attendance Category
+        * Data Standards Wales UEC Attendance Source
+        * Data Standards Wales UEC Care Consultation Mechanism
+        * Data Standards Wales UEC Discharge Destination
         * PAS Event Type
     * New Code Systems
+        * Data Standards Wales UEC Activity Type
+        * Data Standards Wales UEC Attendance Category
+        * Data Standards Wales UEC Care Consultation Mechanism
         * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems

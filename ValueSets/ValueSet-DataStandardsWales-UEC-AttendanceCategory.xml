@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-UEC-AttendanceCategory"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceCategory"/>
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECAttendanceCategory"/>
+	<title value="Data Standards Wales UEC Attendance Category"/>
+    <status value="active" />
+    <experimental value="false" />
+	<date value="2025-09-15" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="This ValueSet captures reason for the patient's attendance."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-AttendanceCategory"/>
+		</include>
+	</compose>
+</ValueSet>

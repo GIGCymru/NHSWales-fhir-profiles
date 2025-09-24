@@ -12,5 +12,11 @@
   filename: CodeSystem-DataStandardsWales-Sex.page.md
 - name: CodeSystem-DataStandardsWales-Title
   filename: CodeSystem-DataStandardsWales-Title.page.md
+- name: CodeSystem-DataStandardsWales-UEC-AttendanceCategory
+  filename: CodeSystem-DataStandardsWales-UEC-AttendanceCategory.page.md  
+- name: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism
+  filename: CodeSystem-DataStandardsWales-UEC-CareConsultationMechanism.page.md
+- name: CodeSystem-DataStandardsWales-UEC-ActivityType
+  filename: CodeSystem-DataStandardsWales-UEC-ActivityType.page.md
 - name: CodeSystem-DataStandardsWales-WrrsTaskType
   filename: CodeSystem-DataStandardsWales-WrrsTaskType.page.md

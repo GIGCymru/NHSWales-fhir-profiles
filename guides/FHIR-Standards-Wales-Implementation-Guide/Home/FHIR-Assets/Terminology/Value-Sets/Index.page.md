@@ -10,6 +10,7 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-BodyPosition, text:ValueSet-DataStandardsWales-BodyPosition}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyTemperature, text:ValueSet-DataStandardsWales-BodyTemperature}}
 * {{pagelink:ValueSet-DataStandardsWales-BodyWeightMeasurements, text:ValueSet-DataStandardsWales-BodyWeightMeasurements}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-EncounterType.page.md, text:ValueSet-DataStandardsWales-EncounterType}}
 * {{pagelink:ValueSet-DataStandardsWales-GenderIdentity, text:ValueSet-DataStandardsWales-GenderIdentity}}
 * {{pagelink:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements, text:ValueSet-DataStandardsWales-HeadCircumferenceMeasurements}}
 * {{pagelink:ValueSet-DataStandardsWales-HeartRate, text:ValueSet-DataStandardsWales-HeartRate}}
@@ -26,4 +27,11 @@ The following Value Sets have been defined for this implementation guide:
 * {{pagelink:ValueSet-DataStandardsWales-RespirationRate, text:ValueSet-DataStandardsWales-RespirationRate}}
 * {{pagelink:ValueSet-DataStandardsWales-Sex, text:ValueSet-DataStandardsWales-Sex}}
 * {{pagelink:ValueSet-DataStandardsWales-Title, text:ValueSet-DataStandardsWales-Title}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ActivityType.page.md, text:ValueSet-DataStandardsWales-UEC-ActivityType}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-Acuity.page.md, text:ValueSet-DataStandardsWales-UEC-Acuity}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md, text:ValueSet-DataStandardsWales-UEC-ArrivalMode}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceCategory}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md, text:ValueSet-DataStandardsWales-UEC-AttendanceSource}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md, text:ValueSet-DataStandardsWales-UEC-CareConsultationMechanism}}
+* {{pagelink:Home/FHIR-Assets/Terminology/Value-Sets/ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md, text:ValueSet-DataStandardsWales-UEC-DischargeDestination}}
 * {{pagelink:ValueSet-DataStandardsWales-WrrsTaskType, text:ValueSet-DataStandardsWales-WrrsTaskType}}

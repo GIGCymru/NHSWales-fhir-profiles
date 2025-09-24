@@ -1,0 +1,202 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-AttendanceSource" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceSource" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECAttendanceSource" />
+    <title value="Data Standards Wales ValueSet UEC Attendance Source" />
+    <status value="active" />
+    <date value="2025-09-16" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="Data Standards" />
+        <telecom>
+            <system value="email" />
+            <value value="data.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="This ValueSet captures the arrival source for the patient's attendance in Emergency Care." />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="1991000124105 OR 1065391000000104 OR 315261000000101 OR 276491000 OR 1082331000000106 OR 879591000000102 OR 1066431000000102 OR 1066441000000106 OR 835091000000109 OR 835101000000101 OR 1465211000000108 OR 1079521000000104 OR 1077191000000103 OR 1052681000000105 OR 185363009 OR 1065401000000101 OR 1077201000000101 OR 1065991000000100 OR 877171000000103 OR 1077761000000105 OR 1077211000000104 OR 1066011000000104 OR 1066001000000101 OR 185369008 OR 185366001 OR 185368000 OR 1066021000000105 OR 198261000000104 OR 889801000000100 OR 1066031000000107 OR 1066061000000102 OR 1066041000000103 OR 1066051000000100" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="17af4348-525a-486d-bc23-baa24ea7ab1a" />
+        <timestamp value="2023-10-31T22:11:00+00:00" />
+        <total value="33" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1991000124105" />
+            <display value="Referred by self" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1065391000000104" />
+            <display value="Referred by carer" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="315261000000101" />
+            <display value="Advised to attend accident and emergency department" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="276491000" />
+            <display value="Referred by member of Primary Health Care Team" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1082331000000106" />
+            <display value="Referred by out of hours service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="879591000000102" />
+            <display value="Referred by NHS 111 service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066431000000102" />
+            <display value="Referred by hospital emergency department" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066441000000106" />
+            <display value="Referred by urgent care service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="835091000000109" />
+            <display value="Referred by hospital outpatient department" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="835101000000101" />
+            <display value="Referred by hospital ward" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1465211000000108" />
+            <display value="Referral by UEC ECE (urgent and emergency care extended care episode)" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1079521000000104" />
+            <display value="Referred by private sector physician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077191000000103" />
+            <display value="Referred by community nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1052681000000105" />
+            <display value="Referred by health visitor" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="185363009" />
+            <display value="Referred by midwife" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1065401000000101" />
+            <display value="Referred by school nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077201000000101" />
+            <display value="Referred by community mental health nurse" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1065991000000100" />
+            <display value="Referred by mental health assessment team" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="877171000000103" />
+            <display value="Referred by Social Services" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077761000000105" />
+            <display value="Referred by adult day care centre" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1077211000000104" />
+            <display value="Referred by homeless drop-in centre" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066011000000104" />
+            <display value="Referred by HM Prison Service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066001000000101" />
+            <display value="Referred by detention centre" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="185369008" />
+            <display value="Referred by pharmacist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="185366001" />
+            <display value="Referred by dentist" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="185368000" />
+            <display value="Referred by optician" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066021000000105" />
+            <display value="Referred by advanced care practitioner" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="198261000000104" />
+            <display value="Referred by ambulance service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="889801000000100" />
+            <display value="Referred by police" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066031000000107" />
+            <display value="Referred by Fire and Rescue Service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066061000000102" />
+            <display value="Referred by search and rescue service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066041000000103" />
+            <display value="Referred by Coastguard Rescue Service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066051000000100" />
+            <display value="Referred by mountain rescue service" />
+        </contains>
+    </expansion>
+</ValueSet>

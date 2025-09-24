@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-UEC-CareConsultationMechanism"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-CareConsultationMechanism"/>
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECCareConsultationMechanism"/>
+	<title value="Data Standards Wales UEC Care Consultation Mechanism"/>
+    <status value="active" />
+    <experimental value="false" />
+	<date value="2025-09-15" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="This ValueSet indicates the mechanism of the consultation."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-CareConsultationMechanism"/>
+		</include>
+	</compose>
+</ValueSet>
