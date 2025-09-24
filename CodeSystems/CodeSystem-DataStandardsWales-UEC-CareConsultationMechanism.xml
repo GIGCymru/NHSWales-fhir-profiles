@@ -22,7 +22,7 @@
     <caseSensitive value="true"/>
     <content value="complete"/>
     <concept>
-        <code value="Facetoface"/>
+        <code value="Face-to-face"/>
         <display value="Face to face"/>
     </concept>
     <concept>
@@ -30,11 +30,11 @@
         <display value="Telephone"/>
     </concept>
     <concept>
-        <code value="VideoConsultation"/>
+        <code value="Video-Consultation"/>
         <display value="Video Consultation"/>
     </concept>	
 	<concept>
-        <code value="ChatRoom(Synchronous)"/>
+        <code value="Chat-Room-(Synchronous)"/>
         <display value="Chat Room (Synchronous)"/>
     </concept>                    
 </CodeSystem>

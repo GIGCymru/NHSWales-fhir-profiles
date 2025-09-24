@@ -22,23 +22,23 @@
     <caseSensitive value="true"/>
     <content value="complete"/>
     <concept>
-        <code value="MajorEmergencyCareDepartment"/>
+        <code value="Major-Emergency-Care-Department"/>
         <display value="Emergency Care Attendance at an Emergency Care Department Type Major Emergency Care Department."/>
     </concept>
     <concept>
-        <code value="Mono-specialtyEmergencyCareDepartment"/>
+        <code value="Mono-specialty-Emergency-Care-Department"/>
         <display value="Emergency Care Attendance at an Emergency Care Department Type Mono-specialty Emergency Care Department."/>
     </concept>
     <concept>
-        <code value="MinorInjuryUnit"/>
+        <code value="Minor-Injury-Unit"/>
         <display value="Emergency Care Attendance at an Emergency Care Department Type Minor Injury Unit."/>
     </concept>	
 	<concept>
-        <code value="SameDayEmergencyCare "/>
+        <code value="Same-Day-Emergency-Care "/>
         <display value="Emergency Care Attendance at an Emergency Care Department Type Same Day Emergency Care."/>
     </concept>
     <concept>
-        <code value="UrgentandEmergencyCareExtendedCareEpisode"/>
+        <code value="Urgent-and-Emergency-Care-Extended-Care-Episode"/>
         <display value="Emergency Care Attendance at an Emergency Care Department Type Extended Care Episode."/>
     </concept>   
 </CodeSystem>
