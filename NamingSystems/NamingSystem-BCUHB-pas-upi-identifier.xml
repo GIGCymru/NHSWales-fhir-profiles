@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-BCUHB-PAS-UpiIdentifier"/> 
+  <name value="BCUHBPASUpiIdentifier"/> 
+  <status value="active" />
+  <kind value="identifier"/>   
+  <date value="2025-09-19" />
+  <publisher value="NHS Wales" />
+  <responsible value="NHS Wales"/>
+  <description value="This namespace indicates a Betsi Cadwaladr University Health Board PAS upi identifier."/> 
+  <usage value="Appointment identity, Encounter identity, ServiceRequest identity"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.bcuhb.nhs.wales/Id/pas-upi-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+</NamingSystem> 
