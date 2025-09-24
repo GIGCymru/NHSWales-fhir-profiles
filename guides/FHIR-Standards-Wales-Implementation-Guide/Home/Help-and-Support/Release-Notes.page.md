@@ -12,9 +12,11 @@ Package:
     * New Extensions
         * DataStandardsWales-AdministeredProduct
         * DataStandardsWales-DateProcedureLastUpdated        
+        * DataStandardsWales-DocumentAttester
         * DataStandardsWales-DocumentAttribute
         * DataStandardsWales-DocumentDigitalStatus
         * DataStandardsWales-DocumentErrorStatus
+        * DataStandardsWales-DocumentVersion
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-SourceSystem
