@@ -38,16 +38,11 @@
       <definition value="Additional metadata as applicable to the document type.  This element should be used with care to avoid a proliferation of undefined metadata." />
     </element>
     <element id="Extension.extension">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValue" />
       <path value="Extension.extension" />
       <requirements value="Included for legacy data not explicitly handled via DocumentReference and related resources." />
       <min value="1" />
     </element>
     <element id="Extension.extension:attributeName">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeName" />
       <path value="Extension.extension" />
       <sliceName value="attributeName" />
       <short value="The name code for the document attribute." />
@@ -75,7 +70,6 @@
       </binding>
     </element>
     <element id="Extension.extension:attributeValue">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValue" />
       <path value="Extension.extension" />
       <sliceName value="attributeValue" />
       <short value="The value recorded against the document attribute." />
@@ -98,7 +92,6 @@
       </type>
     </element>
     <element id="Extension.extension:attributeNamespace">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeNamespace" />
       <path value="Extension.extension" />
       <sliceName value="attributeNamespace" />
       <sliceIsConstraining value="false" />
@@ -121,7 +114,6 @@
       </type>
     </element>
     <element id="Extension.extension:valueDomain">
-      <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttributeValueDomain" />
       <path value="Extension.extension" />
       <sliceName value="valueDomain" />
       <short value="The specific domain to which the value of the document attribute belongs." />
