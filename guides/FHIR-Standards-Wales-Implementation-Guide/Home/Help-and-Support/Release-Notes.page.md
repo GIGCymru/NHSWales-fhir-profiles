@@ -95,9 +95,9 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Composition profile
 * Added a new page to outline the DataStandardsWales-Encounter-UEC profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
-* Added guidance pages for all new Extension profiles
-* Added guidance pages for all new Code Systems
-* Added guidance pages for all new Value Sets
+* Added new pages to outline the Data Standards Wales Extensions created in this release.
+* Added new pages to outline the Data Standards Wales Code Systems created in this release.
+* Added new pages to outline the Data Standards Wales Value Sets created in this release.
 * Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table

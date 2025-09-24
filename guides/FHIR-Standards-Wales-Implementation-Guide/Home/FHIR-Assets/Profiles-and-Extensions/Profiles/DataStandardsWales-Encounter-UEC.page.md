@@ -7,6 +7,8 @@ The [Encounter-UEC](https://www.hl7.org/fhir/r4/encounter.html) resource is used
 
 The {{page-title}} profile is derived from the [NHS Wales Encounter Profile]({{pagelink:Home/FHIR-Assets/Profiles-and-Extensions/Profiles/DataStandardsWales-Encounter.page.md}}) and is therefore listed as experimental. It defines additional rules for use within Urgent and Emergency Care uses in health and care organisations in Wales.
 
+Refer to [Digital Health and Care Wales Welsh Emergency Care Data Set User Guide v0.1](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/20250123-wecds-user-guide-v1-00-final-published-pdf/) for additional guidance.
+
 A direct link to the Data Standards Wales asset can be accessed here - {{link:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter-UEC}}
 
 ### Formal Views of Profile Content
@@ -76,7 +78,9 @@ The `Encounter.class` field **SHALL** be populated using the values defined by t
 
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the Data Standards Wales Encounter profile:
+* Data Standards Wales Extensions:
     * {{pagelink:Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment}} supports recording of the time of treatment expected at the point of referral.
-    * {{pagelink:Extension-DataStandardsWales-UEC-ArrivalMode}} supports recording of the mode of arrival of the patient.
     * {{pagelink:Extension-DataStandardsWales-UEC-AttendanceCategory}} supports recording of the reporting category of each attendance.
+* HL7 International Extensions:
+    * [Encounter Mode Of Arrival](https://hl7.org/fhir/R4/extension-encounter-modeofarrival.html) supports recording of the mode of arrival of the patient.
 <br><br>

@@ -5,6 +5,7 @@ An extension to carry the Attendance Category of a UEC Encounter.
 
 ### Purpose
 This extension extends the Encounter-UEC resource with an element to record the Attendance Category.
+Refer to [Digital Health and Care Wales Welsh Emergency Care Data Set User Guide v0.1](https://dhcw.nhs.wales/data/information-standards/data-standards/data-standards-files/20250123-wecds-user-guide-v1-00-final-published-pdf/) for additional guidance.
 
 ### Context of Use
 This extension may be used on the following profile(s):
