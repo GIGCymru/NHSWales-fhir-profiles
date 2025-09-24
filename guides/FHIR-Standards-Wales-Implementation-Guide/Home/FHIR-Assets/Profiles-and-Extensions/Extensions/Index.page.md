@@ -8,6 +8,7 @@ The following Extensions have been defined for this implementation guide.
 * {{pagelink:Extension-DataStandardsWales-DocumentAttester}}
 * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}}
 * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}}
+* {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}}
 * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}}
 * {{pagelink:Extension-DataStandardsWales-DocumentVersion}}
 * {{pagelink:Extension-DataStandardsWales-ForecastCreationSource}}

@@ -77,16 +77,18 @@ Package:
             * Removed all SubSpeciality Namespaces
     * Changes to Terminology
         * New Code Systems
-            * DataStandardsWales-DocumentAttribute
             * DataStandardsWales-DocumentCategory
             * DataStandardsWales-DocumentDigitalStatus
-            * DataStandardsWales-DocumentErrorStatus
+            * FHIRStandardsWales-DocumentAttribute
+            * FHIRStandardsWales-DocumentErrorAction
+            * FHIRStandardsWales-DocumentErrorStatus
         * New Value Sets
-            * DataStandardsWales-DocumentAttribute
             * DataStandardsWales-DocumentCategory
             * DataStandardsWales-DocumentDigitalStatus
-            * DataStandardsWales-DocumentErrorStatus
             * DataStandardsWales-DocumentType
+            * FHIRStandardsWales-DocumentAttribute
+            * FHIRStandardsWales-DocumentErrorAction
+            * FHIRStandardsWales-DocumentErrorStatus
   
 
 Guide:

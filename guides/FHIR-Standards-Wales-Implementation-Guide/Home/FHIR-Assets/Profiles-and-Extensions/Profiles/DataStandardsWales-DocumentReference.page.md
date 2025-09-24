@@ -76,5 +76,6 @@ The extensions listed below allow a number of the data elements listed above to 
   * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.  The attributes supported are restricted by {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute}}
   * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
   * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the capture of a value from {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
+  * {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} supports the establishment of metadata relating to the document error workflow via a complex extension.  The error workflow actions supported are restricted by {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
   * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a version as defined in FHIR R5.
   * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the capture of the system which supplied the document details by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile
