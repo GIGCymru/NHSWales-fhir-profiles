@@ -26,6 +26,8 @@
   filename: DataStandardsWales-Dosage.page.md
 - name: DataStandardsWales-Encounter
   filename: DataStandardsWales-Encounter.page.md
+- name: DataStandardsWales-Encounter-UEC
+  filename: DataStandardsWales-Encounter-UEC.page.md
 - name: DataStandardsWales-Endpoint
   filename: DataStandardsWales-Endpoint.page.md
 - name: DataStandardsWales-ImagingStudy
