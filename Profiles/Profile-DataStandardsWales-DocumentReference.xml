@@ -40,9 +40,9 @@
       <mustSupport value="true" />
       <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:version">
+    <element id="DocumentReference.extension:versionR5">
       <path value="DocumentReference.extension" />
-      <sliceName value="version" />
+      <sliceName value="versionR5" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -51,9 +51,9 @@
       <mustSupport value="true" />
       <isModifier value="false" />
     </element>
-    <element id="DocumentReference.extension:attester">
+    <element id="DocumentReference.extension:attesterR5">
       <path value="DocumentReference.extension" />
-      <sliceName value="attester" />
+      <sliceName value="attesterR5" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
