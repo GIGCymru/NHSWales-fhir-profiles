@@ -6,6 +6,8 @@
   filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
 - name: ValueSet-DataStandardsWales-DocumentDigitalStatus
   filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: ValueSet-DataStandardsWales-DocumentErrorStatus
+  filename: ValueSet-DataStandardsWales-DocumentErrorStatus.page.md
 - name: ValueSet-DataStandardsWales-DocumentType
   filename: ValueSet-DataStandardsWales-DocumentType.page.md
 - name: ValueSet-DataStandardsWales-GenderIdentity

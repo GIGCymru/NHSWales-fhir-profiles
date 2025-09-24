@@ -34,8 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <definition value="The specific domain to which the value of the document attribute belongs." />
-      <comment value="Some document attributes contain different sets of values for a pre-defined set of domains.  In this case, the value domain provides the context for the value, to provide an unambiguous meaning." />
+      <short value="The specific domain to which the value of the document attribute belongs." />
+      <definition value="Some document attributes contain different sets of values for a pre-defined set of domains.  In this case, the value domain provides the context for the value, to provide an unambiguous meaning." />
       <min value="1" />
       <max value="1" />
     </element>

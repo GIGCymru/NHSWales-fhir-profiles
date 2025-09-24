@@ -34,6 +34,8 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
+      <short value="The namespace associated with the document attribute value." />
+      <definition value="The namespace associated with the document attribute value where relevant for the specific document attribute.  Note that for some attributes namespace may vary according to value domain." />
       <max value="1" />
     </element>
     <element id="Extension.extension">
