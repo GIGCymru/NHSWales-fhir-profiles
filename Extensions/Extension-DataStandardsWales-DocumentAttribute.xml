@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
   <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentAttribute" />
-  <title value="Data Standards Wales Document Attribute" />
+  <title value="Extension Data Standards Wales Document Attribute" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-08-18" />

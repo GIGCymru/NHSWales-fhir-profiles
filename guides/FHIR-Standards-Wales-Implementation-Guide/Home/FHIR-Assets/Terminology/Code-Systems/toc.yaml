@@ -1,9 +1,13 @@
 - name: Index
   filename: Index.page.md
+- name: CodeSystem-DataStandardsWales-DocumentAttribute
+  filename: CodeSystem-DataStandardsWales-DocumentAttribute.page.md
 - name: CodeSystem-DataStandardsWales-DocumentCategory
   filename: CodeSystem-DataStandardsWales-DocumentCategory.page.md
 - name: CodeSystem-DataStandardsWales-DocumentDigitalStatus
   filename: CodeSystem-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: CodeSystem-DataStandardsWales-DocumentErrorStatus
+  filename: CodeSystem-DataStandardsWales-DocumentErrorStatus.page.md 
 - name: CodeSystem-DataStandardsWales-GenderIdentity
   filename: CodeSystem-DataStandardsWales-GenderIdentity.page.md
 - name: CodeSystem-DataStandardsWales-MaritalStatus

@@ -94,21 +94,9 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Added a new page to outline the DataStandardsWales-DocumentReference profile
-* Added a new page to outline the Extension-DataStandardsWales-DocumentAttester extension
-* Added a new page to outline the Extension-DataStandardsWales-DocumentAttribute extension
-* Added a new page to outline the Extension-DataStandardsWales-DocumentDigitalStatus extension
-* Added a new page to outline the Extension-DataStandardsWales-DocumentErrorStatus extension
-* Added a new page to outline the Extension-DataStandardsWales-DocumentVersion extension
-* Added a new page to outline the Extension-DataStandardsWales-SourceSystem extension
-* Added a new page to outline the ValueSet-DataStandardsWales-DocumentAttribute value set
-* Added a new page to outline the ValueSet-DataStandardsWales-DocumentCategory value set
-* Added a new page to outline the ValueSet-DataStandardsWales-DocumentDigitalStatus value set
-* Added a new page to outline the ValueSet-DataStandardsWales-DocumentErrorStatus value set
-* Added a new page to outline the ValueSet-DataStandardsWales-DocumentType value set
-* Added a new page to outline the CodeSystem-DataStandardsWales-DocumentAttribute code system
-* Added a new page to outline the CodeSystem-DataStandardsWales-DocumentCategory code system
-* Added a new page to outline the Codesystem-DataStandardsWales-DocumentDigitalStatus code system
-* Added a new page to outline the Codesystem-DataStandardsWales-DocumentErrorStatus code system
+* Added new pages to outline the Data Standards Wales Extensions created in this release.
+* Added new pages to outline the Data Standards Wales Value Sets created in this release.
+* Added new pages to outline the Data Standards Wales Code Systems created in this release.
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 + Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table

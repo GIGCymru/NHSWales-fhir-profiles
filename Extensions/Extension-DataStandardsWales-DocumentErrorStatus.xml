@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
   <version value="0.0.1" />
   <name value="ExtensionDataStandardsWalesDocumentErrorStatus" />
-  <title value="Data Standards Wales Document Error Status" />
+  <title value="Extension Data Standards Wales Document Error Status" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-09-20" />
@@ -19,7 +19,7 @@
     </telecom>
   </contact>
   <description value="This extension clarifies the status of a document marked as entered-in-error." />
-  <purpose value="Provides further granularity to support correct handling of error decuments by operational systems." />
+  <purpose value="Provides further granularity to support correct handling of error documents by operational systems." />
   <copyright value="2025 NHS Wales" />
   <fhirVersion value="4.0.1" />
   <kind value="complex-type" />

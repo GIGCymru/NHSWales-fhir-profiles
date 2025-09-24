@@ -49,7 +49,7 @@ Each DocumentReference must have:
 Each DocumentReference must support:
 1. One or more identifiers
 1. A document status
-1. An error status (idapplicable if document is entered in error)
+1. An error status (applicable if document is entered in error)
 1. A type
 1. One or more categories
 1. A subject
@@ -72,6 +72,9 @@ The `DocumentReference.docStatus` field **SHALL** be populated with a value from
 
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard: 
-  * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentAttribute}}.
-  * {{pagelink:Extension-DataStandardsWales-DigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DigitalStatus}}
-  * {{pagelink:Extension-DataStandardsWales-DocumentRepository}} supports the capture of the repository in which a document reference is stored by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile
+  * {{pagelink:Extension-DataStandardsWales-DocumentAttester}} supports the capture of attester details as defined in FHIR R5 via a complex extension.
+  * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.
+  * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
+  * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentErrorStatus}}
+  * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a version as defined in FHIR R5.
+  * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the capture of the system which supplied the document details by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile

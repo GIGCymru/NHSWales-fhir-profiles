@@ -1,7 +1,7 @@
 <div class="warning"><span class="ImplementWarn"></span></div>
 
 ## {{page-title}}
-An extension to capture An explicitly assigned identifer of a variation of the content in the ocumentReference. (Backport from FHIR R5.)
+An extension to capture an explicitly assigned identifer of a variation of the content in the DocumentReference. (Backport from FHIR R5.)
 
 ### Purpose
 This extension extends the DocumentReference resource to capture a business version identifier (not a resource version id).  It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service. 

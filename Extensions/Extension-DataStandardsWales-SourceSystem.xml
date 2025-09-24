@@ -4,7 +4,7 @@
   <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
   <version value="0.0.2" />
   <name value="ExtensionDataStandardsWalesSourceSystem" />
-  <title value="Data Standards Wales Source System" />
+  <title value="Extension Data Standards Wales Source System" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2025-09-20" />
