@@ -58,10 +58,10 @@
     <element id="Encounter.priority">
       <path value="Encounter.priority" />
       <short value="Indicates the acuity of the UEC encounter" />
-      <definition value="Indicates the acuity of the UEC encounter" />
+      <definition value="Indicates the acuity of the UEC encounter as determined at the point of triage." />
       <binding>
         <strength value="required" />
-        <description value="Indicates the acuity of the UEC encounter" />
+        <description value="Indicates the acuity of the UEC encounter as determined at the point of triage." />
         <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
       </binding>
     </element>
