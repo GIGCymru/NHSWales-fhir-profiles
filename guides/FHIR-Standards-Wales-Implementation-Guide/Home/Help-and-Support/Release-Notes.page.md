@@ -17,6 +17,7 @@ Package:
         * DataStandardsWales-ForecastCreationSource
         * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-UECAttendanceCategory
+        * DataStandardsWales-UECDischargeInformationGiven
         * DataStandardsWales-UECExpectedTimeOfTreatment
     * R5 backport Extension:
         * DataStandardsWales-Immunization.basedOn
