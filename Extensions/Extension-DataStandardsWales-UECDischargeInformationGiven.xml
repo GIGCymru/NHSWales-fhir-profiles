@@ -36,6 +36,7 @@
       <path value="Extension" />
       <short value="UEC Discharge Information Given" />
       <definition value="Details of the information at the point of UEC Discharge, and whether this has been given to the patient." />
+      <mustSupport value="true" />
     </element>
     <element id="Extension.extension:givenToPatient">
       <path value="Extension.extension" />
