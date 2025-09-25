@@ -63,12 +63,12 @@
 		<definition value="Medication Records"/>
 	</concept>
 	<concept>
-		<code value="miscellaneous-third-party-documents"/>
+		<code value="miscellaneous-and-third-party-documents"/>
 		<display value="Miscellaneous and Third Party Documents"/>
 		<definition value="Miscellaneous and Third Party Document Records"/>
 	</concept>
 	<concept>
-		<code value="notification-legal-documents"/>
+		<code value="notification-and-legal-documents"/>
 		<display value="Notification and Legal Documents"/>
 		<definition value="Notification and Legal Document Records"/>
 	</concept>
