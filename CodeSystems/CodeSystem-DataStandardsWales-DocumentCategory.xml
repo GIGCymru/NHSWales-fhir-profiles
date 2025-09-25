@@ -23,45 +23,73 @@
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
+		<code value="assessments"/>
 		<display value="Assessments"/>
+		<definition value="Assessments Record"/>
 	</concept>	
 	<concept>
+		<code value="alerts"/>
 		<display value="Alerts"/>
+		<definition value="Alert Records"/>
 	</concept>
 	<concept>
+		<code value="allergies"/>
 		<display value="Allergies"/>
+		<definition value="Allergy Records"/>
 	</concept>
 	<concept>
+		<code value="care-plans"/>
 		<display value="Care Plans"/>
+		<definition value="Care Plan Records"/>
 	</concept>
 	<concept>
+		<code value="clinical-notes"/>
 		<display value="Clinical Notes"/>
+		<definition value="Clinical Note Records"/>
 	</concept>
 	<concept>
+		<code value="correspondences"/>
 		<display value="Correspondences"/>
+		<definition value="Correspondence Records"/>
 	</concept>
 	<concept>
+		<code value="interventions-or-procedures"/>
 		<display value="Interventions / Procedures"/>
+		<definition value="Intervention and/or Procedure Records"/>
 	</concept>
 	<concept>
+		<code value="medication"/>
 		<display value="Medication"/>
+		<definition value="Medication Records"/>
 	</concept>
 	<concept>
+		<code value="miscellaneous-third-party-documents"/>
 		<display value="Miscellaneous and Third Party Documents"/>
+		<definition value="Miscellaneous and Third Party Document Records"/>
 	</concept>
 	<concept>
+		<code value="notification-legal-documents"/>
 		<display value="Notification and Legal Documents"/>
+		<definition value="Notification and Legal Document Records"/>
 	</concept>
 	<concept>
+		<code value="observations"/>
 		<display value="Observations"/>
+		<definition value="Observation Records"/>
 	</concept>
 	<concept>
+		<code value="patient-preferences-or-instructions-and-patient-held-records"/>
 		<display value="Patient Preferences / Instructions and Held Records"/>
-	</concept>
-	<concept
-		<display value="Reports and Test Results"/>
+		<definition value="Patient Preferences and/or Instructions and Held Document Records"/>
 	</concept>
 	<concept>
+		<code value="reports-and-test-results"/>
+		<display value="Reports and Test Results"/>
+		<definition value="Reports and Test Result Records"/>
+	</concept>
+	<concept>
+		<code value="research-or-study"/>
 		<display value="Research / Study"/>
+		<definition value="Research and/or Study Records"/>
 	</concept>
 </CodeSystem>
