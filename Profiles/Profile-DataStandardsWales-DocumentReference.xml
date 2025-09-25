@@ -64,8 +64,6 @@
     <element id="DocumentReference.extension:errorStatus">
       <path value="DocumentReference.extension" />
       <sliceName value="errorStatus" />
-      <short value="Document error status" />
-      <definition value="An extension to carry a descriptive code for the document error status e.g. potential-misfile.  The error status can be used by systems to affect document handling and presentation e.g. watermarking." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
@@ -76,11 +74,18 @@
     <element id="DocumentReference.extension:documentAttribute">
       <path value="DocumentReference.extension" />
       <sliceName value="documentAttribute" />
-      <short value="Additional metadata for the document" />
-      <definition value="Additional metadata as applicable to the document type.  This element should be used with care to avoid a proliferation of undefined metadata." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:extensionDataStandardsWalesDocumentErrorAction">
+      <path value="DocumentReference.extension" />
+      <sliceName value="extensionDataStandardsWalesDocumentErrorAction" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://example.org/fhir/StructureDefinition/MyExtension" />
       </type>
       <isModifier value="false" />
     </element>
