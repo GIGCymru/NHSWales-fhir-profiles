@@ -56,6 +56,7 @@ Each Encounter must support:
 1. Hospitalization information
 1. Admission source
 1. Discharge destination
+1. UEC Discharge Information Given
 1. Admission method *
 1. Discharge method *
 1. Emergency care discharge status *
