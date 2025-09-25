@@ -48,6 +48,15 @@
       </type>
       <isModifier value="false" />
     </element>
+    <element id="Encounter.extension:uecDischargeInformationGiven">
+      <path value="Encounter.extension" />
+      <sliceName value="uecDischargeInformationGiven" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeInformationGiven" />
+      </type>
+      <isModifier value="false" />
+    </element>
     <element id="Encounter.type">
       <path value="Encounter.type" />
       <binding>

@@ -28,5 +28,7 @@
   filename: Extension-DataStandardsWales-ForecastCreationSource.page.md
 - name: Extension-DataStandardsWales-UECAttendanceCategory
   filename: Extension-DataStandardsWales-UECAttendanceCategory.page.md
+- name: Extension-DataStandardsWales-UECDischargeInformationGiven
+  filename: Extension-DataStandardsWales-UECDischargeInformationGiven.page.md
 - name: Extension-DataStandardsWales-UECExpectedTimeOfTreatment
   filename: Extension-DataStandardsWales-UECExpectedTimeOfTreatment.page.md  
