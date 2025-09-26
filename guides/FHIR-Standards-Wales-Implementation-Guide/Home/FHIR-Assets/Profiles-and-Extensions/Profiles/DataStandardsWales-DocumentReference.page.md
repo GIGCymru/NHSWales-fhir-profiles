@@ -34,8 +34,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-
-  </div>
+    <list>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>     
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li> 
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>              
+    </list>
+  </div>  
 </div>
 
 ### Mandatory and Must Support Data Elements
