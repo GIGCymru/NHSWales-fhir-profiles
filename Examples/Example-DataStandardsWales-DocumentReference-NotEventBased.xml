@@ -1,5 +1,5 @@
 ﻿<DocumentReference xlmns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased" />
+  <id value="Example-DataStandardsWales-DocumentReference-NotEventBased" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
   </meta>
@@ -13,53 +13,6 @@
       <reference value="Device/Example-DataStandardsWales-Source-System-for-Documents" />
       <display value="System ABC" />
     </valueReference>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus">
-    <valueCode>
-      <code value="misfiled" />
-    </valueCode>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
-    <extension url="actionType">
-      <valueCode>
-        <code value="misfile-proposed" />
-      </valueCode>
-    </extension>
-    <extension url="actionDateTime">
-      <valueDateTime value="2025-07-22T13:15:32+00:00" />
-    </extension>
-    <extension url="actionedBy">
-      <valueReference>
-        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay" />
-        <display value="MAY, Emily B, Ms (NMC:AB12345X)" />
-      </valueReference>
-    </extension>
-    <extension url="actionReason">
-      <valueCodeableConcept>
-        <text value="Recorded against the previous patient seen" />
-      </valueCodeableConcept>
-    </extension>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
-    <extension url="actionType">
-      <valueCode>
-        <code value="misfile-accepted" />
-      </valueCode>
-    </extension>
-    <extension url="actionDateTime">
-      <valueDateTime value="2025-07-22T13:20:32+00:00" />
-    </extension>
-    <extension url="actionedBy">
-      <valueReference>
-        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-        <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
-      </valueReference>
-    </extension>
-    <extension url="actionReason">
-      <valueCodeableConcept>
-        <text value="Confirmed wrong patient" />
-      </valueCodeableConcept>
-    </extension>
   </extension>
   <identifier>
     <system value="www.localnamespace" />

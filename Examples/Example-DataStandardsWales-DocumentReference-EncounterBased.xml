@@ -1,4 +1,8 @@
 ﻿<DocumentReference xlmns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-DocumentReference-EncounterBased" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+  </meta>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
     <valueCode>
       <code value="born-digital-document" />
