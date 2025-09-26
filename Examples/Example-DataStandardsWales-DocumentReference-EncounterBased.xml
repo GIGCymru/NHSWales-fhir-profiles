@@ -1,9 +1,9 @@
-﻿<DocumentReference xlmns="http://hl7.org/fhir">
-  <id value="Example-DataStandardsWales-DocumentReference-EncounterBased" />
+﻿<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-DocumentReference-MaximalDoNotUse" />
   <meta>
     <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
-  </meta> 
- <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+  </meta>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
     <valueCode value="born-digital-document" />
   </extension>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
@@ -19,7 +19,7 @@
     <extension url="mode">
       <valueCodeableConcept>
         <coding>
-          <system value="http: hl7.org fhir composition-attestation-mode" />
+          <system value="https://hl7.org/fhir/valueset-composition-attestation-mode.html" />
           <code value="professional" />
           <display value="Professional" />
         </coding>
@@ -33,47 +33,6 @@
         <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
         <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
       </valueReference>
-    </extension>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus">
-    <valueCode value="misfiled" />
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
-    <extension url="actionType">
-      <valueCode value="misfile-proposed" />
-    </extension>
-    <extension url="actionDateTime">
-      <valueDateTime value="2025-07-22T13:15:32+00:00" />
-    </extension>
-    <extension url="actionedBy">
-      <valueReference>
-        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay" />
-        <display value="MAY, Emily B, Ms (NMC:AB12345X)" />
-      </valueReference>
-    </extension>
-    <extension url="actionReason">
-      <valueCodeableConcept>
-        <text value="Recorded against the previous patient seen" />
-      </valueCodeableConcept>
-    </extension>
-  </extension>
-  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
-    <extension url="actionType">
-      <valueCode value="misfile-accepted" />
-    </extension>
-    <extension url="actionDateTime">
-      <valueDateTime value="2025-07-22T13:20:32+00:00" />
-    </extension>
-    <extension url="actionedBy">
-      <valueReference>
-        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-        <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
-      </valueReference>
-    </extension>
-    <extension url="actionReason">
-      <valueCodeableConcept>
-        <text value="Confirmed wrong patient" />
-      </valueCodeableConcept>
     </extension>
   </extension>
   <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
@@ -145,12 +104,6 @@
     <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
     <display value="Hywel Dda University Health Board" />
   </custodian>
-  <relatesTo>
-    <code value="replaces" />
-    <target>
-      <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-DirectlyReplacedDoc" />
-    </target>
-  </relatesTo>
   <description value="Diabetes Consultation Note" />
   <securityLabel>
     <coding>
@@ -160,20 +113,16 @@
     </coding>
   </securityLabel>
   <content>
-    <coding>
-      <system value="application/pdf" />
-      <code value="en" />
-      <display value="https://www.example.com/documentref1234" />
-    </coding>
+    <attachment>
+      <contentType value="application/pdf" />
+      <language value="en" />
+      <url value="https://www.example.com/documentref1234" />
+    </attachment>
   </content>
   <context>
     <encounter>
       <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
     </encounter>
-    <period>
-      <start value="2025-02-20T00:00:00+00:00" />
-      <end value="2026-02-19T23:59:00+00:00" />
-    </period>
     <practiceSetting>
       <coding>
         <system value="http://snomed.info/sct" />
@@ -181,21 +130,5 @@
         <display value="Diabetic medicine service" />
       </coding>
     </practiceSetting>
-    <related>
-      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
-      <display value="Hywel Dda University Health Board" />
-    </related>
-    <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospital" />
-      <display value="Glangwili General Hospital" />
-    </related>
-    <related>
-      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospitalOPD" />
-      <display value="Glangwili General Hospital Outpatients Department" />
-    </related>
-    <related>
-      <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
-      <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
-    </related>
   </context>
 </DocumentReference>
