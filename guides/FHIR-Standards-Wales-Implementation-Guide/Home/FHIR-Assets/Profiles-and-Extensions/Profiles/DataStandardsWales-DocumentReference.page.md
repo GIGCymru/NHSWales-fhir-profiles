@@ -61,21 +61,31 @@ Each DocumentReference must support:
 1. A practice setting
 1. A source system
 1. A version
+<br>
 
-<br><br>
+The `DocumentReference.status` field **SHALL** be populated with with one of the following values defined by the FHIR standard:
+- current
+- superseded
+- entered-in-error
+<br>
 
-The `DocumentReference.status` field **SHALL** be populated with a value from [HL7 FHIR Document Reference Status](http://hl7.org/fhir/ValueSet/document-reference-status|4.0.1)
-<br><br>
-
-The `DocumentReference.docStatus` field **SHALL** be populated with a value from [HL7 FHIR Document Composition Status](http://hl7.org/fhir/ValueSet/composition-status|4.0.1)
-<br><br>
+The `DocumentReference.extension.digitalStatus` field **SHALL** be populated with with one of the following values defined by the FHIR standard:
+- born-digital-document
+- scanned-paper-document
+- unknown
+<br>
 
 ### Extensions
-The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard: 
-  * {{pagelink:Extension-DataStandardsWales-DocumentAttester}} supports the capture of attester details as defined in FHIR R5 via a complex extension.
-  * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.  The attributes supported are restricted by {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute}}
-  * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a value from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}
-  * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the capture of a value from {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}
-  * {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} supports the establishment of metadata relating to the document error workflow via a complex extension.  The error workflow actions supported are restricted by {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorAction}}
-  * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a version as defined in FHIR R5.
-  * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the capture of the system which supplied the document details by reference to an instance of the {{pagelink:DataStandardsWales-Device}} resource profile
+The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the FHIR standard:
+  * Data Standards Wales extensions
+    * {{pagelink:Extension-DataStandardsWales-DocumentDigitalStatus}} supports the capture of a mandatory indication of whether the document was born digital or scanned.
+    * {{pagelink:Extension-DataStandardsWales-SourceSystem}} supports the identification of the system which supplied the document details.
+    * {{pagelink:Extension-DataStandardsWales-DocumentVersion}} supports the capture of a document version as defined in FHIR R5.
+    * {{pagelink:Extension-DataStandardsWales-DocumentAttester}} supports the capture of attester details as defined in FHIR R5 via a complex extension.
+    * {{pagelink:Extension-DataStandardsWales-DocumentErrorStatus}} supports the exchange of information about the validity of the document.
+    * {{pagelink:Extension-DataStandardsWales-DocumentErrorAction}} supports the capture of the error workflow actions that led to the current error status.
+    * {{pagelink:Extension-DataStandardsWales-DocumentAttribute}} supports the capture of additional document metadata via a complex extension.
+
+
+
+   
