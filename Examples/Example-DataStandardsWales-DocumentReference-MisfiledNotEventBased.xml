@@ -1,0 +1,124 @@
+﻿<DocumentReference xlmns="http://hl7.org/fhir">
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+    <valueCode>
+      <code value="scanned-paper-document" />
+    </valueCode>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
+    <valueReference>
+      <reference value="Device/Example-DataStandardsWales-Source-System-for-Documents" />
+      <display value="System ABC" />
+    </valueReference>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus">
+    <valueCode>
+      <code value="misfiled" />
+    </valueCode>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
+    <extension url="actionType">
+      <valueCode>
+        <code value="misfile-proposed" />
+      </valueCode>
+    </extension>
+    <extension url="actionDateTime">
+      <valueDateTime value="2025-07-22T13:15:32+00:00" />
+    </extension>
+    <extension url="actionedBy">
+      <valueReference>
+        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay" />
+        <display value="MAY, Emily B, Ms (NMC:AB12345X)" />
+      </valueReference>
+    </extension>
+    <extension url="actionReason">
+      <valueCodeableConcept>
+        <text value="Recorded against the previous patient seen" />
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction">
+    <extension url="actionType">
+      <valueCode>
+        <code value="misfile-accepted" />
+      </valueCode>
+    </extension>
+    <extension url="actionDateTime">
+      <valueDateTime value="2025-07-22T13:20:32+00:00" />
+    </extension>
+    <extension url="actionedBy">
+      <valueReference>
+        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
+        <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+      </valueReference>
+    </extension>
+    <extension url="actionReason">
+      <valueCodeableConcept>
+        <text value="Confirmed wrong patient" />
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="www.localnamespace" />
+    <value value="CONF-A123-10"></value>
+  </identifier>
+  <status>
+    <code value="entered-in-error" />
+  </status>
+  <docStatus>
+    <code value="final" />
+  </docStatus>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="722447009" />
+      <display value="Confirmation of insurance coverage for treatment" />
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
+      <code value="notification-and-legal-documents" />
+      <display value="Notification &amp; Legal Documents" />
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-JohnSmith" />
+    <display value="SMITH, John B, Mr" />
+  </subject>
+  <date value="2025-07-22T11:20:17+00:00" />
+  <author>
+    <reference value="Organization/Example-DataStandardsWales-Organization-MedicalInsurerA" />
+    <display value="Insurance Company A" />
+  </author>
+  <custodian>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    <display value="Hywel Dda University Health Board" />
+  </custodian>
+  <relatesTo>
+    <code value="replaces" />
+    <target>
+      <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-DirectlyReplacedDoc" />
+    </target>
+  </relatesTo>
+  <description value="Insurance certificate covering surgical treatment" />
+  <securityLabel>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" />
+      <code value="N" />
+      <display value="Normal" />
+    </coding>
+  </securityLabel>
+  <content>
+    <coding>
+      <system value="application/pdf" />
+      <code value="en" />
+      <display value="https://www.example.com/documentref1234" />
+    </coding>
+  </content>
+  <context>
+    <period>
+      <start value="2025-02-20T00:00:00+00:00" />
+      <end value="2026-02-19T23:59:00+00:00" />
+    </period>
+  </context>
+</DocumentReference>
