@@ -2,4 +2,4 @@
 
 ## {{page-title}}
 
-{{render:https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentAttribute}}
+{{render:https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute}}
