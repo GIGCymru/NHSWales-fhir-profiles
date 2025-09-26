@@ -4,7 +4,7 @@
 An extension to capture the error status of a document
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the distinct error status that applies to a document "entered-in-error".  The values supported are restricted by {{pagelink:ValueSet-FHIRStandardsWales-DocumentErrorStatus}}.
+This extension extends the DocumentReference resource to capture the distinct error status that applies to a document "entered-in-error", which may need to be considered by applications retrieving the document to influence its display and processing options.  It distinguishes between documents that are potentially misfiled, documents confirmed as misfiled and documents explicitly revoked.
 
 ### Context of Use
 This extension may be used on the following profile(s):
