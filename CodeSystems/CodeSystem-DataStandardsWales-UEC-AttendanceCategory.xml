@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-AttendanceCategory"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-AttendanceCategory"/>	
+    <version value="1.0.0" />
+    <name value="DataStandardsWales-UEC-AttendanceCategory"/>
+	<title value="Data Standards Wales UEC Attendance Category"/>
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2025-09-15" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="This CodeSystem lists reason for the patient's attendance."/>
+    <copyright value="2025 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="Unplanned first Urgent and Emergency Care or Same Day Emergency Care Attendance for a new clinical condition (or deterioration of a chronic condition)."/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="Unplanned follow up Urgent and Emergency Care or Same Day Emergency Care Attendance for the same or a related clinical condition and within 7 days of the first Urgent and Emergency Care or Same Day Emergency Care Attendance at this Urgent and Emergency Care service."/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="Unplanned follow-up Urgent and Emergency Care or Same Day Emergency Care Attendance for the same or a related clinical condition and within 7 days of the First Urgent and Emergency Care or Same Day Emergency Care Attendance at ANOTHER Urgent and Emergency Care service."/>
+    </concept>	
+	<concept>
+        <code value="4"/>
+        <display value="Planned follow-up Urgent and Emergency Care or Same Day Emergency Care Attendance within 7 days of the First Urgent and Emergency Care or Same Day Emergency Care Attendance at THIS Urgent and Emergency Care service."/>
+    </concept>
+    <concept>
+        <code value="xx"/>
+        <display value="Not Applicable (Patient dead on arrival to Urgent and Emergency Care service.)"/>
+    </concept>   
+</CodeSystem>

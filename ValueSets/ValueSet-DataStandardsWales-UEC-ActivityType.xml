@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-UEC-ActivityType"/>
+	<url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-ActivityType"/>
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECActivityType"/>
+	<title value="Data Standards Wales UEC Activity Type"/>
+    <status value="active" />
+    <experimental value="false" />
+	<date value="2025-09-19" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="This ValueSet captures reason for the patient's activity type."/>
+	<copyright value="2025 NHS Wales." />
+	<compose>
+		<include>
+			<system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-ActivityType"/>
+		</include>
+	</compose>
+</ValueSet>

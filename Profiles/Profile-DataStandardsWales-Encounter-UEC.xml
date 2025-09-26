@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-Encounter-UEC" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter-UEC" />
+  <version value="0.0.1" />
+  <name value="DataStandardsWalesEncounterUEC" />
+  <title value="Data Standards Wales Encounter UEC" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-09-17" />
+  <publisher value="NHS Wales" />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Encounter" />
+  <baseDefinition value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Encounter.extension:uecExpectedTimeOfTreatment">
+      <path value="Encounter.extension" />
+      <sliceName value="uecExpectedTimeOfTreatment" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:modeOfArrival">
+      <path value="Encounter.extension" />
+      <sliceName value="modeOfArrival" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/encounter-modeOfArrival" />
+      </type>
+      <isModifier value="false" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-ArrivalMode" />
+      </binding>
+    </element>
+    <element id="Encounter.extension:uecAttendanceCategory">
+      <path value="Encounter.extension" />
+      <sliceName value="uecAttendanceCategory" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-AttendanceCategory" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.extension:uecDischargeInformationGiven">
+      <path value="Encounter.extension" />
+      <sliceName value="uecDischargeInformationGiven" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-UEC-DischargeInformationGiven" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="Encounter.type">
+      <path value="Encounter.type" />
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-EncounterType" />
+      </binding>
+    </element>
+    <element id="Encounter.priority">
+      <path value="Encounter.priority" />
+      <short value="Indicates the Acuity of the UEC encounter" />
+      <definition value="Indicates the Acuity of the UEC encounter as determined at the point of triage." />
+      <binding>
+        <strength value="required" />
+        <description value="Indicates the Acuity of the UEC encounter as determined at the point of triage." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-Acuity" />
+      </binding>
+    </element>
+    <element id="Encounter.hospitalization.admitSource">
+      <path value="Encounter.hospitalization.admitSource" />
+      <binding>
+        <strength value="required" />
+        <description value="The source of admission to a UEC encounter." />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-AttendanceSource" />
+      </binding>
+    </element>
+    <element id="Encounter.hospitalization.dischargeDisposition">
+      <path value="Encounter.hospitalization.dischargeDisposition" />
+      <binding>
+        <strength value="required" />
+        <description value="The destination of a Patient on completion of a UEC Encounter" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-ActivityType"/>
+    <url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-UEC-ActivityType"/>	
+    <version value="1.0.0" />
+    <name value="DataStandardsWales-UEC-ActivityType"/>
+	<title value="Data Standards Wales UEC Activity Type"/>
+    <status value="active" />
+    <experimental value="false" />
+    <date value="2025-09-19" />
+    <publisher value="NHS Wales" />
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="This CodeSystem lists reason for the patient's activity type."/>
+    <copyright value="2025 NHS Wales." />
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="Major-Emergency-Care-Department"/>
+        <display value="Emergency Care Attendance at an Emergency Care Department Type Major Emergency Care Department."/>
+    </concept>
+    <concept>
+        <code value="Mono-specialty-Emergency-Care-Department"/>
+        <display value="Emergency Care Attendance at an Emergency Care Department Type Mono-specialty Emergency Care Department."/>
+    </concept>
+    <concept>
+        <code value="Minor-Injury-Unit"/>
+        <display value="Emergency Care Attendance at an Emergency Care Department Type Minor Injury Unit."/>
+    </concept>	
+	<concept>
+        <code value="Same-Day-Emergency-Care "/>
+        <display value="Emergency Care Attendance at an Emergency Care Department Type Same Day Emergency Care."/>
+    </concept>
+    <concept>
+        <code value="Urgent-and-Emergency-Care-Extended-Care-Episode"/>
+        <display value="Emergency Care Attendance at an Emergency Care Department Type Extended Care Episode."/>
+    </concept>   
+</CodeSystem>

@@ -1,0 +1,122 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-UEC-DischargeDestination" />
+    <url value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-UEC-DischargeDestination" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesUECDischargeDestination" />
+    <title value="Data Standards Wales ValueSet UEC Discharge Destination" />
+    <status value="active" />
+    <date value="2025-09-16" />
+    <publisher value="NHS Wales" />
+    <contact>
+        <name value="Data Standards" />
+        <telecom>
+            <system value="email" />
+            <value value="data.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="This ValueSet captures the discharge destination after the patient's attendance in Emergency Care." />
+    <copyright value="2025 NHS Wales" />
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct" />
+            <filter>
+                <property value="constraint" />
+                <op value="=" />
+                <value value="306689006 OR 306691003 OR 306694006 OR 306705005 OR 50861005 OR 1066331000000109 OR 1066341000000100 OR 1066351000000102 OR 306706006 OR 1066361000000104 OR 1066371000000106 OR 1066381000000108 OR 1066391000000105 OR 1066401000000108 OR 19712007 OR 183919006 OR 305398007" />
+            </filter>
+        </include>
+    </compose>
+    <expansion>
+        <identifier value="17af4348-525a-486d-bc23-baa24ea7ab1a" />
+        <timestamp value="2023-10-31T22:11:00+00:00" />
+        <total value="17" />
+        <offset value="0" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="306689006" />
+            <display value="Discharge to home" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="306691003" />
+            <display value="Discharge to residential home" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="306694006" />
+            <display value="Discharge to nursing home" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="306705005" />
+            <display value="Discharge to police custody" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="50861005" />
+            <display value="Patient discharge, to legal custody" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066331000000109" />
+            <display value="Emergency department discharge to emergency department short stay ward" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066341000000100" />
+            <display value="Emergency department discharge to ambulatory emergency care service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066351000000102" />
+            <display value="Discharge to hospital at home service" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="306706006" />
+            <display value="Discharge to ward" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066361000000104" />
+            <display value="Emergency department discharge to high dependency unit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066371000000106" />
+            <display value="Emergency department discharge to coronary care unit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066381000000108" />
+            <display value="Emergency department discharge to special care baby unit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066391000000105" />
+            <display value="Emergency department discharge to intensive care unit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="1066401000000108" />
+            <display value="Emergency department discharge to neonatal intensive care unit" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="19712007" />
+            <display value="Patient transfer, to another health care facility" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="183919006" />
+            <display value="Urgent admission to hospice" />
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <code value="305398007" />
+            <display value="Admission to the mortuary" />
+        </contains>
+    </expansion>
+</ValueSet>

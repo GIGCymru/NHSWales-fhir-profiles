@@ -54,7 +54,20 @@
   filename: ValueSet-DataStandardsWales-RespirationRate.page.md
 - name: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements
   filename: ValueSet-DataStandardsWales-HeadCircumferenceMeasurements.page.md
-- name: ValueSet-FHIRStandardsWales-DocumentAttribute
+- name: ValueSet-DataStandardsWales-UEC-AttendanceCategory
+  filename: ValueSet-DataStandardsWales-UEC-AttendanceCategory.page.md
+- name: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism
+  filename: ValueSet-DataStandardsWales-UEC-CareConsultationMechanism.page.md
+- name: ValueSet-DataStandardsWales-UEC-ArrivalMode
+  filename: ValueSet-DataStandardsWales-UEC-ArrivalMode.page.md
+- name: ValueSet-DataStandardsWales-UEC-AttendanceSource
+  filename: ValueSet-DataStandardsWales-UEC-AttendanceSource.page.md
+- name: ValueSet-DataStandardsWales-UEC-Acuity
+  filename: ValueSet-DataStandardsWales-UEC-Acuity.page.md
+- name: ValueSet-DataStandardsWales-UEC-DischargeDestination
+  filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
+- name: ValueSet-DataStandardsWales-UEC-ActivityType
+  filename: ValueSet-DataStandardsWales-UEC-ActivityType.page.md- name: ValueSet-FHIRStandardsWales-DocumentAttribute
   filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
 - name: ValueSet-FHIRStandardsWales-DocumentErrorAction
   filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
