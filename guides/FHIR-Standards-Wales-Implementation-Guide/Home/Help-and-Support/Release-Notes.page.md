@@ -12,15 +12,13 @@ Package:
     * New Extensions
         * DataStandardsWales-AdministeredProduct
         * DataStandardsWales-DateProcedureLastUpdated        
-        * DataStandardsWales-DocumentAttester
         * DataStandardsWales-DocumentAttribute
         * DataStandardsWales-DocumentDigitalStatus
+        * DataStandardsWales-DocumentErrorAction
         * DataStandardsWales-DocumentErrorStatus
-        * DataStandardsWales-DocumentVersion
         * DataStandardsWales-ForecastCreationSource
-        * DataStandardsWales-Immunization.basedOn
         * DataStandardsWales-SourceSystem
-    * R5 backport Extension:      
+    * New R5 backport Extensions:      
         * DataStandardsWales-DocumentAttester
         * DataStandardsWales-DocumentVersion
         * DataStandardsWales-Immunization.basedOn
@@ -96,9 +94,9 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Consent profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
 * Added a new page to outline the DataStandardsWales-DocumentReference profile
-* Added new pages to outline the Data Standards Wales Extensions created in this release.
-* Added new pages to outline the Data Standards Wales Value Sets created in this release.
-* Added new pages to outline the Data Standards Wales Code Systems created in this release.
+* Added new pages to outline the Data Standards Wales Extensions created in this release
+* Added new pages to outline the Data Standards Wales Value Sets created in this release
+* Added new pages to outline the Data Standards Wales Code Systems created in this release
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
 + Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table
