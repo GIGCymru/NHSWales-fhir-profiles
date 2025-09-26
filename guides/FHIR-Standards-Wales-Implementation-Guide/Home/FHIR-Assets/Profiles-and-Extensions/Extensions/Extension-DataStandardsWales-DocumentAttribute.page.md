@@ -4,11 +4,11 @@
 An extension to capture attributes of a document that are not explicitly addressed within DocumentReference.  Intended for use by exception only to capture data important for specific document types e.g.clinical trial code for cancer-related documents.  May be used more extensively for legacy documents.
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-FHIRStandardsWales-DocumentAttribute}}.
+This extension extends the DocumentReference resource to capture document metadata that is not represented by elements of the DocumentReference resource or its referenced resources.  The list of attributes is constrained to avoid proliferation of unstructured document emtadata.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* {{pagelink:DataStandardsWales-DocumentReference}}
+- DocumentReference
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">

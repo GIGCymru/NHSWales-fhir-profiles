@@ -8,7 +8,7 @@ This extension extends the DocumentReference resource to capture the metadata (w
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* {{pagelink:DataStandardsWales-DocumentReference}}
+- DocumentReference
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">

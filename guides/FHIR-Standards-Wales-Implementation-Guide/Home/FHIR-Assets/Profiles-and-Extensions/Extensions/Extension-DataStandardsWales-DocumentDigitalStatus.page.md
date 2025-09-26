@@ -4,11 +4,11 @@
 An extension to capture the digital status of a document
 
 ### Purpose
-This extension extends the DocumentReference resource to capture the specific attributes chosen from {{pagelink:ValueSet-DataStandardsWales-DocumentDigitalStatus}}.
+This extension extends the DocumentReference resource to capture an indicator of whether the document was created as a digital document or via scanning of a paper document.
 
 ### Context of Use
 This extension may be used on the following profile(s):
-* {{pagelink:DataStandardsWales-DocumentReference}}
+- DocumentReference
 
 ### Formal Views of Extension Content
 <div class="tab-wrap">
