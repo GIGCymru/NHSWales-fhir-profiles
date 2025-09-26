@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="FHIRStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute"/>
+    <version value="0.0.1" />
+	<name value="FHIRStandardsWalesDocumentAttribute"/>
+	<title value="FHIR Standards Wales Document Attribute"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-09-19" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to identify specific document attributes that are not part of the formal document metadata.  Values have been sourced from documents in the Welsh Care Records System"/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="AilmentCode"/>
+	</concept>
+	<concept>
+		<code value="AilmentName"/>
+	</concept>
+	<concept>
+		<code value="AllergiesRecorded"/>
+	</concept>
+	<concept>
+		<code value="AwaitingAdditionalInfo"/>
+	</concept>
+	<concept>
+		<code value="CancelledBy"/>
+	</concept>
+	<concept>
+		<code value="CancelledOn"/>
+	</concept>
+	<concept>
+		<code value="CareSequence"/>
+	</concept>
+	<concept>
+		<code value="CareSetting"/>
+	</concept>
+	<concept>
+		<code value="CasDbId"/>
+	</concept>
+	<concept>
+		<code value="Clinic"/>
+	</concept>
+	<concept>
+		<code value="ClinicalCircumstanceDescription"/>
+	</concept>
+	<concept>
+		<code value="ClinicCode"/>
+	</concept>
+	<concept>
+		<code value="ClinicName"/>
+	</concept>
+	<concept>
+		<code value="CloneDateTime"/>
+	</concept>
+	<concept>
+		<code value="CloneSequenceNumber"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceDocumentId"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceIsDraft"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceSetSeqNo"/>
+	</concept>
+	<concept>
+		<code value="CloneSourceSupersessionSet"/>
+	</concept>
+	<concept>
+		<code value="Comments"/>
+	</concept>
+	<concept>
+		<code value="ConsultantPriority"/>
+	</concept>
+	<concept>
+		<code value="ConsultationPeriod"/>
+	</concept>
+	<concept>
+		<code value="ConsultationType"/>
+	</concept>
+	<concept>
+		<code value="CounterSignatureRequestorId"/>
+	</concept>
+	<concept>
+		<code value="DalHasBeenReactivated"/>
+	</concept>
+	<concept>
+		<code value="DataMigrationSource"/>
+	</concept>
+	<concept>
+		<code value="DateReceived"/>
+	</concept>
+	<concept>
+		<code value="DateReferred"/>
+	</concept>
+	<concept>
+		<code value="DateSubmitted"/>
+	</concept>
+	<concept>
+		<code value="DestinationHealthboardCode"/>
+	</concept>
+	<concept>
+		<code value="DestinationHospitalCode"/>
+	</concept>
+	<concept>
+		<code value="DestinationSpecialtyCode"/>
+	</concept>
+	<concept>
+		<code value="Diagnosis"/>
+	</concept>
+	<concept>
+		<code value="DiagnosisDate"/>
+	</concept>
+	<concept>
+		<code value="Discipline"/>
+	</concept>
+	<concept>
+		<code value="DocumentRequiresCountersignature"/>
+	</concept>
+	<concept>
+		<code value="Duplicate"/>
+	</concept>
+	<concept>
+		<code value="EditCrossOrg"/>
+	</concept>
+	<concept>
+		<code value="Encoding"/>
+	</concept>
+	<concept>
+		<code value="EventId"/>
+	</concept>
+	<concept>
+		<code value="FinalEditDateTime"/>
+	</concept>
+	<concept>
+		<code value="GMCCode"/>
+	</concept>
+	<concept>
+		<code value="HepmaSystem"/>
+	</concept>
+	<concept>
+		<code value="HoldUntil"/>
+	</concept>
+	<concept>
+		<code value="IsEmergency"/>
+	</concept>
+	<concept>
+		<code value="IsHistoricDalSaved"/>
+	</concept>
+	<concept>
+		<code value="IsPharmacyLocked"/>
+	</concept>
+	<concept>
+		<code value="LocalDocumentTypeCode"/>
+	</concept>
+	<concept>
+		<code value="LocalSubSpecialty"/>
+	</concept>
+	<concept>
+		<code value="LocalSubSpecialtyCode"/>
+	</concept>
+	<concept>
+		<code value="LocationType"/>
+	</concept>
+	<concept>
+		<code value="MandatoryCoscDate"/>
+	</concept>
+	<concept>
+		<code value="ManualDal"/>
+	</concept>
+	<concept>
+		<code value="MedicalRecordType"/>
+	</concept>
+	<concept>
+		<code value="MeetingDate"/>
+	</concept>
+	<concept>
+		<code value="OptimalCoscDate"/>
+	</concept>
+	<concept>
+		<code value="OutcomeAction"/>
+	</concept>
+	<concept>
+		<code value="PasLink"/>
+	</concept>
+	<concept>
+		<code value="PathwayId"/>
+	</concept>
+	<concept>
+		<code value="PathwayIdentifier"/>
+	</concept>
+	<concept>
+		<code value="PatientActionIfHadNotReceivedConsultationCode"/>
+	</concept>
+	<concept>
+		<code value="PatientActionIfHadNotReceivedConsultationText"/>
+	</concept>
+	<concept>
+		<code value="PatientPrivacyCategory"/>
+	</concept>
+	<concept>
+		<code value="PatientRevoke"/>
+	</concept>
+	<concept>
+		<code value="PatientShare"/>
+	</concept>
+	<concept>
+		<code value="PharmacistGphc"/>
+	</concept>
+	<concept>
+		<code value="PharmacistName"/>
+	</concept>
+	<concept>
+		<code value="PharmacyName"/>
+	</concept>
+	<concept>
+		<code value="PharmacyPPA"/>
+	</concept>
+	<concept>
+		<code value="PracticeID"/>
+	</concept>
+	<concept>
+		<code value="PrescribedItemFormularyIds"/>
+	</concept>
+	<concept>
+		<code value="PrescribedItemNames"/>
+	</concept>
+	<concept>
+		<code value="PreviousActionCompleted"/>
+	</concept>
+	<concept>
+		<code value="PrioritisationData"/>
+	</concept>
+	<concept>
+		<code value="Priority"/>
+	</concept>
+	<concept>
+		<code value="PriorityChangeReason"/>
+	</concept>
+	<concept>
+		<code value="ReadOnly"/>
+	</concept>
+	<concept>
+		<code value="ReasonForSensitivity"/>
+	</concept>
+	<concept>
+		<code value="Rebook"/>
+	</concept>
+	<concept>
+		<code value="RecipientHospital"/>
+	</concept>
+	<concept>
+		<code value="RecipientSpecialty"/>
+	</concept>
+	<concept>
+		<code value="ReferralActionedBy"/>
+	</concept>
+	<concept>
+		<code value="ReferralActionedDate"/>
+	</concept>
+	<concept>
+		<code value="ReferralAdviceCode"/>
+	</concept>
+	<concept>
+		<code value="ReferralAdviceText"/>
+	</concept>
+	<concept>
+		<code value="ReferralId"/>
+	</concept>
+	<concept>
+		<code value="ReferralType"/>
+	</concept>
+	<concept>
+		<code value="ReferrerPasCode"/>
+	</concept>
+	<concept>
+		<code value="ReferrerSpecialtyCode"/>
+	</concept>
+	<concept>
+		<code value="ReferringClinicianCode"/>
+	</concept>
+	<concept>
+		<code value="RequiresSignOff"/>
+	</concept>
+	<concept>
+		<code value="SensitivePrior"/>
+	</concept>
+	<concept>
+		<code value="ShareWithPatient"/>
+	</concept>
+	<concept>
+		<code value="ShareWithReferrer"/>
+	</concept>
+	<concept>
+		<code value="Signer"/>
+	</concept>
+	<concept>
+		<code value="SingleCancerPathwayIdentifier"/>
+	</concept>
+	<concept>
+		<code value="SpecificSiteTeam"/>
+	</concept>
+	<concept>
+		<code value="SpellNumber"/>
+	</concept>
+	<concept>
+		<code value="Status"/>
+	</concept>
+	<concept>
+		<code value="SubDocumentType"/>
+	</concept>
+	<concept>
+		<code value="SubDocumentTypeCode"/>
+	</concept>
+	<concept>
+		<code value="SubjectOrganisation"/>
+	</concept>
+	<concept>
+		<code value="SubjectOrganisationCode"/>
+	</concept>
+	<concept>
+		<code value="SubSpecialty"/>
+	</concept>
+	<concept>
+		<code value="SubSpecialtyCode"/>
+	</concept>
+	<concept>
+		<code value="ThirdPartyDataIncluded"/>
+	</concept>
+	<concept>
+		<code value="TreatmentStartDate"/>
+	</concept>
+	<concept>
+		<code value="TumourSiteCode"/>
+	</concept>
+	<concept>
+		<code value="UniqueId"/>
+	</concept>
+	<concept>
+		<code value="VisitNumber"/>
+	</concept>
+	<concept>
+		<code value="WorklistId"/>
+	</concept>
+</CodeSystem>

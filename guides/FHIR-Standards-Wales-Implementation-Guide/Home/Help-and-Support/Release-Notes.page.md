@@ -9,17 +9,24 @@ Package:
         * DataStandardsWales-Composition
         * DataStandardsWales-Condition        
         * DataStandardsWales-Consent
+        * DataStandardsWales-DocumentReference
         * DataStandardsWales-Encounter-UEC
         * DataStandardsWales-ImmunizationRecommendation
     * New Extensions
         * DataStandardsWales-AdministeredProduct
-        * DataStandardsWales-DateProcedureLastUpdated
+        * DataStandardsWales-DateProcedureLastUpdated        
+        * DataStandardsWales-DocumentAttribute
+        * DataStandardsWales-DocumentDigitalStatus
+        * DataStandardsWales-DocumentErrorAction
+        * DataStandardsWales-DocumentErrorStatus
         * DataStandardsWales-ForecastCreationSource
-        * DataStandardsWales-Immunization.basedOn
+        * DataStandardsWales-SourceSystem
         * DataStandardsWales-UECAttendanceCategory
         * DataStandardsWales-UECDischargeInformationGiven
         * DataStandardsWales-UECExpectedTimeOfTreatment
-    * R5 backport Extension:
+    * New R5 backport Extensions:      
+        * DataStandardsWales-DocumentAttester
+        * DataStandardsWales-DocumentVersion
         * DataStandardsWales-Immunization.basedOn
     * Changes to Profiles
         * DataStandardsWales-Appointment
@@ -100,8 +107,24 @@ Package:
             * Namespaces for PAS Practitioner id. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for practitioners where they may not exist in the CDR.
             * Namespaces for LIMS TCLE and TCL system identifiers. This is to aid in the mapping of the HL7 v2 messages into FHIR. It is to the capture 'local' identifiers for LIMS where they may not exist in the CDR. These include LIMS identifiers for procedure, report and specimen type codes.
             * Namespaces for PAS upi identifiers. These additional identifiers are for referrals and appointments and encounters so CDR can identify when an appointment has come from a referral and when a patient has e.g arrived at their appointment.  CDR would store this value as an additional identifier against each referral, appointment and encounter in the existing identifier FHIR array.
+            * Namespace for WCRS DocumentId values
+            * Namespace for WCRS DocumentSupersessionSetId values
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
+    * Changes to Terminology
+        * New Code Systems
+            * DataStandardsWales-DocumentCategory
+            * DataStandardsWales-DocumentDigitalStatus
+            * FHIRStandardsWales-DocumentAttribute
+            * FHIRStandardsWales-DocumentErrorAction
+            * FHIRStandardsWales-DocumentErrorStatus
+        * New Value Sets
+            * DataStandardsWales-DocumentCategory
+            * DataStandardsWales-DocumentDigitalStatus
+            * DataStandardsWales-DocumentType
+            * FHIRStandardsWales-DocumentAttribute
+            * FHIRStandardsWales-DocumentErrorAction
+            * FHIRStandardsWales-DocumentErrorStatus
   
 
 Guide:
@@ -111,9 +134,10 @@ Guide:
 * Added a new page to outline the DataStandardsWales-Composition profile
 * Added a new page to outline the DataStandardsWales-Encounter-UEC profile
 * Added a new page to outline the DataStandardsWales-ImmunizationRecommendation profile
-* Added new pages to outline the Data Standards Wales Extensions created in this release.
-* Added new pages to outline the Data Standards Wales Code Systems created in this release.
-* Added new pages to outline the Data Standards Wales Value Sets created in this release.
+* Added a new page to outline the DataStandardsWales-DocumentReference profile
+* Added new pages to outline the Data Standards Wales Extensions created in this release
+* Added new pages to outline the Data Standards Wales Value Sets created in this release
+* Added new pages to outline the Data Standards Wales Code Systems created in this release
 * Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table
@@ -121,6 +145,7 @@ Guide:
 * Moved DataStandardsWales-Device from Diagnostics to Entities in Resource Index page
 * Added HL7 International R4 tile to Related Pages
 * Added HL7 International R5 tile to Related Pages
++ Added namespaces for WCRS DocumentId and WCRS DocumentSupersessionSetId values in Naming Systems table
 
 ### v2.2.0 STU2
 Package: 

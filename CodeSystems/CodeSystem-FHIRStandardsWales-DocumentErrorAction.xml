@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="FHIRStandardsWales-DocumentErrorAction"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentErrorAction"/>
+    <version value="1.0.0" />
+	<name value="FHIRStandardsWalesDocumentErrorAction"/>
+	<title value="FHIR Standards Wales Document Error Action"/>
+    <status value="active" />
+    <date value="2025-09-24" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to record an action in the document error workflow in NHS Wales - relating to document misfile or revocation."/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="misfile-proposed"/>
+		<display value="Misfile proposed"/>
+		<definition value="A user has proposed that the document content does not relate to the identified patient."/>
+	</concept>
+	<concept>
+		<code value="misfile-accepted"/>
+		<display value="Misfile accepted"/>
+		<definition value="A user has confirmed that the document content does not relate to the identified patient."/>
+	</concept>
+	<concept>
+		<code value="misfile-rejected"/>
+		<display value="Misfile rejected"/>
+		<definition value="A user has rejected the proposal that the document content does not relate to the identified patient."/>
+	</concept>
+	<concept>
+		<code value="revoked"/>
+		<display value="Revoked"/>
+		<definition value="A user has indicated that the the document is erroneous or has been withdrawn e.g. revocation of a Do Not Attempt Resuscitation (DNAR) instruction by a patient."/>
+	</concept>
+</CodeSystem>

@@ -10,6 +10,20 @@
   filename: Extension-DataStandardsWales-Religion.page.md
 - name: Extension-DataStandardsWales-DemographicsAsRecorded
   filename: Extension-DataStandardsWales-DemographicsAsRecorded.page.md
+- name: Extension-DataStandardsWales-DocumentAttester
+  filename: Extension-DataStandardsWales-DocumentAttester.page.md
+- name: Extension-DataStandardsWales-DocumentAttribute
+  filename: Extension-DataStandardsWales-DocumentAttribute.page.md
+- name: Extension-DataStandardsWales-DocumentDigitalStatus
+  filename: Extension-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: Extension-DataStandardsWales-DocumentErrorAction
+  filename: Extension-DataStandardsWales-DocumentErrorAction.page.md
+- name: Extension-DataStandardsWales-DocumentErrorStatus
+  filename: Extension-DataStandardsWales-DocumentErrorStatus.page.md
+- name: Extension-DataStandardsWales-DocumentVersion
+  filename: Extension-DataStandardsWales-DocumentVersion.page.md
+- name: Extension-DataStandardsWales-SourceSystem
+  filename: Extension-DataStandardsWales-SourceSystem.page.md
 - name: Extension Data Standards Wales Speciality
   filename: Extension-DataStandardsWales-Speciality.page.md
 - name: Extension-DataStandardsWales-SingleRecord-AllergiesListConfirmedBy

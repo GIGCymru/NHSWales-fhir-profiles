@@ -1,0 +1,27 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="FHIRStandardsWales-DocumentAttribute"/>
+	<url value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentAttribute"/>
+    <version value="0.0.1" />
+    <name value="FHIRStandardsWalesDocumentAttribute"/>
+	<title value="FHIR Standards Wales Document Attribute"/>
+    <status value="draft" />
+    <experimental value="true" />
+	<date value="2025-09-19" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to identify specific document attributes that are not part of the formal document metadata.  Values have been sourced from documents in the Welsh Care Records System"/>
+	<copyright value="2025 NHS Wales." />
+    <compose>
+        <include>
+            <system value="https://fhir.nhs.wales/CodeSystem/FHIRStandardsWales-DocumentAttribute" />
+        </include>
+    </compose>
+</ValueSet>

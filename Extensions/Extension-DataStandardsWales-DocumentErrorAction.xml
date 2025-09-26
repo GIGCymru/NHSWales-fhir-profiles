@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-DocumentErrorAction" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesDocumentErrorAction" />
+  <title value="Extension Data Standards Wales Document Error Action" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-09-24" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <description value="This extension provides a history of error actions performed e.g. document misfile proposed then accepted." />
+  <purpose value="To support the document error workflow in NHS Wales, including the specific action performed, when, bu whom and any reason provided." />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="DocumentReference" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Document error action metadata." />
+      <definition value="This extension provides outline data for an action performed as part of a document error workflow e.g. document misfile proposed." />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <min value="2" />
+    </element>
+    <element id="Extension.extension:actionType">
+      <path value="Extension.extension" />
+      <sliceName value="actionType" />
+      <short value="misfile-proposed | misfile-accepted | misfile-rejected | revoked" />
+      <definition value="A descriptive code for action performed as part of a document error workflow in NHS Wales e.g. document misfile proposed." />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:actionType.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:actionType.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="actionType" />
+    </element>
+    <element id="Extension.extension:actionType.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="misfile-proposed | misfile-accepted | misfile-rejected | revoked" />
+      <definition value="A descriptive code for an action performed as part of a document error workflow in NHS Wales e.g. document misfile proposed." />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/FHIRStandardsWales-DocumentErrorAction" />
+      </binding>
+    </element>
+    <element id="Extension.extension:actionDateTime">
+      <path value="Extension.extension" />
+      <sliceName value="actionDateTime" />
+      <short value="The date and time of the document error action." />
+      <definition value="A timestamp for the error workflow action performed by the user e.g. proposing that a document is misfiled." />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:actionDateTime.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:actionDateTime.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="actionDateTime" />
+    </element>
+    <element id="Extension.extension:actionDateTime.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <type>
+        <code value="instant" />
+      </type>
+    </element>
+    <element id="Extension.extension:actionedBy">
+      <path value="Extension.extension" />
+      <sliceName value="actionedBy" />
+      <short value="The user that performed the document error action." />
+      <definition value="A reference to the user that performed the error workflow action e.g. proposing that a document is misfiled." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:actionedBy.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:actionedBy.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="actionedBy" />
+    </element>
+    <element id="Extension.extension:actionedBy.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="The user that performed the document error action." />
+      <definition value="A reference to the user that performed the error workflow action e.g. proposing that a document is misfiled." />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+      </type>
+    </element>
+    <element id="Extension.extension:actionReason">
+      <path value="Extension.extension" />
+      <sliceName value="actionReason" />
+      <short value="The reason provided for the error action." />
+      <definition value="Any coded or free text justification or explanation provided for the error action performed." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:actionReason.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:actionReason.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="actionReason" />
+    </element>
+    <element id="Extension.extension:actionReason.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <short value="The reason provided for the error action." />
+      <definition value="Any coded or free text justification or explanation provided for the error action performed." />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>

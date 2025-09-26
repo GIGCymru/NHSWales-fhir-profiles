@@ -1,5 +1,11 @@
 - name: Index
   filename: Index.page.md
+- name: ValueSet-DataStandardsWales-DocumentCategory
+  filename: ValueSet-DataStandardsWales-DocumentCategory.page.md
+- name: ValueSet-DataStandardsWales-DocumentDigitalStatus
+  filename: ValueSet-DataStandardsWales-DocumentDigitalStatus.page.md
+- name: ValueSet-DataStandardsWales-DocumentType
+  filename: ValueSet-DataStandardsWales-DocumentType.page.md
 - name: ValueSet-DataStandardsWales-GenderIdentity
   filename: ValueSet-DataStandardsWales-GenderIdentity.page.md
 - name: ValueSet-DataStandardsWales-ProvenanceActivity
@@ -61,4 +67,9 @@
 - name: ValueSet-DataStandardsWales-UEC-DischargeDestination
   filename: ValueSet-DataStandardsWales-UEC-DischargeDestination.page.md
 - name: ValueSet-DataStandardsWales-UEC-ActivityType
-  filename: ValueSet-DataStandardsWales-UEC-ActivityType.page.md
+  filename: ValueSet-DataStandardsWales-UEC-ActivityType.page.md- name: ValueSet-FHIRStandardsWales-DocumentAttribute
+  filename: ValueSet-FHIRStandardsWales-DocumentAttribute.page.md
+- name: ValueSet-FHIRStandardsWales-DocumentErrorAction
+  filename: ValueSet-FHIRStandardsWales-DocumentErrorAction.page.md
+- name: ValueSet-FHIRStandardsWales-DocumentErrorStatus
+  filename: ValueSet-FHIRStandardsWales-DocumentErrorStatus.page.md

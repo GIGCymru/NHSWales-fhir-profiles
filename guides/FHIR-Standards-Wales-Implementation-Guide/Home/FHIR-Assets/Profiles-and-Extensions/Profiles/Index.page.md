@@ -11,6 +11,7 @@ The following Profiles have been defined for this implementation guide.
 * {{pagelink:DataStandardsWales-Device}}
 * {{pagelink:DataStandardsWales-DiagnosticReport}}
 * {{pagelink:DataStandardsWales-DiagnosticReport-Lab}}
+* {{pagelink:DataStandardsWales-DocumentReference}}
 * {{pagelink:DataStandardsWales-Encounter}}
 * {{pagelink:DataStandardsWales-Encounter-UEC}}
 * {{pagelink:DataStandardsWales-Endpoint}}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-DocumentVersion" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesDocumentVersion" />
+  <title value="Extension Data Standards Wales Document Version" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-09-23" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="DocumentReference" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="An explicitly assigned identifer of a variation of the content in the DocumentReference." />
+      <definition value="This is a business version identifier, not a resource version id.  It can be used to store the SetSequenceNumber of a document from the Welsh Care Records Service. (Backport from FHIR R5.)" />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

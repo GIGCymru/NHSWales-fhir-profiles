@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-DocumentCategory"/>
+	<url value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory"/>
+    <version value="0.0.1" />
+	<name value="DataStandardsWalesDocumentCategory"/>
+	<title value="Data Standards Wales Document Category"/>
+    <status value="draft" />
+    <experimental value="true" />	
+    <date value="2025-08-18" />
+    <publisher value="NHS Wales" />
+    <contact>
+		<name value="FHIR Standards" />
+		<telecom>
+			<system value="email" />
+			<value value="fhir.standards@wales.nhs.uk" />
+			<use value="work" />
+			<rank value="1" />
+		</telecom>
+    </contact>
+	<description value="A set of codes used to identify the category of a document within NHS Wales"/>
+    <copyright value="2025 NHS Wales." />
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="assessments"/>
+		<display value="Assessments"/>
+		<definition value="Assessments Record"/>
+	</concept>	
+	<concept>
+		<code value="alerts"/>
+		<display value="Alerts"/>
+		<definition value="Alert Records"/>
+	</concept>
+	<concept>
+		<code value="allergies"/>
+		<display value="Allergies"/>
+		<definition value="Allergy Records"/>
+	</concept>
+	<concept>
+		<code value="care-plans"/>
+		<display value="Care Plans"/>
+		<definition value="Care Plan Records"/>
+	</concept>
+	<concept>
+		<code value="clinical-notes"/>
+		<display value="Clinical Notes"/>
+		<definition value="Clinical Note Records"/>
+	</concept>
+	<concept>
+		<code value="correspondences"/>
+		<display value="Correspondences"/>
+		<definition value="Correspondence Records"/>
+	</concept>
+	<concept>
+		<code value="interventions-or-procedures"/>
+		<display value="Interventions / Procedures"/>
+		<definition value="Intervention and/or Procedure Records"/>
+	</concept>
+	<concept>
+		<code value="medication"/>
+		<display value="Medication"/>
+		<definition value="Medication Records"/>
+	</concept>
+	<concept>
+		<code value="miscellaneous-and-third-party-documents"/>
+		<display value="Miscellaneous and Third Party Documents"/>
+		<definition value="Miscellaneous and Third Party Document Records"/>
+	</concept>
+	<concept>
+		<code value="notification-and-legal-documents"/>
+		<display value="Notification and Legal Documents"/>
+		<definition value="Notification and Legal Document Records"/>
+	</concept>
+	<concept>
+		<code value="observations"/>
+		<display value="Observations"/>
+		<definition value="Observation Records"/>
+	</concept>
+	<concept>
+		<code value="patient-preferences-or-instructions-and-patient-held-records"/>
+		<display value="Patient Preferences / Instructions and Held Records"/>
+		<definition value="Patient Preferences and/or Instructions and Held Document Records"/>
+	</concept>
+	<concept>
+		<code value="reports-and-test-results"/>
+		<display value="Reports and Test Results"/>
+		<definition value="Reports and Test Result Records"/>
+	</concept>
+	<concept>
+		<code value="research-or-study"/>
+		<display value="Research / Study"/>
+		<definition value="Research and/or Study Records"/>
+	</concept>
+</CodeSystem>

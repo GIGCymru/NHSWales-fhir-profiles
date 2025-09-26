@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-DocumentReference" />
+  <url value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+  <version value="0.0.1" />
+  <name value="DataStandardsWalesDocumentReference" />
+  <title value="Data Standards Wales Document Reference" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-08-18" />
+  <publisher value="NHS Wales" />
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="DocumentReference" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="DocumentReference.extension">
+      <path value="DocumentReference.extension" />
+      <min value="1" />
+    </element>
+    <element id="DocumentReference.extension:digitalStatus">
+      <path value="DocumentReference.extension" />
+      <sliceName value="digitalStatus" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:sourceSystem">
+      <path value="DocumentReference.extension" />
+      <sliceName value="sourceSystem" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:versionR5">
+      <path value="DocumentReference.extension" />
+      <sliceName value="versionR5" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:attesterR5">
+      <path value="DocumentReference.extension" />
+      <sliceName value="attesterR5" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:errorStatus">
+      <path value="DocumentReference.extension" />
+      <sliceName value="errorStatus" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorStatus" />
+      </type>
+      <mustSupport value="true" />
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:errorAction">
+      <path value="DocumentReference.extension" />
+      <sliceName value="errorAction" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentErrorAction" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.extension:documentAttribute">
+      <path value="DocumentReference.extension" />
+      <sliceName value="documentAttribute" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute" />
+      </type>
+      <isModifier value="false" />
+    </element>
+    <element id="DocumentReference.masterIdentifier">
+      <path value="DocumentReference.masterIdentifier" />
+      <max value="0" />
+    </element>
+    <element id="DocumentReference.identifier">
+      <path value="DocumentReference.identifier" />
+      <slicing>
+        <description value="Slices provided for the different types of national identifiers issued by the Welsh Care Records Service." />
+        <rules value="open" />
+      </slicing>
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsDocumentId">
+      <path value="DocumentReference.identifier" />
+      <sliceName value="wcrsDocumentId" />
+      <short value="The WCRS DocumentId." />
+      <definition value="The version-specific DocumentId issued by the Welsh Care Records Service." />
+      <max value="1" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsDocumentId.system">
+      <path value="DocumentReference.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsSupersessionSetId">
+      <path value="DocumentReference.identifier" />
+      <sliceName value="wcrsSupersessionSetId" />
+      <short value="The WCRS DocumentSupersessionSetId." />
+      <definition value="The version-independent DocumentSupersessionSetId issued by the Welsh Care Records Service." />
+      <max value="1" />
+    </element>
+    <element id="DocumentReference.identifier:wcrsSupersessionSetId.system">
+      <path value="DocumentReference.identifier.system" />
+      <fixedUri value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
+    </element>
+    <element id="DocumentReference.docStatus">
+      <path value="DocumentReference.docStatus" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.type">
+      <path value="DocumentReference.type" />
+      <short value="Kind of document" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentType" />
+      </binding>
+    </element>
+    <element id="DocumentReference.category">
+      <path value="DocumentReference.category" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="extensible" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-DocumentCategory" />
+      </binding>
+    </element>
+    <element id="DocumentReference.subject">
+      <path value="DocumentReference.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.date">
+      <path value="DocumentReference.date" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.author">
+      <path value="DocumentReference.author" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Device" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-RelatedPerson" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.authenticator">
+      <path value="DocumentReference.authenticator" />
+      <max value="0" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <mustSupport value="false" />
+    </element>
+    <element id="DocumentReference.custodian">
+      <path value="DocumentReference.custodian" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.relatesTo.target">
+      <path value="DocumentReference.relatesTo.target" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+      </type>
+    </element>
+    <element id="DocumentReference.securityLabel">
+      <path value="DocumentReference.securityLabel" />
+      <mustSupport value="true" />
+    </element>
+    <element id="DocumentReference.context.encounter">
+      <path value="DocumentReference.context.encounter" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Encounter" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare" />
+      </type>
+    </element>
+    <element id="DocumentReference.context.practiceSetting">
+      <path value="DocumentReference.context.practiceSetting" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://simplifier.net/hl7-fhir--uk-core-r4-stu2-sequence2/ukcore-caresettingtype" />
+      </binding>
+    </element>
+    <element id="DocumentReference.context.sourcePatientInfo">
+      <path value="DocumentReference.context.sourcePatientInfo" />
+      <max value="0" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+      </type>
+    </element>
+    <element id="DocumentReference.context.related">
+      <path value="DocumentReference.context.related" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Location" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

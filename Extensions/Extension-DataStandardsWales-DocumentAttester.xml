@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-DataStandardsWales-DocumentAttester" />
+  <url value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+  <version value="0.0.1" />
+  <name value="ExtensionDataStandardsWalesDocumentAttester" />
+  <title value="Extension Data Standards Wales Document Attester" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2025-09-23" />
+  <publisher value="NHS Wales" />
+  <contact>
+    <name value="FHIR Standards" />
+    <telecom>
+      <system value="email" />
+      <value value="fhir.standards@wales.nhs.uk" />
+      <use value="work" />
+      <rank value="1" />
+    </telecom>
+  </contact>
+  <copyright value="2025 NHS Wales" />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="DocumentReference" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Attests to accuracy of the document." />
+      <definition value="A participant who has authenticated the accuracy of the document. (Backport from FHIR R5.)" />
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension" />
+      <min value="1" />
+    </element>
+    <element id="Extension.extension:mode">
+      <path value="Extension.extension" />
+      <sliceName value="mode" />
+      <short value="personal | professional | legal | official" />
+      <definition value="Indicates the level of authority of the attestation." />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:mode.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:mode.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="mode" />
+    </element>
+    <element id="Extension.extension:mode.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="preferred" />
+        <valueSet value="https://hl7.org/fhir/valueset-composition-attestation-mode.html" />
+      </binding>
+    </element>
+    <element id="Extension.extension:time">
+      <path value="Extension.extension" />
+      <sliceName value="time" />
+      <short value="When the document was attested." />
+      <definition value="When the document was attested by the party." />
+      <requirements value="Identifies when the information in the document was deemed accurate. (Things may have changed since then.)." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:time.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:time.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="time" />
+    </element>
+    <element id="Extension.extension:time.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+    <element id="Extension.extension:party">
+      <path value="Extension.extension" />
+      <sliceName value="party" />
+      <short value="Who attested the document." />
+      <definition value="Who attested the document in the specified way." />
+      <requirements value="Identifies who has taken on the responsibility for accuracy of the document content." />
+      <max value="1" />
+    </element>
+    <element id="Extension.extension:party.extension">
+      <path value="Extension.extension.extension" />
+      <max value="0" />
+    </element>
+    <element id="Extension.extension:party.url">
+      <path value="Extension.extension.url" />
+      <fixedUri value="party" />
+    </element>
+    <element id="Extension.extension:party.value[x]">
+      <path value="Extension.extension.value[x]" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Patient" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Practitioner" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-PractitionerRole" />
+        <targetProfile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-Organization" />
+      </type>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
