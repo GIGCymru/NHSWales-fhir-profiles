@@ -80,9 +80,9 @@ The `Encounter.class` field **SHALL** be populated using the values defined by t
 ### Extensions
 The extensions listed below allow a number of the data elements listed above to be supported where not currently supported by the Data Standards Wales Encounter profile:
 * Data Standards Wales Extensions:
-    * {{pagelink:Extension-DataStandardsWales-UEC-ExpectedTimeOfTreatment}} supports recording of the time of treatment expected at the point of referral.
-    * {{pagelink:Extension-DataStandardsWales-UEC-DischargeInformationGiven}} supports recording of secondary information at UEC Discharge, and whether this was given to the patient.
-    * {{pagelink:Extension-DataStandardsWales-UEC-AttendanceCategory}} supports recording of the reporting category of each attendance.
+    * {{pagelink:Extension-DataStandardsWales-UECExpectedTimeOfTreatment}} supports recording of the time of treatment expected at the point of referral.
+    * {{pagelink:Extension-DataStandardsWales-UECDischargeInformationGiven}} supports recording of secondary information at UEC Discharge, and whether this was given to the patient.
+    * {{pagelink:Extension-DataStandardsWales-UECAttendanceCategory}} supports recording of the reporting category of each attendance.
 * HL7 International Extensions:
     * [Encounter Mode Of Arrival](https://hl7.org/fhir/R4/extension-encounter-modeofarrival.html) supports recording of the mode of arrival of the patient.
 <br><br>
