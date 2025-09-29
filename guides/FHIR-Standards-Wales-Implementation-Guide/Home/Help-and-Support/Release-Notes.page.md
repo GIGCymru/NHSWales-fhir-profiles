@@ -79,7 +79,7 @@ Package:
             * Updated version from 1.1.2 to 1.1.3
             * Cardinality changes:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
-        * DataStandardsWales-Practitioner
+        * DataStandardsWales-PractitionerRole
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
