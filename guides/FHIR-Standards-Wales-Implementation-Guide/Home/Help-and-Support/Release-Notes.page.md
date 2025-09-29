@@ -68,7 +68,7 @@ Package:
         * DataStandardsWales-Observation
             * Updated version from 0.1.1 to 0.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
-         * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
+            * .reasonReference. Added reference to DataStandardsWales-ImmunizationRecommendation
         * DataStandardsWales-MedicationRequest
             * Updated version from 1.1.1 to 1.1.2
             * .basedOn. Added reference to DataStandardsWales-ImmunizationRecommendation
@@ -79,11 +79,14 @@ Package:
             * Updated version from 1.1.2 to 1.1.3
             * Cardinality changes:
                 * identifier:nadexIdentifier. From 0..1 to 0..* 
-        * DataStandardsWales-Practitioner
+        * DataStandardsWales-PractitionerRole
             * Updated version from 1.1.1 to 1.1.2
             * .specialty. Changed valueset binding from required to extensible to align with UK Core
 * {{pagelink:Home/FHIR-Assets/Terminology,text:Terminology}}:
     * New Value Sets 
+        * Data Standards Wales Document Category
+        * Data Standards Wales Document Digital Status
+        * Data Standards Wales Document Type
         * Data Standards Wales Encounter Type 
         * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Acuity
@@ -92,11 +95,19 @@ Package:
         * Data Standards Wales UEC Attendance Source
         * Data Standards Wales UEC Care Consultation Mechanism
         * Data Standards Wales UEC Discharge Destination
+        * FHIR Standards Wales Document Attribute
+        * FHIR Standards Wales Document Error Action
+        * FHIR Standards Wales Document Error Status
         * PAS Event Type
     * New Code Systems
+        * Data Standards Wales Document Category
+        * Data Standards Wales Document Digital Status
         * Data Standards Wales UEC Activity Type
         * Data Standards Wales UEC Attendance Category
         * Data Standards Wales UEC Care Consultation Mechanism
+        * FHIR Standards Wales Document Attribute
+        * FHIR Standards Wales Document Error Action
+        * FHIR Standards Wales Document Error Status
         * WPAS Event Type
 * {{pagelink:Home/FHIR-Assets/Naming-Systems.page.md,text:Naming Systems}}
     * Changes to Naming Systems
@@ -111,21 +122,13 @@ Package:
             * Namespace for WCRS DocumentSupersessionSetId values
         * Namespaces for SubSpeciality ids
             * Removed all SubSpeciality Namespaces
-    * Changes to Terminology
-        * New Code Systems
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-            * FHIRStandardsWales-DocumentAttribute
-            * FHIRStandardsWales-DocumentErrorAction
-            * FHIRStandardsWales-DocumentErrorStatus
-        * New Value Sets
-            * DataStandardsWales-DocumentCategory
-            * DataStandardsWales-DocumentDigitalStatus
-            * DataStandardsWales-DocumentType
-            * FHIRStandardsWales-DocumentAttribute
-            * FHIRStandardsWales-DocumentErrorAction
-            * FHIRStandardsWales-DocumentErrorStatus
-  
+* {{pagelink:Home/Example-Index.page.md,text:Examples}}:
+    * New Examples
+        * Document Reference
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text:Encounter-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Event-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Not event-based}}
+            * {{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Misfiled (document not event-based)}}
 
 Guide:
 * General improvements to IG that include fixing spelling mistakes and correcting grammatical errors
@@ -138,6 +141,7 @@ Guide:
 * Added new pages to outline the Data Standards Wales Extensions created in this release
 * Added new pages to outline the Data Standards Wales Value Sets created in this release
 * Added new pages to outline the Data Standards Wales Code Systems created in this release
+* Added new pages to outline the Data Standards Wales Examples created in this release
 * Removed DataStandardsWales-Dosage profile from main index
 * Removed NHS Wales Identity Provider User ID (also known as Nadex) section from Naming Systems page
 * Added Health Board PAS names to AppointmentIdentifier Name in Naming Systems table

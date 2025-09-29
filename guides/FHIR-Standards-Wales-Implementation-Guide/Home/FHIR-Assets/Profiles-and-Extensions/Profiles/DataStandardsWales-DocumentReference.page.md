@@ -1,7 +1,7 @@
 <div class="warning"><span class="ExperiWarn"></span></div>
 
 ## {{page-title}}
-The [DocumentReference](https://www.hl7.org/fhir/r4/documentreference.html) resource profile is used to index a document, clinical note, or other binary object to make them available to a healthcare system. A document is some sequence of bytes that is identifiable, establishes its own context (e.g., what subject, author, etc. can be displayed to the user), and has defined update management. The DocumentReference resource can be used with any document format that has a recognized mime type and that conforms to this definition.
+The [DocumentReference](https://www.hl7.org/fhir/r4/documentreference.html) resource profile is used to index a document, clinical note, or other binary object to make them available to a healthcare system. A document is some sequence of bytes that is identifiable, establishes its own context (e.g., what subject, author, etc. can be displayed to the user), and has defined update management. The DocumentReference resource can be used with any document format that has a recognized MIME type and that conforms to this definition.
 
 The {{page-title}} profile is derived from the [HL7 R4 DocumentReference](https://www.hl7.org/fhir/r4/documentreference.html). It defines additional rules for use within health and care organisations in Wales.
 
@@ -34,8 +34,13 @@ A direct link to the Data Standards Wales asset can be accessed here - {{link:ht
       {{tree:https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference, hybrid}}
   </div>
   <div id="tabeg" class="tabcontent">
-
-  </div>
+    <list>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EncounterBased, text: Example Document Reference - Encounter-based}}</li>
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-EventBased, text: Example Document Reference - Event-based}}</li>     
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-NotEventBased, text: Example Document Reference - Not event-based}}</li> 
+      <li>{{pagelink:Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased, text: Example Document Reference - Misfiled (document not event-based)}}</li>              
+    </list>
+  </div>  
 </div>
 
 ### Mandatory and Must Support Data Elements

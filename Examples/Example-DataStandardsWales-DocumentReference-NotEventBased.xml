@@ -1,0 +1,78 @@
+﻿<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-DocumentReference-NotEventBased" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+  </meta>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+    <valueCode value="scanned-paper-document" />
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
+    <valueReference>
+      <reference value="Device/Example-DataStandardsWales-Source-System-for-Documents" />
+      <display value="System ABC" />
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="www.localnamespace" />
+    <value value="CONF-A123-10" />
+  </identifier>
+  <status value="entered-in-error" />
+  <docStatus value="final" />
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="722447009" />
+      <display value="Confirmation of insurance coverage for treatment" />
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
+      <code value="notification-and-legal-documents" />
+      <display value="Notification &amp; Legal Documents" />
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-JohnSmith" />
+    <display value="SMITH, John B, Mr" />
+  </subject>
+  <date value="2025-07-22T11:20:17+00:00" />
+  <author>
+    <reference value="Organization/Example-DataStandardsWales-Organization-MedicalInsurerA" />
+    <display value="Insurance Company A" />
+  </author>
+  <custodian>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    <display value="Hywel Dda University Health Board" />
+  </custodian>
+  <relatesTo>
+    <code value="replaces" />
+    <target>
+      <reference value="DocumentReference/Example-DataStandardsWales-DocumentReference-DirectlyReplacedDoc" />
+    </target>
+  </relatesTo>
+  <description value="Insurance certificate covering surgical treatment" />
+  <securityLabel>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" />
+      <code value="N" />
+      <display value="Normal" />
+    </coding>
+  </securityLabel>
+  <content>
+    <attachment>
+      <contentType value="application/pdf" />
+      <language value="en" />
+      <url value="https://www.example.com/documentref1234" />
+    </attachment>
+  </content>
+  <context>
+    <encounter>
+      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
+    </encounter>
+    <period>
+      <start value="2025-02-20T00:00:00+00:00" />
+      <end value="2026-02-19T23:59:00+00:00" />
+    </period>
+  </context>
+</DocumentReference>

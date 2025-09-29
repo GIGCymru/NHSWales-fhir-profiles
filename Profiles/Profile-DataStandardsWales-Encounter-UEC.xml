@@ -61,7 +61,7 @@
       <path value="Encounter.type" />
       <binding>
         <strength value="preferred" />
-        <valueSet value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-EncounterType" />
+        <valueSet value="https://fhir.nhs.wales/ValueSet/DataStandardsWales-EncounterType" />
       </binding>
     </element>
     <element id="Encounter.priority">

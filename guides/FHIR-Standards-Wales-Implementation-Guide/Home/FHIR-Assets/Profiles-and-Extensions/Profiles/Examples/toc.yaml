@@ -4,6 +4,14 @@
   filename: Example-DataStandardsWales-Device-CDRcomponent.page.md
 - name: Example-DataStandardsWales-Device-WPAS
   filename: Example-DataStandardsWales-Device-WPAS.page.md
+- name: Example-DataStandardsWales-DocumentReference-EncounterBased
+  filename: Example-DataStandardsWales-DocumentReference-EncounterBased.page.md
+- name: Example-DataStandardsWales-DocumentReference-EventBased
+  filename: Example-DataStandardsWales-DocumentReference-EventBased.page.md
+- name: Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased
+  filename: Example-DataStandardsWales-DocumentReference-MisfiledNotEventBased.page.md
+- name: Example-DataStandardsWales-DocumentReference-NotEventBased
+  filename: Example-DataStandardsWales-DocumentReference-NotEventBased.page.md
 - name: Example-DataStandardsWales-DocumentReference-Provenance
   filename: Example-DataStandardsWales-DocumentReference-Provenance.page.md
 - name: Example-DataStandardsWales-Encounter-EmergencyAdmission

@@ -1,0 +1,153 @@
+﻿<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="Example-DataStandardsWales-DocumentReference-EventBased" />
+  <meta>
+    <profile value="https://fhir.nhs.wales/StructureDefinition/DataStandardsWales-DocumentReference" />
+  </meta>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentDigitalStatus">
+    <valueCode value="born-digital-document" />
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-SourceSystem">
+    <valueReference>
+      <reference value="Device/Example-DataStandardsWales-Source-System-for-Documents" />
+      <display value="System ABC" />
+    </valueReference>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version">
+    <valueString value="1" />
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester">
+    <extension url="mode">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://hl7.org/fhir/valueset-composition-attestation-mode.html" />
+          <code value="professional" />
+          <display value="Professional" />
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="time">
+      <valueDateTime value="2025-07-22T13:09:37+00:00" />
+    </extension>
+    <extension url="party">
+      <valueReference>
+        <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
+        <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+      </valueReference>
+    </extension>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
+    <extension url="attributeName">
+      <valueCode value="CloneSequenceNumber" />
+    </extension>
+    <extension url="attributeValue">
+      <valueString value="0" />
+    </extension>
+    <extension url="attributeNamespace">
+      <valueString value="http://www.wales.nhs.uk/ndr" />
+    </extension>
+  </extension>
+  <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-DataStandardsWales-DocumentAttribute">
+    <extension url="attributeName">
+      <valueCode value="ThirdPartyDataIncluded" />
+    </extension>
+    <extension url="attributeValue">
+      <valueString value="True" />
+    </extension>
+    <extension url="attributeNamespace">
+      <valueString value="http://www.wales.nhs.uk/ndr" />
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/wcrs-document-identifier" />
+    <value value="FF849C81-9917-47D9-B929-4AF1BDD94670" />
+  </identifier>
+  <identifier>
+    <system value="https://fhir.nhs.wales/Id/wcrs-supersession-set-identifier" />
+    <value value="6DB699D2-AD58-43DD-AEA5-341AE3DBFF93" />
+  </identifier>
+  <status value="current" />
+  <docStatus value="amended" />
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="766841000000106" />
+      <display value="Consultation with patient" />
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="https://fhir.nhs.wales/CodeSystem/DataStandardsWales-DocumentCategory" />
+      <code value="assessments" />
+      <display value="Assessments" />
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="https://fhir.nhs.wales/indicator/document-subtype" />
+    </coding>
+    <text value="Adult services" />
+  </category>
+  <subject>
+    <reference value="Patient/Example-DataStandardsWales-Patient-JohnSmith" />
+    <display value="SMITH, John B, Mr" />
+  </subject>
+  <date value="2025-07-22T11:20:17+00:00" />
+  <author>
+    <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Nurse-EmilyMay" />
+    <display value="MAY, Emily B, Ms (NMC:AB12345X)" />
+  </author>
+  <author>
+    <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Dietitian-JudeFrancis" />
+    <display value="FRANCIS Jude, Miss (HCPC:DT123456)" />
+  </author>
+  <custodian>
+    <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+    <display value="Hywel Dda University Health Board" />
+  </custodian>
+  <description value="Diabetes Consultation Note" />
+  <securityLabel>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" />
+      <code value="N" />
+      <display value="Normal" />
+    </coding>
+  </securityLabel>
+  <content>
+    <attachment>
+      <contentType value="application/pdf" />
+      <language value="en" />
+      <url value="https://www.example.com/documentref1234" />
+    </attachment>
+  </content>
+  <context>
+    <encounter>
+      <reference value="Encounter/Example-DataStandardsWales-Encounter-DiabetesConsultation" />
+    </encounter>
+    <period>
+      <start value="2025-07-22T13:09:37+00:00" />
+    </period>
+    <practiceSetting>
+      <coding>
+        <system value="http://snomed.info/sct" />
+        <code value="963151000000104" />
+        <display value="Diabetic medicine service" />
+      </coding>
+    </practiceSetting>
+    <related>
+      <reference value="Organization/Example-DataStandardsWales-Organization-HDUHB" />
+      <display value="Hywel Dda University Health Board" />
+    </related>
+    <related>
+      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospital" />
+      <display value="Glangwili General Hospital" />
+    </related>
+    <related>
+      <reference value="Location/Example-DataStandardsWales-Location-GlangwiliHospitalOPD" />
+      <display value="Glangwili General Hospital Outpatients Department" />
+    </related>
+    <related>
+      <reference value="PractitionerRole/Example-DataStandardsWales-PractitionerRole-Consultant-JoeBloggs" />
+      <display value="BLOGGS, Joe A, Dr (GMC:1234567)" />
+    </related>
+  </context>
+</DocumentReference>
