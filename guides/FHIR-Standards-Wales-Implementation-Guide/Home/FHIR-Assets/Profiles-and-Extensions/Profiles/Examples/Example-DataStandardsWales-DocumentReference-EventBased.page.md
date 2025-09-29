@@ -1,6 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example Document Reference - A document based on a patient event that is not a FHIR Encounter resource
+### Example Document Reference - A document based on a patient event that is not a FHIR Encounter resource
 
 <div class="tab-wrap">
   <ul class="tab-head">

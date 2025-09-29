@@ -1,6 +1,6 @@
 <div class="warning"><span class="ClinicalWarn"></span></div>
 
-## Example Document Reference - A document that is not based on a patient healthcare event 
+### Example Document Reference - A document that is not based on a patient healthcare event 
 
 <div class="tab-wrap">
   <ul class="tab-head">
