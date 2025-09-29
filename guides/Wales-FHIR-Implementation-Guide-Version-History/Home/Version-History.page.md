@@ -18,11 +18,11 @@ Implementation Guide version history is provided in the table below.
 	</thead>
 	<tbody>
 		<tr>
-			<td scope="row">02/07/2025</td>
+			<td scope="row">29/09/2025</td>
 			<td>2.3.0 STU2</td>
 			<td>4.0.1</td>
 			<td>2.0.1</td>
-			<td>This is a minor release to support the implementation of Immunizations.</td>
+			<td>This is a minor release to support the implementation of Immunizations, Diagnostics and Document Reference.</td>
 			<td>
 				<a href="https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=2.3.0">Home Page</a>
 			</td>
