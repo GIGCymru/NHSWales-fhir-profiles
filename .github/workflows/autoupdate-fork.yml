@@ -1,0 +1,16 @@
+name: Auto Update Fork
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Runs every day at 3:00 UTC
+  workflow_dispatch:
+
+jobs:
+  autoupdate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto Update Fork
+        uses: Shurtu-gal/autoupdate-fork-action@v1.0.1
+        with:
+          upstream_owner: National-Data-Resource
+          upstream_repo: NHSWales-fhir-profiles
